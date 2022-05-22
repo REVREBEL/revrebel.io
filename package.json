@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
