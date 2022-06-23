@@ -4,7 +4,8 @@
     "lint-staged": "^12.4.1"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "stylelint-check": "stylelint-config-prettier-check"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
