@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "icons";
+  src: url("../font/icons.eot");
+  src: url("../font/icons.eot?onl49z#iefix") format("embedded-opentype"),
+      url("../font/icons.woff2?onl49z") format("woff2"),
+      url("../font/icons.woff?onl49z") format("woff"),
+      url("../font/icons.ttf?onl49z") format("truetype"),
+      url("../font/icons.svg?onl49z#icons") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.icon {
+  display: inline-block;
+  font-family: "icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-branding-filled::before {
+  content: "\ea01";
+}
+.icon-branding-outline::before {
+  content: "\ea02";
+}
+.icon-distribution-filled::before {
+  content: "\ea03";
+}
+.icon-distribution-outline::before {
+  content: "\ea04";
+}
+.icon-facebook-filled::before {
+  content: "\ea05";
+}
+.icon-facebook-outline::before {
+  content: "\ea06";
+}
+.icon-github-filled::before {
+  content: "\ea07";
+}
+.icon-github-outline::before {
+  content: "\ea08";
+}
+.icon-google-drive-filled::before {
+  content: "\ea09";
+}
+.icon-google-drive-outline::before {
+  content: "\ea0a";
+}
+.icon-google-filled::before {
+  content: "\ea0b";
+}
+.icon-google-outline::before {
+  content: "\ea0c";
+}
+.icon-instagram-filled::before {
+  content: "\ea0d";
+}
+.icon-instagram-filled-custom::before {
+  content: "\ea0e";
+}
+.icon-instagram-outline::before {
+  content: "\ea0f";
+}
+.icon-marketing-filled::before {
+  content: "\ea10";
+}
+.icon-marketing-outline::before {
+  content: "\ea11";
+}
+.icon-revenue-filled::before {
+  content: "\ea12";
+}
+.icon-sales-filled::before {
+  content: "\ea13";
+}
+.icon-sales-outline::before {
+  content: "\ea14";
+}
+.icon-social-network-filled::before {
+  content: "\ea15";
+}
+.icon-social-network-outline::before {
+  content: "\ea16";
+}
+.icon-target-outline::before {
+  content: "\ea17";
+}
+.icon-tech-filled::before {
+  content: "\ea18";
+}
+.icon-tech-outline::before {
+  content: "\ea19";
+}
