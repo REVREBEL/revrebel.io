@@ -130,10 +130,13 @@
     }
 
     // Run Loader
-    loader.add('https://cdn.curator.io/5.0/curator.embed.css');
-    loader.add('https://cdn.curator.io/published-css/38e4a179-ac04-47be-a378-d72620b58e44.css');
-
-    loader.add('https://cdn.curator.io/5.0/curator.embed.js');
+    //loader.add('https://cdn.curator.io/5.0/curator.embed.css');
+    //loader.add('https://cdn.curator.io/published-css/38e4a179-ac04-47be-a378-d72620b58e44.css');
+    //loader.add('https://cdn.curator.io/5.0/curator.embed.js');
+    
+    loader.add('https://cdn.jsdelivr.net/gh/RevRebel/revrebel.io/social/curator.embed.css');
+    loader.add('https://cdn.jsdelivr.net/gh/RevRebel/revrebel.io/social/38e4a179-ac04-47be-a378-d72620b58e44.css');
+    loader.add('https://cdn.jsdelivr.net/gh/RevRebel/revrebel.io/social/curator.embed.js');
 
 
 
