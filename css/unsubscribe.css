@@ -24,7 +24,8 @@ font-family: 'Sarabun', sans-serif;
 body {
   color: #1C447F;
   font-family: 'Sarabun', sans-serif;
-  font: 13px/18px 'Sarabun', sans-serif;
+  font: 10px/12px 'Sarabun', sans-serif;
+  line-height:  120%;
 }
 
 .sidebar {
@@ -87,7 +88,9 @@ h4,
 h5,
 h6 {
   color: #1C447F;
-  font: 16px/24px 'Khand', sans-serif normal;
+  font: 14px/18px 'Khand', sans-serif normal;
+  line-height:  100%;
+  text-transform: uppercase;
 }
 
 a {
@@ -169,17 +172,18 @@ input[type="submit"] {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #333;
+  color: #fff;
   cursor: default;
   font-family: 'Khand', sans-serif;
   font-size: 10px;
   font-weight: 700;
   height: 29px;
-  line-height: 27px;
+  line-height:  100%;
   margin: 0;
   min-width: 72px;
   outline: 0;
   padding: 0 8px;
+  text-transform: uppercase;
   text-align: center;
   white-space: nowrap;
 }
@@ -256,7 +260,7 @@ input[type="submit"]:hover {
   background: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
   background: linear-gradient(top, #f8f8f8, #f1f1f1);
   border: 1px solid #c6c6c6;
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -598,7 +602,7 @@ select {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  color: #333;
+  color: #1C447F;
   cursor: default;
   font-family: arial, sans-serif;
   font-size: 11px;
@@ -636,7 +640,7 @@ select:focus {
 select:disabled {
   background-image: url(https://ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png);
   border: 1px solid #dcdcdc;
-  color: #333;
+  color: #1C447F;
   opacity: .5;
 }
 
@@ -738,7 +742,7 @@ select[size] {
 
 select[multiple]:disabled
 select[size]: disabled {
-  background: #fff;
+  background: #fafafa;
   opacity: 1;
 }
 
