@@ -104,8 +104,8 @@ a:hover {
 }
 
 .current {
-    color: #dd4b39;
-    font-weight: bold;
+    color: #1C447F;
+    font-weight: 700;
 }
 
 .error {
@@ -119,8 +119,8 @@ a:hover {
 
 .secondary,
 .small {
-    color: #777;
-    font: 11px/16px 'Khand', sans-serif;
+    color: #8aafc1;
+    font: 12px/14px 'Khand', sans-serif;
 }
 
 /* TABLES */
@@ -168,7 +168,7 @@ input[type="submit"] {
     border: 1px solid #dcdcdc;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 3px;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
