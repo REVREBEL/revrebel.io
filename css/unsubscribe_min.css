@@ -48,6 +48,14 @@ body {
     right: 0;
 }
 
+.margin-bottom-l {
+    padding-bottom: 14px;
+}
+
+.margin-bottom-s {
+    padding-bottom: 10px;
+}
+
 .bottom,
 .bottom-left,
 .button-bar {
