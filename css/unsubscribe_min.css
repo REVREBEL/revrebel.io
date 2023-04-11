@@ -64,10 +64,15 @@ body {
 
 /* TEXT */
 
-h1 {  border-bottom: 1px solid #acacac;
-font-weight: normal;
-padding: 2px 0 11px 0;
-text-align: left;
+h1 {
+    border-bottom: 1px solid #acacac;
+    font-family: 'Khand', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 100%;
 }
 
 h2,
@@ -76,9 +81,13 @@ h4,
 h5,
 h6 {
     color: #1C447F;
-    font: 14px/18px 'Khand', sans-serif normal;
-    line-height: 100%;
+    font-family: 'Khand', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+    text-align: left;
     text-transform: uppercase;
+    line-height: 100%;
 }
 
 a {
@@ -296,7 +305,7 @@ button:active,
 input[type="button"]:active,
 input[type="submit"]:active {
     background: -moz-linear-gradient(top, #1C447F, #1C447F);
-    1C447F    background: -o-linear-gradient(top, #1C447F, #1C447F);
+    1C447F background: -o-linear-gradient(top, #1C447F, #1C447F);
     background: -webkit-linear-gradient(#1C447F, #1C447F);
     background: linear-gradient(top, #1C447F, #1C447F);
     border: 3px solid #1C447F;
