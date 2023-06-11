@@ -16,7 +16,6 @@ font-family: 'Sarabun', sans-serif;
 
     /* CONTAINERS */
 
-
     body {
         color: #1C447F;
         font-family: 'Sarabun', sans-serif;
@@ -236,10 +235,17 @@ font-family: 'Sarabun', sans-serif;
         font-family: Khand, sans-serif;
         font-size: 1.33rem;
         font-weight: 700;
+        text-transform: uppercase;
+        text-align: left;
+        border: none;
         border-style: none;
+        border-width: none;
         line-height: 100%;
-
-
+        border-color: white;
+        cursor: pointer;
+        transition: all .2s;
+        padding: 0rem;
+        text-decoration: none;
     }
 
     .button:hover {
@@ -267,6 +273,11 @@ font-family: 'Sarabun', sans-serif;
 
     .link:hover {
         color: #5B8AA0;
+        border: none;
+        border-style: none;
+        border-width: none;
+        border-color: white;
+
     }
 
     .button:active {
@@ -288,6 +299,11 @@ font-family: 'Sarabun', sans-serif;
     .link:active {
         color: #5B8AA0;
         filter: brightness(120%);
+        border: none;
+        border-style: none;
+        border-width: none;
+        border-color: white;
+
     }
 
 
