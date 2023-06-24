@@ -6,6 +6,10 @@ table3 {
     border-collapse: collapse;
     text-align: left;
     vertical-align: middle;
+    color: #1C447F;
+    font-family: 'Sarabun', sans-serif;
+    font: 12px/14px 'Sarabun', sans-serif;
+    line-height: 150%;
 }
 
 th, 
