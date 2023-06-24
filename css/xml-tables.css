@@ -1,21 +1,65 @@
+
+body {
+    display: block;
+    margin: 13px;
+}
+
+table,
 table1,
 table2,
 table3 {
+    display: table;
+    width: 90%;
+    caption-side: bottom;
     background-color: #FFFFFF;
     text-align: left;
     border-collapse: collapse;
+    table-layout: fixed;
+    border-spacing: 0;
     text-align: left;
     vertical-align: middle;
     color: #1C447F;
+    
     font-family: 'Sarabun', sans-serif;
     font: 12px/14px 'Sarabun', sans-serif;
     line-height: 150%;
 }
 
+colgroup {
+    display: table-column-group;    
+}
+
+col {
+    display: table-column;
+}
+
+thead {
+    display: table-header-group; 
+}
+
+tbody {
+    display: table-row-group;
+}
+
+tr {
+    display: table-row;
+}
+
+caption {
+    display: table-caption;
+    font-size: 90%;
+    text-align: right;
+}
+
 th, 
-td {
-    border: 1px color: #fafafa;
+td,
+caption {
+    display: table-cell;
+    border: 1px solid #fafafa;;
+    text-align: center;
+    overflow: hidden;
     padding: 8px;
+    vertical-align: middle;
 }
 
 thead th {
@@ -46,7 +90,6 @@ table1_Group1_Collection {
 
 }
 
-
 table1_Group2_Collection,
 table1_Group2 {
     display: block;
@@ -73,7 +116,6 @@ Detail {
 
 }
 
-
 .link {
     color: #1c437f;
     background-color: white;
@@ -93,7 +135,6 @@ Detail {
     text-decoration: none;
 }
 
-
 .link:hover {
     color: #5B8AA0;
     border: none;
@@ -112,7 +153,6 @@ Detail {
     border-color: white;
 
 }
-
 
 select[multiple],
 select[size] {
