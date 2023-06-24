@@ -1,18 +1,16 @@
 table1,
 table2,
 table3 {
-    color: green;
-    font-size: 40px;
-
+    background-color: #FFFFFF;
+    text-align: left;
     border-collapse: collapse;
     text-align: left;
     vertical-align: middle;
-
 }
 
 th, 
 td {
-    border: 1px solid black;
+    border: 1px color: #fafafa;
     padding: 8px;
 }
 
