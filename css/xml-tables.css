@@ -21,32 +21,12 @@ table3 {
     text-align: left;
     vertical-align: middle;
     color: #1C447F;
-    
     font-family: 'Sarabun', sans-serif;
     font: 12px/14px 'Sarabun', sans-serif;
     line-height: 150%;
 }
 
-colgroup,
-Rank_No,
-Rate_Type,
-LOS_Bands,
-Gross_Reservations,
-Gross_Rooms,
-Gross_Room_Nights,
-Gross_Revenue,
-Gross_ADR,
-Cancelled_Reservations,
-Cancelled_Rooms,
-Cancelled_Room_Nights,
-Cancelled_Revenue,
-Cancelled_ADR,
-Net_Reservations,
-Net_Room_Nights,
-Net_Revenue,
-Net_Revenue_Onshore,
-Net_ADR,
-Net_ADR_Onshore {
+colgroup {
     display: table-column-group;    
 }
 
@@ -89,7 +69,7 @@ thead th {
     width: 25%;
 }
 
-tbody tr:nth-child(even) {
+tbody tr: nth-child(even) {
     background-color: #FFFFFF;
 }
 
@@ -99,9 +79,8 @@ tbody th {
     text-align: left;
 }
 
-table1_Group1,
 table1_Group1_Collection {
-
+    display: table-header-group; 
     color: #1C447F;
     font-family: 'Khand', sans-serif;
     font-size: 32px;
@@ -113,9 +92,13 @@ table1_Group1_Collection {
 
 }
 
+table1_Group1 {
+     display: table-column-group;    
+     display: table-column;
+    }
+
 table1_Group2_Collection,
-table1_Group2 {
-    display: block;
+    display: table-header-group; 
     color: #1C447F;
     font-family: 'Khand', sans-serif;
     font-size: 26px;
@@ -126,12 +109,19 @@ table1_Group2 {
     margin: 0px;
 }
 
+table1_Group2 {
+     display: table-column-group;    
+     display: table-column;
+    }
+
 Detail_Collection {
+    display: table-row;
     font-size: 25px;
     font-weight: bold;
 }
 
 Detail {
+    display: table-cell;
     color: #1C447F;
     font-family: 'Sarabun', sans-serif;
     font: 12px/14px 'Sarabun', sans-serif;
