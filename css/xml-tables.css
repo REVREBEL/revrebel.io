@@ -25,7 +25,26 @@ table3 {
     line-height: 150%;
 }
 
-colgroup {
+colgroup,
+Rank_No,
+Rate_Type,
+LOS_Bands,
+Gross_Reservations,
+Gross_Rooms,
+Gross_Room_Nights,
+Gross_Revenue,
+Gross_ADR,
+Cancelled_Reservations,
+Cancelled_Rooms,
+Cancelled_Room_Nights,
+Cancelled_Revenue,
+Cancelled_ADR,
+Net_Reservations,
+Net_Room_Nights,
+Net_Revenue,
+Net_Revenue_Onshore,
+Net_ADR,
+Net_ADR_Onshore {
     display: table-column-group;    
 }
 
