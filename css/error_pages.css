@@ -24,8 +24,6 @@
 
 
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -34,14 +32,16 @@ html {
 body {
     overflow: hidden;
     margin: 3%;
-    background: #1c447f;
-    color: #1c447f;
+    background-color: #1c447f;
+    color: #FFFFFF;
+    font: 20px/18px 'Fira Code', monospace normal;
+    line-height: 120%;
+    text-decoration: none;
 }
 
 .background {
     position: relative;
-    background: #1c447f;
-    color: #1c447f;
+    background-color: #1c447f;
     min-height: 100%;
     width: 100%;
     display: flex;
@@ -88,20 +88,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #1c447f;
-    color: #1c447f;
+    background-color: #1c447f;
 }
 
 .main {
     justify-content: center;
-    background: #1c447f;
-    color: #1c447f;
 }
 
 .color-block {
-    background: #1c447f;
-    color: #1c447f;
+    background-color: #1c447f;
 }
+
 
 .MainDescription {
     max-width: 50%;
@@ -201,13 +198,6 @@ a:hover {
 .current {
     color: #1C447F;
     font-weight: 700;
-}
-
-p {
-    color: #FFFFFF;
-    font: 20px/18px 'Fira Code', monospace normal;
-    line-height: 120%;
-    text-decoration: none;
 }
 
 .error {
