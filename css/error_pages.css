@@ -34,6 +34,7 @@ html {
 body {
     overflow: hidden;
     margin: 3%;
+    background: #1c447f;
 }
 
 .background {
@@ -90,6 +91,7 @@ body {
 
 .main {
     justify-content: center;
+    background: #1c447f;
 }
 
 .MainDescription {
