@@ -203,6 +203,13 @@ a:hover {
     font-weight: 700;
 }
 
+p {
+    color: #FFFFFF;
+    font: 20px/18px 'Fira Code', monospace normal;
+    line-height: 120%;
+    text-decoration: none;
+}
+
 .error {
     color: #dd4b39;
 }
