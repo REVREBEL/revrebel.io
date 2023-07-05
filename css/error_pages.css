@@ -22,26 +22,26 @@
 @color-primary-dark : #1C447F;
 @Distance : 1000px;
 
-
 html {
+    font-family: sans-serif;
+    line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
 
-
 body {
     overflow: hidden;
     margin: 3%;
-    background-color: #1c447f;
     color: #FFFFFF;
-    font: 20px/18px 'Fira Code', monospace normal;
+    font-size: 1.25rem;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
     line-height: 120%;
-    text-decoration: none;
 }
 
 .background {
     position: relative;
-    background-color: #1c447f;
+    background: #1c447f;
     min-height: 100%;
     width: 100%;
     display: flex;
@@ -83,22 +83,19 @@ body {
     right: 0;
 }
 
+
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1c447f;
+    font-size: 1.5rem;
 }
 
 .main {
     justify-content: center;
 }
-
-.color-block {
-    background-color: #1c447f;
-}
-
 
 .MainDescription {
     max-width: 50%;
@@ -138,7 +135,9 @@ body {
 
 h1 {
     color: #FFFFFF;
-    font: 42px/40px 'Khand', sans-serif normal;
+    font-size: 5rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
     margin: .67em 0
@@ -146,7 +145,9 @@ h1 {
 
 h2 {
     color: #FFFFFF;
-    font: 38px/36px 'Khand', sans-serif normal;
+    font-size: 4.5rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
     margin: .57em 0
@@ -154,15 +155,19 @@ h2 {
 
 h3 {
     color: #FFFFFF;
-    font: 32px/30px 'Khand', sans-serif normal;
+    font-size: 4rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
     margin: .47em 0
 }
 
 h4 {
-    color: #090909;
-    font: 28px/26px 'Khand', sans-serif normal;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
     margin: .37em 0
@@ -170,7 +175,9 @@ h4 {
 
 h5 {
     color: #FFFFFF;
-    font: 24px/22px 'Khand', sans-serif normal;
+    font-size: 3rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
     margin: .27em 0
@@ -178,7 +185,9 @@ h5 {
 
 h6 {
     color: #FFFFFF;
-    font: 18px/16px 'Khand', sans-serif normal;
+    font-size: 2.5rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
     margin: .17em 0
@@ -211,8 +220,12 @@ a:hover {
 
 .secondary,
 .small {
-    color: #8aafc1;
-    font: 12px/14px 'Khand', sans-serif;
+    color: #8aafc1;x
+    font-size: 1.5rem;
+    font-family: 'Khand', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
 }
 
 button, hr, input {
@@ -245,7 +258,7 @@ hr {
 }
 
 code, kbd, pre, samp {
-    font-family: monospace, monospace;
+    font-family: 'Fira Code', monospace;
     font-size: 1em
 }
 
