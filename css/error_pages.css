@@ -35,11 +35,13 @@ body {
     overflow: hidden;
     margin: 3%;
     background: #1c447f;
+    color: #1c447f;
 }
 
 .background {
     position: relative;
     background: #1c447f;
+    color: #1c447f;
     min-height: 100%;
     width: 100%;
     display: flex;
@@ -87,15 +89,18 @@ body {
     justify-content: center;
     align-items: center;
     background: #1c447f;
+    color: #1c447f;
 }
 
 .main {
     justify-content: center;
     background: #1c447f;
+    color: #1c447f;
 }
 
 .color-block {
     background: #1c447f;
+    color: #1c447f;
 }
 
 .MainDescription {
