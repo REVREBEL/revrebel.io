@@ -174,18 +174,18 @@
 .forms-studio-main-form {
     background-color: var(--off-white) !important;
     margin-bottom: 48px !important;
-    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.37) !important;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37) !important;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     word-wrap: break-word;
-    min-height: 125px !important;
+    min-height: 125px;
 }
 
 forms-studio-header.
 forms-studio-form-content,
 forms-studio-body,
-forms-studio-accent  {
+forms-studio-accent {
     background-color: var(--off-white) !important;
-    height: 8px !important;
+    height: 8pxx;
 }
 
 .forms-studio-header,
@@ -193,7 +193,7 @@ forms-studio-accent  {
 .forms-studio-body,
 .forms-studio-accent  {
     background-color: var(--off-white) !important;
-    height: 8px !important;
+    height: 8px;
 }
 
 .forms-studio-body {
@@ -218,18 +218,18 @@ label {
 }
 
 input:not([type])+label:after, input[type=text]:not(.browser-default)+label:after, input[type=password]:not(.browser-default)+label:after, input[type=email]:not(.browser-default)+label:after, input[type=url]:not(.browser-default)+label:after, input[type=time]:not(.browser-default)+label:after, input[type=date]:not(.browser-default)+label:after, input[type=datetime]:not(.browser-default)+label:after, input[type=datetime-local]:not(.browser-default)+label:after, input[type=tel]:not(.browser-default)+label:after, input[type=number]:not(.browser-default)+label:after, input[type=search]:not(.browser-default)+label:after, textarea.materialize-textarea+label:after, .select-wrapper+label:after {
-    display: block !important;
-    content: "" !important;
-    position: absolute !important;
-    top: 100% !important;
-    left: 0 !important;
-    opacity: 0 !important;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
     -webkit-transition: .2s opacity ease-out, .2s color ease-out !important;
     transition: .2s opacity ease-out, .2s color ease-out !important;
 }
 *, *:before, *:after {
-    -webkit-box-sizing: inherit !important;
-    box-sizing: inherit !important;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 .input-field>label {
@@ -243,8 +243,8 @@ input:not([type])+label:after, input[type=text]:not(.browser-default)+label:afte
     transition: color .2s ease-out, -webkit-transform .2s ease-out !important;
     transition: transform .2s ease-out, color .2s ease-out !important;
     transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out !important;
-    -webkit-transform-origin: 0% 100% !important;
-    transform-origin: 0% 100% !important;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
     text-align: initial;
     -webkit-transform: translateY(12px);
     transform: translateY(12px);
@@ -255,7 +255,7 @@ input:not([type])+label:after, input[type=text]:not(.browser-default)+label:afte
 .form-group label+input,
 .form-group label+select,
 .form-group label+textarea {
-    display: block !important;
+    display: block;
 }
 
 fieldset {
@@ -264,7 +264,7 @@ fieldset {
 }
 
 .input-line-height {
-    line-height: 1.5 !important;
+    line-height: 1.5;
 }
 
 .input-bg {
@@ -280,7 +280,7 @@ fieldset {
 }
 
 .input-btn-border-width {
-    border-width: 0px !important;
+    border-width: 0px;
 }
 
 input[type="date"],
@@ -295,8 +295,7 @@ input[type="tel"],
 input[type="text"],
 input[type="time"],
 input[type="week"] {
-    height: 25px !important;
-}
+    height: 25px;
 
 input[type="week"],
 select[multiple],
@@ -304,20 +303,20 @@ select[size],
 textarea {
     background: var(--white) !important;
     border: 1px solid var(--gray-400) !important;
-    -moz-border-radius: 1px !important;
-    -webkit-border-radius: 1px !important;
-    border-radius: 1px !important;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
     border-top: 1px solid var(--gray-400) !important;
-    -moz-box-sizing: border-box !important;
-    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box !important;
     color: var(--primary) !important;
     font-family: var(--font-body) !important;
-    font-size: 14px !important;
+    font-size: 14px;
     font-weight: normal !important;
-    margin: 0 !important;
-    outline: 0 !important;
-    padding: 4px !important;
+    margin: 0;
+    outline: 0;
+    padding: 4px;
 }
 
 input[type="date"]:focus,
@@ -337,9 +336,9 @@ select[multiple]:focus,
 select[size]:focus,
 textarea:focus {
     border: 1px solid var(--primary) !important;
-    -moz-box-shadow: inset 0 1px 2px var(--gray-400) !important;
-    -webkit-box-shadow: inset 0 1px 2px var(--gray-400) !important;
-    box-shadow: inset 0 1px 2px var(--gray-400) !important;
+    -moz-box-shadow: inset 0 1px 2px var(--gray-400);
+    -webkit-box-shadow: inset 0 1px 2px var(--gray-400);
+    box-shadow: inset 0 1px 2px var(--gray-400);
 }
 
 select[multiple],
@@ -359,7 +358,7 @@ textarea {
 }
 
 .space {
-    height: 30px !important;
+    height: 30px;
 
 }
 
@@ -397,17 +396,17 @@ body {
 .forms-studio-question {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
-    text-transform: uppercase !important;
+    text-transform: uppercase;
     color: var(--primary) !important;
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
 }
 
 p {
-    display: block  !important;
-    margin-block-start: 1em !important;
-    margin-block-end: 1em  !important;
-    margin-inline-start: 0px  !important;
-    margin-inline-end: 0px  !important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 form p:last-child {
@@ -453,7 +452,7 @@ disclaimer {
 .button {
     color: var(--white) !important;
     background-color: var(--primary) !important;
-    justify-content: space-between !important;
+    justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
     justify-content: center;
@@ -501,13 +500,13 @@ disclaimer {
 }
 
 .button.outline:hover {
-    color: var(--white);
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
+    color: var(--white) !important;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
     transform-origin: 50%;
-    text-decoration: none;
-    background-color: var(--primary);
-    box-shadow: 1px 1px 10px var(--secondary);
+    text-decoration: none !important;
+    background-color: var(--primary)  !important;
+    box-shadow: 1px 1px 10px var(--secondary)  !important;
 }
 
 .button:active {
@@ -520,8 +519,8 @@ disclaimer {
 
 .button.outline:active {
     filter: brightness(100%) !important;
-    color: white !important;
-    border-color: white !important;
+    color: var(--white) !important;
+    border-color: var(--white) !important;
     border-width: 3px;
     border: 3px solid white;
 }
@@ -531,8 +530,8 @@ disclaimer {
 .forms-studio-submit,
 .forms-studio-signature button,
 .forms-studio-fileupload {
-    color: var(--primary);
-    background-color: var(--white);
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
@@ -543,21 +542,21 @@ disclaimer {
     align-self: auto;
     flex: 2;
     padding: 1.5rem 1.75rem 1.4rem;
-    font-family: Khand, sans-serif;
+    font-family: Khand, sans-serif !important;
     font-size: 1.33rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
     transition: all .2s;
     display: inline-flex;
     box-sizing: inline-flex;
     line-height: 100%;
-    border: 3px solid var(--primary);
+    border: 3px solid var(--primary) !important;
     border-width: 3px;
     border-radius: 5px;
     border-style: solid;
-    border-color: var(--primary);
+    border-color: var(--primary) !important;
     cursor: pointer;
  } 
 
