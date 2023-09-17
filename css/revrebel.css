@@ -730,8 +730,12 @@ textarea {
 .h4,
 .h5,
 .h6,
-input,
-body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-headlines);
     font-weight: var(--bolder);
     text-transform: uppercase;
@@ -752,7 +756,9 @@ body {
 .body,
 .iput,
 .optgroup,
-.select {
+.select
+input,
+body {
     font-family: var(--font-body);
     font-weight: var(--light);
     color: var(--primary);
