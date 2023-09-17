@@ -342,12 +342,12 @@ textarea {
 
 
 
-.h1, 
-.h2, 
-.h3, 
-.h4, 
-.h5, 
-.h6,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
 .forms-studio-header, 
 .forms-studio-question.header,
 .forms-studio-form-title {
@@ -374,7 +374,6 @@ textarea {
 }
 
 body,
-.body,
 .forms-studio-question
 .forms-studio-form-content,    
 .forms-studio-body {
