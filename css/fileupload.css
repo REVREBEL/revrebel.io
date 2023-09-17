@@ -397,22 +397,20 @@ textarea {
 /* RRRRRRRRRRRRRRRRRRRR  TEXT | */
 
 
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
 .forms-studio-header, 
 .forms-studio-question,
-.forms-studio-question.header,
 .forms-studio-form-title {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
