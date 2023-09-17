@@ -182,6 +182,12 @@
 
 forms-studio-accent  {
     background-color: var(--off-white) !important;
+    height: 8px !important;
+}
+
+.forms-studio-accent  {
+    background-color: var(--off-white) !important;
+    height: 8px !important;
 }
     
 /* RRRRRRRRRRRRRRRRRRRR  FORMS | */
@@ -193,8 +199,11 @@ forms-studio-accent  {
     background-color: var(--primary) !important;
 }
 
-
 label {
+    color: var(--primary) !important;
+}
+
+.label {
     color: var(--primary) !important;
 }
 
