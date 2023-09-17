@@ -286,7 +286,7 @@ select[multiple],
 select[size],
 textarea {
     background: var(--white) !important;
-    color: var(--primary) !important;
+    color: var(--gray-dark) !important;
     font-family: var(--font-body) !important;
     font-size: 14px;
     font-weight: normal;
