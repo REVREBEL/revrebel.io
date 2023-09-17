@@ -329,7 +329,7 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--white) !important;
+    border-bottom: 1px solid var(--primary) !important;
     border-radius: 0;
     outline: none;
     height: 3rem;
@@ -360,7 +360,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]), 
 input[type=search]:not(.browser-default):focus:not([readonly]), 
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid var(--white) !important;
+    border-bottom: 1px solid var(--primary) !important;
     -webkit-box-shadow: 0 1px 0 0 var(--white) !important;
     box-shadow: 0 1px 0 0 var(--white) !important;
 }
@@ -416,7 +416,7 @@ h6,
     font-weight: var(--font-weight-bold) !important;
     text-transform: uppercase !important;
     color: var(--primary) !important;
-    background-color: var(--off-white) !important;
+    background-color: var(-white) !important;
 }
 
 .forms-studio-main-form {
