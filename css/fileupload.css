@@ -417,28 +417,32 @@ h6,
     font-weight: var(--font-weight-bold) !important;
     text-transform: uppercase !important;
     color: var(--primary) !important;
-    background-color: var(-white) !important;
+    background-color: var(--white) !important;
 }
 
 .forms-studio-main-form {
-    background-color: var(-white) !important;
+    background-color: var(--white) !important;
     margin-bottom: 48px;
-    -webkit-box-shadow: var(-white) !important;
-    box-shadow: var(--off-white) !important;
+    -webkit-box-shadow: var(--white) !important;
+    box-shadow: var(--white) !important;
     word-wrap: break-word;
     min-height: 125px;
 }
 
 
 .forms-studio-accent {
-    color: var(-white) !important;
-    background-color: var(-white) !important;
+    color: var(--white) !important;
+    background-color: var(--white) !important;
 }
 
-body,
 input,
+.input {
+    color: var(--gray-dark) !important;
+}
+
+
+body,
 .body,    
-.input,
 .forms-studio-form-content,    
 .forms-studio-body {
     font-family: var(--font-body) !important;
@@ -477,8 +481,8 @@ disclaimer,
 .disclaimer a,
 .disclaimer {
     font-size: 2px;
-    background-color: var(-white) !important;
-    color: var(-white) !important;
+    background-color: var(--white) !important;
+    color: var(--white) !important;
 }
 
 
