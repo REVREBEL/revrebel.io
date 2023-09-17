@@ -104,26 +104,26 @@
     --blockquote-footer-color: var(--gray-600);
     --blockquote-footer-font-size: var(small-font-size);
 
-    --h1-font-size: 5rem !default;
-    --h2-font-size: 4.5rem !default;
-    --h3-font-size: 4rem !default;
-    --h4-font-size: 3.5rem !default;
-    --h5-font-size: 3rem !default;
-    --h6-font-size: 2rem !default;
-    --h7-font-size: 1.25rem !default;
-    --headings-font-weight: bolder !default;
-    --headings-color: var(--primary) !default;
+    --h1-font-size: 5rem;
+    --h2-font-size: 4.5rem;
+    --h3-font-size: 4rem;
+    --h4-font-size: 3.5rem;
+    --h5-font-size: 3rem;
+    --h6-font-size: 2rem;
+    --h7-font-size: 1.25rem;
+    --headings-font-weight: bolder;
+    --headings-color: var(--primary);
 
-    --display-1: 5rem !default;
-    --display-2: 4.5rem !default;
-    --display-3: 3.5rem !default;
-    --display-4: 3rem !default;
-    --display-5: 2rem !default;
-    --display-6: 1.5rem !default;
-    --display-7: 1.25rem !default;
-    --display-font-weight: lighter !default;
+    --display-1: 5rem;
+    --display-2: 4.5rem;
+    --display-3: 3.5rem;
+    --display-4: 3rem;
+    --display-5: 2rem;
+    --display-6: 1.5rem;
+    --display-7: 1.25rem;
+    --display-font-weight: lighter;
     --display-line-height: var(--headings-line-height);
-    --display-color: var(--primary) !default;
+    --display-color: var(--primary);
 
     --lead-font-size: calc(var(--lead-font-weight) * 1.25);
     --lead-font-weight: 300;
@@ -133,8 +133,8 @@
     --text-muted: var(--gray-600);
     --initialism-font-size: var(--small-font-size);
 
-    --btn-line-height: 1.5rem !default;
-    --btn-font-weight: bold !default;
+    --btn-line-height: 1.5rem;
+    --btn-font-weight: bold;
     --btn-font-family: var(--font-button);
     --input-btn-padding-y: .75rem;
     --input-btn-padding-x: 1.5rem;
@@ -143,10 +143,10 @@
     --input-btn-padding-y-lg: 2rem;
     --input-btn-padding-x-lg: 2rem;
 
-    --input-line-height: 1.5 !default;
-    --input-bg: var(--gray-200) !default;
-    --input-disabled-bg: var(--gray-300) !default;
-    --input-group-addon-bg: var(--gray-300) !default;
+    --input-line-height: 1.5;
+    --input-bg: var(--gray-200);
+    --input-disabled-bg: var(--gray-300);
+    --input-group-addon-bg: var(--gray-300);
 
     --form-floating-height: add(3.5rem, var(--input-height-border));
     --form-floating-line-height: 1.25;
@@ -171,7 +171,7 @@
     --spacer: flex-grow: 1;
 
     --grid-gutter-width: 1.5rem;
-    --gutters-0 0: 0;
+    --gutters-0: 0;
     --gutters-1: calc(var(--spacer * .25));
     --gutters-2: calc(var(--spacer * .5));
     --gutters-3: var(--spacer);
