@@ -16,7 +16,7 @@
     --indigo: #5E688D;
     --purple: #5E688D;
     --pink: #F08D19;
-    --red: #Ef5353 !important;
+    --red: #Ef5353;
     --orange: #E4782E;
     --light-orange: #F08D19;
     --dark-orange: #E4782E;
@@ -24,19 +24,19 @@
     --green: #5B8AA0;
     --teal: #5B8AA0;
     --cyan: #B2D3DE;
-    --white: #FFFFFF !important;
-    --off-white: #FAFAFA !important;
+    --white: #FFFFFF;
+    --off-white: #FAFAFA;
     --gray: #575757;
     --gray-dark: #2F2F2F;
 
-    --primary: #1C447F !important;
-    --secondary: #5E688D !important;
+    --primary: #1C447F;
+    --secondary: #5E688D;
     --accent: #5B8AA0;
     --success: #5B8AA0;
     --info: #b2d3de;
     --warning: #FAD644;
     --danger: #Ef5353;
-    --link: #B2D3DE !important;
+    --link: #B2D3DE;
 
 
     --light: #F8F9FA;
@@ -53,22 +53,22 @@
     --gray-900: #212529;
 
     --font-sans-serif: system-ui, -apple-system, "Khand", Roboto, "Fira Code", Arial, "Sarabun", "Courier Prime", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Fira Code", "Courier Prime", monospace !important;
-    --font-cursive: "Pacifico", cursive !important;
-    --font-emoji: "Noto Emoji", sans-serif !important;
+    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Fira Code", "Courier Prime", monospace;
+    --font-cursive: "Pacifico", cursive;
+    --font-emoji: "Noto Emoji", sans-serif;
 
-    --font-headlines: 'Khand', sans-serif !important;
-    --font-sub-headlines: 'Khand', sans-serif !important;
-    --font-body: 'Sarabun', sans-serif !important;
-    --font-quote: 'Fira Code', monospace !important;
-    --font-accent: 'Pacifico', cursive !important;
-    --font-button: 'Khand', sans-serif !important;
+    --font-headlines: 'Khand', sans-serif;
+    --font-sub-headlines: 'Khand', sans-serif;
+    --font-body: 'Sarabun', sans-serif;
+    --font-quote: 'Fira Code', monospace;
+    --font-accent: 'Pacifico', cursive;
+    --font-button: 'Khand', sans-serif;
 
-    --font-weight-lighter: 300 !important;
-    --font-weight-light: 300 !important;
-    --font-weight-normal: 400 !important;
-    --font-weight-bold: 700 !important;
-    --font-weight-bolder: 700 !important;
+    --font-weight-lighter: 300;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-bolder: 700;
 
     --lead-font-size: calc(var(--font-size-base) * 1.25);
     --lead-font-weight: 300;
