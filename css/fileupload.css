@@ -329,7 +329,7 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--primary) !important;
+    border-bottom: 1px solid var(--white) !important;
     border-radius: 0;
     outline: none;
     height: 3rem;
@@ -360,9 +360,9 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]), 
 input[type=search]:not(.browser-default):focus:not([readonly]), 
 textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid var(--primary) !important;
-    -webkit-box-shadow: 0 1px 0 0 var(--primary) !important;
-    box-shadow: 0 1px 0 0 var(--primary) !important;
+    border-bottom: 1px solid var(==white) !important;
+    -webkit-box-shadow: 0 1px 0 0 var(--white) !important;
+    box-shadow: 0 1px 0 0 var(--white) !important;
 }
 
 
@@ -409,15 +409,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: var(--font-headlines) !important;
-    font-weight: var(--font-weight-bold) !important;
-    text-transform: uppercase !important;
-    color: var(--primary) !important;
-    background-color: var(--off-white) !important;
-}
-
+h6,
 .forms-studio-header, 
+.forms-studio-question,
 .forms-studio-question.header,
 .forms-studio-form-title {
     font-family: var(--font-headlines) !important;
@@ -426,7 +420,6 @@ h6 {
     color: var(--primary) !important;
     background-color: var(--off-white) !important;
 }
-
 
 .forms-studio-main-form {
     background-color: var(--off-white) !important;
@@ -447,7 +440,6 @@ body,
 input,
 .body,    
 .input,
-.forms-studio-question,
 .forms-studio-form-content,    
 .forms-studio-body {
     font-family: var(--font-body) !important;
