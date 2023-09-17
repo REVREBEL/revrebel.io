@@ -168,12 +168,12 @@
 
 
 .required-field {
-    color: var(--red);
+    color: var(--red) !important;
 }
 
 .forms-studio-main-form {
     background-color: var(--off-white) !important;
-    margin-bottom: 48px !important;
+    margin-bottom: 48px;
     -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     word-wrap: break-word;
@@ -259,7 +259,7 @@ input:not([type])+label:after, input[type=text]:not(.browser-default)+label:afte
 }
 
 fieldset {
-    border: 1px solid var(--white) !important;
+    border: 1px solid var(--white);
     margin: 0
 }
 
@@ -268,15 +268,15 @@ fieldset {
 }
 
 .input-bg {
-    background-color: var(--gray-200) !important;
+    background-color: var(--gray-200);
 }
 
 .input-disabled-bg {
-    background-color: var(--gray-600) !important;
+    background-color: var(--gray-600);
 }
 
 .input-group-addon-bg {
-    background-color: var(--gray-400) !important;
+    background-color: var(--gray-400);
 }
 
 .input-btn-border-width {
@@ -302,14 +302,14 @@ select[multiple],
 select[size],
 textarea {
     background: var(--white) !important;
-    border: 1px solid var(--gray-400) !important;
+    border: 1px solid var(--gray-400);
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     border-radius: 1px;
-    border-top: 1px solid var(--gray-400) !important;
+    border-top: 1px solid var(--gray-400);
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box !important;
+    box-sizing: border-box;
     color: var(--primary) !important;
     font-family: var(--font-body) !important;
     font-size: 14px;
@@ -335,7 +335,7 @@ input[type="week"]:focus,
 select[multiple]:focus,
 select[size]:focus,
 textarea:focus {
-    border: 1px solid var(--primary) !important;
+    border: 1px solid var(--primary);
     -moz-box-shadow: inset 0 1px 2px var(--gray-400);
     -webkit-box-shadow: inset 0 1px 2px var(--gray-400);
     box-shadow: inset 0 1px 2px var(--gray-400);
@@ -349,7 +349,7 @@ select[size] {
 
 select[size]:disabled {
     background: var(--white) !important;
-    opacity: 1 !important;
+    opacity: 1;
 }
 
 
@@ -363,7 +363,7 @@ textarea {
 }
 
 .line {
-    border-bottom: 1px solid var(--primary) !important;
+    border-bottom: 1px solid var(--primary);
 }
 
 
@@ -396,7 +396,7 @@ body {
 .forms-studio-question {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
     color: var(--primary) !important;
     font-size: 1.5rem;
 }
@@ -425,7 +425,7 @@ form p:last-child {
 
 .forms-studio-main-form {
     background-color: var(--off-white) !important;
-    margin-bottom: 48px  !important;
+    margin-bottom: 48px;
     -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     word-wrap: break-word;
@@ -484,25 +484,25 @@ disclaimer {
     color: var(--primary) !important;
     background-color: var(--white) !important;
     border-width: 3px;
-    border: 3px solid var(--primary) !important;
+    border: 3px solid var(--primary);
 }
 
 .button:hover {
     color: var(--primary) !important;
     filter: brightness(110%) !important;
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
     transform-origin: 50%;
     text-decoration: none;
     background-color: var(--white) !important;
-    box-shadow: 1px 1px 10px var(--secondary) !important;
+    box-shadow: 1px 1px 10px var(--secondary);
 
 }
 
 .button.outline:hover {
     color: var(--white) !important;
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
     transform-origin: 50%;
     text-decoration: none !important;
     background-color: var(--primary)  !important;
@@ -514,7 +514,7 @@ disclaimer {
     color: var(--accent) !important;
     border-color: var(--accent) !important;
     border-width: 3px;
-    border: 3px solid var(--accent) !important;
+    border: 3px solid var(--accent);
 }
 
 .button.outline:active {
@@ -552,7 +552,7 @@ disclaimer {
     display: inline-flex;
     box-sizing: inline-flex;
     line-height: 100%;
-    border: 3px solid var(--primary) !important;
+    border: 3px solid var(--primary);
     border-width: 3px;
     border-radius: 5px;
     border-style: solid;
@@ -565,7 +565,7 @@ disclaimer {
     filter: brightness(100%) !important;
     color: white !important;
     border-color: white !important;
-    border-width: 3px !important;
+    border-width: 3px;
     border: 3px solid white;
 }
      
@@ -577,5 +577,5 @@ disclaimer {
     transform-origin: 50%;
     text-decoration: none;
     background-color: var(--primary) !important;
-    box-shadow: 1px 1px 10px var(--secondary) !important;
+    box-shadow: 1px 1px 10px var(--secondary);
 }
