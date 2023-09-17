@@ -185,7 +185,7 @@ forms-studio-form-content,
 forms-studio-body,
 forms-studio-accent {
     background-color: var(--off-white) !important;
-    height: 8pxx;
+
 }
 
 .forms-studio-header,
@@ -193,7 +193,7 @@ forms-studio-accent {
 .forms-studio-body,
 .forms-studio-accent  {
     background-color: var(--off-white) !important;
-    height: 8px;
+
 }
 
 .forms-studio-body {
