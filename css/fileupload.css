@@ -342,11 +342,17 @@ textarea {
 
 
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
@@ -382,7 +388,10 @@ h6 {
 }
 
 body,
-.forms-studio-question
+input,
+.body.    
+.input,
+.forms-studio-question,
 .forms-studio-form-content,    
 .forms-studio-body {
     font-family: var(--font-body) !important;
