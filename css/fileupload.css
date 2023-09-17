@@ -166,9 +166,12 @@
 
 }
 
-.datepicker-cancel,
-.required-field {
+.datepicker-cancel{
     color: var(--red) !important;
+}
+
+.required-field {
+    color: var(--cyan) !important;
 }
 
 .forms-studio-content-wrapper {
