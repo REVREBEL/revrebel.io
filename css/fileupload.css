@@ -385,8 +385,7 @@ body {
 .h5, 
 .h6,
 .forms-studio-form-title,
-.forms-studio-header, 
-.forms-studio-question.header {
+.forms-studio-header {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
     text-transform: uppercase !important;
