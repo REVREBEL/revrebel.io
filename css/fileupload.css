@@ -168,7 +168,7 @@
 
 
 .required-field {
-    color: var(--red);
+    color: var(--red) !important;
 }
 
 .forms-studio-content-wrapper {
@@ -567,7 +567,7 @@ button:active {
     color: var(--white);
     border-color: var(--white);
     border-width: 3px;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
 
 .btn-floating, 
@@ -608,10 +608,10 @@ button:active {
 .forms-studio-fileupload:focus,
 .forms-studio-submit:focus {
     filter: brightness(100%);
-    color: white !important;
-    border-color: white !important;
+    color: var(--white) !important;
+    border-color: var(--white) !important;
     border-width: 3px;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
      
 .forms-studio-fileupload:hover,    
