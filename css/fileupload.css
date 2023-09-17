@@ -52,7 +52,7 @@
     --gray-800: #343a40;
     --gray-900: #212529;
 
-    --font-sans-serif: system-ui, -apple-system, "Khand", Roboto, "Fira Code", Arial, "Sarabun", "Courier Prime", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    --font-sans-serif: system-ui, -apple-system, "Khand", Roboto, "Fira Code", Arial, "Sarabun", "Courier Prime", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Fira Code", "Courier Prime", monospace;
     --font-cursive: "Pacifico", cursive;
     --font-emoji: "Noto Emoji", sans-serif;
@@ -356,18 +356,18 @@ h6,
 .forms-studio-header, 
 .forms-studio-question.header,
 .forms-studio-form-title {
-    font-family: var(--font-headlines) !important;
-    font-weight: var(--font-weight-bold) !important;
-    text-transform: uppercase !important;
-    color: var(--primary) !important;
-    background-color: var(--off-white) !important;
+    font-family: var(--font-headlines);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: var(--primary);
+    background-color: var(--off-white);
 }
 
 .forms-studio-main-form {
-    background-color: var(--off-white) !important;
+    background-color: var(--off-white);
     margin-bottom: 48px;
-    -webkit-box-shadow: var(--off-white) !important;
-    box-shadow: var(--off-white) !important;
+    -webkit-box-shadow: var(--off-white);
+    box-shadow: var(--off-white);
     word-wrap: break-word;
     min-height: 125px;
 }
@@ -383,10 +383,10 @@ body,
 .forms-studio-question
 .forms-studio-form-content,    
 .forms-studio-body {
-    font-family: var(--font-body) !important;
-    font-weight: var(--light) !important;
-    color: var(--primary) !important;
-    background-color: var(--white) !important;
+    font-family: var(--font-body);
+    font-weight: var(--light);
+    color: var(--primary);
+    background-color: var(--white);
     font-size: 13px;
     margin: 0;
 }
@@ -404,9 +404,9 @@ form p:last-child {
 }
 
 .forms-studio-form-description {
-    font-family: var(--font-body) !important;
-    font-weight: var(--light) !important;
-    color: var(--primary) !important;
+    font-family: var(--font-body);
+    font-weight: var(--light);
+    color: var(--primary);
     font-size: .9rem;
     margin-top: 1.75rem;
     white-space: pre-wrap;
@@ -418,8 +418,8 @@ disclaimer a,
 disclaimer, 
 .disclaimer a,
 .disclaimer {
-    background-color: var(--off-white) !important;
-    color: var(--off-white) !important;
+    background-color: var(--off-white);
+    color: var(--off-white);
 }
 
 
@@ -428,8 +428,8 @@ disclaimer,
 
 button 
 .button {
-    color: var(--primary) !important;
-    background-color: var(--white) !important;
+    color: var(--primary);
+    background-color: var(--white);
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
@@ -440,10 +440,10 @@ button
     align-self: auto;
     flex: 2;
     padding: 1.5rem 1.75rem 1.4rem;
-    font-family: Khand, sans-serif !important;
+    font-family: Khand, sans-serif;
     font-size: 1.33rem;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     transition: all .2s;
@@ -508,8 +508,8 @@ button:active {
 .forms-studio-fileupload, 
 .forms-studio-signature button, 
 .forms-studio-submit {
-    color: var(--primary) !important;
-    background-color: var(--white) !important;
+    color: var(--primary);
+    background-color: var(--white);
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
@@ -520,10 +520,10 @@ button:active {
     align-self: auto;
     flex: 2;
     padding: 1.5rem 1.75rem 1.4rem;
-    font-family: Khand, sans-serif !important;
+    font-family: Khand, sans-serif;
     font-size: 1.33rem;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     transition: all .2s;
@@ -540,20 +540,20 @@ button:active {
 
 .forms-studio-fileupload:focus,
 .forms-studio-submit:focus {
-    filter: brightness(100%) !important;
-    color: white !important;
-    border-color: white !important;
-    border-width: 3px !important;
-    border: 3px solid white !important;
+    filter: brightness(100%);
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    border: 3px solid white;
 }
      
 .forms-studio-fileupload:hover,    
 .forms-studio-submit:hover {
-    color: var(--white) !important;
+    color: var(--white);
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
     transform-origin: 50%;
     text-decoration: none;
-    background-color: var(--primary) !important;
+    background-color: var(--primary);
     box-shadow: 1px 1px 10px var(--secondary);
 }
