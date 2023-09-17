@@ -341,12 +341,12 @@ textarea {
 /* RRRRRRRRRRRRRRRRRRRR  TEXT | */
 
 
-.h1, 
-.h2, 
-.h3, 
-.h4, 
-.h5, 
-.h6,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
 .forms-studio-form-title,
 .forms-studio-header,
 .forms-studio-question {
@@ -407,8 +407,8 @@ form p:last-child {
 
 
 
-.disclaimer a,
-.disclaimer {
+disclaimer a,
+disclaimer {
     background-color: var(--off-white);
     color: var(--off-white);
 }
@@ -417,9 +417,9 @@ form p:last-child {
 /* RRRRRRRRRRRRRRRRRRRR  BUTTONS | */
 
 
-.button {
-    color: var(--white);
-    background-color: var(--primary);
+button {
+    color: var(--primary);
+    background-color: var(--white);
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
@@ -448,14 +448,14 @@ form p:last-child {
     cursor: pointer;
 }
 
-.button.outline {
+button.outline {
     color: var(--primary);
     background-color: var(--white);
     border-width: 3px;
     border: 3px solid var(--primary);
 }
 
-.button:hover {
+button:hover {
     color: var(--primary);
     filter: brightness(110%);
     -webkit-backface-visibility: visible;
@@ -467,7 +467,7 @@ form p:last-child {
 
 }
 
-.button.outline:hover {
+button.outline:hover {
     color: var(--white);
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
@@ -477,7 +477,7 @@ form p:last-child {
     box-shadow: var(--off-white);
 }
 
-.button:active {
+button:active {
     filter: brightness(110%);
     color: var(--accent);
     border-color: var(--accent);
