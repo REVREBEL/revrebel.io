@@ -166,7 +166,7 @@
 
 }
 
-
+.datepicker-cancel,
 .required-field {
     color: var(--red) !important;
 }
@@ -184,6 +184,20 @@
 .timepicker-digital-display {
     background-color: var(--primary);
 }
+
+.datepicker-table td.is-today{
+    color: var(--white) !important;
+    background-color: var(--primary);
+}
+
+
+.datepicker-clear, 
+.datepicker-done, 
+.datepicker-today, 
+.timepicker-close {
+    color: var(--accent) !important;
+}
+
 
 label,
 .label {
@@ -623,4 +637,14 @@ button:active {
     text-decoration: none;
     background-color: var(--primary);
     box-shadow: 1px 1px 10px var(--secondary);
+}
+
+
+.fs-confirmation {
+    font-family: var(--font-headlines) !important;
+    font-weight: var(--font-weight-bold) !important;
+    text-transform: uppercase !important;
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
+    font-size: 1.33rem;
 }
