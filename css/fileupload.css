@@ -348,47 +348,47 @@ h3,
 h4, 
 h5, 
 h6 {
-    font-family: var(--font-headlines);
-    font-weight: var(--font-weight-bold);
-    text-transform: uppercase;
-    color: var(--primary);
-    background-color: var(--off-white);
+    font-family: var(--font-headlines) !important;
+    font-weight: var(--font-weight-bold) !important;
+    text-transform: uppercase !important;
+    color: var(--primary) !important;
+    background-color: var(--off-white) !important;
 }
 
 .forms-studio-header, 
 .forms-studio-question.header,
 .forms-studio-form-title {
-    font-family: var(--font-headlines);
-    font-weight: var(--font-weight-bold);
-    text-transform: uppercase;
-    color: var(--primary);
-    background-color: var(--off-white);
+    font-family: var(--font-headlines) !important;
+    font-weight: var(--font-weight-bold) !important;
+    text-transform: uppercase !important;
+    color: var(--primary) !important;
+    background-color: var(--off-white) !important;
 }
 
 
 .forms-studio-main-form {
-    background-color: var(--off-white);
+    background-color: var(--off-white) !important;
     margin-bottom: 48px;
-    -webkit-box-shadow: var(--off-white);
-    box-shadow: var(--off-white);
+    -webkit-box-shadow: var(--off-white) !important;
+    box-shadow: var(--off-white) !important;
     word-wrap: break-word;
     min-height: 125px;
 }
 
 
 .forms-studio-accent {
-    color: var(--off-white);
-    background-color: var(--off-white);
+    color: var(--off-white) !important;
+    background-color: var(--off-white) !important;
 }
 
 body,
 .forms-studio-question
 .forms-studio-form-content,    
 .forms-studio-body {
-    font-family: var(--font-body);
-    font-weight: var(--light);
-    color: var(--primary);
-    background-color: var(--white);
+    font-family: var(--font-body) !important;
+    font-weight: var(--light) !important;
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
     font-size: 13px;
     margin: 0;
 }
@@ -406,9 +406,9 @@ form p:last-child {
 }
 
 .forms-studio-form-description {
-    font-family: var(--font-body);
-    font-weight: var(--light);
-    color: var(--primary);
+    font-family: var(--font-body) !important;
+    font-weight: var(--light) !important;
+    color: var(--primary) !important;
     font-size: .9rem;
     margin-top: 1.75rem;
     white-space: pre-wrap;
@@ -420,8 +420,8 @@ disclaimer a,
 disclaimer, 
 .disclaimer a,
 .disclaimer {
-    background-color: var(--off-white);
-    color: var(--off-white);
+    background-color: var(--off-white) !important;
+    color: var(--off-white) !important;
 }
 
 
@@ -430,8 +430,8 @@ disclaimer,
 
 button 
 .button {
-    color: var(--primary);
-    background-color: var(--white);
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
@@ -442,10 +442,10 @@ button
     align-self: auto;
     flex: 2;
     padding: 1.5rem 1.75rem 1.4rem;
-    font-family: Khand, sans-serif;
+    font-family: Khand, sans-serif !important;
     font-size: 1.33rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
     text-align: center;
     text-decoration: none;
     transition: all .2s;
@@ -461,14 +461,14 @@ button
 }
 
 button.outline {
-    color: var(--primary);
-    background-color: var(--white);
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
     border-width: 3px;
     border: 3px solid var(--primary);
 }
 
 button:hover {
-    color: var(--primary);
+    color: var(--primary) !important;
     filter: brightness(110%);
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
@@ -510,8 +510,8 @@ button:active {
 .forms-studio-fileupload, 
 .forms-studio-signature button, 
 .forms-studio-submit {
-    color: var(--primary);
-    background-color: var(--white);
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
     justify-content: space-between;
     align-items: stretch;
     flex-direction: column;
@@ -522,29 +522,29 @@ button:active {
     align-self: auto;
     flex: 2;
     padding: 1.5rem 1.75rem 1.4rem;
-    font-family: Khand, sans-serif;
+    font-family: Khand, sans-serif !important;
     font-size: 1.33rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
     text-align: center;
     text-decoration: none;
     transition: all .2s;
     display: inline-flex;
     box-sizing: inline-flex;
     line-height: 100%;
-    border: 3px solid var(--primary);
+    border: 3px solid var(--primary) !important;
     border-width: 3px;
     border-radius: 5px;
     border-style: solid;
-    border-color: var(--primary);
+    border-color: var(--primary) !important;
     cursor: pointer;
  } 
 
 .forms-studio-fileupload:focus,
 .forms-studio-submit:focus {
     filter: brightness(100%);
-    color: white;
-    border-color: white;
+    color: white !important;
+    border-color: white !important;
     border-width: 3px;
     border: 3px solid white;
 }
