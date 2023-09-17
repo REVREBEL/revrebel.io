@@ -374,8 +374,8 @@ h6,
 
 
 .forms-studio-accent {
-    color: var(--off-white) !important;
-    background-color: var(--off-white) !important;
+    color: var(--off-white);
+    background-color: var(--off-white);
 }
 
 body,
