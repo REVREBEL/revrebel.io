@@ -172,14 +172,18 @@
 }
 
 .forms-studio-main-form {
-    background-color: var(--white);
-    margin-bottom: 48px;
-    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    background-color: var(--off-white) !important;
+    margin-bottom: 48px !important;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.37) !important;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37) !important;
     word-wrap: break-word;
-    min-height: 125px;
+    min-height: 125px !important;
 }
 
+forms-studio-accent  {
+    background-color: var(--off-white) !important;
+}
+    
 /* RRRRRRRRRRRRRRRRRRRR  FORMS | */
 
 
@@ -195,18 +199,18 @@ label {
 }
 
 input:not([type])+label:after, input[type=text]:not(.browser-default)+label:after, input[type=password]:not(.browser-default)+label:after, input[type=email]:not(.browser-default)+label:after, input[type=url]:not(.browser-default)+label:after, input[type=time]:not(.browser-default)+label:after, input[type=date]:not(.browser-default)+label:after, input[type=datetime]:not(.browser-default)+label:after, input[type=datetime-local]:not(.browser-default)+label:after, input[type=tel]:not(.browser-default)+label:after, input[type=number]:not(.browser-default)+label:after, input[type=search]:not(.browser-default)+label:after, textarea.materialize-textarea+label:after, .select-wrapper+label:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    opacity: 0;
-    -webkit-transition: .2s opacity ease-out, .2s color ease-out;
-    transition: .2s opacity ease-out, .2s color ease-out;
+    display: block !important;
+    content: "" !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    opacity: 0 !important;
+    -webkit-transition: .2s opacity ease-out, .2s color ease-out !important;
+    transition: .2s opacity ease-out, .2s color ease-out !important;
 }
 *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+    -webkit-box-sizing: inherit !important;
+    box-sizing: inherit !important;
 }
 
 .input-field>label {
@@ -216,8 +220,8 @@ input:not([type])+label:after, input[type=text]:not(.browser-default)+label:afte
     left: 0;
     font-size: 1rem;
     cursor: text;
-    -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
-    transition: color .2s ease-out, -webkit-transform .2s ease-out;
+    -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out !important;
+    transition: color .2s ease-out, -webkit-transform .2s ease-out !important;
     transition: transform .2s ease-out, color .2s ease-out !important;
     transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out !important;
     -webkit-transform-origin: 0% 100% !important;
@@ -232,7 +236,7 @@ input:not([type])+label:after, input[type=text]:not(.browser-default)+label:afte
 .form-group label+input,
 .form-group label+select,
 .form-group label+textarea {
-    display: block;
+    display: block !important;
 }
 
 fieldset {
