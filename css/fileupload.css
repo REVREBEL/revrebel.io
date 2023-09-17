@@ -180,16 +180,24 @@
     min-height: 125px !important;
 }
 
-forms-studio-heade
+forms-studio-header.
+forms-studio-form-content,
+forms-studio-body,
 forms-studio-accent  {
     background-color: var(--off-white) !important;
     height: 8px !important;
 }
 
-.forms-studio-heade
+.forms-studio-header,
+.forms-studio-form-content,
+.forms-studio-body,
 .forms-studio-accent  {
     background-color: var(--off-white) !important;
     height: 8px !important;
+}
+
+.forms-studio-body {
+    background-color: var(--off-white) !important;
 }
     
 /* RRRRRRRRRRRRRRRRRRRR  FORMS | */
@@ -386,19 +394,12 @@ body {
     color: var(--primary) !important;
 }
 
-
-
 .forms-studio-question {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
     text-transform: uppercase !important;
     color: var(--primary) !important;
     font-size: 1.5rem !important;
-}
-
-.forms-studio-form-content {
-    color: var(--primary) !important;
-    padding: 34px 17px;
 }
 
 p {
@@ -430,18 +431,6 @@ form p:last-child {
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
     word-wrap: break-word;
     min-height: 125px;
-}
-
-.forms-studio-form-content {
-    color: rgba(0,0,0,.87)  !important;
-    padding: 34px 17px;
-}
-
-
-
-.forms-studio-accent,
-.forms-studio-body {
-    background-color: var(--off-white) !important;
 }
 
 
