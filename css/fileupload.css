@@ -64,11 +64,11 @@
     --font-accent: 'Pacifico', cursive;
     --font-button: 'Khand', sans-serif;
 
-    --font-weight-lighter: lighter;
+    --font-weight-lighter: 300;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-    --font-weight-bolder: bolder;
+    --font-weight-bolder: 700;
 
     --lead-font-size: calc(var(--font-size-base) * 1.25);
     --lead-font-weight: 300;
@@ -181,6 +181,13 @@
 }
 
 /* RRRRRRRRRRRRRRRRRRRR  FORMS | */
+
+
+.datepicker-date-display, 
+.datepicker-table td.is-selected, 
+.timepicker-digital-display {
+    background-color: var(--primary) !important;
+}
 
 
 label {
