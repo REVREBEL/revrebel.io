@@ -171,6 +171,10 @@
     color: var(--red);
 }
 
+.forms-studio-content-wrapper {
+    color: var(--white) !important;
+}
+
 
 /* RRRRRRRRRRRRRRRRRRRR  FORMS | */
 
