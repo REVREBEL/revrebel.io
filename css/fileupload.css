@@ -171,30 +171,7 @@
     color: var(--red);
 }
 
-.forms-studio-main-form {
-    background-color: var(--off-white);
-    margin-bottom: 48px;
-    -webkit-box-shadow: var(--off-white);
-    box-shadow: var(--off-white);
-    word-wrap: break-word;
-    min-height: 125px;
-}
 
-.forms-studio-header {
-    background-color: var(--off-white);
-}  
-
-
-.forms-studio-accent {
-    color: var(--off-white); 
-    background-color: var(--off-white);
-}
-
-.forms-studio-form-content,
-.forms-studio-body {
-    background-color: var(--white);
-}
-    
 /* RRRRRRRRRRRRRRRRRRRR  FORMS | */
 
 
@@ -363,14 +340,6 @@ textarea {
 
 /* RRRRRRRRRRRRRRRRRRRR  TEXT | */
 
-body {
-    font-family: var(--font-body);
-    font-weight: var(--light);
-    color: var(--primary);
-    background-color: var(--white);
-    font-size: 13px;
-    margin: 0;
-}
 
 .h1, 
 .h2, 
@@ -385,9 +354,35 @@ body {
     font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     color: var(--primary);
+    background-color: var(--off-white);
+}
+
+.forms-studio-main-form {
+    background-color: var(--off-white);
+    margin-bottom: 48px;
+    -webkit-box-shadow: var(--off-white);
+    box-shadow: var(--off-white);
+    word-wrap: break-word;
+    min-height: 125px;
 }
 
 
+.forms-studio-accent {
+    color: var(--off-white); 
+    background-color: var(--off-white);
+}
+
+.forms-studio-form-content,    
+.forms-studio-body,
+body {
+    font-family: var(--font-body);
+    font-weight: var(--light);
+    color: var(--primary);
+    background-color: var(--white);
+    font-size: 13px;
+    margin: 0;
+}
+    
 p {
     display: block;
     margin-block-start: 1em;
@@ -410,14 +405,7 @@ form p:last-child {
     line-height: 135%;
 }
 
-.forms-studio-main-form {
-    background-color: var(--off-white);
-    margin-bottom: 48px;
-    -webkit-box-shadow: var(--off-white);
-    box-shadow:  var(--off-white);
-    word-wrap: break-word;
-    min-height: 125px;
-}
+
 
 .disclaimer a,
 .disclaimer {
