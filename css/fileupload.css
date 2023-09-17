@@ -433,13 +433,14 @@ form p:last-child {
     min-height: 125px;
 }
 
-
+.disclaimer a,
 .disclaimer {
     background-color: var(--off-white) !important;
     color: var(--off-white) !important;
 
 }
 
+disclaimer a,
 disclaimer {
     background-color: var(--off-white) !important;
     color: var(--off-white) !important;
