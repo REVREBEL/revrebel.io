@@ -411,6 +411,7 @@ h6,
 .h6,
 .forms-studio-header, 
 .forms-studio-question,
+.forms-studio-question.header,
 .forms-studio-form-title {
     font-family: var(--font-headlines) !important;
     font-weight: var(--font-weight-bold) !important;
@@ -420,9 +421,9 @@ h6,
 }
 
 .forms-studio-main-form {
-    background-color: var(--off-white) !important;
+    background-color: var(-white) !important;
     margin-bottom: 48px;
-    -webkit-box-shadow: var(--off-white) !important;
+    -webkit-box-shadow: var(-white) !important;
     box-shadow: var(--off-white) !important;
     word-wrap: break-word;
     min-height: 125px;
@@ -430,8 +431,8 @@ h6,
 
 
 .forms-studio-accent {
-    color: var(--off-white) !important;
-    background-color: var(--off-white) !important;
+    color: var(-white) !important;
+    background-color: var(-white) !important;
 }
 
 body,
@@ -475,8 +476,9 @@ disclaimer a,
 disclaimer, 
 .disclaimer a,
 .disclaimer {
-    background-color: var(--off-white) !important;
-    color: var(--off-white) !important;
+    font-size: 2px;
+    background-color: var(-white) !important;
+    color: var(-white) !important;
 }
 
 
