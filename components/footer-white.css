@@ -1,0 +1,639 @@
+{
+    "type":"@webflow/XscpData", "payload": {
+        "nodes":[ {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae72", "type":"Block", "tag":"div", "classes":["60697452-8907-ea7c-2000-10227e547376"], "children":["e1361196-346f-bfa6-0385-e4beee1bae73", "e1361196-346f-bfa6-0385-e4beee1bae75", "e1361196-346f-bfa6-0385-e4beee1bae7a"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":false, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae73", "type":"NavbarBrand", "tag":"a", "classes":["accedb6b-816e-8cfc-ef61-e9894cad9741"], "children":["e1361196-346f-bfa6-0385-e4beee1bae74"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "navbar": {
+                    "type": "brand"
+                }
+
+                , "style": {
+                    "base": {
+                        "main": {
+                            "noPseudo": {
+                                "alignSelf": "start", "justifySelf":"start"
+                            }
+                        }
+                    }
+                }
+
+                , "attr": {
+                    "href": "#", "id":""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "link": {
+                    "mode": "external"
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae74", "type":"Image", "tag":"img", "classes":["accedb6b-816e-8cfc-ef61-e9894cad9741"], "children":[], "data": {
+                "img": {
+                    "id":"64591353f9834a6be8d9d85f", "sizes":[ {
+                        "max": 479, "size":"78vw"
+                    }
+
+                    , {
+                        "max": 1919, "size":"219px"
+                    }
+
+                    , {
+                        "max": 10000, "size":"11vw"
+                    }
+
+                    ]
+                }
+
+                , "attr": {
+                    "src": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png", "loading":"lazy", "width":"219", "height":"auto", "alt":"__wf_reserved_inherit"
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae75", "type":"Block", "tag":"div", "classes":["0cd88a49-4053-3f7f-6cb3-b2cf2cbc2ba7"], "children":["e1361196-346f-bfa6-0385-e4beee1bae76"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":false, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "style": {
+                    "base": {
+                        "tiny": {
+                            "noPseudo": {
+                                "alignSelf": "stretch", "justifySelf":"stretch"
+                            }
+                        }
+
+                        , "main": {
+                            "noPseudo": {
+                                "alignSelf": "start", "justifySelf":"start"
+                            }
+                        }
+                    }
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae76", "type":"Block", "tag":"div", "classes":[], "children":["e1361196-346f-bfa6-0385-e4beee1bae77"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":false, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae77", "type":"Block", "tag":"div", "classes":["c10511a0-a5e2-9e16-8078-db4d6b5db223"], "children":["e1361196-346f-bfa6-0385-e4beee1bae78"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":false, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae78", "type":"Paragraph", "tag":"p", "classes":["c10511a0-a5e2-9e16-8078-db4d6b5db1c5"], "children":["e1361196-346f-bfa6-0385-e4beee1bae79"], "data": {
+                "displayName":"", "attr": {
+                    "id": ""
+                }
+
+                , "xattr":[], "search": {
+                    "exclude": false
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+            }
+        }
+
+        , {
+            "_id": "e1361196-346f-bfa6-0385-e4beee1bae79", "text":true, "v":"We help hotels craft strategies to grow their revenues and crush the competition"
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae7a", "type":"Block", "tag":"div", "classes":["c10511a0-a5e2-9e16-8078-db4d6b5db211"], "children":["e1361196-346f-bfa6-0385-e4beee1bae7b"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":false, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae7b", "type":"FormWrapper", "tag":"div", "classes":["c10511a0-a5e2-9e16-8078-db4d6b5db1f7"], "children":["e1361196-346f-bfa6-0385-e4beee1bae7c", "e1361196-346f-bfa6-0385-e4beee1bae7e", "e1361196-346f-bfa6-0385-e4beee1bae81", "e1361196-346f-bfa6-0385-e4beee1bae88"], "data": {
+                "form": {
+                    "type": "wrapper"
+                }
+
+                , "search": {
+                    "exclude": true
+                }
+
+                , "xattr":[], "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae7c", "type":"Block", "tag":"div", "classes":["15f162d7-eb93-3db0-b184-395163781885"], "children":["e1361196-346f-bfa6-0385-e4beee1bae7d"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":true, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id": "e1361196-346f-bfa6-0385-e4beee1bae7d", "text":true, "v":"Subscribe to our Newsletter"
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae7e", "type":"FormForm", "tag":"form", "classes":["accedb6b-816e-8cfc-ef61-e9894cad9740"], "children":["e1361196-346f-bfa6-0385-e4beee1bae7f", "e1361196-346f-bfa6-0385-e4beee1bae80"], "data": {
+                "form": {
+                    "type": "form", "name":"Email From"
+                }
+
+                , "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": "wf-form-Email-From", "name":"wf-form-Email-From", "data-name":"Email From", "redirect":"", "data-redirect":"", "action":"", "method":"get"
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "Source": {
+                    "tag":"Default form", "val": {}
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae7f", "type":"FormTextInput", "tag":"input", "classes":["f726c85b-5c19-d74f-e7eb-7da8ee423c44"], "children":[], "data": {
+                "attr": {
+                    "autofocus": false, "maxlength":256, "name":"Email-Sign-Up", "data-name":"Email Sign Up", "placeholder":"your email address", "type":"email", "id":"email-signup-footer", "disabled":false, "required":true
+                }
+
+                , "form": {
+                    "name": "Email Sign Up", "type":"input", "passwordPage":false
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae80", "type":"FormButton", "tag":"input", "classes":["c10511a0-a5e2-9e16-8078-db4d6b5db1e7"], "children":[], "data": {
+                "attr": {
+                    "type": "submit", "value":"", "data-wait":""
+                }
+
+                , "form": {
+                    "type": "button"
+                }
+
+                , "visibility": {
+                    "conditions": [true]
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae81", "type":"FormSuccessMessage", "tag":"div", "classes":["f726c85b-5c19-d74f-e7eb-7da8ee423c40"], "children":["e1361196-346f-bfa6-0385-e4beee1bae82"], "data": {
+                "form": {
+                    "type": "msg-done"
+                }
+
+                , "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae82", "type":"Block", "tag":"div", "classes":["bc3ecf78-b966-2634-93c2-b73b66d207a7"], "children":["e1361196-346f-bfa6-0385-e4beee1bae83", "e1361196-346f-bfa6-0385-e4beee1bae84", "e1361196-346f-bfa6-0385-e4beee1bae85", "e1361196-346f-bfa6-0385-e4beee1bae86", "e1361196-346f-bfa6-0385-e4beee1bae87"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":true, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id": "e1361196-346f-bfa6-0385-e4beee1bae83", "text":true, "v":"Thanks for the signup. "
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae84", "type":"LineBreak", "tag":"br", "classes":[], "children":[], "data": {
+                "sym": {
+                    "inst": "LineBreak"
+                }
+            }
+        }
+
+        , {
+            "_id": "e1361196-346f-bfa6-0385-e4beee1bae85", "text":true, "v":"Stay tuned as we draft plans to foil another evil plot by the Empire to build more Death Stars."
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae86", "type":"LineBreak", "tag":"br", "classes":[], "children":[], "data": {
+                "sym": {
+                    "inst": "LineBreak"
+                }
+            }
+        }
+
+        , {
+            "_id": "e1361196-346f-bfa6-0385-e4beee1bae87", "text":true, "v":"Luke Out."
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae88", "type":"FormErrorMessage", "tag":"div", "classes":["ae6ec58f-5250-54f2-937d-8967027fa51c"], "children":["e1361196-346f-bfa6-0385-e4beee1bae89"], "data": {
+                "form": {
+                    "type": "msg-fail"
+                }
+
+                , "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+            }
+        }
+
+        , {
+            "_id":"e1361196-346f-bfa6-0385-e4beee1bae89", "type":"Block", "tag":"div", "classes":["4d466410-985f-5d97-aba3-fb65070fdf4f"], "children":["e1361196-346f-bfa6-0385-e4beee1bae8a"], "data": {
+                "search": {
+                    "exclude": false
+                }
+
+                , "xattr":[], "text":true, "displayName":"", "devlink": {
+                    "runtimeProps": {}
+
+                    , "slot":""
+                }
+
+                , "attr": {
+                    "id": ""
+                }
+
+                , "visibility": {
+                    "conditions": []
+                }
+
+                , "tag":"div"
+            }
+        }
+
+        , {
+            "_id": "e1361196-346f-bfa6-0385-e4beee1bae8a", "text":true, "v":"Oops! Something went wrong while submitting the form."
+        }
+
+        ], "styles":[ {
+            "_id": "c10511a0-a5e2-9e16-8078-db4d6b5db223", "fake":false, "type":"class", "name":"footer-quote", "namespace":"", "comb":"", "styleLess":"display: flex; flex-direction: column; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00);", "variants": {
+                "xl": {
+                    "styleLess": "display: inline-block; margin-right: auto; margin-left: auto; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto;"
+                }
+
+                , "small": {
+                    "styleLess": "overflow: hidden;"
+                }
+            }
+
+            , "children":[], "selector":null
+        }
+
+        , {
+            "_id": "60697452-8907-ea7c-2000-10227e547376", "fake":false, "type":"class", "name":"footer-logo-wrapper", "namespace":"", "comb":"", "styleLess":"display: grid; padding-right: 10vw; flex-direction: column; align-items: stretch; flex-grow: 1; flex-shrink: 1; flex-basis: 0%; grid-auto-columns: 1fr; grid-column-gap: 16px; grid-row-gap: 16px; grid-template-columns: 1fr; grid-template-rows: auto auto 1fr;", "variants": {
+                "small": {
+                    "styleLess": "flex-direction: column; align-self: flex-start;"
+                }
+
+                , "tiny": {
+                    "styleLess": "display: flex; padding-right: 0vw; flex-direction: column; grid-auto-columns: auto; grid-template-columns: auto; grid-template-rows: auto auto auto;"
+                }
+
+                , "medium": {
+                    "styleLess": "padding-right: 5vw;"
+                }
+            }
+
+            , "children":["45b8982a-024f-458b-2c90-9be317fa539a"], "createdBy":"6248afa99cd8d254dcf76dd9", "selector":null
+        }
+
+        , {
+            "_id": "f726c85b-5c19-d74f-e7eb-7da8ee423c44", "fake":false, "type":"class", "name":"signup-form-field", "namespace":"", "comb":"", "styleLess":"margin-bottom: 0px; padding-right: 42px; padding-bottom: 17px; padding-left: 50px; border-top-style: none; border-top-width: 2px; border-top-color: hsla(216.36363636363635, 63.87%, 30.39%, 0.25); border-right-style: none; border-right-width: 2px; border-right-color: hsla(216.36363636363635, 63.87%, 30.39%, 0.25); border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: hsla(216.36363636363635, 63.87%, 30.39%, 0.53); border-left-style: none; border-left-width: 2px; border-left-color: hsla(216.36363636363635, 63.87%, 30.39%, 0.25); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; background-color: transparent; background-image: @img_64591353f9834a0b97d9d7f6; background-position: 0% 50%; background-size: auto; background-repeat: no-repeat; font-family: Fira Code; color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); font-size: 20px; line-height: 150%; font-weight: 200; letter-spacing: -0.16px;", "variants": {
+                "main_placeholder": {
+                    "styleLess": "color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); font-size: 0.7rem; line-height: 150%; font-weight: 300; text-decoration: none; text-transform: none;"
+                }
+            }
+
+            , "children":["d994754b-683f-f0b8-90c9-b0bab22d38d6", "66a0ea14-31ad-0b71-5389-c65ce41bcf8a"], "selector":null
+        }
+
+        , {
+            "_id": "c10511a0-a5e2-9e16-8078-db4d6b5db1f7", "fake":false, "type":"class", "name":"subscribe-form-block", "namespace":"", "comb":"", "styleLess":"padding-top: 1vh; padding-bottom: 1vh;", "variants": {
+                "small": {
+                    "styleLess": "grid-auto-columns: 1fr; grid-column-gap: 16px; grid-row-gap: 16px; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto;"
+                }
+            }
+
+            , "children":[], "selector":null
+        }
+
+        , {
+            "_id": "f726c85b-5c19-d74f-e7eb-7da8ee423c40", "fake":false, "type":"class", "name":"success-message-newsletter", "namespace":"", "comb":"", "styleLess":"padding-top: 1vh; padding-right: 1vw; padding-bottom: 1vh; padding-left: 1vw; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; background-color: hsla(199.1304347826087, 27.49%, 49.22%, 1.00); opacity: 0.82; color: hsla(0, 0.00%, 100.00%, 1.00); text-transform: none;", "variants": {}
+
+            , "children":[], "selector":null
+        }
+
+        , {
+            "_id": "bc3ecf78-b966-2634-93c2-b73b66d207a7", "fake":false, "type":"class", "name":"success-text-block", "namespace":"", "comb":"", "styleLess":"font-family: Fira Code; font-size: 1rem; line-height: 1.5; text-align: left;", "variants": {}
+
+            , "children":[], "createdBy":"6248afa99cd8d254dcf76dd9", "selector":null
+        }
+
+        , {
+            "_id": "accedb6b-816e-8cfc-ef61-e9894cad9741", "fake":false, "type":"class", "name":"footer-logo-multicolor", "namespace":"", "comb":"", "styleLess":"align-items: center; transition-property: filter; transition-duration: 200ms; transition-timing-function: ease;", "variants": {
+                "xl": {
+                    "styleLess": "margin-right: auto; margin-left: 0px;"
+                }
+
+                , "tiny": {
+                    "styleLess": "padding-left: 0px; flex-direction: column; justify-content: flex-start; align-items: flex-start; align-self: stretch;"
+                }
+
+                , "main_hover": {
+                    "styleLess": "filter: brightness(90%);"
+                }
+            }
+
+            , "children":["489657ac-b9e1-a6f4-3aee-8cd8155c7518", "489657ac-b9e1-a6f4-3aee-8cd8155c751e", "d6676b58-d20a-4c39-ee4f-1ee189f25088", "f726c85b-5c19-d74f-e7eb-7da8ee423c47", "adfb8629-0dfa-258c-267f-61e460bc0f80"], "selector":null
+        }
+
+        , {
+            "_id": "c10511a0-a5e2-9e16-8078-db4d6b5db1e7", "fake":false, "type":"class", "name":"arrow-submit-button", "namespace":"", "comb":"", "styleLess":"position: absolute; left: auto; top: 0%; right: 0%; bottom: auto; overflow: visible; width: 40px; height: 35px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-color: transparent; background-image: @img_64591353f9834a2ebfd9d7f3; background-position: 50% 50%; background-size: 40px 40px; background-repeat: no-repeat; background-attachment: scroll; transition-property: border; transition-duration: 200ms; transition-timing-function: ease;", "variants": {
+                "main_hover": {
+                    "styleLess": "width: 40px; height: 35px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; border-top-style: solid; border-top-width: 3px; border-top-color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); border-right-style: solid; border-right-width: 3px; border-right-color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); border-bottom-style: solid; border-bottom-width: 3px; border-bottom-color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); border-left-style: solid; border-left-width: 3px; border-left-color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; background-color: hsla(0, 0.00%, 100.00%, 1.00); background-image: @img_64591353f9834a2ebfd9d7f3;"
+                }
+            }
+
+            , "children":["accedb6b-816e-8cfc-ef61-e9894cad9749", "489657ac-b9e1-a6f4-3aee-8cd8155c7523", "6d22d5d9-b0db-44d4-d201-c38f4c149724", "f726c85b-5c19-d74f-e7eb-7da8ee423c46", "55f7b830-b255-7689-60dd-da034af82cc7"], "selector":null
+        }
+
+        , {
+            "_id": "ae6ec58f-5250-54f2-937d-8967027fa51c", "fake":false, "type":"class", "name":"error-message", "namespace":"", "comb":"", "styleLess":"border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;", "variants": {}
+
+            , "children":[], "createdBy":"6248afa99cd8d254dcf76dd9", "selector":null
+        }
+
+        , {
+            "_id": "4d466410-985f-5d97-aba3-fb65070fdf4f", "fake":false, "type":"class", "name":"error-text-block", "namespace":"", "comb":"", "styleLess":"font-family: Fira Code; font-size: 1rem; line-height: 1.5; font-weight: 300;", "variants": {}
+
+            , "children":[], "createdBy":"6248afa99cd8d254dcf76dd9", "selector":null
+        }
+
+        , {
+            "_id": "c10511a0-a5e2-9e16-8078-db4d6b5db1c5", "fake":false, "type":"class", "name":"footer.paragraph", "namespace":"", "comb":"", "styleLess":"font-family: Fira Code; font-size: 1.125rem; font-weight: 400;", "variants": {
+                "tiny": {
+                    "styleLess": "justify-content: space-between;"
+                }
+
+                , "medium": {
+                    "styleLess": "font-size: 1rem;"
+                }
+            }
+
+            , "children":["4baa1346-7a1e-2ab6-d805-ff0de34011e8", "5f8bb69c-adb9-2ca1-d13e-60cc9a9c2152"], "selector":null
+        }
+
+        , {
+            "_id": "15f162d7-eb93-3db0-b184-395163781885", "fake":false, "type":"class", "name":"subscribe-text", "namespace":"", "comb":"", "styleLess":"padding-bottom: 1vh; font-family: Khand; color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); font-size: 1.5rem; line-height: 1.5; font-weight: 700; letter-spacing: 0px; text-transform: uppercase;", "variants": {}
+
+            , "children":["489657ac-b9e1-a6f4-3aee-8cd8155c7522", "9c4f1823-2ffd-f933-dc2c-a8e3d07ce825", "010b2ba6-d74e-8c08-53ac-19ec7487aee6"], "selector":null
+        }
+
+        , {
+            "_id":"0cd88a49-4053-3f7f-6cb3-b2cf2cbc2ba7", "fake":false, "type":"class", "name":"footer-quote-wrapper", "namespace":"", "comb":"", "styleLess":"", "variants": {}
+
+            , "children":[], "createdBy":"6248afa99cd8d254dcf76dd9", "selector":null
+        }
+
+        , {
+            "_id": "accedb6b-816e-8cfc-ef61-e9894cad9740", "fake":false, "type":"class", "name":"email-form-footer", "namespace":"", "comb":"", "styleLess":"position: relative; padding-bottom: 0px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: hsla(0, 0.00%, 100.00%, 0.20);", "variants": {}
+
+            , "children":["accedb6b-816e-8cfc-ef61-e9894cad974a", "489657ac-b9e1-a6f4-3aee-8cd8155c751d", "6d22d5d9-b0db-44d4-d201-c38f4c14972b", "f726c85b-5c19-d74f-e7eb-7da8ee423c48", "0cbad358-dc98-34ef-c814-beb1d494a7a9", "adbfeaf6-c446-09ea-6ee6-fe82510dc61f", "025b89ce-590b-3974-a657-d1afa1b978db"], "selector":null
+        }
+
+        , {
+            "_id":"c10511a0-a5e2-9e16-8078-db4d6b5db211", "fake":false, "type":"class", "name":"footer-newletter-wrapper", "namespace":"", "comb":"", "styleLess":"", "variants": {}
+
+            , "children":[], "selector":null
+        }
+
+        ], "assets":[ {
+            "cdnUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png", "siteId":"62b5cdb1175253325f565bfc", "width":452, "isHD":false, "height":107, "fileName":"62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png", "createdOn":"2022-06-24T14:45:54.114Z", "origFileName":"stack-revrebel-logo-multicolor.png", "alt":"REVREBEL Logo", "fileHash":"d8a9904b99ba0622cd7e69361d72fa46", "variants":[ {
+                "_id": "62b5ce228165e98549f4d193", "s3Url":"https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png", "fileName":"62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png", "origFileName":"stack-revrebel-logo-multicolor-p-130x130q80.png", "format":"png", "cdnUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png"
+            }
+
+            ], "mimeType":"image/png", "s3Url":"https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png", "thumbUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png", "_id":"64591353f9834a6be8d9d85f", "updatedOn":"2023-05-08T15:20:51.810Z", "fileSize":20346, "localizedSettings": {}
+        }
+
+        , {
+            "cdnUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e94ceaf4d194_fi-rr-arrow-small-right-outline.svg", "siteId":"62b5cdb1175253325f565bfc", "width":512, "isHD":false, "height":512, "fileName":"62b5ce228165e94ceaf4d194_fi-rr-arrow-small-right-outline.svg", "createdOn":"2022-06-24T14:45:54.118Z", "origFileName":"fi-rr-arrow-small-right-outline.svg", "alt":"Blue Arrow Pointing Right", "fileHash":"118db87f64d7208751db7bd4598f3e4a", "variants":[], "mimeType":"image/svg+xml", "s3Url":"https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e94ceaf4d194_fi-rr-arrow-small-right-outline.svg", "thumbUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e94ceaf4d194_fi-rr-arrow-small-right-outline.svg", "_id":"64591353f9834a2ebfd9d7f3", "updatedOn":"2023-05-08T15:20:51.675Z", "fileSize":347, "localizedSettings": {}
+        }
+
+        , {
+            "cdnUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e900c9f4d199_send-filled-blue.svg", "siteId":"62b5cdb1175253325f565bfc", "width":150, "isHD":false, "height":150, "fileName":"62b5ce228165e900c9f4d199_send-filled-blue.svg", "createdOn":"2022-06-24T14:45:54.130Z", "origFileName":"send-filled-blue.svg", "alt":"Email Icon", "fileHash":"eb1493d1c4964a70f4d667c8b3501b0c", "variants":[], "mimeType":"image/svg+xml", "s3Url":"https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e900c9f4d199_send-filled-blue.svg", "thumbUrl":"https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e900c9f4d199_send-filled-blue.svg", "_id":"64591353f9834a0b97d9d7f6", "updatedOn":"2023-05-08T15:20:51.675Z", "fileSize":445, "localizedSettings": {}
+        }
+
+        ], "ix1":[], "ix2": {
+            "interactions": [], "events":[], "actionLists":[]
+        }
+    }
+
+    , "meta": {
+        "unlinkedSymbolCount": 0, "droppedLinks":0, "dynBindRemovedCount":0, "dynListBindRemovedCount":0, "paginationRemovedCount":0
+    }
+}

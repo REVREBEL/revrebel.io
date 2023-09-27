@@ -1,0 +1,500 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d91c",
+        "type": "NavbarContainer",
+        "tag": "div",
+        "classes": ["412e0f85-2e4e-0fb9-264a-2abacd4c71fa"],
+        "children": [
+          "55602530-07e4-f4d2-85b7-3f3c3130d91d",
+          "55602530-07e4-f4d2-85b7-3f3c3130d91f",
+          "55602530-07e4-f4d2-85b7-3f3c3130d92a"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "container" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d91d",
+        "type": "NavbarBrand",
+        "tag": "a",
+        "classes": ["cc66fc53-43d3-ea94-5fec-7daa1d67b9db"],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d91e"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "brand" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d91e",
+        "type": "Image",
+        "tag": "img",
+        "classes": [
+          "051b1a75-cdf5-d4a1-f0a5-33e9aaec5f8c",
+          "39524031-120c-1e68-4758-50a06f5d860b"
+        ],
+        "children": [],
+        "data": {
+          "attr": {
+            "width": "232",
+            "height": "Auto",
+            "alt": "Company Logo for RevRebel",
+            "src": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e90209f4d190_stack-revrebel-logo-white.png",
+            "loading": "auto"
+          },
+          "visibility": { "conditions": [true] },
+          "img": {
+            "id": "64591353f9834a2ed6d9d85a",
+            "sizes": [
+              { "max": 479, "size": "61vw" },
+              { "max": 1919, "size": "231.99609375px" },
+              { "max": 10000, "size": "12vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d91f",
+        "type": "NavbarMenu",
+        "tag": "nav",
+        "classes": ["6f46406a-1537-4d9c-68d6-ce07f5df97f5"],
+        "children": [
+          "55602530-07e4-f4d2-85b7-3f3c3130d920",
+          "55602530-07e4-f4d2-85b7-3f3c3130d922",
+          "55602530-07e4-f4d2-85b7-3f3c3130d924",
+          "55602530-07e4-f4d2-85b7-3f3c3130d926",
+          "55602530-07e4-f4d2-85b7-3f3c3130d928"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "menu" },
+          "attr": { "role": "navigation", "id": "" },
+          "visibility": { "conditions": [true] },
+          "tag": "nav"
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d920",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": [
+          "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+          "a7db35d2-c23a-0066-6109-cf7683274f0e"
+        ],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d921"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d921",
+        "text": true,
+        "v": "Home"
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d922",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": [
+          "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+          "a7db35d2-c23a-0066-6109-cf7683274f0e"
+        ],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d923"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d923",
+        "text": true,
+        "v": "The Rebels"
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d924",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": [
+          "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+          "a7db35d2-c23a-0066-6109-cf7683274f0e"
+        ],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d925"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d925",
+        "text": true,
+        "v": "Solutions"
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d926",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": [
+          "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+          "a7db35d2-c23a-0066-6109-cf7683274f0e"
+        ],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d927"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d927",
+        "text": true,
+        "v": "RR Blog"
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d928",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": [
+          "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+          "175440fa-436b-87b4-6f0f-cb26161b55a2",
+          "72bce0aa-e610-6a78-fb8f-bd0f5bfebe2d"
+        ],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d929"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d929",
+        "text": true,
+        "v": "[ Lets Meet ]"
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d92a",
+        "type": "NavbarButton",
+        "tag": "div",
+        "classes": [],
+        "children": ["55602530-07e4-f4d2-85b7-3f3c3130d92b"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "button" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "55602530-07e4-f4d2-85b7-3f3c3130d92b",
+        "type": "Icon",
+        "tag": "div",
+        "classes": [
+          "0f8547f9-a486-2737-3352-4f1dceeaebfb",
+          "062a5850-24c2-296b-adf4-f47dac8042f1"
+        ],
+        "children": [],
+        "data": {
+          "widget": { "type": "icon", "icon": "nav-menu" },
+          "search": { "exclude": true }
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+        "fake": false,
+        "type": "class",
+        "name": "nav-link",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-right: auto; margin-left: 0px; padding-right: 0px; padding-left: 0px; transition-property: color; transition-duration: 300ms; transition-timing-function: ease-in-out; font-family: Khand; color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); font-size: 1.5rem; font-weight: 700; text-align: left; letter-spacing: 0.2px; text-transform: uppercase; cursor: pointer;",
+        "variants": {
+          "main_current": {
+            "styleLess": "border-bottom-style: solid; border-bottom-width: 3px; border-bottom-color: hsla(199.1304347826087, 27.49%, 49.22%, 1.00); color: #496e80; font-size: 1.5rem;"
+          },
+          "main_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 40.00%, 78.43%, 1.00);"
+          },
+          "medium_current": { "styleLess": "margin-left: 0px;" },
+          "tiny": { "styleLess": "font-size: 7vw;" },
+          "xxl_current": { "styleLess": "font-size: 2rem;" },
+          "xxl": { "styleLess": "font-size: 2rem;" },
+          "tiny_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 21.41%, 60.97%, 1.00);"
+          },
+          "medium": { "styleLess": "margin-left: 0px;" }
+        },
+        "children": [
+          "a7db35d2-c23a-0066-6109-cf7683274f0e",
+          "25e6d6b8-111a-40fa-0e41-42d8dcdd5cdc",
+          "7b19791b-28e5-d7d8-7b1b-aa7e045f270d",
+          "175440fa-436b-87b4-6f0f-cb26161b55a2"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "051b1a75-cdf5-d4a1-f0a5-33e9aaec5f8c",
+        "fake": false,
+        "type": "class",
+        "name": "header.logo",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": ["39524031-120c-1e68-4758-50a06f5d860b"],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "0f8547f9-a486-2737-3352-4f1dceeaebfb",
+        "fake": false,
+        "type": "class",
+        "name": "nav.icon",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {
+          "tiny": {
+            "styleLess": "color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00);"
+          }
+        },
+        "children": ["062a5850-24c2-296b-adf4-f47dac8042f1"],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "cc66fc53-43d3-ea94-5fec-7daa1d67b9db",
+        "fake": false,
+        "type": "class",
+        "name": "Brand",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: block; width: 300px; margin-right: auto; justify-content: flex-start; align-items: center; align-self: center; flex-grow: 0; flex-shrink: 1; flex-basis: auto;",
+        "variants": {
+          "small": {
+            "styleLess": "width: 100%; height: 50px; padding-left: 0px;"
+          },
+          "medium": { "styleLess": "width: 100%; height: 50px;" },
+          "tiny": { "styleLess": "height: 50px;" }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "175440fa-436b-87b4-6f0f-cb26161b55a2",
+        "fake": false,
+        "type": "class",
+        "name": "lets-meet",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "margin-right: 0px; margin-left: auto;",
+        "variants": {
+          "medium": { "styleLess": "margin-right: 0px; margin-left: auto;" }
+        },
+        "children": ["72bce0aa-e610-6a78-fb8f-bd0f5bfebe2d"],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "6f46406a-1537-4d9c-68d6-ce07f5df97f5",
+        "fake": false,
+        "type": "class",
+        "name": "Nav Menu",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; width: 60%; height: auto; min-width: auto; flex-direction: row; justify-content: space-between; align-content: center;",
+        "variants": {
+          "medium": { "styleLess": "width: 100%; padding-top: 20px;" },
+          "tiny": {
+            "styleLess": "padding-top: 40px; padding-bottom: 40px; padding-left: 20px; background-color: hsla(0, 0.00%, 98.04%, 1.00); color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00);"
+          },
+          "tiny_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 21.41%, 60.97%, 1.00);"
+          }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "a7db35d2-c23a-0066-6109-cf7683274f0e",
+        "fake": false,
+        "type": "class",
+        "name": "text.white",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "color: hsla(0, 0.00%, 100.00%, 1.00); font-weight: 700;",
+        "variants": {
+          "xxl": {
+            "styleLess": "align-self: stretch; color: hsla(0, 0.00%, 100.00%, 1.00); font-size: 1.75rem; font-weight: 700;"
+          },
+          "main_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 40.00%, 78.43%, 1.00);"
+          },
+          "main_active": {
+            "styleLess": "color: hsla(199.1304347826087, 27.49%, 49.22%, 1.00); font-size: 1.155rem;"
+          },
+          "xxl_active": { "styleLess": "align-self: stretch;" },
+          "medium": { "styleLess": "margin-left: 0px;" },
+          "tiny": {
+            "styleLess": "color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00);"
+          }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "412e0f85-2e4e-0fb9-264a-2abacd4c71fa",
+        "fake": false,
+        "type": "class",
+        "name": "nav_container",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; max-width: 1600px; flex-direction: row; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; background-color: transparent;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-top: 20px; padding-bottom: 20px; padding-left: 3%; flex-direction: column;"
+          },
+          "tiny": { "styleLess": "padding-left: 0px; flex-direction: row;" },
+          "small": { "styleLess": "padding-left: 0%;" }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "39524031-120c-1e68-4758-50a06f5d860b",
+        "fake": false,
+        "type": "class",
+        "name": "white",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "062a5850-24c2-296b-adf4-f47dac8042f1",
+        "fake": false,
+        "type": "class",
+        "name": "white",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {
+          "tiny": { "styleLess": "color: hsla(0, 0.00%, 100.00%, 1.00);" }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "72bce0aa-e610-6a78-fb8f-bd0f5bfebe2d",
+        "fake": false,
+        "type": "class",
+        "name": "text-white",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "",
+        "variants": {},
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e90209f4d190_stack-revrebel-logo-white.png",
+        "siteId": "62b5cdb1175253325f565bfc",
+        "width": 452,
+        "isHD": false,
+        "height": 107,
+        "fileName": "62b5ce228165e90209f4d190_stack-revrebel-logo-white.png",
+        "createdOn": "2022-06-24T14:45:54.110Z",
+        "origFileName": "stack-revrebel-logo-white.png",
+        "alt": "REVREBEL Logo",
+        "fileHash": "4d8dbc57117d82d626866c5c125dfa5d",
+        "variants": [
+          {
+            "_id": "62b5ce228165e95545f4d191",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e90209f4d190_stack-revrebel-logo-white-p-130x130q80.png",
+            "fileName": "62b5ce228165e90209f4d190_stack-revrebel-logo-white-p-130x130q80.png",
+            "origFileName": "stack-revrebel-logo-white-p-130x130q80.png",
+            "format": "png",
+            "cdnUrl": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e90209f4d190_stack-revrebel-logo-white-p-130x130q80.png"
+          }
+        ],
+        "mimeType": "image/png",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e90209f4d190_stack-revrebel-logo-white.png",
+        "thumbUrl": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e90209f4d190_stack-revrebel-logo-white-p-130x130q80.png",
+        "_id": "64591353f9834a2ed6d9d85a",
+        "updatedOn": "2023-05-08T15:20:51.810Z",
+        "fileSize": 8501,
+        "localizedSettings": {}
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 5,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}
