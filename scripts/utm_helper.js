@@ -1,4 +1,10 @@
-  <script type="text/javascript">
+
+/**
+Usage
+<script src="https://revrebel.github.io/revrebel.io/scripts/utm_helper.js"></script>
+*/
+
+<script type="text/javascript">
     /*=============HELPER================*/
     var Helper = (function() {
 
