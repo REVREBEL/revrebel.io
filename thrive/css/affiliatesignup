@@ -1,0 +1,377 @@
+
+@font-face {
+	font-family:"Lato";
+	font-weight:100;
+	font-style:normal;
+	src:url("https://webfonts.zohostatic.com/latohairline/font.eot");
+	src:url("https://webfonts.zohostatic.com/latohairline/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latohairline/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latohairline/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latohairline/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latohairline/font.svg#Lato-Hairline") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:100;
+	font-style:italic;
+	src:url("https://webfonts.zohostatic.com/latohairlineitalic/font.eot");
+	src:url("https://webfonts.zohostatic.com/latohairlineitalic/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latohairlineitalic/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latohairlineitalic/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latohairlineitalic/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latohairlineitalic/font.svg#Lato-HairlineItalic") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:300;
+	font-style:normal;
+	src:url("https://webfonts.zohostatic.com/latolight/font.eot");
+	src:url("https://webfonts.zohostatic.com/latolight/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latolight/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latolight/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latolight/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latolight/font.svg#Lato-Light") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:300;
+	font-style:italic;
+	src:url("https://webfonts.zohostatic.com/latolightitalic/font.eot");
+	src:url("https://webfonts.zohostatic.com/latolightitalic/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latolightitalic/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latolightitalic/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latolightitalic/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latolightitalic/font.svg#Lato-LightItalic") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:400;
+	font-style:normal;
+	src:url("https://webfonts.zohostatic.com/latoregular/font.eot");
+	src:url("https://webfonts.zohostatic.com/latoregular/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latoregular/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latoregular/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latoregular/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latoregular/font.svg#Lato-Regular") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:400;
+	font-style:italic;
+	src:url("https://webfonts.zohostatic.com/latoitalic/font.eot");
+	src:url("https://webfonts.zohostatic.com/latoitalic/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latoitalic/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latoitalic/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latoitalic/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latoitalic/font.svg#Lato-Italic") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:700;
+	font-style:normal;
+	src:url("https://webfonts.zohostatic.com/latobold/font.eot");
+	src:url("https://webfonts.zohostatic.com/latobold/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latobold/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latobold/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latobold/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latobold/font.svg#Lato-Bold") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:700;
+	font-style:italic;
+	src:url("https://webfonts.zohostatic.com/latobolditalic/font.eot");
+	src:url("https://webfonts.zohostatic.com/latobolditalic/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latobolditalic/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latobolditalic/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latobolditalic/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latobolditalic/font.svg#Lato-BoldItalic") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:900;
+	font-style:normal;
+	src:url("https://webfonts.zohostatic.com/latoblack/font.eot");
+	src:url("https://webfonts.zohostatic.com/latoblack/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latoblack/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latoblack/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latoblack/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latoblack/font.svg#Lato-Black") format("svg");}
+@font-face {
+	font-family:"Lato";
+	font-weight:900;
+	font-style:italic;
+	src:url("https://webfonts.zohostatic.com/latoblackitalic/font.eot");
+	src:url("https://webfonts.zohostatic.com/latoblackitalic/font.eot?#iefix") format("eot"),
+	url("https://webfonts.zohostatic.com/latoblackitalic/font.woff2") format("woff2"),
+	url("https://webfonts.zohostatic.com/latoblackitalic/font.woff") format("woff"),
+	url("https://webfonts.zohostatic.com/latoblackitalic/font.ttf") format("truetype"),
+	url("https://webfonts.zohostatic.com/latoblackitalic/font.svg#Lato-BlackItalic") format("svg");}
+	
+	/* Nunito Sans */
+
+@font-face {
+font-family:"Nunito Sans";
+font-weight:400;
+font-style:normal;
+src:url("https://webfonts.zohowebstatic.com/nunitosansregular/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosansregular/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosansregular/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosansregular/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosansregular/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosansregular/font.svg#NunitoSans-Regular") format("svg");}
+@font-face {
+font-family:"Nunito Sans";
+font-weight:600;
+font-style:normal;
+src:url("https://webfonts.zohowebstatic.com/nunitosanssemibold/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosanssemibold/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibold/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibold/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibold/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibold/font.svg#NunitoSans-SemiBold") format("svg");}
+@font-face {
+font-family:"Nunito Sans";
+font-weight:600;
+font-style:italic;
+src:url("https://webfonts.zohowebstatic.com/nunitosanssemibolditalic/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosanssemibolditalic/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibolditalic/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibolditalic/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibolditalic/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosanssemibolditalic/font.svg#NunitoSans-SemiBoldItalic") format("svg");}
+@font-face {
+font-family:"Nunito Sans";
+font-weight:700;
+font-style:normal;
+src:url("https://webfonts.zohowebstatic.com/nunitosansbold/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosansbold/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosansbold/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosansbold/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosansbold/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosansbold/font.svg#NunitoSans-Bold") format("svg");}
+@font-face {
+font-family:"Nunito Sans";
+font-weight:800;
+font-style:normal;
+src:url("https://webfonts.zohowebstatic.com/nunitosansextrabold/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosansextrabold/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabold/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabold/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabold/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabold/font.svg#NunitoSans-ExtraBold") format("svg");}
+@font-face {
+font-family:"Nunito Sans";
+font-weight:800;
+font-style:italic;
+src:url("https://webfonts.zohowebstatic.com/nunitosansextrabolditalic/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosansextrabolditalic/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabolditalic/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabolditalic/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabolditalic/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosansextrabolditalic/font.svg#NunitoSans-ExtraBoldItalic") format("svg");}
+@font-face {
+font-family:"Nunito Sans";
+font-weight:900;
+font-style:normal;
+src:url("https://webfonts.zohowebstatic.com/nunitosansblack/font.eot");
+src:url("https://webfonts.zohowebstatic.com/nunitosansblack/font.eot?#iefix") format("eot"),
+		url("https://webfonts.zohowebstatic.com/nunitosansblack/font.woff2") format("woff2"),
+		url("https://webfonts.zohowebstatic.com/nunitosansblack/font.woff") format("woff"),
+		url("https://webfonts.zohowebstatic.com/nunitosansblack/font.ttf") format("truetype"),
+		url("https://webfonts.zohowebstatic.com/nunitosansblack/font.svg#NunitoSans-Black") format("svg");}
+
+				/* Roboto */
+
+@font-face {
+	font-family:"Roboto";
+	font-weight:300;
+	font-style:normal;
+	src:url("https://webfonts.zohowebstatic.com/robotolight/font.eot");
+	src:url("https://webfonts.zohowebstatic.com/robotolight/font.eot?#iefix") format("eot"),
+			url("https://webfonts.zohowebstatic.com/robotolight/font.woff2") format("woff2"),
+			url("https://webfonts.zohowebstatic.com/robotolight/font.woff") format("woff"),
+			url("https://webfonts.zohowebstatic.com/robotolight/font.ttf") format("truetype"),
+			url("https://webfonts.zohowebstatic.com/robotolight/font.svg#Roboto-Light") format("svg");}
+@font-face {
+	font-family:"Roboto";
+	font-weight:400;
+	font-style:normal;
+	src:url("https://webfonts.zohowebstatic.com/robotoregular/font.eot");
+	src:url("https://webfonts.zohowebstatic.com/robotoregular/font.eot?#iefix") format("eot"),
+			url("https://webfonts.zohowebstatic.com/robotoregular/font.woff2") format("woff2"),
+			url("https://webfonts.zohowebstatic.com/robotoregular/font.woff") format("woff"),
+			url("https://webfonts.zohowebstatic.com/robotoregular/font.ttf") format("truetype"),
+			url("https://webfonts.zohowebstatic.com/robotoregular/font.svg#Roboto-Regular") format("svg");}
+@font-face {
+	font-family:"Roboto";
+	font-weight:500;
+	font-style:normal;
+	src:url("https://webfonts.zohowebstatic.com/robotomedium/font.eot");
+	src:url("https://webfonts.zohowebstatic.com/robotomedium/font.eot?#iefix") format("eot"),
+			url("https://webfonts.zohowebstatic.com/robotomedium/font.woff2") format("woff2"),
+			url("https://webfonts.zohowebstatic.com/robotomedium/font.woff") format("woff"),
+			url("https://webfonts.zohowebstatic.com/robotomedium/font.ttf") format("truetype"),
+			url("https://webfonts.zohowebstatic.com/robotomedium/font.svg#Roboto-Medium") format("svg");}
+@font-face {
+	font-family:"Roboto";
+	font-weight:700;
+	font-style:normal;
+	src:url("https://webfonts.zohowebstatic.com/robotobold/font.eot");
+	src:url("https://webfonts.zohowebstatic.com/robotobold/font.eot?#iefix") format("eot"),
+			url("https://webfonts.zohowebstatic.com/robotobold/font.woff2") format("woff2"),
+			url("https://webfonts.zohowebstatic.com/robotobold/font.woff") format("woff"),
+			url("https://webfonts.zohowebstatic.com/robotobold/font.ttf") format("truetype"),
+			url("https://webfonts.zohowebstatic.com/robotobold/font.svg#Roboto-Bold") format("svg");}
+@font-face {
+	font-family:"Roboto";
+	font-weight:900;
+	font-style:normal;
+	src:url("https://webfonts.zohowebstatic.com/robotoblack/font.eot");
+	src:url("https://webfonts.zohowebstatic.com/robotoblack/font.eot?#iefix") format("eot"),
+			url("https://webfonts.zohowebstatic.com/robotoblack/font.woff2") format("woff2"),
+			url("https://webfonts.zohowebstatic.com/robotoblack/font.woff") format("woff"),
+			url("https://webfonts.zohowebstatic.com/robotoblack/font.ttf") format("truetype"),
+			url("https://webfonts.zohowebstatic.com/robotoblack/font.svg#Roboto-Black") format("svg");}
+			 
+
+:root{
+    --themeColor: #00c575;
+    --errorColor: #ef3f61;
+}
+body {margin:0;padding:0;color:#282c3f;font-family:"Lato",'Open Sans',sans-serif!important;font-size:15px;background: #f8f8f9;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;line-height: 24px;}
+.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+.clearfix{clear:both\9}
+.clear{clear:both;line-height:0;height:0}
+	.m0{margin:0}
+.tac{text-align:center}
+.tal{text-align:left}
+.tar{text-align:right}
+.fl{float:left!important}
+.fr{float:right!important}
+ol,ul{list-style:none;margin:0;padding:0}
+.mT20 {margin-top: 20px!important;}
+.mT40 {margin-top: 40px!important;}
+.checkbox {position: relative;display: block;margin: 5px 0 10px 0;cursor: pointer;text-align: left;font-size: 13px;line-height: 22px;}
+.checkbox input[type="checkbox"] {display: none;}
+.checkbox .checkmark {position: relative;height: 20px;width: 20px;border: 2px solid #ddd;border-radius: 5px;cursor: pointer;margin: 0 8px 5px 0px;float: left;vertical-align: middle;top: 1px;box-sizing: border-box;}
+.checkbox .checkmark.error {border: 2px solid var(--errorColor)}
+.checkmark:after {content: "";position: absolute;display: none}
+.checkbox .checkmark:after {width: 3px;height: 7px;border: solid white;border-width: 0 2px 2px 0;-webkit-transform: rotate(45deg);transform: rotate(45deg);top: 0px;left: 0;right: 0;bottom: 2px;margin: auto;}
+.checkbox input:checked ~ .checkmark {background: var(--themeColor);border: none;}
+.checkbox input:checked ~ .checkmark:after {display: block;}
+.lp-reward-item, .lp-task-item, .sigup-form-frame, .dashboard-box, .profile-details {box-shadow: 0px 35px 27px 0px rgba(0, 0, 0, 0.04);box-sizing: border-box;}
+.signup-success-frame span, .dropdown-element:after, .multi-select-item i:after, .dropdown-label:after, .dashboard-frame h4:before, .success-frame span,.close-icon-big, .close-icon, #total-points-number span, #leaderboard-position-number span, .redeem-status-icon, .reward-status-txt:before, .lp-reward-points:before, .lp-task-item .cr-item-main-frame:before, .copy-icon:after, .db-balance-number span, .social-media-share li span,  .dr-task-item .cr-item-main-frame:before, .profile-trigger:before {background: url('/static/thrive_action_scripts/images/lp-sprite@2x.png') no-repeat;background-size:1000px 500px;}
+.close-icon {height:17px;width:18px;display:block;background-position: -62px -50px;position:absolute;right:0;top:0;margin:20px;cursor:pointer}
+.close-icon-big {height: 28px;width: 28px;display: block;background-position: -36px -48px;position: absolute;right: 0;top: 0;margin: 20px;cursor: pointer;}
+.page-loader {background: #fff;transition: .3s ease;}
+.btn-loader, .page-loader {overflow:hidden;pointer-events: none;}
+.btn-loader:before  {content: '';width: 100%;height: 100%;background: inherit;position: absolute;left: 0;top: 0}
+.page-loader:before {content: '';background: #fff;position: fixed;left: 0;top: 0;height: 100%; width: 100%;z-index: 1;}
+.btn-loader:after, .page-loader:after {content: '';border-radius: 50%;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;border: 3px solid transparent;border-left: 3px solid #ffffff;animation: load8 .8s infinite linear;height: 18px;width: 18px;}
+.page-loader:after {height: 30px;width: 30px;border-left: 3px solid #03A9F4;z-index: 2;}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* SIGNUP HEADER */
+
+.lp-page-banner {color: #fff;background: #ddd;padding: 50px;text-align: center;padding-bottom: 130px;}
+.lp-sp-container {width: 580px;margin:0 auto;max-width: 80%;}
+.lp-page-heading {font-size: 34px;font-weight: 800;}
+.lp-page-description {font-size:16px}
+
+/* SIGNUP FORM */
+
+.sigup-form-frame {background: #fff;text-align: center;padding: 50px;box-sizing: border-box;border-radius: 20px;margin: 40px auto;}
+.sp-heading {font-size: 22px;font-weight: 800;margin: 0 0 10px 0}
+.sp-desc {font-size: 16px;margin: 0;color: #5d5f6b;padding: 0 40px;}
+.sp-form-desc {font-size: 14px;margin: 0;color: #5d5f6b;}
+.sp-form-fields {margin-top: 25px;}
+.input-style.error {border: 2px solid #ef3f61!important}
+.za_email_id:after {content: '*';font-weight: 600;color: #ef3f61;position: absolute;font-size: 20px;right: 20px;top: 22px}
+.field-error-msg {font-size: 14px;text-align: left;color: #ef3f61;}
+/* .sp-field input[type="text"]:focus {border: 2px solid #5870e9;} */
+.sp-field input::placeholder {opacity: .5;}
+.sp-field {width: 90%;margin: 10px auto 0;position: relative;text-align: left}
+.sp-field.mand::after {content: '*';position: absolute;right: 30px;top: 22px;color: #e8577a;font-weight: 800;font-size: 20px;}
+.lp-primary-btn {font-size: 18px;font-weight: 600;color: #fff;padding: 18px 30px;background: var(--themeColor);display: inline-block;border-radius: 5px;cursor: pointer;margin-top: 15px;position: relative;transition: all .1s ease-in-out;border: none;outline: none;transform: scale(1)}
+.lp-primary-btn:active {transform: scale(.95)}
+.lp-login-btn {font-size: 16px;font-weight: 600;color: var(--themeColor);margin-top: 20px;cursor: pointer;}
+.sp-tc {color: #5d5f6b;}
+/* New css */
+.sp-field .error, .dropdown-element.error {border: 2px solid #ef3f61!important}
+.sp-field input, .sp-field textarea, .dropdown-element {border: none;background: #f6f7f9;padding: 19px 25px;line-height: 18px;border-radius: 10px;font-size: 16px;box-sizing: border-box;transition: all .3s ease;width: 100%;outline: none;transition: all .3s ease;border: 2px solid #f3f3f4}
+.sp-field textarea {height: 90px;resize: none;}
+title {display: block;margin-bottom: 5px;font-weight: 600}
+title i.mand-symbol {color: var(--errorColor);margin-left: 4px;font-style: normal;}
+.dropdown-group {position: relative;}
+.dropdown-element:after {content: '';position: absolute;height: 11px;width: 15px;right: 20px;top: 0;background-position: -147px -54px;bottom: 0;margin: auto;transform: scale(.8);}
+.dropdown-element {cursor: pointer;position: relative}
+.dropdown-list {background: #fff;box-shadow: 0px 5px 20px rgb(0 0 0 / 10%);border-radius: 10px;padding: 10px 0;opacity: 0;visibility: hidden;transform: translateY(10px);margin: 10px 0 0 0px;position: absolute;width: 100%;z-index: 2;top: 60px}
+.dropdown-list.show {visibility: visible;transition: all .3s ease;opacity: 1;transform: translateY(0)}
+.dropdown-list li {list-style: none;padding: 15px 30px;cursor: pointer;}
+.dropdown-list li[added=true] {color: var(--themeColor);font-weight: 600}
+.dropdown-list li:hover {background-color: #f5f7fa;}
+.multi-select-item {position: relative;padding: 5px 30px 5px 10px;border-radius: 5px;display: inline-block;margin: 0 8px 0 0;font-size: 14px;border: 1px solid;}
+.multi-select-item:last-child {margin-top: 5px;}
+.multi-select-item i {position: absolute;height: 100%;width: 20px;right: 0;top: 0;}
+.multi-select-item i:after {content: ''; height: 20px; width: 20px; display: block;background-position: -61px -48px;transform: scale(.8);position: relative;top: 4px;right: 4px;}
+.dropdown-placeholder {display: none;pointer-events: none;}
+.dropdown-element[data-value=""] .dropdown-placeholder {display: block}
+.tc-text-trigger {color: #1888e0}
+.bodyStyleOverflow {overflow: hidden;}
+
+/* LOGIN FORM */
+
+.login-overlay {position: fixed;z-index: 2;height: 100%;width: 100%;background: #ffffff;top: 0;left: 0;display: table;display: none;}
+.login-overlay.show {display: block}
+.login-frame, .success-frame {width: 450px;max-width: 80%;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;text-align: center;height: 230px;}
+.sigup-form-frame .success-frame {position: relative;height: auto;}
+.login-overlay h2 {font-size: 34px;font-weight: 800;}
+.login-overlay p {font-size: 18px;}
+.success-frame, .signup-success-frame {opacity: 0;visibility: hidden;display: none;}
+.success-frame.show, .signup-success-frame.show {opacity: 1; visibility: visible;animation: animatePop .3s ease;display: block;}
+.success-frame span, .signup-success-frame span {height: 32px;width: 32px;background-position: -2px -83px;display: block;margin: 0 auto;}
+
+/* POPUP */
+
+.pop-up-overlay {position: fixed;top: 0;left: 0;height: 100%;width: 100%;background: rgba(0,0,0,.6);z-index: 9999999;transition: all .3s ease;text-align: center}
+.pop-up-overlay {opacity: 0;visibility: hidden;}
+.pop-up-overlay.active {opacity: 1;visibility: visible;}
+.pop-up-overlay.active .pop-bubble{animation: animatePop .3s ease;}
+@keyframes animatePop {
+	0%{transform: scale(.95);}
+	100%{transform: scale(1);}
+}
+.dialogue-box {max-width: 90%;width: 700px;height: 100%;text-align: left;position: relative;overflow: hidden;border-radius: 0;background: #fff;padding: 40px 60px;z-index: 9;box-sizing: border-box;margin: 0 auto;}
+.tc-text {line-height: 26px;height: 100%;overflow: auto}
+.tc-text h1 {font-size: 24px;margin: 0 0 20px 0;}
+.tc-text h1, .tc-text h2, .tc-text h3 {font-weight: 800;}
+.tc-text h1 {font-size: 24px;margin: 0 0 20px 0;}
+.tc-text h2 {font-size: 20px;margin: 0 0 15px 0;}
+.tc-text h3 {font-size: 16px;margin: 0 0 10px 0;}
+.dialogue-box h2 {font-weight: 800;margin: 0 0 20px 0;font-size: 20px;}
+.dialogue-box > i{font-size: 30px;margin: 20px 0;line-height: 0;color: #ffb628;}
+.dialogue-box p{line-height: 24px;font-size: 16px;}
+.dialogue-box title {display: block;margin-bottom: 5px;}
+.scrollDisable {overflow: hidden;}
+
+.signup-success-frame h2 {margin: 20px 0 10px 0}
+.signup-success-frame p {margin: 0}
+.signup-success-frame span.pending-icon {background-position: -218px -83px}
+.signup-success-frame span.error-icon {background-position: -83px -83px}
+
+/* MEDIA SCREEN */
+
+@media screen and (max-width: 768px)
+{
+	.lp-page-banner {padding:30px 30px 120px 30px}
+	.sigup-form-frame {padding: 30px 40px}
+	.sp-field {width: 100%;}
+	.sp-heading {font-size: 20px;margin: 0 0 5px 0;}
+	.lp-page-description, .sp-desc {font-size: 15px;padding: 0;}
+	.sp-field input[type="text"] {padding: 15px 20px;}
+	.lp-primary-btn {padding: 15px 25px;font-size: 16px;}
+}
+
