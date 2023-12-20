@@ -10,6 +10,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@400;500;600;700&display=swap');
 </style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap" rel="stylesheet">
+
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap');
@@ -24,6 +30,7 @@
 
 font-family: 'Khand', sans-serif;
 font-family: 'Sarabun', sans-serif;
+font-family: 'Noto Emoji', sans-serif;
 
 */
 
@@ -192,15 +199,17 @@ font-family: 'Sarabun', sans-serif;
 body {
     color: #1C447F;
     font-family: 'Sarabun', sans-serif;
-    font: 12px/14px 'Sarabun', sans-serif;
     line-height: 150%;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 p {
     color: #1C447F;
     font-family: 'Sarabun', sans-serif;
-    font: 16px/18px 'Sarabun', sans-serif;
     line-height: 150%;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .block {
@@ -326,6 +335,15 @@ h6 {
     line-height: 100%;
     margin: 0px;
 }
+
+.logo {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin: 0px;
+}
+
 
 a {
     color: #1C447F;
