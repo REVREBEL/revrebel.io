@@ -162,18 +162,22 @@ font-family: 'Montserrat', sans-serif;
 
 body {
     color: #434242;
-    font-family: 'Libre Franklin', sans-serif;
-    line-height: 150%;
-    font-size: 1rem;
-    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 100%;
+    margin: 0px;
 }
 
 p {
     color: #434242;
-    font-family: 'Libre Franklin', sans-serif;
-    line-height: 150%;
-    font-size: 1rem;
-    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 100%;
+    margin: 0px;
 }
 
 .block {
