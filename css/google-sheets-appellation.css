@@ -19,6 +19,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@400;500;600;700&display=swap');
 /*
 
 font-family: 'Libre Franklin', sans-serif;
@@ -27,10 +28,6 @@ font-family: 'Montserrat', sans-serif;
 
 */
 
-
-curl -X GET --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" "https://fonts.googleapis.com/css?family=Merriweather:wght@300;400;700"
-curl -X GET --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" "https://fonts.googleapis.com/css?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800"
-curl -X GET --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" "https://fonts.googleapis.com/css?family=Montserrat:wght@100;200;300;400;500;600;700;800"
 /* latin */
 /* latin */
 @font-face {
