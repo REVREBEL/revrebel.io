@@ -20,6 +20,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@400;500;600;700&display=swap');
+
 /*
 
 font-family: 'Libre Franklin', sans-serif;
@@ -36,23 +37,25 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
 
 /* latin */
 /* latin */
@@ -62,6 +65,8 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* latin */
 @font-face {
     font-family: 'Libre Franklin';
@@ -69,34 +74,44 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* latin */
 @font-face {
     font-family: 'Montserrat';
@@ -104,43 +119,43 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin */
+}
+
+/* latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXx-p7K4KLg.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-
-
-
+}
 
 
 /* CONTAINERS */
@@ -305,7 +320,7 @@ a:hover {
 }
 
 .error {
-    color: #990000;
+    color: #e06666;
 }
 
 .gray,
@@ -390,8 +405,7 @@ a:hover {
     backface-visibility: visible;
     transform-origin: 50%;
     text-decoration: none;
-    background-color: #d7cec1
-    box-shadow: 1px 1px 10px #EEEADD;
+    background-color: #d7cec1 box-shadow: 1px 1px 10px #EEEADD;
 }
 
 .button.outline:hover {
@@ -400,14 +414,13 @@ a:hover {
     backface-visibility: visible;
     transform-origin: 50%;
     text-decoration: none;
-    background-color:  #434242;
+    background-color: #434242;
     box-shadow: 1px 1px 10px #EEEADD;
 
 }
 
 .link:hover {
-    color: #8C9473
-    border: none;
+    color: #8C9473 border: none;
     border-style: none;
     border-width: none;
     border-color: white;
@@ -416,7 +429,7 @@ a:hover {
 
 .button:active {
     filter: brightness(110%);
-    color:#728146;
+    color: #728146;
     border-color: #728146;
     border-width: 3px;
     border: 3px solid #728146;
