@@ -1,0 +1,57 @@
+/**
+* REVREBEL
+* Facebook Layout
+* 2023-05-06 08:37:33
+*/
+
+<link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;500;600;700&family=Sarabun:wght@200;300;400&display=swap rel="stylesheet">
+
+.crt-post-username {
+  font-family: 'Khand', sans-serif;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  font-size: 1.333rem;
+  font-weight: 600;
+  line-height: 1em;
+  color: #1C447F;
+}
+
+.crt-post-date-link {
+  font-family: 'Khand', sans-serif;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  font-size: 1.333rem;
+  font-weight: 600;
+  line-height: 1em;
+  color: #1C447F;
+}
+
+.crt-post-date .khand-bold {
+  font-family: 'Khand', sans-serif;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  font-size: 1.333rem;
+  font-weight: 600;
+  line-height: 1em;
+  color: #1C447F;
+}
+
+.crt-tetris-post {
+  font-family: 'Khand' !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
+
+.crt-post-date-link {
+  font-family: Khand !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
+
+.crt-post-text {
+  font-family: Sarabun !important;
+  font-weight: 400 !important;
+  text-transform: lowercase !important;
+  line-height: 1.5;
+
+}

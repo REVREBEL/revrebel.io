@@ -1,0 +1,81 @@
+ <!-- ADD TO CALENDAR CODE SNIPPETS USED IN EMAILS BEING SENT FROM ZOHO BOOKINGS" -->
+ 
+ 
+<!-- INCLUDES THE CODE NEEDED TO RENDER AND CREATE LINKS FOR THE ADD TO CALENDAR OPTIONS WITH BOTH A MINIFIED AND UNMINIFIED VERSION THAT CAN BE INSERTED INTO THE HTML EMAIL -->
+
+
+
+
+<!-- DO NOT CHANGE THE VALUE OF THE TAGS, THAT SEEMS TO BE WHAT TRIGGERS THE CODE TO CREATE LINKS ON SEND  -->
+ 
+ 
+<!-- GOOGLE UNMINIFIED -->
+ 
+<input
+  style="box-sizing: border-box;
+  margin: 5px;
+  padding: 5px; 
+  background-color: #ffffff; 
+  text-align: center; 
+  color: #1C447F; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  pointer-events: none; 
+  border: 3px;  
+  border-radius: 3px; 
+  border-style: none;
+  border: 3px solid #1c447f; 
+  font-size: 15px; 
+  font-weight: 700; 
+  letter-spacing: normal; 
+  text-transform: uppercase; 
+  font-family: 'Khand', Roboto, sans-serif;"
+  readonly="" value="Add to Google Calendar">
+
+
+<!-- DO NOT CHANGE THE VALUE OF THE TAGS (value="Add to Google Calendar") THAT SEEMS TO BE WHAT TRIGGERS THE CODE TO CREATE LINKS ON SEND  -->
+
+
+<!-- GOOGLE MINIFIED -->
+
+ <inputstyle="box-sizing: border-box;margin: 5px;padding: 5px; background-color: #ffffff; text-align: center; color: #1C447F; -webkit-border-radius: 3px;-moz-border-radius: 3px;pointer-events: none; border: 3px; border-radius: 3px; border-style: none;border: 3px solid #1c447f; font-size: 15px; font-weight: 700; letter-spacing: normal; text-transform: uppercase; font-family: 'Khand', Roboto, sans-serif;"readonly="" value="Add to Google Calendar">
+ 
+
+
+
+
+
+<!-- OUTLOOK UNMINIFIED -->
+ 
+<input
+  style="box-sizing: border-box;
+  margin: 5px;
+  padding: 5px; 
+  background-color: #ffffff; 
+  text-align: center; 
+  color: #1C447F; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  pointer-events: none; 
+  border: 3px;  
+  border-radius: 3px; 
+  border-style: none;
+  border: 3px solid #1c447f; 
+  font-size: 15px; 
+  font-weight: 700; 
+  letter-spacing: normal; 
+  text-transform: uppercase; 
+  font-family: 'Khand', Roboto, sans-serif;"
+  readonly="" value="Add to Outlook">
+
+
+<!-- DO NOT CHANGE THE VALUE OF THE TAGS (value="Add to Outlook") THAT SEEMS TO BE WHAT TRIGGERS THE CODE TO CREATE LINKS ON SEND  -->
+
+
+<!-- OUTLOOK MINIFIED -->
+
+ <inputstyle="box-sizing: border-box;margin: 5px;padding: 5px; background-color: #ffffff; text-align: center; color: #1C447F; -webkit-border-radius: 3px;-moz-border-radius: 3px;pointer-events: none; border: 3px; border-radius: 3px; border-style: none;border: 3px solid #1c447f; font-size: 15px; font-weight: 700; letter-spacing: normal; text-transform: uppercase; font-family: 'Khand', Roboto, sans-serif;"readonly="" value="Add to Outlook">
+
+
+
+
