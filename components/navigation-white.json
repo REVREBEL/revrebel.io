@@ -1,0 +1,412 @@
+{
+  "type": "@webflow/XscpData",
+  "payload": {
+    "nodes": [
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedcc",
+        "type": "NavbarContainer",
+        "tag": "div",
+        "classes": ["412e0f85-2e4e-0fb9-264a-2abacd4c71fa"],
+        "children": [
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedcd",
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedcf",
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedda"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "container" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedcd",
+        "type": "NavbarBrand",
+        "tag": "a",
+        "classes": ["cc66fc53-43d3-ea94-5fec-7daa1d67b9db"],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0cedce"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "brand" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedce",
+        "type": "Image",
+        "tag": "img",
+        "classes": ["051b1a75-cdf5-d4a1-f0a5-33e9aaec5f8c"],
+        "children": [],
+        "data": {
+          "attr": {
+            "width": "232",
+            "height": "Auto",
+            "alt": "Company Logo for RevRebel",
+            "src": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png",
+            "loading": "auto"
+          },
+          "visibility": { "conditions": [true] },
+          "img": {
+            "id": "64591353f9834a6be8d9d85f",
+            "sizes": [
+              { "max": 479, "size": "61vw" },
+              { "max": 1919, "size": "231.99609375px" },
+              { "max": 10000, "size": "12vw" }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedcf",
+        "type": "NavbarMenu",
+        "tag": "nav",
+        "classes": ["6f46406a-1537-4d9c-68d6-ce07f5df97f5"],
+        "children": [
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedd0",
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedd2",
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedd4",
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedd6",
+          "bc0af93e-7ddf-31ff-714e-e5b43c0cedd8"
+        ],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "menu" },
+          "attr": { "role": "navigation", "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "nav"
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd0",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["150352b4-0cb8-f95c-0386-d4b1f2f0e091"],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0cedd1"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd1",
+        "text": true,
+        "v": "Home"
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd2",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["150352b4-0cb8-f95c-0386-d4b1f2f0e091"],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0cedd3"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd3",
+        "text": true,
+        "v": "The Rebels"
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd4",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["150352b4-0cb8-f95c-0386-d4b1f2f0e091"],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0cedd5"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd5",
+        "text": true,
+        "v": "Solutions"
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd6",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": ["150352b4-0cb8-f95c-0386-d4b1f2f0e091"],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0cedd7"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd7",
+        "text": true,
+        "v": "RR Blog"
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd8",
+        "type": "NavbarLink",
+        "tag": "a",
+        "classes": [
+          "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+          "175440fa-436b-87b4-6f0f-cb26161b55a2"
+        ],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0cedd9"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "link" },
+          "attr": { "href": "#", "id": "" },
+          "visibility": { "conditions": [] },
+          "link": { "mode": "external" }
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedd9",
+        "text": true,
+        "v": "[ Lets Meet ]"
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0cedda",
+        "type": "NavbarButton",
+        "tag": "div",
+        "classes": [],
+        "children": ["bc0af93e-7ddf-31ff-714e-e5b43c0ceddb"],
+        "data": {
+          "search": { "exclude": false },
+          "xattr": [],
+          "displayName": "",
+          "devlink": { "runtimeProps": {}, "slot": "" },
+          "navbar": { "type": "button" },
+          "attr": { "id": "" },
+          "visibility": { "conditions": [] },
+          "tag": "div"
+        }
+      },
+      {
+        "_id": "bc0af93e-7ddf-31ff-714e-e5b43c0ceddb",
+        "type": "Icon",
+        "tag": "div",
+        "classes": ["0f8547f9-a486-2737-3352-4f1dceeaebfb"],
+        "children": [],
+        "data": {
+          "widget": { "type": "icon", "icon": "nav-menu" },
+          "search": { "exclude": true }
+        }
+      }
+    ],
+    "styles": [
+      {
+        "_id": "412e0f85-2e4e-0fb9-264a-2abacd4c71fa",
+        "fake": false,
+        "type": "class",
+        "name": "nav_container",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; max-width: 1600px; flex-direction: row; grid-auto-columns: 1fr; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; background-color: transparent;",
+        "variants": {
+          "medium": {
+            "styleLess": "padding-top: 20px; padding-bottom: 20px; padding-left: 3%; flex-direction: column;"
+          },
+          "tiny": { "styleLess": "padding-left: 0px; flex-direction: row;" },
+          "small": { "styleLess": "padding-left: 0%;" }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "cc66fc53-43d3-ea94-5fec-7daa1d67b9db",
+        "fake": false,
+        "type": "class",
+        "name": "Brand",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: block; width: 300px; margin-right: auto; justify-content: flex-start; align-items: center; align-self: center; flex-grow: 0; flex-shrink: 1; flex-basis: auto;",
+        "variants": {
+          "small": {
+            "styleLess": "width: 100%; height: 50px; padding-left: 0px;"
+          },
+          "medium": { "styleLess": "width: 100%; height: 50px;" },
+          "tiny": { "styleLess": "height: 50px;" }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "051b1a75-cdf5-d4a1-f0a5-33e9aaec5f8c",
+        "fake": false,
+        "type": "class",
+        "name": "header.logo",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {},
+        "children": ["39524031-120c-1e68-4758-50a06f5d860b"],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "6f46406a-1537-4d9c-68d6-ce07f5df97f5",
+        "fake": false,
+        "type": "class",
+        "name": "Nav Menu",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "display: flex; width: 60%; height: auto; min-width: auto; flex-direction: row; justify-content: space-between; align-content: center;",
+        "variants": {
+          "medium": { "styleLess": "width: 100%; padding-top: 20px;" },
+          "tiny": {
+            "styleLess": "padding-top: 40px; padding-bottom: 40px; padding-left: 20px; background-color: hsla(0, 0.00%, 98.04%, 1.00); color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00);"
+          },
+          "tiny_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 21.41%, 60.97%, 1.00);"
+          }
+        },
+        "children": [],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "150352b4-0cb8-f95c-0386-d4b1f2f0e091",
+        "fake": false,
+        "type": "class",
+        "name": "nav-link",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "margin-right: auto; margin-left: 0px; padding-right: 0px; padding-left: 0px; transition-property: color; transition-duration: 300ms; transition-timing-function: ease-in-out; font-family: Khand; color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00); font-size: 1.5rem; font-weight: 700; text-align: left; letter-spacing: 0.2px; text-transform: uppercase; cursor: pointer;",
+        "variants": {
+          "main_current": {
+            "styleLess": "border-bottom-style: solid; border-bottom-width: 3px; border-bottom-color: hsla(199.1304347826087, 27.49%, 49.22%, 1.00); color: #496e80; font-size: 1.5rem;"
+          },
+          "main_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 40.00%, 78.43%, 1.00);"
+          },
+          "medium_current": { "styleLess": "margin-left: 0px;" },
+          "tiny": { "styleLess": "font-size: 7vw;" },
+          "xxl_current": { "styleLess": "font-size: 2rem;" },
+          "xxl": { "styleLess": "font-size: 2rem;" },
+          "tiny_hover": {
+            "styleLess": "color: hsla(195.00000000000003, 21.41%, 60.97%, 1.00);"
+          },
+          "medium": { "styleLess": "margin-left: 0px;" }
+        },
+        "children": [
+          "a7db35d2-c23a-0066-6109-cf7683274f0e",
+          "25e6d6b8-111a-40fa-0e41-42d8dcdd5cdc",
+          "7b19791b-28e5-d7d8-7b1b-aa7e045f270d",
+          "175440fa-436b-87b4-6f0f-cb26161b55a2"
+        ],
+        "selector": null
+      },
+      {
+        "_id": "175440fa-436b-87b4-6f0f-cb26161b55a2",
+        "fake": false,
+        "type": "class",
+        "name": "lets-meet",
+        "namespace": "",
+        "comb": "&",
+        "styleLess": "margin-right: 0px; margin-left: auto;",
+        "variants": {
+          "medium": { "styleLess": "margin-right: 0px; margin-left: auto;" }
+        },
+        "children": ["72bce0aa-e610-6a78-fb8f-bd0f5bfebe2d"],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      },
+      {
+        "_id": "0f8547f9-a486-2737-3352-4f1dceeaebfb",
+        "fake": false,
+        "type": "class",
+        "name": "nav.icon",
+        "namespace": "",
+        "comb": "",
+        "styleLess": "",
+        "variants": {
+          "tiny": {
+            "styleLess": "color: hsla(216.36363636363635, 63.87%, 30.39%, 1.00);"
+          }
+        },
+        "children": ["062a5850-24c2-296b-adf4-f47dac8042f1"],
+        "createdBy": "6248afa99cd8d254dcf76dd9",
+        "selector": null
+      }
+    ],
+    "assets": [
+      {
+        "cdnUrl": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png",
+        "siteId": "62b5cdb1175253325f565bfc",
+        "width": 452,
+        "isHD": false,
+        "height": 107,
+        "fileName": "62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png",
+        "createdOn": "2022-06-24T14:45:54.114Z",
+        "origFileName": "stack-revrebel-logo-multicolor.png",
+        "alt": "REVREBEL Logo",
+        "fileHash": "d8a9904b99ba0622cd7e69361d72fa46",
+        "variants": [
+          {
+            "_id": "62b5ce228165e98549f4d193",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png",
+            "fileName": "62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png",
+            "origFileName": "stack-revrebel-logo-multicolor-p-130x130q80.png",
+            "format": "png",
+            "cdnUrl": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png"
+          }
+        ],
+        "mimeType": "image/png",
+        "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor.png",
+        "thumbUrl": "https://uploads-ssl.webflow.com/62b5cdb1175253325f565bfc/62b5ce228165e93c51f4d192_stack-revrebel-logo-multicolor-p-130x130q80.png",
+        "_id": "64591353f9834a6be8d9d85f",
+        "updatedOn": "2023-05-08T15:20:51.810Z",
+        "fileSize": 20346,
+        "localizedSettings": {}
+      }
+    ],
+    "ix1": [],
+    "ix2": { "interactions": [], "events": [], "actionLists": [] }
+  },
+  "meta": {
+    "unlinkedSymbolCount": 0,
+    "droppedLinks": 5,
+    "dynBindRemovedCount": 0,
+    "dynListBindRemovedCount": 0,
+    "paginationRemovedCount": 0
+  }
+}

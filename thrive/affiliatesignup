@@ -1,0 +1,540 @@
+
+Jasper Logo
+var thriveWidgetCode, uiType;
+var zt_parent_domain; // no I18N
+var login_url;
+var byId = function(id) {
+    return document.getElementById(id);
+}
+var parentDomain;
+
+var commerceLoginRequired, platformType, customerData, thriveRefferalID, campaignPathname;
+
+var mailformat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // NO I18N
+var urlformat = /^(http[s]?:\/\/){0,1}(www\.){0,1}[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,5}[\.]{0,1}/; 
+var phonenumberformat = /^[- +()]*([0-9][- +()0-9]{8,15})*$/; 
+
+thriveWidgetCode = window.location.href.split('/');
+thriveWidgetCode = thriveWidgetCode[thriveWidgetCode.length - 1];
+if(thriveWidgetCode.includes("?")){
+    thriveWidgetCode = thriveWidgetCode.split('?')[0];
+}
+//var portalName = window.location.href.split('/');
+//portalName = portalName[portalName.length - 2];
+
+async function checkLoginProcessingRequired() {
+    await affiliateServer.getLoginCheck();
+    return;
+}
+
+
+document.body.setAttribute('class', 'page-loader');
+
+/*PAGE LOADER*/
+
+window.onload = function() {
+  getContent();
+};
+var getData;
+// Get Page Content
+async function getContent() {
+    getData = await affiliateServer.getSignupForm();
+    initiatePage();
+    document.body.classList.remove('page-loader'); // NO I18N
+    var url_string = top.window.location.href;
+	var url = new URL(url_string);
+	var promptParam = url.searchParams.get("prompt");
+	if(promptParam === 'login'){
+		loginFormToggle();
+	}
+}
+
+async function identifyMember() {
+    getData = await affiliateServer.identifyMember(customerData);
+    initiatePage();
+}
+
+function initiatePage() {
+    if (getData !== undefined && getData.error_code !== undefined && getData.error_code === 100040) {
+        document.body.innerHTML = '<p class="program-inactive-frame">Program is not active!</p>';
+    } else {
+        createHTML();
+    }
+}
+
+async function formSubmit() {
+    var valid = true;
+    removeFieldError();
+    var allFields = document.getElementsByClassName('push-item'); // NO I18N
+    for (var field = 0; field < allFields.length; field++) {
+        var fieldValue;
+        var fieldItem = allFields[field];
+        var fieldType = fieldItem.tagName;
+        var validateType = fieldItem.getAttribute('field-validation');
+        var mandatory = fieldItem.getAttribute('field-mandatory');
+        fieldItem.classList.remove('error'); // NO I18N
+        fieldValue = fieldType !== 'INPUT' && fieldType !== 'TEXTAREA' ? fieldItem.getAttribute('data-value') : fieldItem.value; // NO I18N
+        if (mandatory && !fieldValue) {
+            fieldItem.classList.add('error'); // NO I18N
+            addFieldError(fieldItem);
+            valid = false;
+        } else {
+            if (fieldItem.id === 'zt_email' && !emailVerify(fieldValue)) {
+                valid = false;
+                fieldItem.classList.add('error'); // NO I18N
+                fieldItem.focus();
+                addFieldError(fieldItem, 'Enter a proper email address'); // NO I18N
+            }
+            if (fieldValue && validateType === 'url' && !urlVerify(fieldValue)) {
+                valid = false;
+                fieldItem.classList.add('error'); // NO I18N
+                fieldItem.focus();
+                addFieldError(fieldItem, 'Enter a proper url'); // NO I18N
+            }
+            if (fieldValue && validateType === 'phonenumber' && !phoneVerify(fieldValue)) {
+                valid = false;
+                fieldItem.classList.add('error'); // NO I18N
+                fieldItem.focus();
+                addFieldError(fieldItem, 'Enter a proper phone number'); // NO I18N
+            }
+        }
+    }
+    if (valid) {
+        if (document.getElementById("terms-check").checked === false) {
+            valid = false;
+            document.getElementById("terms-and-condition").classList.add('error'); // NO I18N
+            addFieldError(document.getElementById("tc-lable"), 'Please agree to all the terms and conditions'); // NO I18N
+        } else {
+            var sendData = {};
+            sendData.zt_terms_and_conditions = true;
+            var pushItems = document.querySelectorAll('.sp-form-fields .push-item'); // NO I18N
+            for (var i = 0; i < pushItems.length; i++) {
+                var element = pushItems[i];
+                var val = element.tagName !== 'INPUT' && element.tagName !== 'TEXTAREA' ? element.getAttribute('data-value') : element.value; // NO I18N
+                if (val) {
+                    sendData[element.id] = val;
+                }
+            }
+            var submit = await affiliateServer.postSignupForm(sendData);
+            if (submit.status === 201) {
+                document.getElementsByClassName('sigup-form-frame')[0].innerHTML = '<div class="signup-success-frame show"><span class="success-icon"></span><h2>Thanks for signing up!</h2><p>Invite email sent to your registered email address; you can log in to your dashboard from there.</p></div>';
+            } else if ((submit.status === 200 && submit.data.error_code && submit.data.error_code === 100270) || submit.status === 304) {
+                document.getElementById("existingUserError").innerHTML = '<p>Looks like an account already exists for this email address. <span class="lp-login-btn" onclick="loginFormToggle()">Sign in</span> or use a different email address to sign up.</p>';// NO I18N
+            } else if (submit.status === 200) {
+							var heading = "Thanks for signing up!";
+							var description = "Admin will now review and approve your request. Once you are approved, you will receive an email to your registered email address; you can log in to your dashboard from there.";
+							var messageType = "pending";
+							if (submit.data.error_code && submit.data.error_code === 100020) { // Email blocked by admin 
+									heading = "You are blocked!";
+									description = submit.data.message;
+									messageType = "error"
+							} else if (submit.data.error_code && submit.data.error_code === 100280) { // loyalty participant blocked
+									heading = "Form submission failed !"; // NO I18N
+									description = submit.data.message;
+									messageType = "error" // NO I18N
+							}
+							document.getElementsByClassName('sigup-form-frame')[0].innerHTML = '<div class="signup-success-frame show"><span class="' + messageType + '-icon"></span><h2 class="sp-heading">' + heading + '</h2><p class="sp-desc">' + description + '</p>';
+            } else {
+                showAnnouncement('There is some error while submitting the form', 'error'); // no I18N
+            }
+        }
+    }
+
+}
+
+/*BODY CLICK*/
+document.addEventListener('click', bodyClick);
+
+// Terms and condition container
+document.body.innerHTML += '<div class="pop-up-overlay"><div class="dialogue-box"><span class="close-icon-big" onclick="closeDocument()"></span><div class="tc-text"></div></div></div>';
+
+
+function createHTML() {
+    var formData = getData.data.existing_fields;
+    login_url = getData.data.loginurl;
+    for (var i = 0; i < formData.length; i++) {
+        var fieldBox = document.createElement('div');
+        fieldBox.classList.add('sp-field'); // NO I18N
+        var title = document.createElement('title');
+        title.innerHTML = formData[i].field_name;
+        if (formData[i].mandatory) {
+            var mandIcon = document.createElement('i');
+            mandIcon.classList.add('mand-symbol'); // NO I18N
+            mandIcon.innerHTML = '*';
+            title.append(mandIcon);
+        }
+        var description = document.createElement('p');
+        description.innerHTML = formData[i].field_description;
+        description.classList.add('sp-form-desc'); // NO I18N
+        var field = fieldCreation(formData[i], i)
+        fieldBox.append(title,description, field);
+        document.getElementsByClassName('sp-form-fields')[0].append(fieldBox);
+    }
+}
+// Field creation
+function fieldCreation(item, parentInd) {
+    var fieldType = item.field_type;
+    var field
+    if (fieldType === 'zt_email' || fieldType === 'zt_text' || fieldType === 'zt_text_area') {
+        var fieldCreationType = fieldType === 'zt_text_area' ? 'textarea' : 'input'; // NO I18N
+        field = document.createElement(fieldCreationType);
+        fieldType !== 'zt_text_area' ? field.setAttribute('type', 'text') : ''; // NO I18N
+        field.setAttribute('id', item.field_id);
+        field.setAttribute('field-validation', item.validation);
+        field.classList.add('input-style', 'push-item'); // NO I18N
+        item.mandatory === true ? field.setAttribute('field-mandatory', true) : ''; // NO I18N
+    }
+    if (fieldType === 'zt_dropdown_single' || fieldType === 'zt_dropdown_multiple') { // NO I18N
+        field = document.createElement('div');
+        field.classList.add('dropdown-group'); // NO I18N
+        var dropDownClickable = document.createElement('div');
+        dropDownClickable.classList.add('dropdown-element', 'push-item'); // NO I18N
+        dropDownClickable.setAttribute('id', item.field_id);
+        dropDownClickable.setAttribute('data-value', '');
+        dropDownClickable.setAttribute('field-validation', item.validation);
+        item.mandatory === true ? dropDownClickable.setAttribute('field-mandatory', true) : ''; // NO I18N
+        dropDownClickable.addEventListener('click', openDropdown)
+        var dropDownPlaceholder = document.createElement('span');
+        dropDownPlaceholder.classList.add('dropdown-placeholder'); // NO I18N
+        dropDownPlaceholder.innerHTML = '-Select-'; // NO I18N
+        dropDownClickable.append(dropDownPlaceholder);
+        var ul = document.createElement('ul');
+        ul.classList.add('dropdown-list'); // NO I18N
+        for (var list = 0; list < item.field_additional_details.options.length; list++) {
+            var li = document.createElement('li');
+            li.innerHTML = item.field_additional_details.options[list];
+            if (fieldType === 'zt_dropdown_multiple') {
+                li.setAttribute('added', '');
+                var dataID = item.field_additional_details.options[list].split(' ').join('_') + '_' + parentInd + '_' + list;
+                li.setAttribute('data-id', dataID);
+                li.addEventListener('click', multiDropDownSelection.bind(), true);
+            } else {
+                li.addEventListener('click', dropDownSelection.bind(), true);
+            }
+            ul.append(li)
+        }
+        field.append(dropDownClickable, ul);
+    }
+    return field
+}
+// 
+function openDropdown() {
+    event.stopPropagation();
+    closeDropdown(); // Closing other opened dropdowns
+    var element = event.target;
+    //element.nextSibling.classList.add('show'); // NO I18N
+    element.parentNode.parentNode.getElementsByClassName('dropdown-list')[0].classList.add('show'); // NO I18N
+}
+// Option selection method
+function dropDownSelection() {
+    var val = event.target.innerHTML;
+    var dropdown = event.target.parentNode.parentNode.getElementsByClassName('dropdown-element')[0];
+    dropdown.innerHTML = val;
+    dropdown.setAttribute('data-value', val);
+}
+// Multi dropdown selection method
+function multiDropDownSelection() {
+    event.stopPropagation()
+    var newVal = event.target.innerHTML;
+    var checkAdded = event.target.getAttribute('added');
+    if (!checkAdded) {
+        var dropdown = event.target.parentNode.parentNode.getElementsByClassName('dropdown-element')[0];
+        var fieldLinkId = event.target.getAttribute('data-id');
+        var oldVal = dropdown.getAttribute('data-value');
+        var setVal = oldVal !== '' ? (oldVal + ',' + newVal) : newVal
+        dropdown.setAttribute('data-value', setVal);
+        var span = document.createElement('span');
+        span.classList.add('multi-select-item'); // NO I18N
+        span.setAttribute('field-link-id', fieldLinkId);
+        span.setAttribute('data-value', newVal);
+        span.innerHTML = newVal;
+        var close = document.createElement('i');
+        close.addEventListener('click', removeSelected.bind(null, ''), true);
+        span.append(close);
+        dropdown.append(span);
+        event.target.setAttribute('added', true);
+    } else {
+        event.target.setAttribute('added', '');
+        var spanLinkId = event.target.getAttribute('data-id');
+        removeSelected(spanLinkId)
+    }
+}
+
+function removeSelected(spanLinkId) {
+    event.stopPropagation();
+    var removeValue, parentElement;
+    if (!spanLinkId) {
+        var element = event.target.parentNode;
+        parentElement = event.target.parentNode.parentNode;
+        var linkId = element.getAttribute('field-link-id');
+        removeValue = element.getAttribute('data-value');
+        document.querySelector('.dropdown-list li[data-id=' + linkId + ']').setAttribute('added', ''); // NO I18N
+        parentElement.removeChild(element)
+    } else {
+        var element = document.querySelector('.multi-select-item[field-link-id=' + spanLinkId + ']'); // NO I18N
+        removeValue = document.querySelector('.dropdown-list li[data-id=' + spanLinkId + ']'); // NO I18N
+        parentElement = element.parentNode;
+        removeValue = removeValue.innerHTML;
+        var spanParent = element.parentNode;
+        spanParent.removeChild(element);
+    }
+    var valuesArray = parentElement.getAttribute('data-value').split(',');
+    var removeInd = valuesArray.indexOf(removeValue);
+    valuesArray.splice(removeInd, 1);
+    parentElement.setAttribute('data-value', valuesArray);
+}
+var tcText;
+async function termsAndCondition() {
+    event.preventDefault();
+    if (tcText === undefined) {
+        tcText = await affiliateServer.getTermsAndConditions();
+    }
+    if (tcText.code === 200) {
+        document.getElementsByClassName('tc-text')[0].innerHTML = tcText.data.full_page;
+        document.getElementsByClassName('pop-up-overlay')[0].classList.add('active'); // NO I18N
+        document.body.classList.add('scrollDisable'); // NO I18N
+    }
+}
+
+function closeDocument() {
+    document.body.classList.remove('scrollDisable'); // NO I18N
+    document.getElementsByClassName('pop-up-overlay')[0].classList.remove('active'); // NO I18N
+}
+
+function changeSignupContent(type) {
+    var isReferral = getUrlParameter('thrive_ref_id'); // NO I18N
+    if (type !== null && type === 'approval-pending') {
+        byId('signup_form_area').innerHTML = '<h2 class="sp-heading">Approval pending!</h2><p class="sp-desc">Program admin has to approve your request. Once you are approved by the admin, use login option to enter program.</p>';
+    } else if (isReferral) {
+        thriveRefferalID = isReferral;
+        var submitedID, submitedWidgetID;
+        if (setLocalStorage() === true) {
+            submitedID = localStorage.getItem('submitted_ref_id'); // NO I18N
+            submitedWidgetID = localStorage.getItem('submitted_widget_id'); // NO I18N
+        }
+        if ((submitedID !== null && submitedID !== undefined && submitedID === thriveRefferalID) && (submitedWidgetID !== null && submitedWidgetID !== undefined && submitedWidgetID === thriveWidgetCode)) {
+            byId('signup_form_area').innerHTML = '<h2 class="sp-heading">Thank you!</h2><p class="sp-desc">You need to log on to our store to participate in this campaign</p><button class="sp-submit-btn lp-primary-btn" style="background-color: ' + getData.page_preference_details.theme_color + '" onClick="commerceLoginMethod()">Login to our Store</button'; // no I18N	
+        } else {
+            byId('signup_form_area').innerHTML = '<h2 class="sp-heading">Join Campaign!</h2><p class="sp-desc">Participate and earn amazing gifts</p><div class="sp-form-group"><div class="sp-field za_email_id"><input type="text" class="push-item input-style" id="za_email_id" placeholder="Email Address"></div><button style="background-color: ' + getData.page_preference_details.theme_color + '" class="sp-refferal-optin-btn lp-primary-btn" onClick="referralOptin()">Submit</button></div>';
+        }
+    } else if (commerceLoginRequired) {
+        byId('signup_form_area').innerHTML = '<h2 class="sp-heading">Sorry!</h2><p class="sp-desc">You need to log on to our store to participate in this campaign</p><button class="sp-submit-btn lp-primary-btn" style="background-color: ' + getData.page_preference_details.theme_color + '" onClick="commerceLoginMethod()">Login to our Store</button'; // no I18N
+    } else if (type !== null && type === 'approval-pending') {
+        byId('signup_form_area').innerHTML = '<h2 class="sp-heading">Approval pending!</h2><p class="sp-desc">Program admin has to approve your request. Once you are approved by the admin, use login option to enter program.</p>';
+    }
+}
+
+function setLocalStorage() {
+    var test = 'test'; // NO I18N
+    try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+
+// ECOMMERCE LOGIN PAGE REDIRECTION
+function commerceLoginMethod() {
+    var arr = parentDomain.split("/");
+    var commerceLoginUrl = arr[0] + "//" + arr[2];
+    var loginUrl;
+    if (platformType === 'shopify') {
+        loginUrl = '/account/login?return_url=%2F' + campaignPathname; // NO I18N
+    } else if (platformType === 'zoho_commerce') {
+        loginUrl = '/signin?uri=/' + campaignPathname; // NO I18N
+    }
+    top.window.location.href = commerceLoginUrl + loginUrl;
+}
+
+async function optInCampaign(optinType) {
+    document.getElementsByClassName('sp-submit-btn')[0].classList.add('btn-loader'); // NO I18N
+    var optinResponse = await postHttpRequestWithCredentials('ecommerce','campoptin',customerData);// NO I18N
+    document.getElementsByClassName('sp-submit-btn')[0].classList.remove('btn-loader'); // NO I18N
+    if (optinResponse.data) {
+        if (optinType === 'referral') {
+            return optinResponse; // NO I18N
+        } else if (optinResponse.data.signed_up_user) {
+            identifyMember();
+        } else if (optinResponse.data.error_code === 100060) {
+            changeSignupContent('approval-pending'); // NO I18N
+        }
+    }
+}
+
+async function referralOptin() {
+    var email = byId('za_email_id'); // NO I18N
+    var valid = true;
+    removeFieldError();
+    if (!email.value) {
+        valid = false;
+        email.classList.add('error'); // NO I18N
+        email.focus();
+        addFieldError(email);
+    } else {
+        email.value = email.value.trim();
+        if (!mailformat.test(email.value)) {
+            valid = false;
+            email.classList.add('error'); // NO I18N
+            email.focus();
+            addFieldError(email, 'Enter a proper email address'); // NO I18N
+        }
+    }
+    if (valid) {
+        document.getElementsByClassName('sp-refferal-optin-btn')[0].classList.add('btn-loader'); // NO I18N
+        customerData = {};
+        customerData.za_email_id = email.value;
+        customerData.thrive_ref_id = thriveRefferalID;
+        var optedin = await optInCampaign('referral'); // NO I18N
+        document.getElementsByClassName('sp-refferal-optin-btn')[0].classList.remove('btn-loader'); // NO I18N
+        if (optedin.data.error_code === 100180) {
+            email.classList.add('error'); // NO I18N
+            email.focus();
+            addFieldError(email, 'Email already exist. Kindly use login option'); // NO I18N
+        } else if (optedin.data.error_code === 100060) {
+            changeSignupContent('approval-pending'); // NO I18N
+        } else {
+            try {
+                localStorage.setItem('submitted_widget_id', thriveWidgetCode); // NO I18N
+                localStorage.setItem('submitted_ref_id', thriveRefferalID); // NO I18N
+            } catch (e) {
+                return false;
+            }
+            changeSignupContent();
+        }
+    }
+}
+
+function bodyClick() {
+    if (document.getElementsByClassName('profile-details')[0]) {
+        document.getElementsByClassName('profile-details')[0].classList.remove('show'); // no I18N
+    }
+    closeDropdown();
+}
+
+function closeDropdown() {
+    var dropDowns = document.getElementsByClassName('dropdown-list'); // NO I18N
+    for (var i in dropDowns) {
+        if ((" " + dropDowns[i].className + " ").replace(/[\n\t]/g, " ").indexOf("show") > -1) {
+            dropDowns[i].classList.remove('show');
+        }
+    }
+}
+
+async function userLogin() {
+    var email = byId('login_email_id'); // NO I18N
+    removeFieldError();
+    if (!emailVerify(email.value)) {
+        email.classList.add('error'); // no I18N
+        email.focus();
+        addFieldError(email, 'Enter a proper email address'); // NO I18N
+    } else {
+        byId('login-submit-btn').classList.add('btn-loader'); // no I18N
+        var sendData = {
+            "za_email_id": email.value.trim() // no I18N
+        };
+        var loginStatus = await affiliateServer.postLogin(sendData);
+        byId('login-submit-btn').classList.remove('btn-loader'); // no I18N
+        if (loginStatus.status === 404) {
+            email.classList.add('error'); // NO I18N
+            email.focus();
+            addFieldError(email, 'Email id does not exist'); // NO I18N
+
+        } else if (loginStatus && loginStatus.data.code > 199 && loginStatus.data.code < 300) {
+            document.getElementsByClassName('display-login')[0].style.display = 'none';
+            document.getElementsByClassName('success-frame')[0].classList.add('show'); // NO I18N
+        }
+    }
+}
+
+function loginFormToggle() {
+        // The two lines are commented because we will have new flow for login
+    /*document.getElementsByClassName('login-overlay')[0].classList.toggle('show'); // NO I18N
+    document.getElementsByTagName("body")[0].classList.toggle('bodyStyleOverflow'); // NO I18N
+    */
+        window.open(login_url, "_blank");
+
+}
+
+function emailVerify(emailid) {
+    var statuss = true;
+    emailid = emailid.trim();
+    if (!mailformat.test(emailid)) {
+        statuss = false;
+    }
+    return statuss;
+}
+
+function urlVerify(url) {
+    var statuss = true;
+    url = url.trim();
+    if (!urlformat.test(url)) {
+        statuss = false;
+    }
+    return statuss;
+}
+
+function phoneVerify(phonenumber) {
+    var statuss = true;
+    phonenumber = phonenumber.trim();
+    if (!phonenumberformat.test(phonenumber)) {
+        statuss = false;
+    }
+    return statuss;
+}
+
+function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName;
+    for (var i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+// Anouncement
+function showAnnouncement(message, type) {
+    var announcementBar = document.createElement('div');
+    announcementBar.setAttribute('id', 'announcement-tab');
+    announcementBar.setAttribute('class', type);
+    announcementBar.innerHTML = message;
+    byId('zgiquicontent').appendChild(announcementBar); // NO I18N
+    setTimeout(function() {
+        byId('announcement-tab').remove(); // NO I18N
+    }, 5100);
+}
+
+function showSignupResponse(message) {
+    document.getElementsByClassName('page-container')[0].innerHTML = '<div class="signup-response-message">' + message + '</div>';
+}
+
+function addFieldError(referenceNode, errorMessage) {
+    var fieldID = referenceNode.getAttribute('id');
+    var errorText = document.createElement("span")
+    errorText.setAttribute('class', 'field-error-msg')
+    errorText.setAttribute('error-for', fieldID)
+    errorText.innerHTML = errorMessage !== undefined ? errorMessage : "Field should not be empty" // No I18N
+    referenceNode.parentNode.insertBefore(errorText, referenceNode.nextSibling);
+}
+
+function removeFieldError() {
+    var errors = document.querySelectorAll('.field-error-msg') // No I18N
+    for (var field = 0; field < errors.length; field++) {
+        errors[field].remove()
+    }
+}
+
+function copyToClipboard() {
+    if (shareurl) {
+        var aux = document.createElement("input");
+        aux.setAttribute("value", shareurl);
+        byId('zgiquicontent').appendChild(aux); // NO I18N
+        aux.select();
+        document.execCommand("copy"); // NO I18N
+        byId('zgiquicontent').removeChild(aux); // NO I18N
+    }
+}

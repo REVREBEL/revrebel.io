@@ -166,9 +166,16 @@
 
 }
 
+.datepicker-cancel{
+    color: var(--red) !important;
+}
 
 .required-field {
-    color: var(--red);
+    color: var(--cyan) !important;
+}
+
+.forms-studio-content-wrapper {
+    background: var(--white) !important;
 }
 
 
@@ -180,6 +187,20 @@
 .timepicker-digital-display {
     background-color: var(--primary);
 }
+
+.datepicker-table td.is-today{
+    color: var(--white) !important;
+    background-color: var(--primary);
+}
+
+
+.datepicker-clear, 
+.datepicker-done, 
+.datepicker-today, 
+.timepicker-close {
+    color: var(--accent) !important;
+}
+
 
 label,
 .label {
@@ -417,28 +438,32 @@ h6,
     font-weight: var(--font-weight-bold) !important;
     text-transform: uppercase !important;
     color: var(--primary) !important;
-    background-color: var(-white) !important;
+    background-color: var(--white) !important;
 }
 
 .forms-studio-main-form {
-    background-color: var(-white) !important;
+    background-color: var(--white) !important;
     margin-bottom: 48px;
-    -webkit-box-shadow: var(-white) !important;
-    box-shadow: var(--off-white) !important;
+    -webkit-box-shadow: var(--white) !important;
+    box-shadow: var(--white) !important;
     word-wrap: break-word;
     min-height: 125px;
 }
 
 
 .forms-studio-accent {
-    color: var(-white) !important;
-    background-color: var(-white) !important;
+    color: var(--white) !important;
+    background-color: var(--white) !important;
 }
 
-body,
 input,
+.input {
+    color: var(--gray-dark) !important;
+}
+
+
+body,
 .body,    
-.input,
 .forms-studio-form-content,    
 .forms-studio-body {
     font-family: var(--font-body) !important;
@@ -477,8 +502,8 @@ disclaimer,
 .disclaimer a,
 .disclaimer {
     font-size: 2px;
-    background-color: var(-white) !important;
-    color: var(-white) !important;
+    background-color: var(--white) !important;
+    color: var(--white) !important;
 }
 
 
@@ -559,7 +584,7 @@ button:active {
     color: var(--white);
     border-color: var(--white);
     border-width: 3px;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
 
 .btn-floating, 
@@ -600,10 +625,10 @@ button:active {
 .forms-studio-fileupload:focus,
 .forms-studio-submit:focus {
     filter: brightness(100%);
-    color: white !important;
-    border-color: white !important;
+    color: var(--white) !important;
+    border-color: var(--white) !important;
     border-width: 3px;
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
      
 .forms-studio-fileupload:hover,    
@@ -615,4 +640,14 @@ button:active {
     text-decoration: none;
     background-color: var(--primary);
     box-shadow: 1px 1px 10px var(--secondary);
+}
+
+
+.fs-confirmation {
+    font-family: var(--font-headlines) !important;
+    font-weight: var(--font-weight-bold) !important;
+    text-transform: uppercase !important;
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
+    font-size: 1.33rem;
 }
