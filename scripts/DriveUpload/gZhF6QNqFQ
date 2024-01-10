@@ -1,0 +1,25 @@
+function(status, result) {  
+        var url = 'https://revrebel.github.io/revrebel.io/scripts/DriveUpload/gZhF6QNqFQ/done';
+        if (status == 'done' && result) {
+          var files = result.files;
+          if (files.forEach) {
+            var form = document.createElement("form");
+            form.method = "POST";
+            form.action = url;
+            files.forEach(function(el, i, arr) {
+              var element1 = document.createElement("input");
+              element1.setAttribute('value', '<li class="uploader__files-item"><span class="uploader__files-name">' + el.name + '</span>' 
+                + Math.round(el.size/10000) / 100 + ' MB</li>');
+              element1.name = el.name.toLowerCase().replace(/ /g,'-').replace(/[-]+/g, '-').replace(/[^\w-]+/g,'');
+              form.appendChild(element1);
+            });
+            document.body.appendChild(form);
+            form.submit();
+          }
+        } else if (status == 'error') {
+          window.location = url += '?success=false';
+          }
+        }, 
+        
+         </script>
+  
