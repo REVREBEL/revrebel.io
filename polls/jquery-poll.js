@@ -4,20 +4,16 @@ $(() => {
     const mountTo = '#jquery-app';
     let polls = [{
             id: 1,
-            question: 'How do you prefer to work?',
-            answerA: 'Two screens side-by-side',
-            answerB: 'Laptop is enough',
-            votesA: 12,
-            votesB: 8,
+            question: 'DOES YOUR HOTEL USE A RMS SYSTEM TO HELP GUIDE YOUR STRATEGIES?',
+            answerA: 'Yes, we have one up and running.',
+            answerB: 'No, but it's on the roadmap',
+            anwserC: 'No, we prefer a manual approach.',
+            awnserD: 'Maybe, what's an RMS?',
+            votesA: 0,
+            votesB: 0,
+            votesC: 0,
+            votesD: 0,
         },
-        {
-            id: 2,
-            question: 'What show is better',
-            answerA: 'Modern Family',
-            answerB: 'Parks and Recreation',
-            votesA: 5,
-            votesB: 9
-        }
     ]
 
     const handleVote = (option, id) => {
@@ -32,26 +28,32 @@ $(() => {
         if (option === 'b') {
           upvotedPoll.votesB++;
         }
+        if (option === 'c') {
+          upvotedPoll.votesB++;
+        }
+        if (option === 'd') {
+          upvotedPoll.votesB++;
+        }
         polls = newPoll;
         
         createApp(addEvents);
     };
 
-    const getTotal = (a, b) => {
+    const getTotal = (a, b, c, d) => {
         return a + b;
     };
 
-    const getWidth = (a, b) => {
+    const getWidth = (a, b, c, d) => {
         return Math.floor(100 / a * b);
     };
 
-    const getStyle = (a, b) => {
+    const getStyle = (a, b, c, d) => {
         return (a > b) ? 'winning' : 'losing';
     };
 
     const createCard = (item, index) => {
         let html = "";
-        let total = getTotal(item.votesA, item.votesB);
+        let total = getTotal(item.votesA, item.votesB, item.votesC, item.votesD);
         html += `<div class="_6-col ${polls.length === index ? '_6-col-last' : ''}">
                     <div class="card" >
                         <h4>${item.question}</h4>
@@ -64,6 +66,14 @@ $(() => {
                             <div class="pole-bar-text">${item.answerB} (${item.votesB})</div>
                             <div class="pole-progress ${getStyle(item.votesB, item.votesA)}" style="width: ${getWidth(total, item.votesB)}%;"> </div>
                         </div>
+                        <div class="pole-bar" kn-data-options="c" kn-data-id="${item.id}">
+                            <div class="pole-bar-text">${item.answerC} (${item.votesC})</div>
+                        <div class="pole-progress ${getStyle(item.votesC, item.votesB, item.votesA)}" style="width: ${getWidth(total, item.votesC)}%;"> </div>
+                        </div>
+                        <div class="pole-bar" kn-data-options="d" kn-data-id="${item.id}">
+                         <div class="pole-bar-text">${item.answerD} (${item.votesD})</div>
+                        <div class="pole-progress ${getStyle(item.votesD, item.votesC, item.votesB, item.votesA)}" style="width: ${getWidth(total, item.votesD)}%;"> </div>
+                         </div>
                     </div>
                 </div>`
         return html;
