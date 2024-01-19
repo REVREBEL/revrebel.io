@@ -1,0 +1,37 @@
+
+<style>
+
+
+@font-face {
+  font-family: 'EmojiFont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://revrebel.github.io/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff) format('woff');        
+  unicode-range: U+1f1e6-1f1ff;
+}
+
+@font-face {
+  font-family: 'EmojiFont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://revrebel.github.io/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff2) format('woff2');        
+  unicode-range: U+1f1e6-1f1ff;
+}
+
+
+@font-face {
+  font-family: 'EmojiFont';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://revrebel.github.io/revrebel.io/fonts/noto-emoji/noto-emoji-300.ttf) format('ttf');        
+  unicode-range: U+1f1e6-1f1ff;
+}
+
+@font-face {
+  font-family: 'TextFont';
+  src: local('Sarabun'); 
+  unicode-range: U+0020-007E; 
+}
+
+
+</style>
