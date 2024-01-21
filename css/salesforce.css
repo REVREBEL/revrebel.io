@@ -1,0 +1,239 @@
+
+
+	<style type="text/css">* {
+                        box-sizing: border-box;
+                }
+
+                body {
+                        margin: 0;
+                        padding: 0;
+                }
+
+                a[x-apple-data-detectors] {
+                        color: inherit !important;
+                        text-decoration: inherit !important;
+                }
+
+                #MessageViewBody a {
+                        color: inherit;
+                        text-decoration: none;
+                }
+
+                p {
+                        line-height: inherit
+                }
+
+                .desktop_hide,
+                .desktop_hide table {
+                        mso-hide: all;
+                        display: none;
+                        max-height: 0px;
+                        overflow: hidden;
+                }
+
+                .image_block img+div {
+                        display: none;
+                }
+
+                @media (max-width:540px) {
+
+                        .row-3 .column-1 .block-1.image_block img,
+                        .row-4 .column-2 .block-4.image_block img,
+                        .social_block.desktop_hide .social-table {
+                                display: inline-block !important;
+                        }
+
+                        .row-content {
+                                width: 100% !important;
+                        }
+
+                        .mobile_hide {
+                                display: none;
+                        }
+
+                        .stack .column {
+                                width: 100%;
+                                display: block;
+                        }
+
+                        .mobile_hide {
+                                min-height: 0;
+                                max-height: 0;
+                                max-width: 0;
+                                overflow: hidden;
+                                font-size: 0px;
+                        }
+
+                        .desktop_hide,
+                        .desktop_hide table {
+                                display: table !important;
+                                max-height: none !important;
+                        }
+
+                        .row-4 .column-1 .block-1.heading_block td.pad {
+                                padding: 10px 10px 10px 30px !important;
+                        }
+
+                        .row-3 .column-2 .block-1.social_block td.pad {
+                                padding: 5px 25px 5px 5px !important;
+                        }
+
+                        .row-3 .column-1 .block-1.image_block td.pad {
+                                padding: 0 0 20px 30px !important;
+                        }
+
+                        .row-3 .column-1 .block-1.image_block .alignment,
+                        .row-4 .column-2 .block-4.image_block .alignment,
+                        .row-5 .column-1 .block-1.icons_block .alignment,
+                        .row-5 .column-2 .block-1.heading_block h1,
+                        .row-5 .column-2 .block-2.paragraph_block td.pad>div,
+                        .row-5 .column-2 .block-3.paragraph_block td.pad>div,
+                        .row-5 .column-2 .block-4.paragraph_block td.pad>div,
+                        .row-5 .column-3 .block-1.icons_block .alignment,
+                        .row-5 .column-4 .block-2.paragraph_block td.pad>div,
+                        .row-5 .column-4 .block-3.paragraph_block td.pad>div,
+                        .row-5 .column-4 .block-4.paragraph_block td.pad>div,
+                        .row-6 .column-1 .block-1.icons_block .alignment,
+                        .row-6 .column-2 .block-1.heading_block h1,
+                        .row-6 .column-2 .block-2.paragraph_block td.pad>div,
+                        .row-6 .column-2 .block-3.paragraph_block td.pad>div,
+                        .row-6 .column-2 .block-4.paragraph_block td.pad>div,
+                        .row-6 .column-3 .block-1.icons_block .alignment,
+                        .row-6 .column-4 .block-1.heading_block h1,
+                        .row-6 .column-4 .block-2.paragraph_block td.pad>div,
+                        .row-6 .column-4 .block-3.paragraph_block td.pad>div,
+                        .row-6 .column-4 .block-4.paragraph_block td.pad>div {
+                                text-align: left !important;
+                        }
+
+                        .row-4 .column-2 .block-2.paragraph_block td.pad {
+                                padding: 10px 35px 10px 30px !important;
+                        }
+
+                        .row-4 .column-2 .block-1.heading_block td.pad,
+                        .row-7 .column-1 {
+                                padding: 5px 5px 5px 30px !important;
+                        }
+
+                        .row-4 .column-2 .block-4.image_block td.pad {
+                                padding: 10px 10px 10px 35px !important;
+                        }
+
+                        .row-5 .column-1,
+                        .row-5 .column-1 .block-1.icons_block td.pad,
+                        .row-5 .column-2,
+                        .row-5 .column-2 .block-1.heading_block td.pad,
+                        .row-5 .column-2 .block-2.paragraph_block td.pad,
+                        .row-5 .column-2 .block-3.paragraph_block td.pad,
+                        .row-5 .column-2 .block-4.paragraph_block td.pad,
+                        .row-5 .column-4 .block-2.paragraph_block td.pad,
+                        .row-5 .column-4 .block-3.paragraph_block td.pad,
+                        .row-5 .column-4 .block-4.paragraph_block td.pad,
+                        .row-6 .column-1 .block-1.icons_block td.pad {
+                                padding: 0 !important;
+                        }
+
+                        .row-6 .column-2 .block-1.heading_block td.pad,
+                        .row-6 .column-2 .block-2.paragraph_block td.pad,
+                        .row-6 .column-2 .block-3.paragraph_block td.pad,
+                        .row-6 .column-2 .block-4.paragraph_block td.pad,
+                        .row-6 .column-4 .block-1.heading_block td.pad,
+                        .row-6 .column-4 .block-2.paragraph_block td.pad,
+                        .row-6 .column-4 .block-3.paragraph_block td.pad,
+                        .row-6 .column-4 .block-4.paragraph_block td.pad {
+                                padding: 0 35px !important;
+                        }
+
+                        .row-8 .column-1 .block-1.spacer_block {
+                                height: 25px !important;
+                        }
+                }
+	</style>
+</head>
+<body style="margin: 0px; background-color: rgb(250, 250, 250); padding: 0px; height: auto; min-height: 0%;">
+<div class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Thanks for reaching out. A member of our team will be in touch shortly.</div>
+
+<table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa;" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+				<tbody>
+					<tr>
+						<td>
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+							<tbody>
+								<tr>
+									<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+									<div class="spacer_block block-1" style="height:30px;line-height:30px;font-size:1px;">&nbsp;</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+				<tbody>
+					<tr>
+						<td>
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+							<tbody>
+								<tr>
+									<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+									<div class="spacer_block block-1" style="height:10px;line-height:10px;font-size:1px;">&nbsp;</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" cellpadding="10" cellspacing="0" class="heading_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+				<tbody>
+					<tr>
+						<td class="pad">
+						<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', Roboto, sans-serif; font-size: 18px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 21.599999999999998px;"><a href="{{Weblink}}" rel="noopener" style="text-decoration: none; color: #1c447f;" target="_blank">[ VIEW ONLINE ]</a>&nbsp;</h1>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+				<tbody>
+					<tr>
+						<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="41.666666666666664%">
+						<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+							<tbody>
+								<tr>
+									<td class="pad" style="padding-left:5px;width:100%;padding-right:0px;">
+									<div align="left" class="alignment" style="line-height:10px"><a href="https://res.cloudinary.com/revrebel/image/upload/v1650759995/RevRebel/icon/outline/icon-outline-multicolor-lightnavy_ryuhlp.png" style="outline:none" tabindex="-1" target="_blank"><img alt="REVREBEL Icon" src="https://res.cloudinary.com/revrebel/image/upload/v1650759995/RevRebel/icon/outline/icon-outline-multicolor-lightnavy_ryuhlp.png" style="display: block; height: auto; border: 0; width: 163px; max-width: 100%;" title="REVREBEL Icon" width="163" /></a></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="58.333333333333336%">
+						<table border="0" cellpadding="5" cellspacing="0" class="social_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+							<tbody>
+								<tr>
+									<td class="pad">
+									<div align="right" class="alignment">
+									<table border="0" cellpadding="0" cellspacing="0" class="social-table" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;" width="168px">
+										<tbody>
+											<tr>
+												<td style="padding:0 0 0 10px;"><a href="https://www.instagram.com/hello_revrebel" target="_blank"><svg class="instagram" height="25px" viewbox="0 0 512 512" width="25px" xmlns="http://www.w3.org/2000/svg">
+												<style type="text/css">.b{fill: #EF5353;}.a{}.instagram{fill: #EF5353;}
+												</style>
