@@ -95,10 +95,10 @@ body {
 
 
 <div class="before-svg"></div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="phone" title="phone" width="35px" height="35px"><title>phone</title><switch><g fill="#1C447F"><path d="M359 130.06V96c0-8.28-6.72-15-15-15h-64c-8.28 0-15 6.72-15 15v11h12.13c29.1 0 57.44 8.15 81.87 23.06Z" /><path d="M209.32 109.11l-4.65-71.24C203.16 16.63 185.29 0 164 0c-21.29 0-39.16 16.63-40.67 37.9l-8.73 125.19c22.93-27.63 56.684-47.685 94.72-53.98Z" /><path d="M277.13 137h-42.26c-74.584 0-133.37 64.2-126.46 138.73l10.31 111.13c3.18 34.3 18.95 65.96 44.4 89.16 52.6 47.93 133.07 48 185.76 0 25.45-23.2 41.22-54.86 44.4-89.16l10.31-111.13C410.5 201.16 351.68 137 277.13 137ZM215 431c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-32c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm56 16c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-64c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm56-16c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-32c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm16-149c0 24.81-20.19 45-45 45h-84c-24.81 0-45-20.19-45-45v-36c0-24.81 20.19-45 45-45h84c24.81 0 45 20.19 45 45Z" /><path d="M298 231h-84c-8.27 0-15 6.73-15 15v36c0 8.27 6.73 15 15 15h84c8.27 0 15-6.73 15-15v-36c0-8.27-6.73-15-15-15Z" /></g><foreignObject></switch></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="phone" title="phone" width="32px" height="32px"><title>phone</title><switch><g fill="#1C447F"><path d="M359 130.06V96c0-8.28-6.72-15-15-15h-64c-8.28 0-15 6.72-15 15v11h12.13c29.1 0 57.44 8.15 81.87 23.06Z" /><path d="M209.32 109.11l-4.65-71.24C203.16 16.63 185.29 0 164 0c-21.29 0-39.16 16.63-40.67 37.9l-8.73 125.19c22.93-27.63 56.684-47.685 94.72-53.98Z" /><path d="M277.13 137h-42.26c-74.584 0-133.37 64.2-126.46 138.73l10.31 111.13c3.18 34.3 18.95 65.96 44.4 89.16 52.6 47.93 133.07 48 185.76 0 25.45-23.2 41.22-54.86 44.4-89.16l10.31-111.13C410.5 201.16 351.68 137 277.13 137ZM215 431c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-32c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm56 16c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-64c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm56-16c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-32c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm16-149c0 24.81-20.19 45-45 45h-84c-24.81 0-45-20.19-45-45v-36c0-24.81 20.19-45 45-45h84c24.81 0 45 20.19 45 45Z" /><path d="M298 231h-84c-8.27 0-15 6.73-15 15v36c0 8.27 6.73 15 15 15h84c8.27 0 15-6.73 15-15v-36c0-8.27-6.73-15-15-15Z" /></g><foreignObject></switch></svg>
 
 <div class="after-svg" style="display:none">
-<img src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_32,w_32/v1658232877/RevRebel/ui/filled/_svg-blue/address-filled-blue_jwk75q.svg" width="35px" height="35px" alt="phone"></div>
+<img src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_32,w_32/v1658232877/RevRebel/ui/filled/_svg-blue/address-filled-blue_jwk75q.svg" width="32px" height="32px" alt="phone"></div>
 	
 <img src= "https://res.cloudinary.com/revrebel/image/upload/c_scale,h_32,w_32/v1658232905/RevRebel/ui/filled/_png/phone-filled-blue_razya3.png" xlink:href=""/>
 </svg>
@@ -127,7 +127,7 @@ body {
 <div class="after-svg" style="display:none">
 <img src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_29,w_29/v1650932921/RevRebel/social-icons/svg-filled-color/instagram-filled-color_ahvfua.svg" width=“29px” height="29px" alt="instagram"></div>
 
-<image src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_32,w_32/v1704849879/RevRebel/social-icons/png-filled-color/instagram-filled-color_deyfiu.png" xlink:href=""/>
+<image src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_29,w_29/v1704849879/RevRebel/social-icons/png-filled-color/instagram-filled-color_deyfiu.png" xlink:href=""/>
 </svg>
 
 
@@ -165,7 +165,7 @@ body {
 
 
 <div class="before-svg"></div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="linkedin" title="linkedin" width="35px" height="35px"><style>.b{ fill: #5B8AA0;} .a{} .linkedin{ fill: #5B8AA0;} </style><title>linkedin</title><switch><g fill="linkedin"><path d="M17.81 161.38h112.57v350.61H17.8Z" class="linkedin"/><path d="M74.099 0C38.749 0 10 28.755 10 64.099c0 35.345 28.75 64.1 64.099 64.1 35.345 0 64.1-28.76 64.1-64.1C138.18 28.74 109.44 0 74.09 0Z" class="linkedin"/><path d="M501.965 267.242c-1.49-65.345-54.98-116.531-121.78-116.531 -36.99 0-71.33 16.38-94.37 44.446v-33.78H178.78v350.614h112.57v-202.67c0-27.01 21.96-48.97 48.97-48.97 27 0 48.96 21.96 48.96 48.97l.12 202.66h112.57Z" class="linkedin"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="linkedin" title="linkedin" width="32px" height="32px"><style>.b{ fill: #5B8AA0;} .a{} .linkedin{ fill: #5B8AA0;} </style><title>linkedin</title><switch><g fill="linkedin"><path d="M17.81 161.38h112.57v350.61H17.8Z" class="linkedin"/><path d="M74.099 0C38.749 0 10 28.755 10 64.099c0 35.345 28.75 64.1 64.099 64.1 35.345 0 64.1-28.76 64.1-64.1C138.18 28.74 109.44 0 74.09 0Z" class="linkedin"/><path d="M501.965 267.242c-1.49-65.345-54.98-116.531-121.78-116.531 -36.99 0-71.33 16.38-94.37 44.446v-33.78H178.78v350.614h112.57v-202.67c0-27.01 21.96-48.97 48.97-48.97 27 0 48.96 21.96 48.96 48.97l.12 202.66h112.57Z" class="linkedin"/>
 </g><foreignObject></switch></svg>
 
 <div class="after-svg" style="display:none">
@@ -188,7 +188,7 @@ body {
 
 
 <div class="before-svg">
-</div><svg xmlns="http://www.w3.org/2000/svg" viewBox=" 0 0 512 512" title="twitter" class="twitter" width="35px" height="35px"><style>.b{ fill: #b2d3de;} .a{} .twitter{ fill: #b2d3de;} </style><title>twitter</title><switch><path d="M509.73 109.538a15.267 15.267 0 00-14.34-7.22l-25.53 2.22 24.4-49.2a15.286 15.286 0 00-2.86-17.555 15.278 15.278 0 00-17.54-2.95l-64.59 31.631c-39.91-21.07-89.76-14.82-124.06 16.43-28.63 26.08-43.679 66.18-40.88 106.18-74.83-7.5-138.17-50.34-175.623-119.537-2.49-4.6-7.15-7.6-12.36-7.97a15.231 15.231 0 00-13.35 6.14c-23.23 31.38-24.86 74.41-6.65 109.809-5.02-1.27-10.37-2.99-16.29-4.97-5.08-1.7-10.67-.61-14.75 2.86a15.222 15.222 0 00-5.16 14.1c7.206 43.68 32.682 77.26 72.926 97.13-5.24 1.82-10.59 3.3-16.024 4.44-5.41 1.12-9.78 5.07-11.45 10.33s-.37 11.01 3.4 15.03c28.98 30.97 70.845 46.22 100.581 53.53-33.81 26.47-70.307 30.9-123.35 29.08-6.14-.19-11.795 3.27-14.38 8.83a15.275 15.275 0 002.54 16.68c22.1 24.36 102.654 51.84 187.32 53.9 3.34.08 6.76.125 10.25.125 59.45-.01 138.02-12.75 194.41-69.142 42.68-42.69 69.387-91.827 79.356-146.053 8.05-43.797 2.96-78.869.51-95.725-.18-1.24-.38-2.56-.53-3.71l23.88-38.49c3.04-4.91 3.05-11.12.03-16.05z" class="twitter"><foreignObject></switch></svg>
+</div><svg xmlns="http://www.w3.org/2000/svg" viewBox=" 0 0 512 512" title="twitter" class="twitter" width="32px" height="32px"><style>.b{ fill: #b2d3de;} .a{} .twitter{ fill: #b2d3de;} </style><title>twitter</title><switch><path d="M509.73 109.538a15.267 15.267 0 00-14.34-7.22l-25.53 2.22 24.4-49.2a15.286 15.286 0 00-2.86-17.555 15.278 15.278 0 00-17.54-2.95l-64.59 31.631c-39.91-21.07-89.76-14.82-124.06 16.43-28.63 26.08-43.679 66.18-40.88 106.18-74.83-7.5-138.17-50.34-175.623-119.537-2.49-4.6-7.15-7.6-12.36-7.97a15.231 15.231 0 00-13.35 6.14c-23.23 31.38-24.86 74.41-6.65 109.809-5.02-1.27-10.37-2.99-16.29-4.97-5.08-1.7-10.67-.61-14.75 2.86a15.222 15.222 0 00-5.16 14.1c7.206 43.68 32.682 77.26 72.926 97.13-5.24 1.82-10.59 3.3-16.024 4.44-5.41 1.12-9.78 5.07-11.45 10.33s-.37 11.01 3.4 15.03c28.98 30.97 70.845 46.22 100.581 53.53-33.81 26.47-70.307 30.9-123.35 29.08-6.14-.19-11.795 3.27-14.38 8.83a15.275 15.275 0 002.54 16.68c22.1 24.36 102.654 51.84 187.32 53.9 3.34.08 6.76.125 10.25.125 59.45-.01 138.02-12.75 194.41-69.142 42.68-42.69 69.387-91.827 79.356-146.053 8.05-43.797 2.96-78.869.51-95.725-.18-1.24-.38-2.56-.53-3.71l23.88-38.49c3.04-4.91 3.05-11.12.03-16.05z" class="twitter"><foreignObject></switch></svg>
 
 <div class="after-svg" style="display:none">
 <img src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_32,w_32/v1650932921/RevRebel/social-icons/svg-filled-color/twitter-filled-color_aiytrq.svg" width=“32px” height="32px" alt="twitter"></div>
@@ -248,7 +248,7 @@ body {
 
 
 <div class="before-svg"></div>
-<svg xmlns="http://www.w3.org/2000/svg" g viewBox="0 0 512 512" class="github" title="github" width="30px" height="30px">
+<svg xmlns="http://www.w3.org/2000/svg" g viewBox="0 0 512 512" class="github" title="github" width="32px" height="32px">
 <style>.b{fill: #575757;} .a{} .github{ fill: #575757;}</style><title>github</title><path d="M256 0C115.39 0 0 115.39 0 256c0 119.98 84.19 228.98 196 256v-84.7c-11.08 2.42-21.28 2.49-32.56-.83 -15.13-4.47-27.43-14.55-36.55-29.92 -5.82-9.82-16.125-20.46-26.88-19.68l-2.64-29.89c23.25-2 43.37 14.16 55.31 34.23 5.3 8.92 11.41 14.15 19.24 16.46 7.57 2.23 15.7 1.16 25.18-2.19 2.37-18.98 11.07-26.08 17.63-36.08v-.02c-66.68-9.95-93.26-45.33-103.81-73.25 -13.98-37.08-6.48-83.4 18.23-112.67 .48-.58 1.34-2.07 1.01-3.11 -11.34-34.24 2.47-62.55 2.98-65.56 13.07 3.86 15.2-3.9 56.8 21.38l7.19 4.32c3 1.79 2.06.76 5.07.54 17.37-4.72 35.68-7.33 53.72-7.56 18.17.23 36.37 2.83 54.46 7.75l2.32.23c-.21-.04.63-.15 2.03-.99 51.97-31.49 50.1-21.2 64.04-25.73 .5 3 14.12 31.78 2.91 65.58 -1.52 4.65 45.05 47.3 19.24 115.75 -10.55 27.93-37.12 63.3-103.8 73.25v.01c8.54 13.02 18.81 19.95 18.76 46.83v105.72c111.8-27.02 196-136.02 196-256 0-140.61-115.39-256-256-256Z" class="github"/></foreignObject></switch></svg>
 
 
