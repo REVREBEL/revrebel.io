@@ -1,0 +1,80 @@
+<head>
+  <link rel="stylesheet" href="https://revrebel.github.io/revrebel.io/css/google-sheets.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@400;500;600;700&display=swap');
+  </style>
+  <meta charset="UTF-8">
+  <base target="_blank">
+
+</head>
+
+
+<script>
+  
+  function closeWindow() {
+    google.script.host.close();
+  }
+  
+  function showError(error) {
+    document.getElementById("error").innerHTML = error;
+  }
+  
+  function showConfig(params) {
+        
+    if (params.label !== "") 
+    document.getElementById("label").value = params.label;
+    
+    return;
+    
+  }
+
+  function validate() {
+      
+      var label = document.getElementById("label").value;
+      
+      if (label.trim() === "") {
+          showError(" Enter a Gmail label name ");
+          return;
+      } else {
+          showError(" Saving, please wait ");
+          var params = {
+              label: label
+          };
+          google.script.run.withSuccessHandler(showError).saveConfig(params);
+      }
+  }
+
+</script>
+
+<div>
+<h4> REVREBEL </h4>
+<h4> UNSUBSCRIBE </h4>
+<h4> TOOL </h4>
+</div>
+
+<form>
+    <div class="form-group block">
+        <p style="margin-bottom:4px;"> Enter Your Label Name: </p>
+        <input type="text" id="label" name="label" placeholder=" Unsubscribe" style="height: 40px; width: 250px;" />
+    </div>
+
+
+    <p>
+        <input class="button outline button" type="button" value=" [SAVE] " onclick="validate()" />
+        <input class="button outline button" type="button" value=" [CLOSE] " onclick="google.script.host.close()" />
+    </p>
+    
+    <p class="error" id="error"></p>
+
+</form>
+
+<script>
+  google.script.run.withSuccessHandler(showConfig).getConfig();  
+</script>
