@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "revrebel-partners";
+  src: url("../font/revrebel-partners.eot");
+  src: url("../font/revrebel-partners.eot?0rt8i1#iefix") format("embedded-opentype"),
+      url("../font/revrebel-partners.woff2?0rt8i1") format("woff2"),
+      url("../font/revrebel-partners.woff?0rt8i1") format("woff"),
+      url("../font/revrebel-partners.ttf?0rt8i1") format("truetype"),
+      url("../font/revrebel-partners.svg?0rt8i1#revrebel-partners") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.icon {
+  display: inline-block;
+  font-family: "revrebel-partners" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-agoda-circle::before {
+  content: "\ea01";
+}
+.icon-agoda-square::before {
+  content: "\ea02";
+}
+.icon-airbnb-circle::before {
+  content: "\ea03";
+}
+.icon-airbnb-square::before {
+  content: "\ea04";
+}
+.icon-amadeus-circle::before {
+  content: "\ea05";
+}
+.icon-amadeus-square::before {
+  content: "\ea06";
+}
+.icon-booking-circle::before {
+  content: "\ea07";
+}
+.icon-booking-square::before {
+  content: "\ea08";
+}
+.icon-day-use-circle::before {
+  content: "\ea09";
+}
+.icon-day-use-square::before {
+  content: "\ea0a";
+}
+.icon-duetto-circle::before {
+  content: "\ea0b";
+}
+.icon-duetto-square::before {
+  content: "\ea0c";
+}
+.icon-egencia-circle::before {
+  content: "\ea0d";
+}
+.icon-egencia-square::before {
+  content: "\ea0e";
+}
+.icon-expedia-circle::before {
+  content: "\ea0f";
+}
+.icon-expedia-square::before {
+  content: "\ea10";
+}
+.icon-getaroom-circle::before {
+  content: "\ea11";
+}
+.icon-getaroom-square::before {
+  content: "\ea12";
+}
+.icon-hopper-circle::before {
+  content: "\ea13";
+}
+.icon-hopper-square::before {
+  content: "\ea14";
+}
+.icon-hotebeds-circle::before {
+  content: "\ea15";
+}
+.icon-hotebeds-square::before {
+  content: "\ea16";
+}
+.icon-hotel-tonight-circle::before {
+  content: "\ea17";
+}
+.icon-hotel-tonight-square::before {
+  content: "\ea18";
+}
+.icon-hotels-com-circle::before {
+  content: "\ea19";
+}
+.icon-hotels-com-circle-2::before {
+  content: "\ea1a";
+}
+.icon-hotels-com-square::before {
+  content: "\ea1b";
+}
+.icon-hotels-com-square-2::before {
+  content: "\ea1c";
+}
+.icon-hotwire-cicle::before {
+  content: "\ea1d";
+}
+.icon-hotwire-square::before {
+  content: "\ea1e";
+}
+.icon-ideas-square::before {
+  content: "\ea1f";
+}
+.icon-ideas_circle::before {
+  content: "\ea20";
+}
+.icon-jtb-circle::before {
+  content: "\ea21";
+}
+.icon-jtb-square::before {
+  content: "\ea22";
+}
+.icon-kayak-square::before {
+  content: "\ea23";
+}
+.icon-kayak_circle::before {
+  content: "\ea24";
+}
+.icon-lighthouse_circle::before {
+  content: "\ea25";
+}
+.icon-lighthouse_square::before {
+  content: "\ea26";
+}
+.icon-oracle-circle::before {
+  content: "\ea27";
+}
+.icon-oracle-square::before {
+  content: "\ea28";
+}
+.icon-orbitz-circle::before {
+  content: "\ea29";
+}
+.icon-orbitz-square::before {
+  content: "\ea2a";
+}
+.icon-ota-insights-square::before {
+  content: "\ea2b";
+}
+.icon-priceline-circle::before {
+  content: "\ea2c";
+}
+.icon-priceline-square::before {
+  content: "\ea2d";
+}
+.icon-sabre-circle::before {
+  content: "\ea2e";
+}
+.icon-sabre-square::before {
+  content: "\ea2f";
+}
+.icon-secret-escapes-circle::before {
+  content: "\ea30";
+}
+.icon-secret-escapes-square::before {
+  content: "\ea31";
+}
+.icon-smith-travel-circle::before {
+  content: "\ea32";
+}
+.icon-smith-travel-square::before {
+  content: "\ea33";
+}
+.icon-travelzoo-circle::before {
+  content: "\ea34";
+}
+.icon-travelzoo-square::before {
+  content: "\ea35";
+}
+.icon-trip-circle::before {
+  content: "\ea36";
+}
+.icon-trip-square::before {
+  content: "\ea37";
+}
+.icon-tripadvisor-circle::before {
+  content: "\ea38";
+}
+.icon-tripadvisor-square::before {
+  content: "\ea39";
+}
+.icon-triptease-circle::before {
+  content: "\ea3a";
+}
+.icon-vrbo-circle::before {
+  content: "\ea3b";
+}
+.icon-vrbo-square::before {
+  content: "\ea3c";
+}

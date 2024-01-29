@@ -1,0 +1,624 @@
+$icon-100: "\ea01";
+$icon-18-plus: "\ea02";
+$icon-18-plus-red: "\ea03";
+$icon-8-ball: "\ea04";
+$icon-airplane: "\ea05";
+$icon-amazing: "\ea06";
+$icon-angry: "\ea07";
+$icon-arrow-left-dark: "\ea08";
+$icon-arrow-left-light: "\ea09";
+$icon-arrow-right-dark: "\ea0a";
+$icon-arrow-right-light: "\ea0b";
+$icon-art: "\ea0c";
+$icon-asleep: "\ea0d";
+$icon-asterisk-char-dark: "\ea0e";
+$icon-asterisk-char-light: "\ea0f";
+$icon-avocado: "\ea10";
+$icon-bang: "\ea11";
+$icon-bathroom: "\ea12";
+$icon-beach-umbrella: "\ea13";
+$icon-beer: "\ea14";
+$icon-beers: "\ea15";
+$icon-big-smile: "\ea16";
+$icon-birthday-cake: "\ea17";
+$icon-blush-kiss: "\ea18";
+$icon-blushing: "\ea19";
+$icon-bomb: "\ea1a";
+$icon-bus: "\ea1b";
+$icon-calendar-spiral: "\ea1c";
+$icon-camera-dark: "\ea1d";
+$icon-camera-light: "\ea1e";
+$icon-cannabis-leaf: "\ea1f";
+$icon-car: "\ea20";
+$icon-cassette: "\ea21";
+$icon-chart: "\ea22";
+$icon-closed-dark: "\ea23";
+$icon-closed-light: "\ea24";
+$icon-cloud: "\ea25";
+$icon-computer: "\ea26";
+$icon-cool-face: "\ea27";
+$icon-dash: "\ea28";
+$icon-date: "\ea29";
+$icon-decreasing-graph: "\ea2a";
+$icon-dollar-light: "\ea2b";
+$icon-done-dark: "\ea2c";
+$icon-done-light: "\ea2d";
+$icon-earth-americas: "\ea2e";
+$icon-eject: "\ea2f";
+$icon-empty-star: "\ea30";
+$icon-exclamation-mark-light: "\ea31";
+$icon-fast-forward: "\ea32";
+$icon-fire: "\ea33";
+$icon-firecracker: "\ea34";
+$icon-floppy-disk: "\ea35";
+$icon-foggy: "\ea36";
+$icon-folder: "\ea37";
+$icon-green-money: "\ea38";
+$icon-halo: "\ea39";
+$icon-heart: "\ea3a";
+$icon-heartbeat: "\ea3b";
+$icon-home-dark: "\ea3c";
+$icon-home-light: "\ea3d";
+$icon-joy: "\ea3e";
+$icon-landline-phone: "\ea3f";
+$icon-laptop: "\ea40";
+$icon-light-bulb: "\ea41";
+$icon-lightning: "\ea42";
+$icon-lightning-bolt: "\ea43";
+$icon-lightning-rain: "\ea44";
+$icon-lollipop: "\ea45";
+$icon-loved: "\ea46";
+$icon-mad: "\ea47";
+$icon-magic-wand: "\ea48";
+$icon-magnifying-glass-left: "\ea49";
+$icon-mailbox: "\ea4a";
+$icon-martini: "\ea4b";
+$icon-meeting: "\ea4c";
+$icon-message-dark: "\ea4d";
+$icon-message-light: "\ea4e";
+$icon-middle-finger: "\ea4f";
+$icon-mind-blown: "\ea50";
+$icon-mountain-tramway: "\ea51";
+$icon-name-badge: "\ea52";
+$icon-no-entry: "\ea53";
+$icon-old-school: "\ea54";
+$icon-omg-dark: "\ea55";
+$icon-omg-light: "\ea56";
+$icon-palm: "\ea57";
+$icon-party-face: "\ea58";
+$icon-plate: "\ea59";
+$icon-play-dark: "\ea5a";
+$icon-play-light: "\ea5b";
+$icon-pride: "\ea5c";
+$icon-pride-100: "\ea5d";
+$icon-question-mark-light: "\ea5e";
+$icon-rain: "\ea5f";
+$icon-rainbow: "\ea60";
+$icon-rebel-air: "\ea61";
+$icon-rocket: "\ea62";
+$icon-rolling-eyes: "\ea63";
+$icon-rolling-eyes-blue: "\ea64";
+$icon-scales: "\ea65";
+$icon-scream: "\ea66";
+$icon-shining-star: "\ea67";
+$icon-shit: "\ea68";
+$icon-shooting-star: "\ea69";
+$icon-shortcake: "\ea6a";
+$icon-sick1: "\ea6b";
+$icon-signal: "\ea6c";
+$icon-siren: "\ea6d";
+$icon-smile: "\ea6e";
+$icon-smile-blue: "\ea6f";
+$icon-snow-light: "\ea70";
+$icon-snowflake: "\ea71";
+$icon-so-gay: "\ea72";
+$icon-sparkles: "\ea73";
+$icon-speaker: "\ea74";
+$icon-star: "\ea75";
+$icon-stop-dark: "\ea76";
+$icon-stop-light: "\ea77";
+$icon-straight-face: "\ea78";
+$icon-straight-face-blue: "\ea79";
+$icon-sun: "\ea7a";
+$icon-sun-behind-cloud: "\ea7b";
+$icon-sun-behind-large-cloud: "\ea7c";
+$icon-sun-behind-small-cloud: "\ea7d";
+$icon-sun-cloud-rain: "\ea7e";
+$icon-sun-face: "\ea7f";
+$icon-surprised: "\ea80";
+$icon-swearing: "\ea81";
+$icon-sweat-drops: "\ea82";
+$icon-tada: "\ea83";
+$icon-tome: "\ea84";
+$icon-top: "\ea85";
+$icon-umbrella-with-rain: "\ea86";
+$icon-upside-down-smile: "\ea87";
+$icon-vacation: "\ea88";
+$icon-watch-dark: "\ea89";
+$icon-watch-light: "\ea8a";
+$icon-water-drop: "\ea8b";
+$icon-wink: "\ea8c";
+$icon-wink-kiss: "\ea8d";
+$icon-wink-kiss-blue: "\ea8e";
+$icon-wink-tongue: "\ea8f";
+$icon-wrench: "\ea90";
+$icon-wtf-dark: "\ea91";
+$icon-wtf-light: "\ea92";
+$icon-yawn: "\ea93";
+$icon-zzz-dark: "\ea94";
+$icon-zzz-light: "\ea95";
+
+@font-face {
+  font-family: "revrebel-emoji";
+  src: url("../font/revrebel-emoji.eot");
+  src: url("../font/revrebel-emoji.eot?t49s62#iefix") format("embedded-opentype"), url("../font/revrebel-emoji.woff2?t49s62") format("woff2"), url("../font/revrebel-emoji.woff?t49s62") format("woff"), url("../font/revrebel-emoji.ttf?t49s62") format("truetype"), url("../font/revrebel-emoji.svg?t49s62#revrebel-emoji") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+%icon {
+  display: inline-block;
+  font-family: "revrebel-emoji" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  @extend %icon;
+}
+
+.icon-100::before {
+  content: "\ea01";
+}
+.icon-18-plus::before {
+  content: "\ea02";
+}
+.icon-18-plus-red::before {
+  content: "\ea03";
+}
+.icon-8-ball::before {
+  content: "\ea04";
+}
+.icon-airplane::before {
+  content: "\ea05";
+}
+.icon-amazing::before {
+  content: "\ea06";
+}
+.icon-angry::before {
+  content: "\ea07";
+}
+.icon-arrow-left-dark::before {
+  content: "\ea08";
+}
+.icon-arrow-left-light::before {
+  content: "\ea09";
+}
+.icon-arrow-right-dark::before {
+  content: "\ea0a";
+}
+.icon-arrow-right-light::before {
+  content: "\ea0b";
+}
+.icon-art::before {
+  content: "\ea0c";
+}
+.icon-asleep::before {
+  content: "\ea0d";
+}
+.icon-asterisk-char-dark::before {
+  content: "\ea0e";
+}
+.icon-asterisk-char-light::before {
+  content: "\ea0f";
+}
+.icon-avocado::before {
+  content: "\ea10";
+}
+.icon-bang::before {
+  content: "\ea11";
+}
+.icon-bathroom::before {
+  content: "\ea12";
+}
+.icon-beach-umbrella::before {
+  content: "\ea13";
+}
+.icon-beer::before {
+  content: "\ea14";
+}
+.icon-beers::before {
+  content: "\ea15";
+}
+.icon-big-smile::before {
+  content: "\ea16";
+}
+.icon-birthday-cake::before {
+  content: "\ea17";
+}
+.icon-blush-kiss::before {
+  content: "\ea18";
+}
+.icon-blushing::before {
+  content: "\ea19";
+}
+.icon-bomb::before {
+  content: "\ea1a";
+}
+.icon-bus::before {
+  content: "\ea1b";
+}
+.icon-calendar-spiral::before {
+  content: "\ea1c";
+}
+.icon-camera-dark::before {
+  content: "\ea1d";
+}
+.icon-camera-light::before {
+  content: "\ea1e";
+}
+.icon-cannabis-leaf::before {
+  content: "\ea1f";
+}
+.icon-car::before {
+  content: "\ea20";
+}
+.icon-cassette::before {
+  content: "\ea21";
+}
+.icon-chart::before {
+  content: "\ea22";
+}
+.icon-closed-dark::before {
+  content: "\ea23";
+}
+.icon-closed-light::before {
+  content: "\ea24";
+}
+.icon-cloud::before {
+  content: "\ea25";
+}
+.icon-computer::before {
+  content: "\ea26";
+}
+.icon-cool-face::before {
+  content: "\ea27";
+}
+.icon-dash::before {
+  content: "\ea28";
+}
+.icon-date::before {
+  content: "\ea29";
+}
+.icon-decreasing-graph::before {
+  content: "\ea2a";
+}
+.icon-dollar-light::before {
+  content: "\ea2b";
+}
+.icon-done-dark::before {
+  content: "\ea2c";
+}
+.icon-done-light::before {
+  content: "\ea2d";
+}
+.icon-earth-americas::before {
+  content: "\ea2e";
+}
+.icon-eject::before {
+  content: "\ea2f";
+}
+.icon-empty-star::before {
+  content: "\ea30";
+}
+.icon-exclamation-mark-light::before {
+  content: "\ea31";
+}
+.icon-fast-forward::before {
+  content: "\ea32";
+}
+.icon-fire::before {
+  content: "\ea33";
+}
+.icon-firecracker::before {
+  content: "\ea34";
+}
+.icon-floppy-disk::before {
+  content: "\ea35";
+}
+.icon-foggy::before {
+  content: "\ea36";
+}
+.icon-folder::before {
+  content: "\ea37";
+}
+.icon-green-money::before {
+  content: "\ea38";
+}
+.icon-halo::before {
+  content: "\ea39";
+}
+.icon-heart::before {
+  content: "\ea3a";
+}
+.icon-heartbeat::before {
+  content: "\ea3b";
+}
+.icon-home-dark::before {
+  content: "\ea3c";
+}
+.icon-home-light::before {
+  content: "\ea3d";
+}
+.icon-joy::before {
+  content: "\ea3e";
+}
+.icon-landline-phone::before {
+  content: "\ea3f";
+}
+.icon-laptop::before {
+  content: "\ea40";
+}
+.icon-light-bulb::before {
+  content: "\ea41";
+}
+.icon-lightning::before {
+  content: "\ea42";
+}
+.icon-lightning-bolt::before {
+  content: "\ea43";
+}
+.icon-lightning-rain::before {
+  content: "\ea44";
+}
+.icon-lollipop::before {
+  content: "\ea45";
+}
+.icon-loved::before {
+  content: "\ea46";
+}
+.icon-mad::before {
+  content: "\ea47";
+}
+.icon-magic-wand::before {
+  content: "\ea48";
+}
+.icon-magnifying-glass-left::before {
+  content: "\ea49";
+}
+.icon-mailbox::before {
+  content: "\ea4a";
+}
+.icon-martini::before {
+  content: "\ea4b";
+}
+.icon-meeting::before {
+  content: "\ea4c";
+}
+.icon-message-dark::before {
+  content: "\ea4d";
+}
+.icon-message-light::before {
+  content: "\ea4e";
+}
+.icon-middle-finger::before {
+  content: "\ea4f";
+}
+.icon-mind-blown::before {
+  content: "\ea50";
+}
+.icon-mountain-tramway::before {
+  content: "\ea51";
+}
+.icon-name-badge::before {
+  content: "\ea52";
+}
+.icon-no-entry::before {
+  content: "\ea53";
+}
+.icon-old-school::before {
+  content: "\ea54";
+}
+.icon-omg-dark::before {
+  content: "\ea55";
+}
+.icon-omg-light::before {
+  content: "\ea56";
+}
+.icon-palm::before {
+  content: "\ea57";
+}
+.icon-party-face::before {
+  content: "\ea58";
+}
+.icon-plate::before {
+  content: "\ea59";
+}
+.icon-play-dark::before {
+  content: "\ea5a";
+}
+.icon-play-light::before {
+  content: "\ea5b";
+}
+.icon-pride::before {
+  content: "\ea5c";
+}
+.icon-pride-100::before {
+  content: "\ea5d";
+}
+.icon-question-mark-light::before {
+  content: "\ea5e";
+}
+.icon-rain::before {
+  content: "\ea5f";
+}
+.icon-rainbow::before {
+  content: "\ea60";
+}
+.icon-rebel-air::before {
+  content: "\ea61";
+}
+.icon-rocket::before {
+  content: "\ea62";
+}
+.icon-rolling-eyes::before {
+  content: "\ea63";
+}
+.icon-rolling-eyes-blue::before {
+  content: "\ea64";
+}
+.icon-scales::before {
+  content: "\ea65";
+}
+.icon-scream::before {
+  content: "\ea66";
+}
+.icon-shining-star::before {
+  content: "\ea67";
+}
+.icon-shit::before {
+  content: "\ea68";
+}
+.icon-shooting-star::before {
+  content: "\ea69";
+}
+.icon-shortcake::before {
+  content: "\ea6a";
+}
+.icon-sick1::before {
+  content: "\ea6b";
+}
+.icon-signal::before {
+  content: "\ea6c";
+}
+.icon-siren::before {
+  content: "\ea6d";
+}
+.icon-smile::before {
+  content: "\ea6e";
+}
+.icon-smile-blue::before {
+  content: "\ea6f";
+}
+.icon-snow-light::before {
+  content: "\ea70";
+}
+.icon-snowflake::before {
+  content: "\ea71";
+}
+.icon-so-gay::before {
+  content: "\ea72";
+}
+.icon-sparkles::before {
+  content: "\ea73";
+}
+.icon-speaker::before {
+  content: "\ea74";
+}
+.icon-star::before {
+  content: "\ea75";
+}
+.icon-stop-dark::before {
+  content: "\ea76";
+}
+.icon-stop-light::before {
+  content: "\ea77";
+}
+.icon-straight-face::before {
+  content: "\ea78";
+}
+.icon-straight-face-blue::before {
+  content: "\ea79";
+}
+.icon-sun::before {
+  content: "\ea7a";
+}
+.icon-sun-behind-cloud::before {
+  content: "\ea7b";
+}
+.icon-sun-behind-large-cloud::before {
+  content: "\ea7c";
+}
+.icon-sun-behind-small-cloud::before {
+  content: "\ea7d";
+}
+.icon-sun-cloud-rain::before {
+  content: "\ea7e";
+}
+.icon-sun-face::before {
+  content: "\ea7f";
+}
+.icon-surprised::before {
+  content: "\ea80";
+}
+.icon-swearing::before {
+  content: "\ea81";
+}
+.icon-sweat-drops::before {
+  content: "\ea82";
+}
+.icon-tada::before {
+  content: "\ea83";
+}
+.icon-tome::before {
+  content: "\ea84";
+}
+.icon-top::before {
+  content: "\ea85";
+}
+.icon-umbrella-with-rain::before {
+  content: "\ea86";
+}
+.icon-upside-down-smile::before {
+  content: "\ea87";
+}
+.icon-vacation::before {
+  content: "\ea88";
+}
+.icon-watch-dark::before {
+  content: "\ea89";
+}
+.icon-watch-light::before {
+  content: "\ea8a";
+}
+.icon-water-drop::before {
+  content: "\ea8b";
+}
+.icon-wink::before {
+  content: "\ea8c";
+}
+.icon-wink-kiss::before {
+  content: "\ea8d";
+}
+.icon-wink-kiss-blue::before {
+  content: "\ea8e";
+}
+.icon-wink-tongue::before {
+  content: "\ea8f";
+}
+.icon-wrench::before {
+  content: "\ea90";
+}
+.icon-wtf-dark::before {
+  content: "\ea91";
+}
+.icon-wtf-light::before {
+  content: "\ea92";
+}
+.icon-yawn::before {
+  content: "\ea93";
+}
+.icon-zzz-dark::before {
+  content: "\ea94";
+}
+.icon-zzz-light::before {
+  content: "\ea95";
+}
