@@ -62,7 +62,7 @@ body {
 
 
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Address</title>
   <switch>
      <g>
@@ -89,7 +89,7 @@ body {
 
 
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Phone</title>
   <switch>
      <g>
@@ -119,7 +119,7 @@ body {
 
 <a href="https://www.instagram.com/hello_revrebel" target="_blank">
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Instagram</title>
   <switch>
      <g>
@@ -149,7 +149,7 @@ body {
   
 <a href="https://www.facebook.com/hello.revrebel" target="_blank">
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Facebook</title>
   <switch>
      <g>
@@ -179,7 +179,7 @@ body {
 
 <a href="https://www.linkedin.com/company/revrebel" target="_blank">
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Linkedin</title>
   <switch>
      <g>
@@ -208,7 +208,7 @@ body {
 
 <a href="https://www.twitter.com/hello_revrebel" target="_blank">
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Twitter</title>
   <switch>
      <g>
@@ -240,7 +240,7 @@ body {
 
 <a href="https://www.revrebel.slack.com" target="_blank">
 <div class="before-svg"></div>
-<svg width="150" height="150" role="img">
+<svg width="32" height="32" role="img">
   <title>Slack</title>
   <switch>
      <g>
