@@ -104,7 +104,7 @@
 }
  main footer {
      line-height: 40px;
-     padding: 20px 1px 30px 1px;
+     padding: 20px 1px 30px;
      position: relative;
      height: 40px;
 }
@@ -390,7 +390,6 @@
  .btn-toggle {
      padding: 0;
      position: relative;
-     font-size: 0;
      border: none;
      cursor: pointer;
      display: inline-block;
@@ -448,7 +447,7 @@
      color: #FFFFFF;
 }
  .flash_notice {
-     margin: 0 auto 0 auto;
+     margin: 0 auto;
      text-align: center;
      font-size: 14px;
 }
