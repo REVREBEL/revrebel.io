@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><!-->
+	<link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&amp;display=swap" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700" rel="stylesheet" type="text/css"><!--<![endif]-->
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
+
+		.image_block img+div {
+			display: none;
+		}
+
+		@media (max-width:540px) {
+			.row-3 .column-1 .block-1.image_block img {
+				display: inline-block !important;
+			}
+
+			.image_block img.big,
+			.row-content {
+				width: 100% !important;
+			}
+
+			.mobile_hide {
+				display: none;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+
+			.row-3 .column-1 .block-1.image_block td.pad {
+				padding: 0 0 20px 30px !important;
+			}
+
+			.row-10 .column-1 .block-1.icons_block .alignment,
+			.row-3 .column-1 .block-1.image_block .alignment,
+			.row-7 .column-1 .block-1.icons_block .alignment,
+			.row-7 .column-1 .block-2.heading_block h1,
+			.row-7 .column-1 .block-3.paragraph_block td.pad>div,
+			.row-7 .column-1 .block-4.paragraph_block td.pad>div,
+			.row-7 .column-1 .block-5.paragraph_block td.pad>div,
+			.row-7 .column-2 .block-1.icons_block .alignment,
+			.row-7 .column-2 .block-3.paragraph_block td.pad>div,
+			.row-7 .column-2 .block-4.paragraph_block td.pad>div,
+			.row-7 .column-2 .block-5.paragraph_block td.pad>div,
+			.row-7 .column-3 .block-3.icons_block .alignment,
+			.row-7 .column-3 .block-4.icons_block .alignment,
+			.row-8 .column-1 .block-1.icons_block .alignment,
+			.row-8 .column-2 .block-2.paragraph_block td.pad>div,
+			.row-8 .column-2 .block-3.paragraph_block td.pad>div,
+			.row-8 .column-2 .block-4.paragraph_block td.pad>div,
+			.row-8 .column-3 .block-1.icons_block .alignment,
+			.row-8 .column-4 .block-2.paragraph_block td.pad>div,
+			.row-8 .column-4 .block-3.paragraph_block td.pad>div,
+			.row-8 .column-4 .block-4.paragraph_block td.pad>div {
+				text-align: left !important;
+			}
+
+			.row-3 .column-2 .block-1.spacer_block {
+				height: 20px !important;
+			}
+
+			.row-3 .column-1 .block-2.heading_block td.pad {
+				padding: 10px 10px 10px 30px !important;
+			}
+
+			.row-3 .column-1 .block-2.heading_block h1 {
+				font-size: 57px !important;
+			}
+
+			.row-3 .column-2 .block-2.paragraph_block td.pad {
+				padding: 10px 35px 10px 30px !important;
+			}
+
+			.row-7 .column-1,
+			.row-7 .column-1 .block-1.icons_block td.pad,
+			.row-7 .column-1 .block-2.heading_block td.pad,
+			.row-7 .column-1 .block-3.paragraph_block td.pad,
+			.row-7 .column-1 .block-4.paragraph_block td.pad,
+			.row-7 .column-1 .block-5.paragraph_block td.pad,
+			.row-7 .column-2,
+			.row-7 .column-2 .block-3.paragraph_block td.pad,
+			.row-7 .column-2 .block-4.paragraph_block td.pad,
+			.row-7 .column-2 .block-5.paragraph_block td.pad,
+			.row-8 .column-1 .block-1.icons_block td.pad {
+				padding: 0 !important;
+			}
+
+			.row-8 .column-2 .block-1.heading_block h1,
+			.row-8 .column-4 .block-1.heading_block h1 {
+				text-align: left !important;
+				font-size: 14px !important;
+			}
+
+			.row-8 .column-2 .block-1.heading_block td.pad,
+			.row-8 .column-2 .block-2.paragraph_block td.pad,
+			.row-8 .column-2 .block-3.paragraph_block td.pad,
+			.row-8 .column-2 .block-4.paragraph_block td.pad,
+			.row-8 .column-4 .block-1.heading_block td.pad,
+			.row-8 .column-4 .block-2.paragraph_block td.pad,
+			.row-8 .column-4 .block-3.paragraph_block td.pad,
+			.row-8 .column-4 .block-4.paragraph_block td.pad {
+				padding: 0 35px !important;
+			}
+
+			.row-12 .column-1 .block-1.spacer_block {
+				height: 25px !important;
+			}
+
+			.row-5 .column-1 {
+				padding: 5px 0 5px 30px !important;
+			}
+
+			.row-10 .column-1,
+			.row-11 .column-1 {
+				padding: 5px 5px 5px 30px !important;
+			}
+		}
+	</style>
+</head>
+
+<body style="margin: 0; background-color: #fafafa; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;"><div class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Your retainer was received  for %ProjectName%  -Ready for Lift off?</div>
+	<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa;">
+		<tbody>
+			<tr>
+				<td>
+					<table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:30px;line-height:30px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:10px;line-height:10px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="50%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 15px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="padding-bottom:30px;padding-left:15px;width:100%;padding-right:0px;">
+																<div class="alignment" align="left" style="line-height:10px"><a href="https://res.cloudinary.com/revrebel/image/upload/v1650759995/RevRebel/icon/outline/icon-outline-multicolor-lightnavy_ryuhlp.png" target="_blank" style="outline:none" tabindex="-1"><img src="https://res.cloudinary.com/revrebel/image/upload/v1650759995/RevRebel/icon/outline/icon-outline-multicolor-lightnavy_ryuhlp.png" style="display: block; height: auto; border: 0; width: 78px; max-width: 100%;" width="78" alt="REVREBEL Icon" title="REVREBEL Icon"></a></div>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-2" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad">
+																<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 64px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">READY<br>FOR LIFT<br>OFF IN<br>T-MINUS&nbsp;</span></h1>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-2" width="50%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1 mobile_hide" style="height:115px;line-height:115px;font-size:1px;">&#8202;</div>
+													<table class="paragraph_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad" style="padding-left:20px;padding-top:20px;">
+																<div style="color:#1c447f;direction:ltr;font-family:'Fira Code', monospace;font-size:12px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:18px;">
+																	<p style="margin: 0; margin-bottom: 14px;">Great news! We have received your retainer and are thrilled to launch your exciting project. Shortly, we will provide you with our Client Onboard information to finalize the ignition process and power up your engagement. Congratulations on taking this big step forward!</p>
+																	<p style="margin: 0; margin-bottom: 14px;"><span style="background-color: transparent; font-size: 12px;"><strong>REFERENCE</strong></span><strong>#:<br></strong>%RetainerInvoiceNumber%</p>
+																	<p style="margin: 0;"><strong>AMOUNT RECEIVED:</strong><br>%PaymentReceived%</p>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-4" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:25px;line-height:25px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
+																<div class="alignment" align="left" style="line-height:10px"><a href="https://revrebel.io" target="_blank" style="outline:none" tabindex="-1"><img src="https://res.cloudinary.com/revrebel/image/upload/v1650741837/RevRebel/Logos/revrebel-regular/logo-regular-multicolor.png" style="display: block; height: auto; border: 0; width: 240px; max-width: 100%;" width="240" alt="REVREBEL Logo" title="REVREBEL Logo"></a></div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-6" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:25px;line-height:25px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-7 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="33.333333333333336%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="icons_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #fff; font-family: inherit; font-size: 14px; font-weight: 400; text-align: left;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/address-filled-blue_jwk75q.svg" alt="Map Icon" height="32" width="32" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="padding-top:5px;text-align:center;width:100%;">
+																<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 1px; line-height: 150%; text-align: left; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder" style="color: #1c447f;">LOS ANGELES HQ</span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;"><span style="color: #1c447f;">5101 Santa Monica Blvd</span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-4" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:12px;">
+																	<p style="margin: 0;"><span style="color: #1c447f;">STE 8 PMB 69</span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-5" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;"><span style="color: #1c447f;">Los Angeles, CA 90029</span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-2" width="33.333333333333336%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="icons_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #000000; font-family: inherit; font-size: 14px; font-weight: 400; letter-spacing: 0px; text-align: left;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px;"><a href="https://res.cloudinary.com/revrebel/image/upload/v1658232889/RevRebel/ui/filled/_svg-white/phone-filled-white_r6m4u0.svg" target="_self" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/Phone_Filled_jb50mw.svg" alt="Phone Icon" height="32" width="32" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="padding-top:5px;text-align:center;width:100%;">
+																<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 1px; line-height: 150%; text-align: left; margin-top: 0; margin-bottom: 0;"><span style="color: #1c447f;"><strong><span class="tinyMce-placeholder">GET IN TOUCH</span></strong></span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;"><span style="color: #1c447f;">[p]&nbsp; <a href="tel:13108001124" target="_self" title="phone" style="text-decoration: none; color: #1c447f;"><span style="color: #1c447f;">(310) 800-112</span>4</a></span><a href="http://voice.google.com/calls?a=nc,%2B13108001124" class="gv-tel-link" target="_blank" rel="noopener" title="Call +1 310-800-1124 via Google Voice" style="color: #1c447f;"></a></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-4" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:12px;">
+																	<p style="margin: 0;"><span style="color: #1c447f;">[e] &nbsp;<a href="mailto:finance@revrebel.io?subject=Invoice%20Question?" target="_self" title="contact email" style="text-decoration: none; color: #1c447f;">finance@revrebel.io</a></span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-5" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;"><span style="color: #1c447f;">[w] <a href="https://revrebel.io" target="_blank" title="website" style="text-decoration: none; color: #1c447f;" rel="noopener">revrebel.io</a></span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-3" width="33.333333333333336%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:20px;line-height:20px;font-size:1px;">&#8202;</div>
+													<table class="heading_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="padding-bottom:5px;padding-right:30px;padding-top:5px;text-align:center;width:100%;">
+																<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 1px; line-height: 150%; text-align: right; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">STAY IN TOUCH</span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="icons_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #1c447f; font-family: inherit; font-size: 14px; font-weight: 400; letter-spacing: 0px; padding-right: 30px; text-align: right;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="right" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 3px;"><a href="https://www.instagram.com/hello_revrebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/instagram-filled-color_ahvfua.svg" alt="instagram" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 3px;"><a href="https://www.facebook.com/hello.revrebel" target="_self" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/facebook-filled-color_jcuqp8.svg" alt="facebook" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 0px;"><a href="https://www.linkedin.com/company/revrebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/linkedin-filled-color_xxeqkg.svg" alt="linkedin" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+													<table class="icons_block block-4" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #1c447f; font-family: inherit; font-size: 14px; font-weight: 400; letter-spacing: 0px; padding-right: 30px; text-align: right;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="right" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 0px; padding-left: 0px; padding-right: 3px;"><a href="https://www.twitter.com/hello_revrebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/twitter-filled-color_aiytrq.svg" alt="twitter" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 0px; padding-left: 3px; padding-right: 3px;"><a href="https://revrebel.slack.com/" target="_self" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/slack-filled-color_jiv2mo.svg" alt="slack" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 0px; padding-left: 3px; padding-right: 0px;"><a href="https://github.com/RevRebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/github-filled-color_aolj5d.svg" alt="github" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-8 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden; border-radius: 8px 0 0; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="16.666666666666668%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="icons_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #fff; font-family: inherit; font-size: 14px; font-weight: 400; text-align: left;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 15px; padding-bottom: 10px; padding-left: 30px; padding-right: 15px;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/address-filled-blue_jwk75q.svg" alt="Map Icon" height="32" width="32" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-2" width="33.333333333333336%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="heading_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad" style="text-align:center;width:100%;">
+																<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1px; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">LOS ANGELES HQ</span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;">5101 Santa Monica Blvd</p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:12px;">
+																	<p style="margin: 0;">STE 8 PMB 69</p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-4" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;">Los Angeles, CA 90029</p>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-3" width="16.666666666666668%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="icons_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #000000; font-family: inherit; font-size: 14px; font-weight: 400; text-align: left;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 15px; padding-bottom: 5px; padding-left: 30px; padding-right: 15px;"><a href="https://res.cloudinary.com/revrebel/image/upload/v1658232889/RevRebel/ui/filled/_svg-white/phone-filled-white_r6m4u0.svg" target="_self" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/Phone_Filled_jb50mw.svg" alt="Phone Icon" height="32" width="32" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-4" width="33.333333333333336%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="heading_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad" style="text-align:center;width:100%;">
+																<h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1px; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">GET IN TOUCH</span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;">[p]&nbsp; &nbsp;<a href="tel:13108001124" target="_self" title="phone" style="text-decoration: none; color: #1c447f;">(310) 800-1124</a><a href="http://voice.google.com/calls?a=nc,%2B13108001124" class="gv-tel-link" target="_blank" rel="noopener" title="Call +1 310-800-1124 via Google Voice" style="color: #1c447f;"></a></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:12px;">
+																	<p style="margin: 0;">[e]&nbsp; &nbsp;<a href="mailto:finance@revrebel.io?subject=Retainer%20Question?" target="_blank" title="email us" style="text-decoration: none; color: #1c447f;" rel="noopener">finance@revrebel.io</a></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="paragraph_block block-4" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+																	<p style="margin: 0;">[w]&nbsp;<a href="https://revrebel.io" target="_blank" title="website" style="text-decoration: none; color: #1c447f;" rel="noopener"> revrebel.io</a></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-9" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:25px;line-height:25px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-10 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden; border-radius: 0; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-right: 10px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="icons_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad" style="vertical-align: middle; color: #1c447f; font-family: inherit; font-size: 14px; font-weight: 400; letter-spacing: 0px; padding-top: 15px; text-align: left;">
+																<table class="alignment" cellpadding="0" cellspacing="0" role="presentation" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+																	<tr>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;"><a href="https://www.instagram.com/hello_revrebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/instagram-filled-color_ahvfua.svg" alt="instagram" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;"><a href="https://www.facebook.com/hello.revrebel" target="_self" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/facebook-filled-color_jcuqp8.svg" alt="facebook" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;"><a href="https://www.linkedin.com/company/revrebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/linkedin-filled-color_xxeqkg.svg" alt="linkedin" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;"><a href="https://www.twitter.com/hello_revrebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/twitter-filled-color_aiytrq.svg" alt="twitter" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;"><a href="https://revrebel.slack.com/" target="_self" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/slack-filled-color_jiv2mo.svg" alt="slack" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																		<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;"><a href="https://github.com/RevRebel" target="_blank" style="text-decoration: none;"><img class="icon" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/990680_975371/github-filled-color_aolj5d.svg" alt="github" height="16" width="16" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-11 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-right: 10px; padding-top: 5px; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:60px;line-height:60px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-12" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa; border-radius: 0; color: #000000; width: 520px;" width="520">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1" style="height:60px;line-height:60px;font-size:1px;">&#8202;</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table><!-- End -->
+</body>
+
+</html>
