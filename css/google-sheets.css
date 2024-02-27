@@ -170,27 +170,29 @@ p {
 }
 
 .margin-top-s {
-    padding-top: 4px;
+    padding-top: .75rem;
+    
 }
 
 .margin-top-m {
-    padding-top: 12px;
+    padding-top: 1rem;
 }
 
 .margin-top-l {
-    padding-top: 14px;
+    padding-top: 1.5rem;
+    
 }
 
 .margin-bottom-s {
-    padding-bottom: 4px;
+    padding-bottom: .75rem;
 }
 
 .margin-bottom-m {
-    padding-bottom: 12px;
+    padding-bottom: 1rem;
 }
 
 .margin-bottom-l {
-    padding-bottom: 14px;
+    padding-bottom: 1.5rem;
 }
 
 .bottom,
