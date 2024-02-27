@@ -313,6 +313,7 @@ r2 {
     text-align: left;
 }
 
+logo,
 .logo {
     font-family: 'Barlow', sans-serif;
     font-weight: 900;
@@ -356,6 +357,7 @@ a:hover {
 
 /* BUTTONS */
 
+button,
 .button {
     align-content: center;
     align-items: center;
@@ -385,6 +387,7 @@ a:hover {
     transition: all .2s;
 }
 
+button.outline,
 .button.outline {
     background-color: #FFFFFF;
     border: 3px solid #1c437f;
@@ -429,6 +432,7 @@ a:hover {
     filter: brightness(100%);
 }
 
+link,
 .link {
     border: none;
     border-color: #FFFFFF;
@@ -574,11 +578,13 @@ textarea {
     resize: vertical;
 }
 
+space,
 .space {
     height: 30px;
     
 }
 
+line,
 .line {
     border-bottom: 1px solid #1C447F;
 }
