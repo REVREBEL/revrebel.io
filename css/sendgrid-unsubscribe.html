@@ -1,0 +1,1611 @@
+<style>
+    /* Global styles */
+    @import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@400;500;600;700&display=swap');
+  
+    /* ************************** */
+    /* FONTS */
+    /* ************************** */
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0NSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+  
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh2dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+  
+    /* greek-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+  
+    /* greek */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3tSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh09SDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0NSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+  
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh2dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+  
+    /* greek-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+  
+    /* greek */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3tSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh09SDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0NSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+  
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh2dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+  
+    /* greek-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+  
+    /* greek */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3tSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh09SDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0NSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+  
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh2dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+  
+    /* greek-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh0dSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF;
+    }
+  
+    /* greek */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3tSDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0370-03FF;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh09SDqFGedCMX.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* devanagari */
+    @font-face {
+      font-family: 'Khand';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKNdmExbQel_O-D5hw.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Khand';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKNdmE-bQel_O-D5hw.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Khand';
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKNdmEwbQel_O-D.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* devanagari */
+    @font-face {
+      font-family: 'Khand';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bLpd2ExbQel_O-D5hw.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Khand';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bLpd2E-bQel_O-D5hw.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Khand';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bLpd2EwbQel_O-D.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* thai */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVmJx26TKEr37c9YL5rik8s6yLUrwB0lw.woff2) format('woff2');
+      unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+    }
+  
+    /* vietnamese */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVmJx26TKEr37c9YL5rilQs6yLUrwB0lw.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVmJx26TKEr37c9YL5rilUs6yLUrwB0lw.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVmJx26TKEr37c9YL5rilss6yLUrwA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* thai */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVjJx26TKEr37c9aAFJn3YO5gjupg.woff2) format('woff2');
+      unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+    }
+  
+    /* vietnamese */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVjJx26TKEr37c9aBpJn3YO5gjupg.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+  
+    /* latin-ext */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVjJx26TKEr37c9aBtJn3YO5gjupg.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+  
+    /* latin */
+    @font-face {
+      font-family: 'Sarabun';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVjJx26TKEr37c9aBVJn3YO5gg.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+        U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  
+    /* ************************** */
+    /* NOTO EMOJI */
+    /* ************************** */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.0.woff) format('woff');
+      unicode-range: U+1f1e6-1f1ff;
+    }
+  
+    /* [1] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.1.woff) format('woff');
+      unicode-range: U+200d, U+2620, U+26a7, U+fe0f, U+1f308, U+1f38c, U+1f3c1, U+1f3f3-1f3f4, U+1f6a9, U+e0062-e0063, U+e0065, U+e0067, U+e006c, U+e006e, U+e0073-e0074, U+e0077, U+e007f;
+    }
+  
+    /* [2] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.2.woff) format('woff');
+      unicode-range: U+23, U+2a, U+30-39, U+a9, U+ae, U+200d, U+203c, U+2049, U+20e3, U+2122, U+2139, U+2194-2199, U+21a9-21aa, U+23cf, U+23e9-23ef, U+23f8-23fa, U+24c2, U+25aa-25ab, U+25b6, U+25c0, U+25fb-25fe, U+2611, U+2622-2623, U+2626, U+262a, U+262e-262f, U+2638, U+2640, U+2642, U+2648-2653, U+2660, U+2663, U+2665-2666, U+2668, U+267b, U+267e-267f, U+2695, U+269b-269c, U+26a0, U+26a7, U+26aa-26ab, U+26ce, U+26d4, U+2705, U+2714, U+2716, U+271d, U+2721, U+2733-2734, U+2747, U+274c, U+274e, U+2753-2755, U+2757, U+2764, U+2795-2797, U+27a1, U+27b0, U+27bf, U+2934-2935, U+2b05-2b07, U+2b1b-2b1c, U+2b55, U+3030, U+303d, U+3297, U+3299, U+fe0f, U+1f170-1f171, U+1f17e-1f17f, U+1f18e, U+1f191-1f19a, U+1f201-1f202, U+1f21a, U+1f22f, U+1f232-1f23a, U+1f250-1f251, U+1f310, U+1f3a6, U+1f3b5-1f3b6, U+1f3bc, U+1f3e7, U+1f441, U+1f499-1f49c, U+1f49f-1f4a0, U+1f4a2, U+1f4ac-1f4ad, U+1f4b1-1f4b2, U+1f4b9, U+1f4db, U+1f4f2-1f4f6, U+1f500-1f50a, U+1f515, U+1f518-1f524, U+1f52f-1f53d, U+1f549, U+1f54e, U+1f5a4, U+1f5e8, U+1f5ef, U+1f6ab, U+1f6ad-1f6b1, U+1f6b3, U+1f6b7-1f6bc, U+1f6be, U+1f6c2-1f6c5, U+1f6d0-1f6d1, U+1f6d7, U+1f6dc, U+1f7e0-1f7eb, U+1f7f0, U+1f90d-1f90e, U+1f9e1, U+1fa75-1fa77, U+1faaf;
+    }
+  
+    /* [3] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.3.woff) format('woff');
+      unicode-range: U+231a-231b, U+2328, U+23f0-23f3, U+2602, U+260e, U+2692, U+2694, U+2696-2697, U+2699, U+26b0-26b1, U+26cf, U+26d1, U+26d3, U+2702, U+2709, U+270f, U+2712, U+fe0f, U+1f302, U+1f321, U+1f392-1f393, U+1f3a9, U+1f3bd, U+1f3ee, U+1f3f7, U+1f3fa, U+1f451-1f462, U+1f484, U+1f489-1f48a, U+1f48c-1f48e, U+1f4a1, U+1f4a3, U+1f4b0, U+1f4b3-1f4b8, U+1f4bb-1f4da, U+1f4dc-1f4f1, U+1f4ff, U+1f50b-1f514, U+1f516-1f517, U+1f526-1f529, U+1f52c-1f52e, U+1f550-1f567, U+1f56f-1f570, U+1f576, U+1f587, U+1f58a-1f58d, U+1f5a5, U+1f5a8, U+1f5b1-1f5b2, U+1f5c2-1f5c4, U+1f5d1-1f5d3, U+1f5dc-1f5de, U+1f5e1, U+1f5f3, U+1f6aa, U+1f6ac, U+1f6bd, U+1f6bf, U+1f6c1, U+1f6cb, U+1f6cd-1f6cf, U+1f6d2, U+1f6e0-1f6e1, U+1f6f0, U+1f97b-1f97f, U+1f9af, U+1f9ba, U+1f9e2-1f9e6, U+1f9ea-1f9ec, U+1f9ee-1f9f4, U+1f9f7-1f9ff, U+1fa71-1fa74, U+1fa79-1fa7b, U+1fa86, U+1fa91-1fa93, U+1fa96, U+1fa99-1faa0, U+1faa2-1faa7, U+1faaa-1faae;
+    }
+  
+    /* [4] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.4.woff) format('woff');
+      unicode-range: U+265f, U+26bd-26be, U+26f3, U+26f8, U+fe0f, U+1f004, U+1f0cf, U+1f380-1f384, U+1f386-1f38b, U+1f38d-1f391, U+1f396-1f397, U+1f399-1f39b, U+1f39e-1f39f, U+1f3a3-1f3a5, U+1f3a7-1f3a9, U+1f3ab-1f3b4, U+1f3b7-1f3bb, U+1f3bd-1f3c0, U+1f3c5-1f3c6, U+1f3c8-1f3c9, U+1f3cf-1f3d3, U+1f3f8-1f3f9, U+1f47e, U+1f4e2, U+1f4f7-1f4fd, U+1f52b, U+1f579, U+1f58c-1f58d, U+1f5bc, U+1f6f7, U+1f6f9, U+1f6fc, U+1f93f, U+1f941, U+1f945, U+1f947-1f94f, U+1f9e7-1f9e9, U+1f9f5-1f9f6, U+1fa70-1fa71, U+1fa80-1fa81, U+1fa83-1fa85, U+1fa87-1fa88, U+1fa94-1fa95, U+1fa97-1fa98, U+1faa1, U+1faa9;
+    }
+  
+    /* [5] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.5.woff) format('woff');
+      unicode-range: U+2693, U+26e9-26ea, U+26f1-26f2, U+26f4-26f5, U+26fa, U+26fd, U+2708, U+fe0f, U+1f301, U+1f303, U+1f306-1f307, U+1f309, U+1f310, U+1f3a0-1f3a2, U+1f3aa, U+1f3cd-1f3ce, U+1f3d5, U+1f3d7-1f3db, U+1f3df-1f3e6, U+1f3e8-1f3ed, U+1f3ef-1f3f0, U+1f488, U+1f492, U+1f4ba, U+1f54b-1f54d, U+1f5fa-1f5ff, U+1f680-1f6a2, U+1f6a4-1f6a8, U+1f6b2, U+1f6d1, U+1f6d5-1f6d6, U+1f6dd-1f6df, U+1f6e2-1f6e5, U+1f6e9, U+1f6eb-1f6ec, U+1f6f3-1f6f6, U+1f6f8, U+1f6fa-1f6fb, U+1f9bc-1f9bd, U+1f9ed, U+1f9f3, U+1fa7c;
+    }
+  
+    /* [6] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.6.woff) format('woff');
+      unicode-range: U+2615, U+fe0f, U+1f32d-1f330, U+1f336, U+1f33d, U+1f345-1f37f, U+1f382, U+1f52a, U+1f942-1f944, U+1f950-1f96f, U+1f99e, U+1f9aa, U+1f9c0-1f9cb, U+1fad0-1fadb;
+    }
+  
+    /* [7] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.7.woff) format('woff');
+      unicode-range: U+200d, U+2600-2601, U+2603-2604, U+2614, U+2618, U+26a1, U+26c4-26c5, U+26c8, U+26f0, U+2728, U+2744, U+2b1b, U+2b50, U+fe0f, U+1f300, U+1f304-1f305, U+1f308, U+1f30a-1f30f, U+1f311-1f321, U+1f324-1f32c, U+1f331-1f335, U+1f337-1f33c, U+1f33e-1f344, U+1f3d4, U+1f3d6, U+1f3dc-1f3de, U+1f3f5, U+1f400-1f43f, U+1f490, U+1f4a7, U+1f4ab, U+1f4ae, U+1f525, U+1f54a, U+1f573, U+1f577-1f578, U+1f648-1f64a, U+1f940, U+1f980-1f9ae, U+1f9ba, U+1fa90, U+1faa8, U+1fab0-1fabd, U+1fabf, U+1face-1facf, U+1fae7;
+    }
+  
+    /* [8] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.8.woff) format('woff');
+      unicode-range: U+200d, U+2640, U+2642, U+2695-2696, U+26f7, U+26f9, U+2708, U+2764, U+fe0f, U+1f33e, U+1f373, U+1f37c, U+1f384-1f385, U+1f393, U+1f3a4, U+1f3a8, U+1f3c2-1f3c4, U+1f3c7, U+1f3ca-1f3cc, U+1f3eb, U+1f3ed, U+1f3fb-1f3ff, U+1f466-1f478, U+1f47c, U+1f481-1f483, U+1f486-1f487, U+1f48b, U+1f48f, U+1f491, U+1f4bb-1f4bc, U+1f527, U+1f52c, U+1f574-1f575, U+1f57a, U+1f645-1f647, U+1f64b, U+1f64d-1f64e, U+1f680, U+1f692, U+1f6a3, U+1f6b4-1f6b6, U+1f6c0, U+1f6cc, U+1f91d, U+1f926, U+1f930-1f931, U+1f934-1f93a, U+1f93c-1f93e, U+1f977, U+1f9af-1f9b3, U+1f9b8-1f9b9, U+1f9bc-1f9bd, U+1f9cc-1f9cf, U+1f9d1-1f9df, U+1fa82, U+1fac3-1fac5;
+    }
+  
+    /* [9] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.9.woff) format('woff');
+      unicode-range: U+200d, U+261d, U+2620, U+2639-263a, U+2665, U+270a-270d, U+2728, U+2763-2764, U+2b50, U+fe0f, U+1f31a-1f31f, U+1f32b, U+1f383, U+1f389, U+1f3fb-1f3ff, U+1f440-1f450, U+1f463-1f465, U+1f479-1f47b, U+1f47d-1f480, U+1f485, U+1f48b-1f48c, U+1f493-1f49f, U+1f4a4-1f4a6, U+1f4a8-1f4ab, U+1f4af, U+1f525, U+1f573, U+1f590, U+1f595-1f596, U+1f5a4, U+1f5e3, U+1f600-1f644, U+1f648-1f64a, U+1f64c, U+1f64f, U+1f90c-1f925, U+1f927-1f92f, U+1f932-1f933, U+1f970-1f976, U+1f978-1f97a, U+1f9a0, U+1f9b4-1f9b7, U+1f9bb, U+1f9be-1f9bf, U+1f9d0, U+1f9e0-1f9e1, U+1fa75-1fa79, U+1fac0-1fac2, U+1fae0-1fae6, U+1fae8, U+1faf0-1faf8;
+    }
+  
+    /* [10] */
+    @font-face {
+      font-family: 'Noto Emoji';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.10.woff) format('woff');
+      unicode-range: U+200d, U+2194-2195, U+2640, U+2642, U+26d3, U+27a1, U+fe0f, U+1f344, U+1f34b, U+1f3c3, U+1f3fb-1f3ff, U+1f426, U+1f468-1f469, U+1f4a5, U+1f525, U+1f642, U+1f6b6, U+1f7e9, U+1f7eb, U+1f9af, U+1f9bc-1f9bd, U+1f9ce, U+1f9d1-1f9d2;
+    }
+  
+    * {
+      box-sizing: border-box
+    }
+  
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: inherit !important
+    }
+  
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none
+    }
+  
+    p {
+      line-height: inherit
+    }
+  
+    .desktop_hide,
+    .desktop_hide table {
+      mso-hide: all;
+      display: none;
+      max-height: 0;
+      overflow: hidden
+    }
+  
+    .footer-image_block img+div {
+      display: none
+    }
+  
+    @media (max-width:620px) {
+      .footer-social_block.desktop_hide .footer-social-table {
+        display: inline-block !important
+      }
+  
+      .mobile_hide {
+        display: none
+      }
+  
+      .footer-row-content {
+        width: 100% !important
+      }
+  
+      .stack .column {
+        width: 100%;
+        display: block
+      }
+  
+      .mobile_hide {
+        min-height: 0;
+        max-height: 0;
+        max-width: 0;
+        overflow: hidden;
+        font-size: 0
+      }
+  
+      .desktop_hide,
+      .desktop_hide table {
+        display: table !important;
+        max-height: none !important
+      }
+  
+      .footer-row-2 .footer-column-2 .footer-block-2.paragraph_block td.pad,
+      .footer-row-2 .footer-column-4 .footer-block-2.paragraph_block td.pad,
+      .footer-row-2 .footer-column-4 .block-3.paragraph_block td.pad,
+      .footer-row-2 .footer-column-4 .footer-block-4.paragraph_block td.pad {
+        padding: 0 0 0 20px !important
+      }
+  
+      .footer-row-2 .footer-column-1 .footer-block-1.image_block td.pad,
+      .footer-row-2 .footer-column-3 .footer-block-1.image_block td.pad {
+        padding: 10px 10px 0 15px !important
+      }
+  
+      .footer-row-2 .footer-column-2 .footer-block-1.heading_block td.pad,
+      .footer-row-2 .footer-column-4 .footer-block-1.heading_block td.pad {
+        padding: 0 0 5px 20px !important
+      }
+  
+      .footer-row-2 .footer-column-5 .footer-block-1.heading_block td.pad {
+        padding: 0 20px 0 0 !important
+      }
+  
+      .footer-row-2 .footer-column-5 .footer-block-2.social_block td.pad {
+        padding: 5px 20px 5px 5px !important
+      }
+  
+      .footer-row-2 .footer-column-1 {
+        padding: 15px 10px 15px 0 !important
+      }
+    }
+  
+    html,
+    body {
+      font-family: 'Sarabun', Tahoma, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .avatar img {
+      border-radius: 100%;
+      margin-top: 43px;
+    }
+  
+    .email {
+      color: #5B8AA0;
+      font-family: 'Fira Code', Tahoma, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 26px;
+      margin-top: 15px;
+      margin-top: 15px;
+    }
+  
+    h1 {
+      color: #1C447F;
+      font-family: 'Khand', Impact, sans-serif !important;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 38px;
+      line-height: 46px;
+      margin: 5px;
+    }
+  
+    h1.animated {
+      -webkit-animation-name: shake;
+      animation-name: shake;
+      -webkit-animation-duration: 0.7s;
+      animation-duration: 0.7s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      color: #5B8AA0;
+    }
+  
+    h1.opt-out {
+      color: #1C447F;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+  
+    @-webkit-keyframes shake {
+  
+      0%,
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+  
+      15%,
+      45%,
+      75% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+      }
+  
+      30%,
+      60%,
+      90% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+      }
+    }
+  
+    @keyframes shake {
+  
+      0%,
+      100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+      }
+  
+      15%,
+      45%,
+      75% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+      }
+  
+      30%,
+      60%,
+      90% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+      }
+    }
+  
+    h3.subheader {
+      margin-top: 0;
+      color: #1C447F;
+      font-family: 'Fira Code', Impact, sans-serif;
+      font-weight: 300;
+      font-size: 12px;
+      letter-spacing: .001rem;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+  
+    main {
+      background: white;
+      border-radius: 3px;
+      margin: 0 auto;
+      width: 520px;
+    }
+  
+    main footer {
+      line-height: 40px;
+      padding: 20px 1px 30px 1px;
+      position: relative;
+      height: 40px;
+    }
+  
+    main footer a.left-link {
+      font-family: 'Sarabun', Tahoma, sans-serif !important;
+      font-size: 14px;
+      color: #9B9B9B;
+      letter-spacing: 0px;
+      position: absolute;
+      text-decoration: none;
+      left: 46px;
+    }
+  
+    main footer a.left-link:hover {
+      text-decoration: underline;
+    }
+  
+    body>footer {
+      margin: 34px;
+    }
+  
+    .button {
+      color: #FFFFFF;
+      background-color: #1C447F;
+      font-family: 'Khand', Impact, sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 1.33rem;
+      text-decoration: none;
+      transition: all .2s;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      line-height: 100%;
+      border: 3px solid #1C447F;
+      border-width: 3px;
+      border-radius: 3px;
+      border-style: solid;
+      border-color: #1C447F;
+      cursor: pointer;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      height: 60px;
+    }
+  
+    input.button {
+      padding-top: 5px;
+    }
+  
+    .button-save {
+      background: #FFFFFF;
+      border-radius: 3px;
+      border: 3px solid #1C447F;
+      color: #1C447F;
+      font-family: 'Khand', Impact, sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 1.33rem;
+      text-decoration: none;
+      transition: all .2s;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      line-height: 100%;
+      border-width: 3px;
+      border-style: solid;
+      border-color: #1C447F;
+      cursor: pointer;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      height: 60px;
+    }
+  
+    .button-save:hover {
+      color: #FFFFFF;
+      background-color: #1C447F;
+      box-shadow: 1px 1px 10px #1C447F;
+      -webkit-backface-visibility: visible;
+      backface-visibility: visible;
+      transform-origin: 50%;
+      text-decoration: none;
+    }
+  
+    .button:hover {
+      color: #1C447F;
+      background-color: #FFFFFF;
+      box-shadow: 1px 1px 10px #1C447F;
+      -webkit-backface-visibility: visible;
+      backface-visibility: visible;
+      transform-origin: 50%;
+      text-decoration: none;
+    }
+  
+    .button:active {
+      filter: brightness(110%);
+      color: #5B8AA0;
+      border-color: #5B8AA0;
+      border-width: 3px;
+      border: 3px solid #5B8AA0;
+    }
+  
+    .button.warn {
+      background: #FFFFFF;
+      border: 2px solid #FAD644;
+    }
+  
+    .button.warn:hover {
+      background: #FAD644;
+    }
+  
+    .button.warn:active {
+      background: #D53E4C;
+    }
+  
+    strong {
+      color: #1C447F;
+      font-family: 'Khand', Impact, sans-serif;
+      font-weight: 700;
+    }
+  
+    .opt-out-heading {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    /* Edit Group Preferences */
+    .group-preferences {
+      margin: 35px;
+    }
+  
+    .group-headings {
+      color: #5B8AA0;
+      font-family: 'Sarabun', Tahoma, sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 16px;
+      padding-bottom: 9px;
+    }
+  
+    .header-left {
+      float: left;
+    }
+  
+    .header-right {
+      float: right;
+    }
+  
+    .group {
+      color: #1C447F;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 36px 0;
+      text-align: left;
+      position: relative;
+    }
+  
+    .group-name {
+      font-family: 'Khand', Impact, sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 100%;
+      text-transform: uppercase;
+    }
+  
+    .group-description {
+      font-family: 'Sarabun', Tahoma, sans-serif;
+      font-weight: 300;
+      line-height: 130%;
+      font-size: 14px;
+    }
+  
+    .group-name,
+    .group-description {
+      width: 300px;
+    }
+  
+    .group .btn-still {
+      font-family: 'Khand', Impact, sans-serif !important;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: -20px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+    }
+  
+    .group .btn-toggle {
+      margin-top: -20px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+    }
+  
+    /* Opt out confirmation/success page */
+    main.opt-out-confirm {
+      display: none;
+    }
+  
+    main.opt-out-confirm footer a.left-link {
+      left: 20px;
+    }
+  
+    main.opt-out-confirm footer a.left-link strong {
+      font-size: 18px;
+    }
+  
+    main .alert {
+      text-align: center;
+      padding: 46px 42px 70px;
+      font-size: 22px;
+      color: #1C447F;
+      line-height: 28px;
+      position: relative;
+    }
+  
+    .alert img {
+      margin-bottom: 8px;
+    }
+  
+    .button.empty {
+      background: transparent;
+      border: 2px solid #C5C5C5;
+      color: #C5C5C5;
+      position: relative;
+      width: 230px;
+      right: inherit;
+    }
+  
+    .opt-out-success .button.empty {
+      margin-top: 45px;
+    }
+  
+    /* Error pages */
+    .error {
+      margin: 200px 0 10px;
+    }
+  
+    .error h1 {
+      font-size: 65px;
+    }
+  
+    .error h2 {
+      font-family: 'Sarabun', Tahoma, sans-serif !important;
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 37px;
+    }
+  
+    .error h3 {
+      font-family: 'Sarabun', Tahoma, sans-serif !important;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 9px;
+    }
+  
+    .error .red {
+      color: #Ef5353;
+    }
+  
+    /* Utilities */
+    .clearfix {
+      clear: both;
+    }
+  
+    .hidden {
+      visibility: hidden;
+      position: absolute;
+    }
+  
+    /* Still selection button */
+    .btn-still {
+      border-radius: 40px;
+      border: 3px solid #575757;
+      color: white;
+      font-size: 14px;
+      height: 21px;
+      letter-spacing: 0.041em;
+      line-height: 16px;
+      padding: 12px 20px 3px;
+      text-align: center;
+      width: 32px;
+      background-color: #1C447F;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+    }
+  
+    /* Animated selection button */
+    .btn-toggle.btn-toggle-onstate .btn-toggle-selector {
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      -o-transition-property: -o-transform;
+      transition-property: transform;
+      -webkit-transition-duration: 250ms;
+      -moz-transition-duration: 250ms;
+      -o-transition-duration: 250ms;
+      transition-duration: 250ms;
+      -webkit-transform: translate(30px, 0);
+      -moz-transform: translate(30px, 0);
+      -ms-transform: translate(30px, 0);
+      -o-transform: translate(30px, 0);
+      transform: translate(30px, 0);
+      transition-timing-function: ease-out;
+    }
+  
+    .btn-toggle.btn-toggle-offstate .btn-toggle-selector {
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      -o-transition-property: -o-transform;
+      transition-property: transform;
+      -webkit-transition-duration: 250ms;
+      -moz-transition-duration: 250ms;
+      -o-transition-duration: 250ms;
+      transition-duration: 250ms;
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      -o-transform: translate(0, 0);
+      transform: translate(0, 0);
+      transition-timing-function: ease-out;
+    }
+  
+    .btn-toggle {
+      padding: 0;
+      position: relative;
+      font-size: 0;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      text-align: center;
+      height: 40px;
+    }
+  
+    .btn-toggle-container {
+      border: 3px solid #1C447F;
+      border-radius: 3px;
+      font-size: 0;
+      height: 40px;
+    }
+  
+    .btn-toggle-option {
+      border-radius: 3px;
+      border-style: solid;
+      border-width: 1px;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 700;
+      border: none;
+      color: #1C447F;
+      position: relative;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+  
+    .btn-toggle-selector {
+      background-color: #B2D3DE;
+      position: absolute;
+      width: 45px;
+      height: 40px;
+      top: 0;
+      left: 0;
+      border-top: 3px solid #B2D3DE;
+      border-bottom: 3px solid #B2D3DE;
+      border-left: 3px solid #B2D3DE;
+      border-right: 3px solid #B2D3DE;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      z-index: 1;
+    }
+  
+    .btn-toggle-active {
+      color: #FFFFFF;
+    }
+  
+    .flash_notice {
+      margin: 0 auto 0 auto;
+      text-align: center;
+      font-size: 14px;
+    }
+  
+    .flash_notice.fixed {
+      position: fixed;
+      width: 100%;
+      z-index: 2000;
+    }
+  
+    .flash_notice .alert {
+      border-radius: 3px;
+      color: white;
+      display: inline-block;
+      margin: 2px;
+      padding: 10px 14px;
+      text-align: center;
+    }
+  
+    .flash_notice .alert-danger {
+      background-color: #Ef5353;
+      border-color: #FFFFFF;
+    }
+  
+    .yes {
+      color: #C84D40;
+      text-align: center;
+    }
+  
+    .no {
+      border-radius: 100%;
+      width: 20px;
+      height: 20px;
+      border: 3px solid #Ef5353;
+    }
+  
+    .no:before {
+      position: absolute;
+      content: '';
+      height: 19px;
+      border-left: 3px solid #1C447F;
+      border-right: 3px solid #1C447F;
+      border-top: 0;
+      border-bottom: 0;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      width: 0;
+      margin-left: 8px;
+    }
+  
+    .yes-container {
+      display: inline-block;
+      margin-top: -10px;
+      margin-right: 30px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+    }
+  
+    .no-container {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      display: inline-block;
+      margin-top: -10px;
+      margin-right: 30px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+    }
+  
+    /* iOS devices Input fix*/
+    input[type=submit] {
+      -webkit-appearance: none;
+    }
+  
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+      .display-preferences {
+        width: 100%;
+        box-sizing: border-box;
+      }
+  
+      .opt-out-confirm {
+        width: 100%;
+      }
+  
+      h1.emailhead {
+        font-size: 26px;
+        font-weight: lighter;
+      }
+  
+      h3.subheader {
+        width: 89%;
+        margin: 0 auto 20px;
+        font-weight: lighter;
+      }
+  
+      .group-preferences {
+        margin: 35px 0 0;
+      }
+  
+      .group-headings {
+        margin: 0;
+        padding: 0 20px 10px;
+        font-size: 15px;
+      }
+  
+      .group-name,
+      .group-description {
+        width: 165px;
+      }
+  
+      .group .btn-toggle,
+      .group .btn-still {
+        right: 20px;
+      }
+  
+      .group {
+        padding: 36px 20px;
+      }
+  
+      main footer {
+        height: 85px;
+      }
+  
+      main footer .button {
+        position: static;
+        display: block;
+        margin: 0 auto 15px;
+      }
+  
+      main footer a.left-link {
+        position: static;
+        margin: 0 auto;
+      }
+    }
+  </style>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Unsubscribe Preferences</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--[if mso]>
+                      <xml>
+                          <o:OfficeDocumentSettings>
+                              <o:PixelsPerInch>96</o:PixelsPerInch>
+                              <o:AllowPNG/>
+                          </o:OfficeDocumentSettings>
+                      </xml>
+                      <![endif]-->
+      <!--[if !mso]>
+                      <!-->
+      <!--
+                      <![endif]-->
+    </head>
+    <body>
+      <h2 class="email">{{email | default}}</h2>
+      <h1 class="emailhead">Opt-Out Preferences</h1>
+      <h3 class="subheader"> Hey {{insert first_name 'default=Trendsetter'}}, <br> You can choose to opt out of any of the following <br /> types of email communications we send. </h3>
+      <main class="display-preferences">
+        <form action="/asm/?user_id=41000698&amp;data=fiVSbMVxSYMHUw9GpBaOl7Lshs0zpbZjL49EOP0Hww1oMDAwdTAwMN9jkjJySXdf8f95rri5qXq_IOojKOl50msQrlKF0ryHXXXU5oUzHX0JNQl4oloF0ZNvStp_uTK_HkS0JHyirT0im-Tdyu7qa1wJUmOrsxb4lH9K0S4HoAQaZRSBmO-D6sZ6hzuxyaWMPGowOhh8Z5dab5VG3wXZPZF9cglYLsfKXupRKTNs6RtWBxNWjqEfpth38uCjPQeId-nb86a6b9gL3tmK0yVw5QoaoDv9Hv7NC_L9vmUqxx7KloOTmrOzPVqnyslWwAYPibOtahgPSKY01WIi6yrgMqfwHgQLpR8ljt8p-svxCmBUFRcT2rnCIgNNXL8X0zdOWEW9Or7AahjaUrIcTJphnunL5Iyerq5UPZmvTgtk7gnvh19iizEdP59Cqi_8qpyk5BpawSkkTmdgRWzJuA-gkUlNwgpbwA6wlJ6sGkG9fWA5Ny-yC3dRpk_Q-_NzGcylgT7o74kHZYnlYGs3ntoH1rMjOJDZkZdlt0rp1BAdCrN4nWbs9miCShT5KGEnX0vbDJc61k6rsQg=" method="post">
+          <div class="opt-out-heading" style=" padding-top: 40px;">
+            <input type="hidden" name="opt-out" value="true" />
+            <input type="submit" class="button opt-out-link" value="Opt Out of All Emails" />
+          </div>
+        </form>
+        <form action="/asm/?user_id=41000698&amp;data=fiVSbMVxSYMHUw9GpBaOl7Lshs0zpbZjL49EOP0Hww1oMDAwdTAwMN9jkjJySXdf8f95rri5qXq_IOojKOl50msQrlKF0ryHXXXU5oUzHX0JNQl4oloF0ZNvStp_uTK_HkS0JHyirT0im-Tdyu7qa1wJUmOrsxb4lH9K0S4HoAQaZRSBmO-D6sZ6hzuxyaWMPGowOhh8Z5dab5VG3wXZPZF9cglYLsfKXupRKTNs6RtWBxNWjqEfpth38uCjPQeId-nb86a6b9gL3tmK0yVw5QoaoDv9Hv7NC_L9vmUqxx7KloOTmrOzPVqnyslWwAYPibOtahgPSKY01WIi6yrgMqfwHgQLpR8ljt8p-svxCmBUFRcT2rnCIgNNXL8X0zdOWEW9Or7AahjaUrIcTJphnunL5Iyerq5UPZmvTgtk7gnvh19iizEdP59Cqi_8qpyk5BpawSkkTmdgRWzJuA-gkUlNwgpbwA6wlJ6sGkG9fWA5Ny-yC3dRpk_Q-_NzGcylgT7o74kHZYnlYGs3ntoH1rMjOJDZkZdlt0rp1BAdCrN4nWbs9miCShT5KGEnX0vbDJc61k6rsQg=" method="post">
+          <div class="group-preferences">
+            <div class="group-headings">
+              <span class="header-left">Email Type</span>
+              <span class="header-right">Opt Out</span>
+              <div class="clearfix"></div>
+            </div>
+            <div class="group">
+              <div class="btn-toggle btn-toggle-offstate">
+                <div class="btn-toggle-container">
+                  <div class="btn-toggle-option btn-toggle-active">No</div>
+                  <div class="btn-toggle-option">Yes</div>
+                </div>
+                <div class="btn-toggle-selector"></div>
+                <div class="hidden">
+                  <input style="position: absolute; right: -50px" type="checkbox" name="30673" value="New Services &#43; Product Alerts" checked="checked" />
+                  <input type="hidden" name="30673.hidden" value="New Services &#43; Product Alerts" />
+                </div>
+              </div>
+              <div class="group-name">New Services &#43; Product Alerts</div>
+              <div class="group-description"> A membership to this group ensures that you&#39;re always the first one to know about our services.</div>
+            </div>
+            <div class="group">
+              <div class="btn-toggle btn-toggle-offstate">
+                <div class="btn-toggle-container">
+                  <div class="btn-toggle-option btn-toggle-active">No</div>
+                  <div class="btn-toggle-option">Yes</div>
+                </div>
+                <div class="btn-toggle-selector"></div>
+                <div class="hidden">
+                  <input style="position: absolute; right: -50px" type="checkbox" name="30674" value="Events &amp; Webinars" checked="checked" />
+                  <input type="hidden" name="30674.hidden" value="Events &amp; Webinars" />
+                </div>
+              </div>
+              <div class="group-name">Events &amp; Webinars</div>
+              <div class="group-description">If you’re someone who loves to network &amp; learn from industry-leading experts, this group is for you.</div>
+            </div>
+            <div class="group">
+              <div class="btn-toggle btn-toggle-offstate">
+                <div class="btn-toggle-container">
+                  <div class="btn-toggle-option btn-toggle-active">No</div>
+                  <div class="btn-toggle-option">Yes</div>
+                </div>
+                <div class="btn-toggle-selector"></div>
+                <div class="hidden">
+                  <input style="position: absolute; right: -50px" type="checkbox" name="30675" value="Promotional Offers" checked="checked" />
+                  <input type="hidden" name="30675.hidden" value="Promotional Offers" />
+                </div>
+              </div>
+              <div class="group-name">Promotional Offers</div>
+              <div class="group-description">Love a good deal? Join this group to receive invite only special offers &amp; limited time discounts.</div>
+            </div>
+            <div class="group">
+              <div class="btn-toggle btn-toggle-offstate">
+                <div class="btn-toggle-container">
+                  <div class="btn-toggle-option btn-toggle-active">No</div>
+                  <div class="btn-toggle-option">Yes</div>
+                </div>
+                <div class="btn-toggle-selector"></div>
+                <div class="hidden">
+                  <input style="position: absolute; right: -50px" type="checkbox" name="30676" value="Industry News and Updates" checked="checked" />
+                  <input type="hidden" name="30676.hidden" value="Industry News and Updates" />
+                </div>
+              </div>
+              <div class="group-name">Industry News and Updates</div>
+              <div class="group-description">Get trends, industry insights, and latest strategies delivered straight to your inbox.</div>
+            </div>
+            <div class="group">
+              <div class="btn-toggle btn-toggle-offstate">
+                <div class="btn-toggle-container">
+                  <div class="btn-toggle-option btn-toggle-active">No</div>
+                  <div class="btn-toggle-option">Yes</div>
+                </div>
+                <div class="btn-toggle-selector"></div>
+                <div class="hidden">
+                  <input style="position: absolute; right: -50px" type="checkbox" name="30677" value="Educational Content" checked="checked" />
+                  <input type="hidden" name="30677.hidden" value="Educational Content" />
+                </div>
+              </div>
+              <div class="group-name">Educational Content</div>
+              <div class="group-description">Your personal learning library. From how-tos to meaningful tutorials to comprehensive guides.</div>
+            </div>
+            <div class="group">
+              <div class="btn-toggle btn-toggle-offstate">
+                <div class="btn-toggle-container">
+                  <div class="btn-toggle-option btn-toggle-active">No</div>
+                  <div class="btn-toggle-option">Yes</div>
+                </div>
+                <div class="btn-toggle-selector"></div>
+                <div class="hidden">
+                  <input style="position: absolute; right: -50px" type="checkbox" name="30678" value="Customer Success Stories" checked="checked" />
+                  <input type="hidden" name="30678.hidden" value="Customer Success Stories" />
+                </div>
+              </div>
+              <div class="group-name">Customer Success Stories</div>
+              <div class="group-description">Read inspiring stories of our clients. Learn from their experiences, their challenges, an big wins.</div>
+            </div>
+          </div>
+          <footer style="padding-bottom: 120px;">
+            <input type="submit" class="button button-save" value="Save Preferences">
+          </footer>
+        </form>
+      </main>
+      <table class="row row-13 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tbody>
+          <tr>
+            <td>
+              <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 520px; margin: 0 auto" width="520">
+                <tbody>
+                  <tr>
+                    <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 0px; padding-top: 0px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px">
+                      <div class="spacer_block block-1" style="height: 20px; line-height: 20px; font-size: 1px">&#8202;</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="footer-nl-container" style="mso-table-lspace: 0; mso-table-rspace: 0; " role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td>
+              <table class="footer-row footer-row-1" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      <table class="footer-footer-row-content footer-stack" style="mso-table-lspace: 0; mso-table-rspace: 0;color: #000; width: 520px; margin: 0 auto;" role="presentation" border="0" width="520" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                          <tr>
+                            <td class="footer-column footer-footer-column-1" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align:left; padding-bottom: 0px; padding-top: 0px; vertical-align: top; border: 0;" width="100%">
+                              <table class="empty_block block-1" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad">&nbsp;</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="row footer-row-2" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      <table class="footer-footer-row-content footer-stack" style="mso-table-lspace: 0; mso-table-rspace: 0; color: #000; border-radius: 0; width: 520px; margin: 0 auto;" role="presentation" border="0" width="520" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                          <tr>
+                            <td class="footer-column footer-footer-column-1" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-left: 0px; padding-top: 5px; vertical-align: top; border: 0;" width="5%">
+                              <table class="image_block block-1" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad" style="width: 100%; padding-right: 0; padding-left:0;">
+                                      <div class="alignment" align="left" style="line-height:10px">
+                                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="address" width="38px" height="38px">
+                                          <style>
+                                            .address {
+                                              fill: #1c447f
+                                            }
+                                          </style>
+                                          <g class="address">
+                                            <path d="M255.999 229.822c-77.799 0-141.088 63.29-141.088 141.088S178.201 511.997 256 511.997s141.087-63.289 141.087-141.087-63.29-141.088-141.087-141.088zm52.962 209.21h-28.027l-47.88-76.207v75.126h-30.018V303.228l28.027.01 47.88 76.197v-75.567h30.018zM351.128 199.233L255.998 0 160.87 199.233l95.129-24.885z" class="address" />
+                                          </g>
+                                        </svg>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="footer-column footer-footer-column-2" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border: 0;" width="30%">
+                              <table class="footer-heading_block footer-block-1" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad" style="padding-bottom: 5px; text-align:left; width: 100%;">
+                                      <h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 1px; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0;">
+                                        <span class="tinyMce-placeholder">LOS ANGELES HQ</span>
+                                      </h1>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="footer-paragraph_block footer-block-2" style="mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad">
+                                      <div style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:12px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:left;mso-line-height-alt:15px;">
+                                        <p style="margin: 0;">
+                                          <a style="text-decoration: none; color: #1c447f;" title="address" href="https://www.google.com/maps?q=5101+Santa+Monica+Blvd,+Los+Angeles,+CA,+USA" target="_blank" rel="noopener">5101 Santa Monica Blvd </a>
+                                          <br />
+                                          <a style="text-decoration: none; color: #1c447f;" title="address" href="https://www.google.com/maps?q=5101+Santa+Monica+Blvd,+Los+Angeles,+CA,+USA" target="_blank" rel="noopener">STE 8 PMB 69 </a>
+                                          <br />
+                                          <a style="text-decoration: none; color: #1c447f;" title="address" href="https://www.google.com/maps?q=5101+Santa+Monica+Blvd,+Los+Angeles,+CA,+USA" target="_blank" rel="noopener">Los Angeles, CA 90029</a>
+                                        </p>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="column footer-column-3" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; padding-right: 0px; vertical-align: top; border: 0;" width="5%">
+                              <table class="image_block block-1" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad" style="width: 100%; padding-right: 0; padding-left: 0;">
+                                      <div class="alignment" align="left" style="line-height:10px">
+                                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="phone" title="phone" width="35px" height="35px">
+                                          <g fill="#1C447F">
+                                            <path d="M359 130.06V96c0-8.28-6.72-15-15-15h-64c-8.28 0-15 6.72-15 15v11h12.13c29.1 0 57.44 8.15 81.87 23.06Z" />
+                                            <path d="M209.32 109.11l-4.65-71.24C203.16 16.63 185.29 0 164 0c-21.29 0-39.16 16.63-40.67 37.9l-8.73 125.19c22.93-27.63 56.684-47.685 94.72-53.98Z" />
+                                            <path d="M277.13 137h-42.26c-74.584 0-133.37 64.2-126.46 138.73l10.31 111.13c3.18 34.3 18.95 65.96 44.4 89.16 52.6 47.93 133.07 48 185.76 0 25.45-23.2 41.22-54.86 44.4-89.16l10.31-111.13C410.5 201.16 351.68 137 277.13 137ZM215 431c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-32c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm56 16c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-64c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm56-16c0 8.28-6.72 15-15 15 -8.28 0-15-6.72-15-15v-32c0-8.28 6.72-15 15-15 8.28 0 15 6.72 15 15Zm16-149c0 24.81-20.19 45-45 45h-84c-24.81 0-45-20.19-45-45v-36c0-24.81 20.19-45 45-45h84c24.81 0 45 20.19 45 45Z" />
+                                            <path d="M298 231h-84c-8.27 0-15 6.73-15 15v36c0 8.27 6.73 15 15 15h84c8.27 0 15-6.73 15-15v-36c0-8.27-6.73-15-15-15Z" />
+                                          </g>
+                                        </svg>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="footer-column footer-footer-column-4" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border: 0;" width="30%">
+                              <table class="footer-heading_block footer-block-1" style="mso-table-lspace: 0; mso-table-rspace: 0;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad" style="padding-bottom: 5px; text-align: center; width: 100%;">
+                                      <h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 1px; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0;">
+                                        <span class="tinyMce-placeholder">GET IN TOUCH</span>
+                                      </h1>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="footer-paragraph_block footer-block-2" style="mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad">
+                                      <div style="color: #1c447f; direction: ltr; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 12px; font-weight: 400; letter-spacing: 0; line-height: 120%; text-align: left; mso-line-height-alt: 14.399999999999999px;">
+                                        <p style="margin: 0;">[p]&nbsp; &nbsp; <a style="text-decoration: none; color: #1c447f;" title="phone" href="tel:13108001124" target="_self">(310) 800-1124</a>
+                                        </p>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="paragraph_block block-3" style="mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad" style="padding-top: 5px;">
+                                      <div style="color: #1c447f; direction: ltr; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 12px; font-weight: 400; letter-spacing: 0; line-height: 120%; text-align: left; mso-line-height-alt: 14.399999999999999px;">
+                                        <p style="margin: 0;">[e]&nbsp; &nbsp; <a style="text-decoration: none; color: #1c447f;" title="email us" href="mailto:hello@revrebel.io" target="_blank" rel="noopener">hello@revrebel.io</a>
+                                        </p>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="paragraph_block block-4" style="mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="pad" style="padding-top: 5px;">
+                                      <div style="color: #1c447f; direction: ltr; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 12px; font-weight: 400; letter-spacing: 0; line-height: 120%; text-align: left; mso-line-height-alt: 14px;">
+                                        <p style="margin: 0;">[w]&nbsp; <a style="text-decoration: none; color: #1c447f;" title="website" href="https://revrebel.io/" target="_blank" rel="noopener"> revrebel.io</a>
+                                        </p>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="column footer-column-5" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;padding-bottom:5px;padding-bottom: 5px; padding-right: 15px; vertical-align:top;border:0">
+                              <table class="footer-heading_block footer-block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                                <tr>
+                                  <td class="pad" style="text-align:center;width:100%">
+                                    <h1 style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 1px; line-height: 120%; text-align: right; margin-top: 0; margin-bottom: 0;">
+                                      <span class="tinyMce-placeholder"> STAYIN TOUCH</span>
+                                    </h1>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class="social_block block-2" width="100%" border="0" cellpadding="5" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                                <tr>
+                                  <td class="pad">
+                                    <div class="alignment" align="center">
+                                      <table class="footer-social-table" width="50px" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;display:inline-block">
+                                        <tr>
+                                          <td style="vertical-align: middle; padding:  8px 0px 8px 0px;">
+                                            <a href="https://www.instagram.com/hello_revrebel" target="_blank">
+                                              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="prefix__instagram" width="22" height="22"><style>.prefix__instagram{ fill: #ef5353} </style><path d="M256.004 158.536c-53.75 0-97.47 43.72-97.47 97.464 0 53.74 43.72 97.464 97.46 97.464 53.74 0 97.46-43.73 97.46-97.464 0-53.75-43.73-97.464-97.47-97.464z" class="prefix__instagram" /><path d="M376.5 0h-241C60.785 0 0 60.78 0 135.5v241C0 451.21 60.78 512 135.5 512h241c74.71 0 135.5-60.79 135.5-135.5v-241C512 60.785 451.21 0 376.5 0zM256 383.464c-70.285 0-127.47-57.18-127.47-127.464 0-70.29 57.18-127.464 127.46-127.464S383.45 185.716 383.45 256c0 70.28-57.19 127.464-127.47 127.464zM409.2 124a15.111 15.111 0 01-10.61 4.39c-3.94 0-7.81-1.61-10.61-4.4-2.79-2.8-4.38-6.67-4.38-10.61 0-3.95 1.59-7.82 4.38-10.61a15.13 15.13 0 0110.61-4.39c3.95 0 7.82 1.6 10.61 4.39a15.13 15.13 0 014.39 10.61c0 3.94-1.6 7.8-4.39 10.6z" class="prefix__instagram" /></svg>
+                                            </a>
+                                          </td>
+                                          <td style="vertical-align: middle; padding: 8px 0px 8px 0px;">
+                                            <a href="https://www.facebook.com/hello.revrebel" target="_blank">
+                                              <svg viewBox="-110 1 512 512" xmlns="http://www.w3.org/2000/svg" class="facebook" title="facebook" width="22px" height="22px"><style>.b{ fill: #5E688D} .a{} .facebook{ fill: #5E688D} </style><path d="M207.36 126.73c.69-.79 3.96-3.37 16.8-3.37l42.09-.02c13.69 0 24.83-11.15 24.83-24.84V24.92c0-13.68-11.13-24.82-24.8-24.84l-62.54-.11c-38.6 0-71.41 12.73-94.88 36.82 -23.38 23.98-35.73 57.45-35.73 96.8v39.68H25.29c-13.7 0-24.84 11.14-24.84 24.83v79.24c0 13.69 11.14 24.83 24.83 24.83h47.83v184.94c0 13.69 11.14 24.83 24.83 24.83h81.99c13.69 0 24.83-11.15 24.83-24.84V302.16h58.47c13.69 0 24.83-11.15 24.83-24.84l.03-79.25c0-9-4.9-17.33-12.78-21.73 -3.66-2.04-7.91-3.12-12.29-3.12h-58.28v-31.36c0-10.22 1.375-13.92 2.52-15.23Z" transform="translate(.49948 0)" class="facebook" /></svg>
+                                            </a>
+                                          </td>
+                                          <td style="vertical-align: middle; padding: 8px 0px 8px 0px;">
+                                            <a href="https://www.linkedin.com/company/revrebel" target="_blank">
+                                              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="linkedin" title="linkedin" width="22px" height="22px"><style>.b{ fill: #5B8AA0} .a{} .linkedin{ fill: #5B8AA0} </style><path d="M17.81 161.38h112.57v350.61H17.8Z" class="linkedin" /><path d="M74.099 0C38.749 0 10 28.755 10 64.099c0 35.345 28.75 64.1 64.099 64.1 35.345 0 64.1-28.76 64.1-64.1C138.18 28.74 109.44 0 74.09 0Z" class="linkedin" /><path d="M501.965 267.242c-1.49-65.345-54.98-116.531-121.78-116.531 -36.99 0-71.33 16.38-94.37 44.446v-33.78H178.78v350.614h112.57v-202.67c0-27.01 21.96-48.97 48.97-48.97 27 0 48.96 21.96 48.96 48.97l.12 202.66h112.57Z" class="linkedin" /></svg>
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </div>
+                                    <div class="alignment" align="center">
+                                      <table class="footer-social-table" width="50px" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;display:inline-block">
+                                        <tr>
+                                          <td style="vertical-align: middle; padding:  8px 0px 8px 0px;">
+                                            <a href="https://www.twitter.com/hello_revrebel" target="_blank">
+                                            <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" class="twitter-x" title="twitter-x"><path fill="#B2D3DE" d="M.219 2.882l34.748 46.461 -34.967 37.775h7.87l30.614-33.073 24.735 33.073H90L53.297 38.043 85.844 2.882h-7.87L49.781 33.341 27.001 2.882H.219Zm11.574 5.797h12.303L78.425 81.32H66.122L11.793 8.679Z" transform="matrix(2.81 0 0 2.81 1.40659 1.40659)"/></svg>
+                                            </a>
+                                          </td>
+                                          <td style="vertical-align: middle; padding:  8px 0px 8px 0px;">
+                                            <a href="https://revrebel.slack.com" target="_blank">
+                                           <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="slack" title="slack" width="22px" height="22px"><style>.b{ fill: #E4782E} .a{} .slack{ fill: #E4782E} </style><path d="M320.818 236.38c29.25 0 53.06-23.81 53.06-53.07V53.048c0-29.258-23.81-53.061-53.07-53.061s-53.07 23.803-53.07 53.061v130.26c0 29.25 23.8 53.06 53.06 53.06Z" class="slack" /><path d="M420.877 236.38h38.06c29.25 0 53.06-23.81 53.06-53.07s-23.81-53.07-53.07-53.07 -53.07 23.8-53.07 53.06v38.06c0 8.28 6.71 15 15 15Z" class="slack" /><path d="M53.061 244.24h130.262c29.25 0 53.06-23.81 53.06-53.07s-23.81-53.06-53.07-53.06H53.05c-29.258 0-53.061 23.8-53.061 53.06 0 29.25 23.803 53.06 53.061 53.06Z" class="slack" /><path d="M183.32 106.12h38.06c8.28 0 15-6.72 15-15V53.05C236.38 23.8 212.57-.01 183.31-.01c-29.26 0-53.07 23.803-53.07 53.061 0 29.25 23.8 53.061 53.06 53.061Z" class="slack" /><path d="M191.18 275.61c-29.26 0-53.07 23.8-53.07 53.06v130.26c0 29.25 23.8 53.06 53.06 53.06s53.06-23.81 53.06-53.07V328.65c0-29.26-23.81-53.07-53.07-53.07Z" class="slack" /><path d="M91.12 275.61H53.05c-29.258 0-53.061 23.8-53.061 53.06 0 29.25 23.803 53.06 53.061 53.06 29.25 0 53.06-23.81 53.06-53.07v-38.07c-.01-8.29-6.72-15-15.01-15Z" class="slack" /><path d="M458.93 267.753H328.66c-29.26 0-53.07 23.8-53.07 53.06 0 29.25 23.8 53.06 53.06 53.06h130.262c29.25 0 53.06-23.81 53.06-53.06 -.01-29.26-23.81-53.07-53.07-53.07Z" class="slack" /><path d="M328.678 405.876h-38.07c-8.29 0-15 6.71-15 15v38.06c0 29.25 23.8 53.06 53.06 53.06 29.25 0 53.06-23.81 53.06-53.07 -.01-29.26-23.81-53.07-53.07-53.07Z" class="slack" /></svg>
+                                            </a>
+                                          </td>
+                                          <td style="vertical-align: middle; padding:  8px 0px 8px 0px;">
+                                            <a href="https://github.com/RevRebel" target="_blank">
+                                              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="github" title="github" width="22px" height="22px"><style>.b{ fill: #575757} .a{} </style><path d="M256 0C115.39 0 0 115.39 0 256c0 119.98 84.19 228.98 196 256v-84.7c-11.08 2.42-21.28 2.49-32.56-.83 -15.13-4.47-27.43-14.55-36.55-29.92 -5.82-9.82-16.125-20.46-26.88-19.68l-2.64-29.89c23.25-2 43.37 14.16 55.31 34.23 5.3 8.92 11.41 14.15 19.24 16.46 7.57 2.23 15.7 1.16 25.18-2.19 2.37-18.98 11.07-26.08 17.63-36.08v-.02c-66.68-9.95-93.26-45.33-103.81-73.25 -13.98-37.08-6.48-83.4 18.23-112.67 .48-.58 1.34-2.07 1.01-3.11 -11.34-34.24 2.47-62.55 2.98-65.56 13.07 3.86 15.2-3.9 56.8 21.38l7.19 4.32c3 1.79 2.06.76 5.07.54 17.37-4.72 35.68-7.33 53.72-7.56 18.17.23 36.37 2.83 54.46 7.75l2.32.23c-.21-.04.63-.15 2.03-.99 51.97-31.49 50.1-21.2 64.04-25.73 .5 3 14.12 31.78 2.91 65.58 -1.52 4.65 45.05 47.3 19.24 115.75 -10.55 27.93-37.12 63.3-103.8 73.25v.01c8.54 13.02 18.81 19.95 18.76 46.83v105.72c111.8-27.02 196-136.02 196-256 0-140.61-115.39-256-256-256Z" class="b" /></svg>
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="row row-13 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tbody>
+          <tr>
+            <td>
+              <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 520px; margin: 0 auto" width="520">
+                <tbody>
+                  <tr>
+                    <td class="column column-1" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px">
+                      <div class="spacer_block block-1" style="height: 60px; line-height: 60px; font-size: 1px">&#8202;</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- End -->
+      <script src="/asm/assets/javascripts/jquery.min.js"></script>
+      <script src="/asm/assets/javascripts/app.js"></script>
+    </body>
+  </html>
+
+
+  <div data-role="module-unsubscribe" class="module unsubscribe-css__unsubscribe___2CDlR" role="module" data-type="unsubscribe" style="color: #1c447f; direction: ltr; font-family: 'Khand', Impact, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0px; line-height: 120%; text-decoration: none; text-align: right; mso-line-height-alt: 13.2px">
+    <a class="Unsubscribe--unsubscribeLink" href="<%asm_global_unsubscribe_raw_url%>" target="_blank" style="text-decoration: none; text-transform: uppercase; color: #5b8aa0">  [Unsubscribe]</a>
+    <a class="Unsubscribe--unsubscribePreferences" href="[Unsubscribe_Preferences]" target="_blank" style="text-decoration: none; text-transform: uppercase; color: #5b8aa0">[Update Your Preferences]</a>
+    </div>
