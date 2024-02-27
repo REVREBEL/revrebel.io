@@ -153,10 +153,6 @@ p {
     display: block;
 }
 
-.block+.block {
-    margin-top: 16px;
-}
-
 .inline {
     display: inline-block;
 }
