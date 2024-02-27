@@ -179,7 +179,17 @@ p {
 }
 
 .margin-top-l {
-    padding-top: 1.5rem;
+    padding-top: 2rem;
+    
+}
+
+.margin-top-xl {
+    padding-top: 3rem;
+    
+}
+
+.margin-top-xxl {
+    padding-top: 4rem;
     
 }
 
@@ -192,7 +202,15 @@ p {
 }
 
 .margin-bottom-l {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.margin-bottom-xl {
+    padding-bottom: 3rem;
+}
+
+.margin-bottom-xxl {
+    padding-bottom: 4rem;
 }
 
 .bottom,
