@@ -427,6 +427,8 @@ a:hover {
 }
 
 .link {
+    border: none;
+    border-color: #FFFFFF;
     color: #1c437f;
     cursor: pointer;
     font-family: Khand, sans-serif;
@@ -446,6 +448,7 @@ a:hover {
 }
 
 .link:active {
+    border: none;
     border-color: white;
     color: #5B8AA0;
     filter: brightness(120%);
@@ -454,6 +457,7 @@ a:hover {
 
 .link-save {
     background-color: white;
+    border: none;
     border-color: white;
     color: #1c437f;
     cursor: pointer;
@@ -466,6 +470,7 @@ a:hover {
     text-transform: uppercase;
     transition: all .2s;
 }
+
 
 /* OTHER FORM ELEMENTS */
 
