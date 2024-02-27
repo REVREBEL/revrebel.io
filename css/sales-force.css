@@ -1,0 +1,373 @@
+/*
+<link rel="stylesheet" href="https://revrebel.github.io/revrebel.io/css/google-sheets.css">
+*/
+
+
+@font-face {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/sarabun/v13/DtVmJx26TKEr37c9YL5rilss6yLUrwA.woff2) format('woff2');
+}
+
+
+/* latin */
+@font-face {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/firacode/v21/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bLpd2EwbQel_O-D.woff2) format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Noto Emoji';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/notoemoji/v47/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwsS-FGJSsYRxHOpTV331nyNs0.5.woff) format('woff');
+}
+
+
+/* CONTAINERS */
+
+body {
+    color: #1C447F;
+    font-family: 'Sarabun', sans-serif;
+    line-height: 150%;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+p {
+    color: #1C447F;
+    font-family: 'Sarabun', sans-serif;
+    line-height: 150%;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.block {
+    display: block;
+}
+
+.block+.block {
+    margin-top: 16px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline+.inline {
+    margin-left: 12px;
+}
+
+.top,
+
+.top-left {
+    top: 0;
+    position: absolute;
+}
+
+.top-right {
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+
+.margin-bottom-s {
+    padding-bottom: 4px;
+}
+
+.margin-bottom-m {
+    padding-bottom: 12px;
+}
+
+.margin-bottom-l {
+    padding-bottom: 14px;
+}
+
+.bottom,
+.bottom-left,
+.button-bar {
+    bottom: 0;
+    position: absolute;
+}
+
+.bottom-right,
+.button-bar-right {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+
+/* TEXT */
+
+h1 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+
+
+}
+
+h6 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h7 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h8 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+r1 {
+    color: #1C447F;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 100%;
+    text-align: left;
+
+}
+
+r2 {
+    color: #1C447F;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 100%;
+    text-align: left;
+
+}
+
+.logo {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin: 0px;
+}
+
+
+a {
+    color: #1C447F;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.current {
+    color: #1C447F;
+    font-weight: 700;
+}
+
+.error {
+    color: #dd4b39;
+}
+
+.gray,
+.grey {
+    color: #777;
+}
+
+.secondary,
+.small {
+    color: #8aafc1;
+    font: 14px/16px 'Khand', sans-serif;
+    display: inline-block;
+}
+
+
+/* BUTTONS */
+
+.button {
+    align-content: center;
+    align-items: center;
+    align-items: stretch;
+    align-self: auto;
+    background-color: #1c437f;
+    border: 3px solid #1c437f;
+    border-color: #1c437f;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 2;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Khand, sans-serif;
+    font-size: 1.33rem;
+    font-weight: 700;    
+    justify-content: center;
+    line-height: 100%;
+    padding: 1.1rem 1.75rem 1.0rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+.button.outline {
+    background-color: #FFFFFF;
+    border: 3px solid #1c437f;
+    border-width: 3px;
+    color: #1c437f;
+}
+
+.button:hover {
+     -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(28, 67, 127, .69);
+    color: #1c437f;
+    filter: brightness(110%);
+    text-decoration: none;
+    transform-origin: 50%;
+}
+
+.button.outline:hover {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    background-color: #1c437f;
+    box-shadow: 1px 1px 10px rgba(28, 67, 127, .69);
+    color: white;
+    text-decoration: none;
+    transform-origin: 50%;
+}
+
+.button:active {
+    border: 3px solid #5B8AA0;
+    border-color: #5B8AA0;
+    border-width: 3px;
+    color: #5B8AA0;
+    filter: brightness(110%);
+}
+
+.button.outline:active {
+    border: 3px solid white;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    filter: brightness(100%);
+}
+
+.link {
+    color: #1c437f;
+    cursor: pointer;
+    font-family: Khand, sans-serif;
+    font-size: 1.33rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+.link:hover {
+    border: none;
+    border-color: white;
+    color: #5B8AA0;
+}
+
+.link:active {
+    border-color: white;
+    color: #5B8AA0;
+    filter: brightness(120%);
+}
+
+
+.link-save {
+    background-color: white;
+    border-color: white;
+    color: #1c437f;
+    cursor: pointer;
+    font-family: Khand, sans-serif;
+    font-size: 1.33rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s;
+}
