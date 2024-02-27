@@ -136,17 +136,17 @@ font-family: 'EmojiFont', 'TextFont-FiraCode', sans-serif;
 body {
     color: #1C447F;
     font-family: 'Sarabun', sans-serif;
-    line-height: 150%;
     font-size: 1rem;
     font-weight: 300;
+    line-height: 1.5rem;
 }
 
 p {
     color: #1C447F;
     font-family: 'Sarabun', sans-serif;
-    line-height: 150%;
     font-size: 1rem;
     font-weight: 300;
+    line-height: 1.5rem;
 }
 
 .block {
@@ -212,7 +212,7 @@ h1 {
     font-family: 'Khand', sans-serif;
     font-size: 5rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -222,7 +222,7 @@ h2 {
     font-family: 'Khand', sans-serif;
     font-size: 4.5rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 4.5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -233,7 +233,7 @@ h3 {
     font-family: 'Khand', sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 4rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -243,7 +243,7 @@ h4 {
     font-family: 'Khand', sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 3.5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -253,11 +253,9 @@ h5 {
     font-family: 'Khand', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 3rem;
     text-align: left;
     text-transform: uppercase;
-
-
 }
 
 h6 {
@@ -265,7 +263,7 @@ h6 {
     font-family: 'Khand', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 2rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -275,7 +273,7 @@ h7 {
     font-family: 'Khand', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 1.5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -295,7 +293,7 @@ r1 {
     font-family: 'Sarabun', sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
-    line-height: 100%;
+    line-height: 1.25rem;
     text-align: left;
 
 }
@@ -305,7 +303,7 @@ r2 {
     font-family: 'Sarabun', sans-serif;
     font-size: 1rem;
     font-weight: 300;
-    line-height: 100%;
+    line-height: 1rem;
     text-align: left;
 
 }
