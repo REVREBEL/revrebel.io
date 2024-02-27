@@ -222,7 +222,6 @@ h2 {
     font-family: 'Khand', sans-serif;
     font-size: 4.5rem;
     font-weight: 700;
-    line-height: 4.5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -263,7 +262,6 @@ h6 {
     font-family: 'Khand', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    line-height: 2rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -273,7 +271,6 @@ h7 {
     font-family: 'Khand', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 1.5rem;
     text-align: left;
     text-transform: uppercase;
 }
@@ -283,7 +280,6 @@ h8 {
     font-family: 'Khand', sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
-    line-height: 100%;
     text-align: left;
     text-transform: uppercase;
 }
