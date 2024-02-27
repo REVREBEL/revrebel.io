@@ -96,6 +96,25 @@ h6 {
     text-transform: uppercase;
 }
 
+h7 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h8 {
+    color: #1C447F;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+}
 
 body {
     color: #1C447F;
