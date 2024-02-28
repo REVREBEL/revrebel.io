@@ -113,6 +113,20 @@ font-family: 'EmojiFont', 'TextFont-FiraCode', sans-serif;
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
 
+/* khand-500 - latin */
+@font-face {
+    font-family: 'TextFont-Khand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.ttf') format('truetype'),
+        url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.svg#Khand') format('svg');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 
     /* fira-code-300 - latin */
     @font-face {
@@ -232,7 +246,7 @@ p {
 
 h1 {
     color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 5rem;
     font-weight: 700;
     line-height: 90%;
@@ -246,7 +260,7 @@ h1 {
 
 h2 {
     color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 90%;
@@ -261,7 +275,7 @@ h2 {
 
 h3 {
     color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 4rem;
     font-weight: 700;
     line-height: 90%;
@@ -275,7 +289,7 @@ h3 {
 
 h4 {
     color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 90%;
@@ -289,7 +303,7 @@ h4 {
 
 h5 {
     color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 3rem;
     font-weight: 700;
     line-height: 90%;
@@ -303,7 +317,7 @@ h5 {
 
 h6 {
     color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 90%;
@@ -316,8 +330,8 @@ h6 {
 }
 
 h7 {
-    color: #1C447F;
-    font-family: 'Khand', sans-serif;
+    color: #1C447F;'Kh
+    font-family: 'Khand', Impact, sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 90%;
@@ -333,6 +347,34 @@ h8 {
     color: #1C447F;
     font-family: 'Khand', sans-serif;
     font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 90%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.message {
+    color: #1C447F;
+    font-family: 'Khand', Impact, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 90%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.message.bold {
+    color: #1C447F;
+    font-family: 'Khand', Impact, sans-serif;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 90%;
     margin-block-start: 0px;
