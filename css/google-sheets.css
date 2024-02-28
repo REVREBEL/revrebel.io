@@ -357,7 +357,7 @@ h8 {
     text-transform: uppercase;
 }
 
-.message {
+message {
     color: #1C447F;
     font-family: 'Khand', Impact, sans-serif;
     font-size: 2rem;
@@ -371,7 +371,7 @@ h8 {
     text-transform: uppercase;
 }
 
-.message.bold {
+message.bold {
     color: #1C447F;
     font-family: 'Khand', Impact, sans-serif;
     font-size: 2rem;
