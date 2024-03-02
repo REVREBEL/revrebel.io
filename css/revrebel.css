@@ -517,7 +517,7 @@ a:hover {
     cursor: pointer;
 }
 
-.button.outline {
+.button-outline {
     color: var(--primary);
     background-color: var(--white);
     border-width: 3px;
@@ -536,7 +536,7 @@ a:hover {
 
 }
 
-.button.outline:hover {
+.button-outline:hover {
     color: var(--white);
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
@@ -555,7 +555,7 @@ a:hover {
     border: 3px solid var(--accent);
 }
 
-.button.outline:active {
+.button-outline:active {
     filter: brightness(100%);
     color: white;
     border-color: white;
