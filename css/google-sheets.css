@@ -484,7 +484,6 @@ button,
     transition: all .2s;
 }
 
-button.outline,
 .button.outline {
     background-color: #FFFFFF;
     border: 3px solid #1c437f;
