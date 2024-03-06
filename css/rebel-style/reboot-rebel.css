@@ -1,8 +1,8 @@
-*/
-/* ************************** */
-/* NOTO EMOJI */
-/* ************************** */
+/**
 
+<link rel="stylesheet" href="https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-revrebel.css">
+
+*/
 
 @font-face {
   font-family: 'EmojiFont';
@@ -92,7 +92,12 @@
 }
 
 
-
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
 
 
@@ -639,7 +644,6 @@ ul {
   color: #1c437f;
   font-family: Sarabun, Tahoma, sans-serif;
   font-size: 1rem;
-  font-weight: 300;
   line-height: 1.5;
   list-style-type: disc;
   margin-bottom: 0.625rem;
@@ -1110,7 +1114,7 @@ strong {
 }
 
 fieldset {
-  border: 1px solid #FFFFFF margin: 0
+  border: 1px solid #fff margin: 0
 }
 
 /* Additional Dark Option Styling */
@@ -1571,8 +1575,7 @@ btn,
   margin-bottom: -1px;
 }
 
-.adv-input.ms-is-middle.ms-is-right,
-.adv-input.ms-is-middle.ms-is-left {
+.adv-input.ms-is-middle.ms-is-right, .adv-input.ms-is-middle.ms-is-left {
   width: 100%;
   border-color: #fff;
 }
@@ -1784,4 +1787,26 @@ btn,
   padding-right: 16px;
   display: flex;
   position: relative;
+}
+
+.popup p {
+  padding: 10px;
+  margin: 0;
+  font-family: Sarabun, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  background: #1c437f;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  min-width: 150px;
+  min-height: 100px;
+  display: none;
+  border-radius: 0.275rem;
+  border-width: 0.25rem;
+}
+
+.popup:hover p {
+  display: block;
 }
