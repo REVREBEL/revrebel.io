@@ -4,6 +4,11 @@
 
 */
 
+
+<meta http-equiv="Content-Security-Policy"content="default-src 'self';style-src 'self' data:https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-rebel.css;style-src-elem 'self' data:https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-rebel.css"/>
+
+ <meta http-equiv="Content-Security-Policy"content="default-src 'self';img-src 'self' data:https://res.cloudinary.com/revrebel/image/upload/c_scale,w_25/v1709731814/RevRebel/ui/info/info-blue_urfwzp.png;"/>
+
 <meta http-equiv="Content-Security-Policy"content=" default-src 'self' data:gap:https://ssl.gstatic.com 'unsafe-eval';style-src 'self' https://fonts.googleapis.com;font-src 'self' data:https://fonts.gstatic.com;img-src 'self' data:content:;media-src *;"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,6 +46,34 @@ label {
   font-family: Khand, Impact, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+.logo-letter-1 {
+  color: #1c447f;
+}
+
+.logo-letter-2 {
+  color: #5e688d;
+}
+
+.logo-letter-3 {
+  color: #5b8aa0;
+}
+
+.logo-letter-4 {
+  color: #b2d3de;
+}
+
+.logo-letter-5 {
+  color: #ef5353;
+}
+
+.logo-letter-6,
+.logo-letter-7 {
+  color: #f08d19;
+}
+
+.logo-letter-8 {
+  color: #fad644;
 }
 
 .bg-blue {
@@ -812,9 +845,46 @@ ul {
   color: #575757;
 }
 
+.logo-letter-6,
 .text-darkorange {
   color: #e4782e;
 }
+
+.text-blue,
+.logo-letter-1 {
+  color: #1c447f;
+}
+
+.text-purple,
+.logo-letter-2 {
+  color: #5e688d;
+}
+
+.text-green,
+.logo-letter-3 {
+  color: #5b8aa0;
+}
+
+.text-lightblue,
+.logo-letter-4 {
+  color: #b2d3de;
+}
+
+.text-red,
+.logo-letter-5 {
+  color: #ef5353;
+}
+
+.text-orange,
+.logo-letter-7 {
+  color: #f08d19;
+}
+
+.text-yellow ,
+.logo-letter-8 {
+  color: #fad644;
+}
+
 
 .text-field {
   background-color: rgba(0, 0, 0, 0);
@@ -855,10 +925,6 @@ ul {
 
 .text-field:hover {
   border-color: rgba(0, 0, 0, 0.32);
-}
-
-.text-green {
-  color: #5b8aa0;
 }
 
 .text-grey, {
@@ -909,13 +975,6 @@ ul {
   text-align: left;
 }
 
-.text-lightblue {
-  color: #b2d3de;
-}
-
-.text-lightblue {
-  color: #b2d3de;
-}
 
 .text-multicolor {
   -webkit-background-clip: text;
@@ -928,13 +987,7 @@ ul {
   font-weight: 300;
 }
 
-.text-orange {
-  color: #f08d19;
-}
 
-.text-purple {
-  color: #5e688d;
-}
 
 .text-purple-red {
   -webkit-background-clip: text;
@@ -943,9 +996,7 @@ ul {
   background-image: linear-gradient(142deg, rgb(239, 83, 83), rgb(94, 104, 141) 74%, rgb(28, 67, 127) 104%);
 }
 
-.text-red {
-  color: #ef5353;
-}
+
 
 .text-red-orange {
   -webkit-background-clip: text;
@@ -993,10 +1044,7 @@ ul {
   color: #FFFFFF;
 }
 
-.text-yellow {
-  color: #fad644;
 
-}
 
 strong {
   font-weight: bold;
@@ -1740,3 +1788,36 @@ btn,
 .tooltip:hover .tooltip-box {
   display: block;
 }
+
+
+.logo {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.powered-by {
+  color: #1c437f;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.logo-text {
+  font-size: 34px;
+  display: flex;
+}
+
+.logo-letter {
+  font-weight: bold;
+  font-size: inherit;
+}
+
+
