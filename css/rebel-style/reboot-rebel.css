@@ -1789,7 +1789,12 @@ btn,
   position: relative;
 }
 
-.popup p {
+tooltip{
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.tooltip tooltip-box {
   padding: 25px;
   margin: 0;
   font-family: Sarabun, Tahoma, sans-serif;
@@ -1807,6 +1812,6 @@ btn,
   border-width: 0.25rem;
 }
 
-.popup:hover p {
+.tooltip:hover tooltip-box {
   display: block;
 }
