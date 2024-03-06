@@ -1789,14 +1789,14 @@ btn,
   position: relative;
 }
 
-tooltip{
+.tooltip {
+  position: relative;
   line-height: 1.5;
   margin-bottom: 0;
 }
 
-.tooltip tooltip-box {
+.tooltip-box {
   padding: 25px;
-  margin: 0;
   font-family: Sarabun, Tahoma, sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -1812,6 +1812,6 @@ tooltip{
   border-width: 0.25rem;
 }
 
-.tooltip:hover tooltip-box {
+.tooltip:hover .tooltip-box {
   display: block;
 }
