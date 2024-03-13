@@ -1,3 +1,6 @@
+/**!
+https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/scripts/mixitup-pagination.js
+*/
 
 /**!
  * MixItUp Pagination v3.3.0
