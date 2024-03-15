@@ -1,27 +1,29 @@
-// <script src="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/attributes/scroll-to-top.js"></script>
-
-
+/**
+<!-- START [Attributes] Update Year -->
+<script src="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/attributes/scroll-to-top.js"></script>
+<!-- END [Attributes] Update Year -->
+*/
 
 /**
-* Scroll to top
-* Add functionality to scroll to top when clicked.
-* Add this attribute to the parent div wrapping your content
+* 	Scroll to top
+* 	Add functionality to scroll to top when clicked.
+* 	Add this attribute to the parent div wrapping your content
 * 
-* Name:  ct-scroll-to-top
-* Value: blank
+* 	Add Attributes [ct-scroll-to-top] to the the div or link block you want to trigger scroll to top
+* 	optional Add Attributes [ct-scroll-to-top="flex”] to change the display on the div. Use styles like block, flex, inline-block, inline
+* 	How it works
+* 	the div will be hidden on default, and on scroll it will be visible, display block, but you can change it to flex or inline-block etc
+* 	
+* 	Name:  ct-scroll-to-top
+* 	Value: blank
 * 
-* I want to change the Display of the Div when it's visible as you scroll
+* 	I want to change the Display of the Div when it's visible as you scroll
 * 
-* Name:  ct-scroll-to-top
-* Value: flex
+* 	Name:  ct-scroll-to-top
+* 	Value: flex
 * 
 */
 
-//Add Attributes [ct-scroll-to-top] to the the div or link block you want to trigger scroll to top
-//optional Add Attributes [ct-scroll-to-top="flex”] to change the display on the div. Use styles like block, flex, inline-block, inline
-
-//How it works
-//the div will be hidden on default, and on scroll it will be visible, display block, but you can change it to flex or inline-block etc
 
 function scrollToTop() {
   window.scrollTo({
