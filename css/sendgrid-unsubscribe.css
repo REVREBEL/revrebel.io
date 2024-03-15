@@ -1,6 +1,5 @@
-/*
-<link rel="stylesheet" href="https://revrebel.github.io/revrebel.io/css/sendgrid-unsubscribe.css">
-*/
+ 
+ <style>
 
 /* Global styles */
 
@@ -275,7 +274,6 @@
      top: 50%;
 }
 /* Opt out confirmation/success page */
-
  main.opt-out-confirm {
      display: none;
 }
@@ -561,6 +559,6 @@
          margin: 0 auto;
     }
 }
-
+ </style> 
 
 
