@@ -1304,7 +1304,6 @@
 }
 .forcePlaceholder .placeholder .flex-v-center {
   align-items: center;
-  align-items: center;
 }
 .forcePlaceholder .placeholder .flex-v-start {
   align-items: flex-start;
@@ -1517,14 +1516,14 @@
   border-left: 1px solid rgb(216, 221, 230);
 }
 .forcePlaceholder .placeholder.fieldMapping > .left-column > .field {
-  padding: 1.25rem 1rem 1.25rem 1rem;
+  padding: 1.25rem 1rem;
 }
 .forcePlaceholder .placeholder.fieldMapping > .right-column > .field {
   padding: 1.25rem 1rem 1.75rem 2.5rem;
 }
 @media only screen and (min-width: 64.0625em) {
   .forcePlaceholder .placeholder.fieldMapping > .left-column > .field {
-    padding: 1.25rem 1rem 1.25rem 1rem;
+    padding: 1.25rem 1rem;
   }
   .forcePlaceholder .placeholder.fieldMapping > .right-column > .field {
     padding: 1.25rem 1rem 1.75rem 2.5rem;
@@ -1547,10 +1546,10 @@
   border-radius: 50%;
 }
 .forcePlaceholder .placeholder.fieldMapping .content-tabs {
-  padding: 1.5rem 1rem 0 1rem;
+  padding: 1.5rem 1rem 0;
 }
 .forcePlaceholder .placeholder.fieldMapping .intro {
-  padding: 1.5rem 1rem 0.75rem 1rem;
+  padding: 1.5rem 1rem 0.75rem;
 }
 .forcePlaceholder .placeholder.fieldMapping .anchor > .field .text {
   max-width: 125px;
@@ -1754,7 +1753,6 @@
   width: 100%;
   white-space: nowrap;
   border-radius: var(--lwc-borderRadiusSmall, 0.125rem);
-  overflow: hidden;
   padding-left: 0;
   margin: 0;
   overflow: hidden;
@@ -2138,7 +2136,6 @@
 }
 .forceRetryPanel {
   width: 100%;
-  height: 100%;
   min-height: 190px;
   display: flex;
   align-items: center;
@@ -5551,7 +5548,6 @@ a.slds-button--inverse:focus {
   -moz-appearance: none;
   appearance: none;
   cursor: pointer;
-  height: calc(var(--lwc-colorPickerSliderHeight, 1.5rem) - (var(--lwc-borderWidthThin, 1px) * 2));
   width: var(--lwc-colorPickerThumbWidth, 0.375rem);
   border: var(--lwc-borderWidthThin, 1px) solid var(--slds-g-color-neutral-base-30, var(--lwc-colorPickerSliderThumbBorderColor, rgb(68, 68, 68)));
   border-radius: var(--lwc-borderRadiusSmall, 0.125rem);
@@ -9416,7 +9412,6 @@ a.slds-button--inverse:focus {
   border-radius: var(--lwc-borderRadiusMedium, 0.25rem);
 }
 .slds-carousel__panel-action:focus {
-  outline: 0;
   box-shadow: var(--lwc-shadowButtonFocus, 0 0 3px #0176d3);
   border-color: var(--lwc-brandAccessibleActive, #132e55);
   outline: 0;
@@ -9467,7 +9462,6 @@ a.slds-button--inverse:focus {
   background-color: var(--slds-g-color-neutral-base-95, var(--lwc-carouselIndicatorColorBackgroundHover, rgb(243, 243, 243)));
 }
 .slds-carousel__indicator-action:focus {
-  outline: 0;
   box-shadow: var(--lwc-shadowButtonFocus, 0 0 3px #0176d3);
   background-color: var(--slds-g-color-brand-base-30, var(--lwc-carouselIndicatorColorBackgroundFocus, rgb(1, 68, 134)));
   border-color: var(--slds-g-color-brand-base-30, var(--lwc-carouselIndicatorColorBackgroundFocus, rgb(1, 68, 134)));
@@ -12046,7 +12040,6 @@ a.slds-button--inverse:focus {
 .slds-slider__range::-ms-track {
   width: 100%;
   height: var(--lwc-sliderTrackHeight, 4px);
-  cursor: pointer;
   background: none;
   background-color: var(--slds-c-slider-track-color-background, var(--sds-c-slider-track-color-background, var(--slds-g-color-neutral-base-95, var(--lwc-sliderTrackColorBackground, rgb(243, 243, 243)))));
   border-radius: var(--slds-c-slider-track-radius-border, var(--sds-c-slider-track-radius-border, var(--lwc-borderRadiusSmall, 0.125rem)));
@@ -13444,7 +13437,6 @@ a.slds-button--inverse:focus {
 }
 .slds-popover_walkthrough,
 .slds-popover--walkthrough {
-  border-color: var(--slds-g-color-brand-base-10, var(--lwc-colorBorderInverse, rgb(0, 22, 57)));
   color: var(--slds-g-color-neutral-base-100, var(--lwc-colorTextInverse, #ffffff));
   background: var(--slds-g-color-brand-base-10, var(--lwc-popoverWalkthroughColorBackground, rgb(0, 22, 57)));
   border-color: var(--slds-g-color-brand-base-10, var(--lwc-popoverWalkthroughColorBackground, rgb(0, 22, 57)));
@@ -20788,7 +20780,6 @@ input[readonly][role="combobox"][disabled] {
 }
 .slds-notify_toast,
 .slds-notify--toast {
-  color: var(--slds-g-color-neutral-base-100, var(--lwc-colorTextInverse, #ffffff));
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -30250,7 +30241,7 @@ input[readonly][role="combobox"][disabled] {
 }
 .forceUserAssistanceMenuItem--default .forceIcon {
   font-size: var(--lwc-fontSizeMedium, 0.8125rem);
-  padding: 0 3px 0 3px;
+  padding: 0 3px;
   color: var(--lwc-colorBackgroundAlt, rgb(255, 255, 255));
   background-color: var(--lwc-colorTextIconDefault, rgb(116, 116, 116));
   margin-right: var(--lwc-spacingXSmall, 0.5rem);
