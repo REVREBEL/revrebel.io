@@ -2,12 +2,17 @@
 
 /**
 *
-* I want this Rich Text to be the wrapper of the my content
-* Add this attribute to the parent div wrapping your content
-* Name : ct-readtime-element  Value: target
-*
-* I want to thisText or Text Span to show the time to read content.
-* Name: ct-readtime-element    Value: time
+* I want to share this page link to Facebook when I click this
+* Add this attribute to the div or text in your page
+* Name: faceboook
+* Value: faceboook, linkedin, whatsapp, twitter
+* 
+* Optional Attributes*
+* I want this Text, Text Span or Button to copy page url
+* 
+* Name:  ct-share-copy
+* Value: blank
+* 
 *
 */
 
