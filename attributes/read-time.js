@@ -1,5 +1,16 @@
 // <script src="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/attributes/read-time.js"></script>
 
+/**
+*
+* I want this Rich Text to be the wrapper of the my content
+* Add this attribute to the parent div wrapping your content
+* Name : ct-readtime-element  Value: target
+*
+* I want to thisText or Text Span to show the time to read content.
+* Name: ct-readtime-element    Value: time
+*
+*/
+
 
 // Function to calculate the read time
 function calculateReadTime() {
