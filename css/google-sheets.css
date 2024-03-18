@@ -591,19 +591,15 @@ input[type="button"],
 select[multiple],
 select[size],
 textarea {
-    -moz-border-radius: 1px;
-    -webkit-border-radius: 1px;
     border-radius: 5px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #fff;
     font-family: Khand, sans-serif;
-    font-size: 1.33rem;
+    font-size: .5rem;
     font-weight: 700;  
     margin: 0;
     outline: 0;
-    padding: 1.1rem 1.75rem 1.0rem;
+    padding: 5px 15px;
 }
 
 input[type="button"] {
@@ -613,7 +609,6 @@ input[type="button"] {
     font-family: Khand, sans-serif;
     font-size: .5rem;
     font-weight: 700;    
-    justify-content: left;
     line-height: 100%;
     padding: 5px 15px;	
     text-align: left;
