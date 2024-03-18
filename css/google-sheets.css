@@ -578,7 +578,10 @@ button,
 
 .form-group label+input,
 .form-group label+select,
-.form-group label+textarea {
+.form-group label+textarea 
+.form-group button+input,
+.form-group button+select,
+.form-group button+textarea {
     display: block;
 }
 
