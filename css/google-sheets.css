@@ -579,9 +579,12 @@ button,
 .form-group label+input,
 .form-group label+select,
 .form-group label+textarea 
-.form-group button+input,
-.form-group button+select,
-.form-group button+textarea {
+.form-group action+input,
+.form-group action+select,
+.form-group action+textarea
+.form-group reset+input,
+.form-group reset+select,
+.form-group reset+textarea{
     display: block;
 }
 
@@ -590,7 +593,7 @@ fieldset {
     margin: 0;
 }
 
-input[type="button"],
+input[type="action"],
 select[multiple],
 select[size],
 textarea {
@@ -605,8 +608,7 @@ textarea {
     padding: 5px 15px;
 }
 
-input[type="button"] {
-
+input[type="action"] {
     color: white;
     cursor: pointer;
     font-family: Khand, sans-serif;
@@ -620,9 +622,9 @@ input[type="button"] {
     transition: all .2s;
 }
 
-input[type="button"]:hover,
+input[type="action"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:focus,
+input[type="action"]:focus,
 input[type="reset"]:focus,
 select[multiple]:focus,
 select[size]:focus,
