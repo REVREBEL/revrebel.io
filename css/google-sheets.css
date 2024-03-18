@@ -607,28 +607,16 @@ textarea {
 }
 
 input[type="button"] {
-    align-content: center;
-    align-items: center;
-    align-items: stretch;
-    align-self: auto;
-    background-color: #1c437f;
-    border-color: #1c437f;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 3px;
+
     color: white;
     cursor: pointer;
-    display: inline-flex;
-    flex: 2;
-    flex-direction: column;
-    flex-wrap: wrap;
     font-family: Khand, sans-serif;
-    font-size: 1rem;
+    font-size: .5rem;
     font-weight: 700;    
-    justify-content: center;
+    justify-content: left;
     line-height: 100%;
-    padding: .2rem .75rem .1rem;
-    text-align: center;
+    padding: 5px 15px;	
+    text-align: left;
     text-decoration: none;
     text-transform: uppercase;
     transition: all .2s;
@@ -641,10 +629,7 @@ textarea:hover {
      -webkit-backface-visibility: visible;
     backface-visibility: visible;
     background-color: white;
-    box-shadow: 1px 1px 10px rgba(28, 67, 127, .69);
     color: #1c437f;
-    filter: brightness(110%);
-    text-decoration: none;
     transform-origin: 50%;
 }
 
@@ -655,10 +640,7 @@ textarea:hover {
      -webkit-backface-visibility: visible;
     backface-visibility: visible;
     background-color: white;
-    box-shadow: 1px 1px 10px rgba(28, 67, 127, .69);
     color: #1c437f;
-    filter: brightness(110%);
-    text-decoration: none;
     transform-origin: 50%;
 }
 
