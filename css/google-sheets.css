@@ -612,7 +612,6 @@ input[type="button"] {
     align-items: stretch;
     align-self: auto;
     background-color: #1c437f;
-    border: 3px solid #1c437f;
     border-color: #1c437f;
     border-radius: 5px;
     border-style: solid;
@@ -624,11 +623,11 @@ input[type="button"] {
     flex-direction: column;
     flex-wrap: wrap;
     font-family: Khand, sans-serif;
-    font-size: 1.33rem;
+    font-size: 1rem;
     font-weight: 700;    
     justify-content: center;
     line-height: 100%;
-    padding: 1.1rem 1.75rem 1.0rem;
+    padding: .2rem .75rem .1rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
