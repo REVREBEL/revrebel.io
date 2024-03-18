@@ -618,17 +618,9 @@ input[type="button"] {
 }
 
 input[type="button"]:hover,
-select[multiple]:hover,
-select[size]:hover,
-textarea:hover {
-     -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-    background-color: white;
-    color: #1c437f;
-    transform-origin: 50%;
-}
-
+input[type="reset"]:hover,
 input[type="button"]:focus,
+input[type="reset"]:focus,
 select[multiple]:focus,
 select[size]:focus,
 textarea:hover {
@@ -688,6 +680,21 @@ input[type="week"] {
     height: 25px;
 }
 
+input[type="date"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="email"]:hover,
+input[type="month"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+input[type="tel"]:hover,
+input[type="text"]:hover,
+input[type="time"]:hover,
+input[type="url"]:hover,
+input[type="week"]:hover,
+select[multiple]:hover,
+select[size]:focus,
 input[type="date"]:focus,
 input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
@@ -703,6 +710,7 @@ input[type="url"]:focus,
 input[type="week"]:focus,
 select[multiple]:focus,
 select[size]:focus,
+textarea:hover,
 textarea:focus {
     border: 2px solid #1C447F;
     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
