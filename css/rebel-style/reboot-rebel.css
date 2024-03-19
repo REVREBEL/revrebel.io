@@ -1324,6 +1324,7 @@ textarea.dark:focus {
 
 /* CHECKBOXES BACKGROUND LIGHT */
 
+    .checkbox,
 input[type="checkbox"] {
     -webkit-appearance: none;
     background: #fff;
@@ -1340,21 +1341,25 @@ input[type="checkbox"] {
     width: 13px;
 }
 
+    .checkbox:hover,
 input[type="checkbox"]:hover {
     border: 1px solid #b2b2b2;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
 }
 
+    .checkbox:active,
 input[type="checkbox"]:active {
     background-color: #ebebeb;
     border: 1px solid #c6c6c6;
 }
 
+    .checkbox:focus,
 input[type="checkbox"]:focus {
     border: 1px solid #1C447F;
 }
 
+   .checkbox:checked,
 input[type="checkbox"]:checked:after {
     background: url(https://ssl.gstatic.com/ui/v1/menu/checkmark_2x.png) no-repeat 0 0 / 21px;
     content: '';
@@ -1366,6 +1371,7 @@ input[type="checkbox"]:checked:after {
     width: 21px;
 }
 
+  .checkbox:disabled,
 input[type="checkbox"]:disabled {
     background-color: #fff;
     border: 1px solid #e1e1e1;
@@ -1376,6 +1382,7 @@ input[type="checkbox"]:disabled {
 
 /* CHECKBOXES DARK BACKGROUND*/
 
+.checkbox.dark,
 input.dark[type="checkbox"] {
     -webkit-appearance: none;
     background: #1C447F;
@@ -1383,6 +1390,7 @@ input.dark[type="checkbox"] {
     border-image: -ms-linear-gradient(top, #fff, #fff);
     -webkit-border-radius: 1px;
     border-radius: 1px;
+   color: #fff,
     height: 13px;
     left: 1px;
     margin: 2px 8px 0 0;
@@ -1392,17 +1400,20 @@ input.dark[type="checkbox"] {
     width: 13px;
 }
 
+ .checkbox.dark:hover,
 input.dark[type="checkbox"]:hover {
     border: 1px solid #b2b2b2;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
 }
 
+  .checkbox.dark:active,
 input.dark[type="checkbox"]:active {
-    background-color: #ebebeb;
-    border: 1px solid #c6c6c6;
+    background-color: #1C447F;
+    border: 1px solid #b2b2b2;
 }
 
+  .checkbox.dark:focus,
 input.dark[type="checkbox"]:focus {
     border: 2px solid #b2b2b2;
 }
@@ -1418,6 +1429,7 @@ input[type="checkbox"]:checked:after {
     width: 21px;
 }
 
+  .checkbox.dark:disabled,
 input.dark[type="checkbox"]:disabled {
     background-color: #fff;
     border: 1px solid #e1e1e1;
