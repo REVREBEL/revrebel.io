@@ -467,6 +467,7 @@ input[type="checkbox"] {
     border-image: -ms-linear-gradient(top, #fff, #fff);
     -webkit-border-radius: 1px;
     border-radius: 1px;
+    color: #1C447F;
     height: 13px;
     left: 1px;
     margin: 2px 8px 0 0;
@@ -493,6 +494,8 @@ input[type="checkbox"]:focus {
 
 input[type="checkbox"]:checked:after {
     background: url(https://ssl.gstatic.com/ui/v1/menu/checkmark_2x.png) no-repeat 0 0 / 21px;
+    background: #fff;
+    color: #1C447F;
     content: '';
     display: block;
     height: 21px;
