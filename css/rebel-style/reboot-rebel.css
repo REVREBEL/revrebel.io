@@ -2029,18 +2029,28 @@ tooltip-box:hover {
 
 .powered-by {
   color: #1c437f;
-  font-size: 14px;
-  text-align: right;
+  font-family: Khand, Impact, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
   padding-right: 15px;
+  line-height: 0.9;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .logo-text {
-  font-size: 34px;
+  font-size: 2rem;
   display: flex;
 }
 
 .logo-letter {
-  font-weight: bold;
+  font-family: Barlow, Impact, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   font-size: inherit;
 }
 
