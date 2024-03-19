@@ -1,18 +1,10 @@
 /**
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/css/rebel-style/reboot-revrebel.css">
-
 */
 
-
-<meta http-equiv="Content-Security-Policy"content="default-src 'self';style-src 'self' data:https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-rebel.css;style-src-elem 'self' data:https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-rebel.css"/>
-
- <meta http-equiv="Content-Security-Policy"content="default-src 'self';img-src 'self' data:https://res.cloudinary.com/revrebel/image/upload/c_scale,w_25/v1709731814/RevRebel/ui/info/info-blue_urfwzp.png;"/>
-
-<meta http-equiv="Content-Security-Policy"content=" default-src 'self' data:gap:https://ssl.gstatic.com 'unsafe-eval';style-src 'self' https://fonts.googleapis.com;font-src 'self' data:https://fonts.gstatic.com;img-src 'self' data:content:;media-src *;"/>
-
+/**
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
@@ -20,7 +12,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;700&display=swap" rel="stylesheet">
+*/
 
+<meta http-equiv="Content-Security-Policy"content="default-src 'self';style-src 'self' data:https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-rebel.css;style-src-elem 'self' data:https://revrebel.github.io/revrebel.io/css/rebel-style/reboot-rebel.css"/>
+<meta http-equiv="Content-Security-Policy"content="default-src 'self';img-src 'self' data:https://res.cloudinary.com/revrebel/image/upload/c_scale,w_25/v1709731814/RevRebel/ui/info/info-blue_urfwzp.png;"/>
+<meta http-equiv="Content-Security-Policy"content=" default-src 'self' data:gap:https://ssl.gstatic.com 'unsafe-eval';style-src 'self' https://fonts.googleapis.com;font-src 'self' data:https://fonts.gstatic.com;img-src 'self' data:content:;media-src *;"/>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;400;500;600;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;700&display=swap')
 
 body {
   -webkit-font-smoothing: antialiased;
