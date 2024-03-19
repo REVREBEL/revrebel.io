@@ -21,7 +21,7 @@
 <h5 class="h5">Inputs</h5>
 
 <div class="form">
-  <label for="email" class="form-label">Email Input Label</label>
+  <label for="email" class="form_label">Email Input Label</label>
   <input
       class="input dark" 
       maxlength="256" 
@@ -34,7 +34,7 @@
 </div>
 
 <div class="form">
-  <label for="contact-name" class="form-label">Name Input Label</label>
+  <label for="contact-name" class="form_label">Name Input Label</label>
   <input 
     class="input dark" 
     maxlength="256" 
@@ -47,9 +47,8 @@
 </div>
 
 <div class="form">
-  <label for="phone_number" class="form-label">Phone Input Label</label>
+  <label for="phone_number" class="form_label">Phone Input Label</label>
   <input 
-    autofocus="false" 
     class="input dark" 
     data-name="Phone Number" 
     id="phone-number"
@@ -60,7 +59,7 @@
 </div>
 
 <div class="form">
-  <label for="phone_number" class="form-label">Message</label>
+  <label for="phone_number" class="form_label">Message</label>
   <message class="textarea">
   <input
     class="input dark"
@@ -75,12 +74,12 @@
 
 </div>
 
-<div class="form-done">
+<div class="form_done">
   <div>
     Thank you! Your submission has been received!
   </div>
 </div>
-<div class="form-fail">
+<div class="form_fail">
   <div>
     Oops! Something went wrong while submitting the form.
   </div>
@@ -88,26 +87,61 @@
 <div class="horizontal-line"></div>
 
 
-<div class="form-block-halfsize">
-  <div class="form-block form">
-    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-block">
+<div class="form_block-halfsize">
+  <div class="form_block form">
+    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form_block">
       <div class="input-group"><input class="input dark" maxlength="256" name="Full-Name" data-name="Full Name" placeholder="full name" type="text" id="Full-Name" required=""></div>
-      <div class="input-group"><input class="input dark" maxlength="256" name="Email" data-name="Email" placeholder="email address" type="email" id="Email" required=""></div>
+      <div class="input-group"><input class="input dark" maxlength="256" name="Email" data-name="Email" placeholder="email address" type="email" id="Email" required=""></div> 
       <div class="input-group"><select id="field" name="field" data-name="Field" class="input dark dropdown select">
           <option value="">select one</option>
           <option value="First">first choice</option>
           <option value="Second">second choice</option>
           <option value="Third">third choice</option>
         </select></div>
+        
       <div class="input-group">
-        <div class="flexsb"><label id="flex" class="checkbox checkbox-field">
-            <div class="checkbox-input checkbox-input checkbox"></div><input name="checkbox" data-name="Checkbox" type="checkbox" id="checkbox" style="opacity:0;position:absolute;z-index:-1"><span for="checkbox" class="checkbox-label form-label">Choice 1</span>
-          </label><label id="flex" class="checkbox checkbox-field">
-            <div class="checkbox-input checkbox-input checkbox"></div><input id="checkbox" name="checkbox" data-name="Checkbox" type="checkbox" style="opacity:0;position:absolute;z-index:-1"><span for="checkbox" class="checkbox-label form-label">Choice 2</span>
-          </label><label id="flex" class="checkbox checkbox-field">
-            <div class="checkbox-input checkbox-input checkbox"></div><input id="checkbox" name="checkbox" data-name="Checkbox" type="checkbox" style="opacity:0;position:absolute;z-index:-1"><span for="checkbox" class="checkbox-label form-label">Choice 3</span>
-          </label><label id="flex" class="checkbox checkbox-field">
-            <div class="checkbox-input checkbox-input checkbox"></div><input id="checkbox" name="checkbox" data-name="Checkbox" type="checkbox" style="opacity:0;position:absolute;z-index:-1"><span for="checkbox" class="checkbox-label form-label">Choice 4</span>
+        <div class="flexsb">
+        <label id="flex" class="checkbox checkbox_field">
+            <div class="checkbox_input checkbox">
+            </div>
+            <input name="checkbox" 
+            		data-name="Checkbox" 
+            		type="checkbox" 
+            		id="checkbox" 
+            		style="opacity:0;position:absolute;z-index:-1">
+            <span for="checkbox" 
+            class="checkbox_label form_label">
+            Choice 1
+            </span>
+          </label>
+          <label id="flex" class="checkbox checkbox_field">
+            <div class="checkbox_input checkbox_input checkbox">
+            </div>
+          <input id="checkbox" 
+            	name="checkbox" 
+            	data-name="Checkbox" 
+            	type="checkbox" 
+            	style="opacity:0;position:absolute;z-index:-1">
+            <span for="checkbox" class="checkbox_label form_label">
+            Choice 2
+            </span>
+          </label>
+          
+          <label id="flex" class="checkbox checkbox_field">
+            <div class="checkbox_input checkbox">
+            </div>
+            
+            <input id="checkbox" 
+            name="checkbox" 
+            data-name="Checkbox" 
+            type="checkbox" 
+            style="opacity:0;position:absolute;z-index:-1">
+            <span for="checkbox" class="checkbox_label form_label">
+            Choice 3
+            </span>
+          
+          </label><label id="flex" class="checkbox checkbox_field">
+            <div class="checkbox_input checkbox"></div><input id="checkbox" name="checkbox" data-name="Checkbox" type="checkbox" style="opacity:0;position:absolute;z-index:-1"><span for="checkbox" class="checkbox_label form_label">Choice 4</span>
           </label></div>
       </div>
       <div class="input-group">
@@ -129,10 +163,10 @@
         class="btn-small btn" 
        value="[ Send Message ]">
       </form>
-    <div class="success-message form-done">
+    <div class="success-message form_done">
       <div>Thank you! Your submission has been received!</div>
     </div>
-    <div class="error-message form-fail">
+    <div class="error-message form_fail">
       <div>Oops! Something went wrong while submitting the form.</div>
     </div>
   </div>
