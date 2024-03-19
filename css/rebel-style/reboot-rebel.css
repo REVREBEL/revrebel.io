@@ -190,7 +190,7 @@ btn-big,
   color: #1c447f;
 }
 
-.button-big:active
+.button-big:active,
 .btn-big:active {
   filter: brightness(110%);
 }
@@ -200,7 +200,7 @@ btn-big,
   box-shadow: 1px 1px 1.25rem rgba(250, 250, 250, 0.44);
 }
 
-.button-big:hover
+.button-big:hover,
 .btn-big:hover {
   box-shadow: 1px 1px 0.625rem rgba(28, 67, 127, 0.69);
   filter: none;
@@ -256,7 +256,7 @@ btn-big,
   text-transform: uppercase;
 }
 
-button-small
+button-small,
 .button-small
 btn-small
 .btn-small {
@@ -1421,7 +1421,7 @@ input[type="checkbox"]:checked:after {
     width: 21px;
 }
 
-  .checkbox.dark:disabled,
+.checkbox.dark:disabled,
 input.dark[type="checkbox"]:disabled {
     background-color: #fff;
     border: 1px solid #e1e1e1;
@@ -1493,8 +1493,6 @@ input:disabled+label {
 }
 
 
-
-
 select[multiple],
 select[size],
 select.dark[multiple],
@@ -1520,8 +1518,6 @@ select.dark[size]:disabled {
   width: 100%;
 }
 
-
-
 .form-field-borderless {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1544,9 +1540,6 @@ select.dark[size]:disabled {
 
 /* Placeholder Styling for Light-themed Inputs */
 
- 
-
- 
 .input::-ms-input-placeholder,
 .input::-moz-placeholder,
 .select::-moz-placeholder,
@@ -1587,16 +1580,12 @@ textarea.dark {
   text-transform: lowercase;
 }
 
-
-
 input.dark.message {
   height: 6.25rem;
   margin-bottom: 2rem;
   padding-top: 1.25rem;
   text-transform: none;
 }
-
-
 
 .form-subheadline {
   background-color: rgba(0, 0, 0, 0);
@@ -1608,8 +1597,6 @@ input.dark.message {
   text-align: right;
 }
 
-
-
 .space {
   height: 30px;
 
@@ -1618,9 +1605,6 @@ input.dark.message {
 .line {
   border-bottom: 1px solid var(--primary);
 }
-
-
-
 
 .form {
   margin-bottom: 0;
@@ -1644,9 +1628,6 @@ input.dark.message {
   padding: 20px;
   text-align: left;
 }
-
-
-
 
 .adv-dropdown {
   position: absolute;
@@ -2013,7 +1994,6 @@ tooltip-box:hover {
   border-radius: 0.275rem;
   border-width: 0.25rem;
 }
-
 
 
 .logo {
