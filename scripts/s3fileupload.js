@@ -55,3 +55,70 @@
         });
     });
 </script>
+
+
+
+
+
+<!--
+Resources
+On this page, you will find any code snippets or longer things from the video. They've been put here so that you can copy + paste them!
+
+Bucket policy
+Add this code to your S3 bucket policy.
+-->
+{
+   "Version": "2012-10-17",
+   "Statement": [
+       {
+           "Sid": "PublicReadGetObject",
+           "Effect": "Allow",
+           "Principal": "*",
+           "Action": "s3:GetObject",
+           "Resource": "arn:aws:s3:::v3-ms-bucket/*"
+       }
+   ]
+}
+
+
+    
+<!--
+API Mapping Template
+Add this code to your mapping template for the "OPTION" method
+-->
+#set($origin = $input.params("Origin"))
+#set($headers = $input.params("Access-Control-Request-Headers"))
+{
+ "statusCode": 200,
+ "headers": {
+   "Access-Control-Allow-Origin": "$origin",
+   "Access-Control-Allow-Methods": "GET, PUT, POST, DELETE, HEAD, OPTIONS",
+   "Access-Control-Allow-Headers": "$headers",
+   "Access-Control-Max-Age": "86400"
+ },
+ "body": ""
+}
+
+
+
+
+<!--
+Access-Control-Allow-Headers Value
+Use this value for your header to prevent CORS errors.
+-->
+'Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'
+
+    
+<!--
+Access-Control-Allow-Methods Value
+Use this value for your header to prevent CORS errors.
+-->
+'DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT'
+
+    
+    
+<!--
+ms-code-s3-wrapper Value
+Use this template for your attribute value. It will not work as-is. You need your own invoke URL and bucket name.
+-->
+https://{YOURINVOKEURL}/{YOURSTAGE}/{YOURS3BUCKET}/${encodeURIComponent(fileName)}
