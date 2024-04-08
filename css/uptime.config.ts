@@ -105,15 +105,15 @@ async function notify(env: any, monitor: any, isUp: boolean, timeIncidentStart: 
     timeZone: "Asia/Shanghai",
   });
 
-  let downtimeDuration = Math.round((timeNow - timeIncidentStart) / 60);
+  const downtimeDuration = Math.round((timeNow - timeIncidentStart) / 60);
   const timeIncidentStartFormatted = dateFormatter.format(new Date(timeIncidentStart * 1000));
-  let statusText = isUp ? `The service is up again after being down for ${downtimeDuration} minutes.` : `Service became unavailable at ${timeIncidentStartFormatted}. Issue: ${reason || "unspecified"}`;
+  const statusText = isUp ? `The service is up again after being down for ${downtimeDuration} minutes.` : `Service became unavailable at ${timeIncidentStartFormatted}. Issue: ${reason || "unspecified"}`;
 
   console.log("Notifying: ", monitor.name, statusText);
 
   if (env.BARK_SERVER && env.BARK_DEVICE_KEY) {
     try {
-      let title = isUp ? `✅ ${monitor.name} is up again!` : `🔴 ${monitor.name} is currently down.`;
+      const title = isUp ? `✅ ${monitor.name} is up again!` : `🔴 ${monitor.name} is currently down.`;
       await sendBarkNotification(env, monitor, title, statusText);
     } catch (error) {
       console.error("Error sending Bark notification:", error);
@@ -122,9 +122,9 @@ async function notify(env: any, monitor: any, isUp: boolean, timeIncidentStart: 
 
   if (env.SECRET_TELEGRAM_CHAT_ID && env.SECRET_TELEGRAM_API_TOKEN) {
     try {
-      let operationalLabel = isUp ? "Up" : "Down";
-      let statusEmoji = isUp ? "✅" : "🔴";
-      let telegramText = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
+      const operationalLabel = isUp ? "Up" : "Down";
+      const statusEmoji = isUp ? "✅" : "🔴";
+      const telegramText = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
       await notifyTelegram(env, monitor, isUp, telegramText);
     } catch (error) {
       console.error("Error sending Telegram notification:", error);
@@ -133,12 +133,12 @@ async function notify(env: any, monitor: any, isUp: boolean, timeIncidentStart: 
 
   if (env.SECRET_SLACK_WEBHOOK_URL) {
     try {
-      let operationalLabel = isUp ? "Up" : "Down";
-      let statusEmoji = isUp ? "✅" : "🔴";
-      let title = isUp ? `✅ ${monitor.name} is up again!` : `🔴 ${monitor.name} is currently down.`;
+      const operationalLabel = isUp ? "Up" : "Down";
+      const statusEmoji = isUp ? "✅" : "🔴";
+      const title = isUp ? `✅ ${monitor.name} is up again!` : `🔴 ${monitor.name} is currently down.`;
                          `< ${monitor.url} | [GO TO STAUS PAGE] >`;
-      let fallback = `Monitor ${monitor.name} changed status to *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
-      let slackText = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
+      const fallback = `Monitor ${monitor.name} changed status to *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
+      const slackText = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
       await notifySlack(env, title, isUp, fallback, slackText);
     } catch (error) {
       console.error("Error sending Slack notification:", error);
@@ -146,11 +146,11 @@ async function notify(env: any, monitor: any, isUp: boolean, timeIncidentStart: 
   }
   if (env.SECRET_DISCORD_WEBHOOK_URL) {
     try {
-      let operationalLabel = isUp ? "Up" : "Down";
-      let statusEmoji = isUp ? ":white_check_mark:" : ":x:";
-      let title = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
-      let description = `\`${monitor.method ? monitor.method : "GET"} ${monitor.url}\` - :eyes: [Status Page](${pageConfig.url})`;
-      let discordText = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
+      const operationalLabel = isUp ? "Up" : "Down";
+      const statusEmoji = isUp ? ":white_check_mark:" : ":x:";
+      const title = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
+      const description = `\`${monitor.method ? monitor.method : "GET"} ${monitor.url}\` - :eyes: [Status Page](${pageConfig.url})`;
+      const discordText = `*${escapeMarkdown(monitor.name)}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
       await notifyDiscord(env, title, isUp, description, discordText);
     } catch (error) {
       console.error("Error sending Discord notification:", error);

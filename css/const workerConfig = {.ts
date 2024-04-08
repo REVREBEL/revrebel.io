@@ -164,9 +164,9 @@ const pageConfig = {
       timeZone: 'Asia/Shanghai',
     });
   
-    let downtimeDuration = Math.round((timeNow - timeIncidentStart) / 60);
+    const downtimeDuration = Math.round((timeNow - timeIncidentStart) / 60);
     const timeIncidentStartFormatted = dateFormatter.format(new Date(timeIncidentStart * 1000));
-    let statusText = isUp
+    const statusText = isUp
       ? `The service is up again after being down for ${downtimeDuration} minutes.`
       : `Service became unavailable at ${timeIncidentStartFormatted}. Issue: ${reason || 'unspecified'}`;
   
@@ -174,7 +174,7 @@ const pageConfig = {
   
     if (env.BARK_SERVER && env.BARK_DEVICE_KEY) {
       try {
-        let title = isUp ? `✅ ${monitor.name} is up again!` : `🔴 ${monitor.name} is currently down.`;
+        const title = isUp ? `✅ ${monitor.name} is up again!` : `🔴 ${monitor.name} is currently down.`;
         await sendBarkNotification(env, monitor, title, statusText);
       } catch (error) {
         console.error('Error sending Bark notification:', error);
@@ -183,9 +183,9 @@ const pageConfig = {
   
     if (env.SECRET_TELEGRAM_CHAT_ID && env.SECRET_TELEGRAM_API_TOKEN) {
       try {
-        let operationalLabel = isUp ? 'Up' : 'Down';
-        let statusEmoji = isUp ? '✅' : '🔴';
-        let telegramText = `*${escapeMarkdown(
+        const operationalLabel = isUp ? 'Up' : 'Down';
+        const statusEmoji = isUp ? '✅' : '🔴';
+        const telegramText = `*${escapeMarkdown(
           monitor.name,
         )}* is currently *${operationalLabel}*\n${statusEmoji} ${escapeMarkdown(statusText)}`;
         await notifyTelegram(env, monitor, isUp, telegramText);
