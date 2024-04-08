@@ -335,29 +335,7 @@ label {
   transition-timing-function: ease;
 }
 
-button-big,
-.button-big,
-btn-big,
-.btn-big,
-[type="button"],
-[type="image"],
-[type="reset"],
-[type="submit"] {
-  align-items: center;
-  background-color: #1c447f;
-  border-radius: .25rem;
-  color: #fff;
-  flex: 1;
-  font-family: Khand, Impact, sans-serif;
-  font-size: 1.333rem;
-  font-weight: 700;
-  justify-content: center;
-  line-height: 1.1em;
-  padding: 1.27rem 2rem 1.25rem;
-  text-align: center;
-  text-transform: uppercase;
-  transition: all 0.2s;
-}
+
 
 .is_small {
   padding-bottom: 0.75rem;

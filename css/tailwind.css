@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-blue dark: bg-blue dark: text-white;
+  }
+
+  a {
+    @apply text-blue dark: text-white;
+  }
+}
+
+@layer components {
+  .card {
+    @apply p-4 bg-white border border-blue dark: @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base {
+      body {
+        @apply bg-white text-blue dark:bg-blue dark: text-white;
+      }
+
+      a {
+        @apply text-blue dark: text-white;
+      }
+    }
+
+    @layer components {
+      .card {
+        @apply p-4 bg-white border border-blue dark: bg-grayDark dark: border-grayDark shadow rounded-lg p-4 mb-2;
+      }
+
+      .pill {
+        @apply px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full;
+      }
+
+      .histogram {
+        @apply h-6 w-full mx-auto;
+      }
+      .hitbox {
+        align-items: flex-end;
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        padding: 1px;
+        border-radius: 3.75px;
+      }
+      .bar {
+        @apply bg-white dark: bg-blue;
+        padding-bottom: 1px;
+        height: 100%;
+        width: 85%;
+        border-radius: 100px;
+      }
+
+      .bar.green {
+        @apply bg-green dark: bg-green;
+      }
+
+      .bar.red {
+        @apply bg-red dark: bg-red;
+      }
+
+      .bar.yellow {
+        @apply bg-yellow dark: bg-yellow;
+      }
+
+      .tooltip {
+        @apply relative;
+      }
+
+      .tooltip .content {
+        @apply invisible absolute z-50 inline-block;
+        @apply rounded-lg py-1 px-2 bg-white dark:bg-blue shadow;
+        @apply opacity-0 transition-all duration-200 scale-50;
+      }
+
+      .tooltip:hover .content {
+        @apply visible opacity-100 scale-100;
+      }
+    }
+    dark: border-blue shadow rounded-lg p-4 mb-2;
+  }
+
+  .pill {
+    @apply px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full;
+  }
+
+  .histogram {
+    @apply h-6 w-full mx-auto;
+  }
+  .hitbox {
+    align-items: flex-end;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 1px;
+    border-radius: 3.75px;
+  }
+  .bar {
+    @apply bg-white dark:bg-blue;
+    padding-bottom: 1px;
+    height: 100%;
+    width: 85%;
+    border-radius: 100px;
+  }
+
+  .bar.green {
+    @apply bg-green dark:bg-green;
+  }
+
+  .bar.red {
+    @apply bg-red dark:bg-red;
+  }
+
+  .bar.yellow {
+    @apply bg-yellow dark:bg-yellow;
+  }
+
+  .tooltip {
+    @apply relative;
+  }
+
+  .tooltip .content {
+    @apply invisible absolute z-50 inline-block;
+    @apply rounded-lg py-1 px-2 --gray dark: bg-blue shadow;
+    @apply opacity-0 transition-all duration-200 scale-50;
+  }
+
+  .tooltip:hover .content {
+    @apply visible opacity-100 scale-100;
+  }
+}
