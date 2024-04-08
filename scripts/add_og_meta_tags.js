@@ -2,7 +2,16 @@
   Add a og meta tags to each page that are not already provide through webflow.
 
   Usage
-  <script src="https://revrebel.github.io/revrebel.io/scripts/add_og_meta_tags.js"></script>
+  <script src="https://revrebel.github.io/revrebel.io/scripts/add_og_meta_tags.js">
+  </script>
+
+
+<script
+type="text/javascript" 
+referrerpolicy="no-referrer" 
+src="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/scripts/add_og_meta_tags.js" 
+crossorigin="anonymous" 
+>
 
 */
 
