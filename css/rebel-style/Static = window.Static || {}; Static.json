@@ -1,0 +1,284 @@
+Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {
+    "facebookAppId": "314192535267336",
+    "facebookApiVersion": "v6.0",
+    "rollups": {
+        "squarespace-announcement-bar": {
+            "js": "//assets.squarespace.com/universal/scripts-compressed/announcement-bar-580ca14b0b772e26673b-min.en-US.js"
+        },
+        "squarespace-audio-player": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/audio-player-9fb16b1675c0ff315dae-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/audio-player-536655d24ee2cf3492fa-min.en-US.js"
+        },
+        "squarespace-blog-collection-list": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/blog-collection-list-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-0ac0afef4825691a4645-min.en-US.js"
+        },
+        "squarespace-calendar-block-renderer": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-0e361398b7723c9dc63e-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-55cbc566c91cd35b96d1-min.en-US.js"
+        },
+        "squarespace-chartjs-helpers": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-e1c09c17d776634c0edc-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-f5eab5c8720f22ebdf0f-min.en-US.js"
+        },
+        "squarespace-comments": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/comments-24b74a0326eae0cd5049-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/comments-9c5d100d6c83e0adc8b8-min.en-US.js"
+        },
+        "squarespace-custom-css-popup": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/custom-css-popup-48be68d9502a3b53de7e-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-060955f5da08046d8d86-min.en-US.js"
+        },
+        "squarespace-dialog": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/dialog-081be79078914b908a1a-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/dialog-223c5e4cd10d64465098-min.en-US.js"
+        },
+        "squarespace-events-collection": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/events-collection-0e361398b7723c9dc63e-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/events-collection-c7fb145e0cec3374163e-min.en-US.js"
+        },
+        "squarespace-form-rendering-utils": {
+            "js": "//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-5e8f89da925721ff5852-min.en-US.js"
+        },
+        "squarespace-forms": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/forms-8d93ba2c12ff0765b64c-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/forms-34889491fd72ba656e9d-min.en-US.js"
+        },
+        "squarespace-gallery-collection-list": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-4015fa07502fd85cce51-min.en-US.js"
+        },
+        "squarespace-image-zoom": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/image-zoom-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/image-zoom-9c7b93bd6c6eec5cef37-min.en-US.js"
+        },
+        "squarespace-pinterest": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/pinterest-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/pinterest-aae85c4da463349c5f0c-min.en-US.js"
+        },
+        "squarespace-popup-overlay": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/popup-overlay-b2bf7df4402e207cd72c-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/popup-overlay-d3c700ffc198534a85bd-min.en-US.js"
+        },
+        "squarespace-product-quick-view": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/product-quick-view-4aec27f1bd826750e9db-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/product-quick-view-58dfd1d882a3f9a2f8d6-min.en-US.js"
+        },
+        "squarespace-products-collection-item-v2": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-d5ed61691fea319fc5f1-min.en-US.js"
+        },
+        "squarespace-products-collection-list-v2": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-5869a38a2bb3cda993d1-min.en-US.js"
+        },
+        "squarespace-search-page": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/search-page-dcc0462e30efbd6dc562-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/search-page-fa989f7050e506df8dcf-min.en-US.js"
+        },
+        "squarespace-search-preview": {
+            "js": "//assets.squarespace.com/universal/scripts-compressed/search-preview-4ba3bba80a311f827120-min.en-US.js"
+        },
+        "squarespace-simple-liking": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/simple-liking-a9eb87c1b73b199ce387-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/simple-liking-78c29e2a12a5aa2a2d61-min.en-US.js"
+        },
+        "squarespace-social-buttons": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/social-buttons-98ee3a678d356d849b76-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/social-buttons-a22c4f4e4076e881ff45-min.en-US.js"
+        },
+        "squarespace-tourdates": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/tourdates-0106e2d3707028a62a85-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/tourdates-76321dbccaa3d8627052-min.en-US.js"
+        },
+        "squarespace-website-overlays-manager": {
+            "css": "//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-6dfb472f441e39d78b13-min.en-US.css",
+            "js": "//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-29e268493c0e98412b25-min.en-US.js"
+        }
+    },
+    "pageType": 2,
+    "website": {
+        "id": "586faeed9de4bbdef290eaf9",
+        "identifier": "winerose",
+        "websiteType": 4,
+        "contentModifiedOn": 1712359046838,
+        "cloneable": false,
+        "hasBeenCloneable": false,
+        "siteStatus": {},
+        "language": "en-US",
+        "timeZone": "US/Pacific",
+        "machineTimeZoneOffset": -25200000,
+        "timeZoneOffset": -25200000,
+        "timeZoneAbbr": "PDT",
+        "siteTitle": "Wine & Roses",
+        "fullSiteTitle": "Wine & Roses",
+        "siteTagLine": "Lodi, California",
+        "siteDescription": "<p style=\"margin-left:0px; margin-right:0px\">Wine &amp; Roses is the ultimate Lodi Wine Country destination. Lodi is home to over 70 wineries and is located in Northern California just south of the Sacramento Area and just East of the Bay Area.</p><p>Wine &amp; Roses features 66 unique rooms and suites, an award-winning Spa, the Towne House Restaurant, and extraordinary event venues set in our distinctive surroundings.</p>",
+        "location": {
+            "addressTitle": "Wine & Roses",
+            "addressLine1": "2505 W. Turner Road",
+            "addressLine2": "Lodi, California 95252",
+            "addressCountry": "USA"
+        },
+        "logoImageId": "58e6aaa215d5dbf09e39c84e",
+        "socialLogoImageId": "6499ff593185ed22d9539311",
+        "shareButtonOptions": {
+            "2": true,
+            "7": true,
+            "1": true
+        },
+        "logoImageUrl": "//images.squarespace-cdn.com/content/v1/586faeed9de4bbdef290eaf9/1491511970314-MK7RZGIK2Z2QUEAENCB3/WineandRosesLodi.png",
+        "socialLogoImageUrl": "//images.squarespace-cdn.com/content/v1/586faeed9de4bbdef290eaf9/d99d4ed9-fea4-4647-acba-bae78d5804b9/Logo-+Formal-+Grey.jpg",
+        "authenticUrl": "https://winerose.com",
+        "internalUrl": "https://winerose.squarespace.com",
+        "baseUrl": "https://winerose.com",
+        "primaryDomain": "winerose.com",
+        "sslSetting": 3,
+        "isHstsEnabled": false,
+        "socialAccounts": [
+            {
+                "serviceId": 2,
+                "userId": "1415020091882749",
+                "screenname": "Wine & Roses Hotel.Restaurant.Spa",
+                "addedOn": 1492631132432,
+                "profileUrl": "https://www.facebook.com/wineandroseshotel.restaurant.spa/",
+                "iconUrl": "http://graph.facebook.com/1415020091882749/picture?type=square",
+                "metaData": {
+                    "service": "facebook"
+                },
+                "iconEnabled": true,
+                "serviceName": "facebook"
+            },
+            {
+                "serviceId": 64,
+                "screenname": "Instagram",
+                "addedOn": 1605649547546,
+                "profileUrl": "https://www.instagram.com/wineandroseslodi/",
+                "iconEnabled": true,
+                "serviceName": "instagram-unauth"
+            }
+        ],
+        "typekitId": "",
+        "statsMigrated": false,
+        "imageMetadataProcessingEnabled": false,
+        "screenshotId": "2dbea91aad0dba833d37cc095dfc7478ab5fae0265737df8215823106b36494b",
+        "captchaSettings": {
+            "enabledForDonations": false
+        },
+        "showOwnerLogin": false
+    },
+    "websiteSettings": {
+        "id": "586faeed9de4bbdef290eafc",
+        "websiteId": "586faeed9de4bbdef290eaf9",
+        "subjects": [],
+        "country": "US",
+        "state": "CA",
+        "simpleLikingEnabled": true,
+        "mobileInfoBarSettings": {
+            "isContactEmailEnabled": false,
+            "isContactPhoneNumberEnabled": false,
+            "isLocationEnabled": false,
+            "isBusinessHoursEnabled": false
+        },
+        "announcementBarSettings": {
+            "style": 2,
+            "text": "<p class=\"\" style=\"white-space:pre-wrap;\">Celebrate Easter with us. Make your Easter Brunch reservations now!  </p>",
+            "clickthroughUrl": {
+                "url": "https://winerose.com/https/winerosecom/2024easter",
+                "newWindow": false
+            }
+        },
+        "popupOverlaySettings": {
+            "style": 2,
+            "showOnScroll": false,
+            "scrollPercentage": 25,
+            "showOnTimer": true,
+            "timerDelay": 0,
+            "showUntilSignup": true,
+            "displayFrequency": 1,
+            "enableMobile": true,
+            "enabledPages": [],
+            "showOnAllPages": true,
+            "version": 2
+        },
+        "commentLikesAllowed": true,
+        "commentAnonAllowed": true,
+        "commentThreaded": true,
+        "commentApprovalRequired": false,
+        "commentAvatarsOn": true,
+        "commentSortType": 2,
+        "commentFlagThreshold": 0,
+        "commentFlagsAllowed": true,
+        "commentEnableByDefault": true,
+        "commentDisableAfterDaysDefault": 0,
+        "disqusShortname": "",
+        "commentsEnabled": false,
+        "contactPhoneNumber": "(310) 800-1124",
+        "businessHours": {
+            "monday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            },
+            "tuesday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            },
+            "wednesday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            },
+            "thursday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            },
+            "friday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            },
+            "saturday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            },
+            "sunday": {
+                "text": "open",
+                "ranges": [
+                    {
+                        "from": 0,
+                        "to": 1440
+                    }
+                ]
+            }
+        },
+        "storeSettings": {
+            "returnPolicy":"<p class=\"\" style=\"white-space:pre-wrap;\">Gift Card purchases are n…
+None knew us

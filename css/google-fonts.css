@@ -1,17 +1,23 @@
 
 
+<!--
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    RR |   REVREBEL
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+*/
+!-->
 
-
-
+<head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Khand:wght@500;600;700&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Sarabun:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Khand:wght@500;600;700&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Sarabun:wght@300;400;500&display=swap')
 </style>
 
-
+<style>
 @import url('https://fonts.googleapis.com/css2?familyKhand:wght@400;500;600;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap') 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap') 
@@ -19,9 +25,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&display=swap') 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;700&display=swap') 
+</style>
 
-
-
+<style>
 .courier-prime-regular {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
@@ -102,6 +108,7 @@
     font-weight: 300;
     font-style: normal;
   }
+
   
   .sarabun-regular {
     font-family: "Sarabun", sans-serif;
@@ -134,4 +141,101 @@
     font-weight: 700;
     font-style: normal;
   }
+  </style>
+
   
+
+
+<!--
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    RR |   APPELLATTION HOSPITALITY
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+*/
+!-->
+
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:wght@300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Emoji:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:wght@300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Emoji:wght@300..700&display=swap')
+</style>
+
+
+<style>
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.noto-emoji-<uniquifier> {
+  font-family: "Noto Emoji", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.noto-emoji-<uniquifier> {
+  font-family: "Noto Emoji", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.libre-franklin-<uniquifier> {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+</style>
