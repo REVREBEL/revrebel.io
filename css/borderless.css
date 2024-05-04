@@ -1,0 +1,40 @@
+.is_borderless {
+    border-style: none;
+    border-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
+    border-width: 0px;
+    color: #1c437f;
+    border-width: 0px;
+    transform: none;
+}
+
+.is_borderless:hover {
+    border-style: none;
+    border-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
+        border-width: 0px;
+    color: #5b8aa0;
+    transform: none;
+}
+
+.is_borderless:active {
+    color: #5b8aa0;
+    transform: translate(0);
+}
+
+
+
+.button.is_borderless {
+    padding-left: 0;
+    box-shadow: none;
+}
+
+.button.is_borderless:hover {
+    padding-left: 0;
+    box-shadow: none;
+}
+
+.button.is_borderless:active {
+    padding-left: 0;
+    transform: none;
+}

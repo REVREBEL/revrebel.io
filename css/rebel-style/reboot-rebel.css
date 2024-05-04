@@ -91,7 +91,7 @@ a {
 
 .h0 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 6rem;
   font-weight: 700;
   letter-spacing: -0.95px;
@@ -104,9 +104,10 @@ a {
   text-transform: uppercase;
 }
 
+h1,
 .h1 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: -0.95px;
@@ -119,9 +120,10 @@ a {
   text-transform: uppercase;
 }
 
+h2,
 .h2 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: -0.95px;
@@ -134,13 +136,14 @@ a {
   text-transform: uppercase;
 }
 
+h3,
 .h3 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 0.9;
-  letter-spacing: -0.95px;
+   letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0.5rem;
@@ -149,12 +152,13 @@ a {
   text-transform: uppercase;
 }
 
+h4,
 .h4 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 3rem;
   font-weight: 700;
-  letter-spacing: -0.95px;
+  letter-spacing: 1px;
   line-height: 0.9;
   margin-bottom: 0;
   margin-top: 0;
@@ -164,27 +168,14 @@ a {
   text-transform: uppercase;
 }
 
-.h5 {
-  color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: -0.95px;
-  line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
-  text-align: left;
-  text-transform: uppercase;
-}
 
+h5,
 .h5 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: -0.95px;
+  letter-spacing: 10px;
   line-height: 0.9;
   margin-bottom: 0;
   margin-top: 0;
@@ -194,12 +185,13 @@ a {
   text-transform: uppercase;
 }
 
+h6,
 .h6 {
   color: #1c437f;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: -0.95px;
+    letter-spacing: 1px;
   line-height: 0.9;
   margin-bottom: 0;
   margin-top: 0;
@@ -220,7 +212,7 @@ li {
 
 ul {
   color: #1c437f;
-  font-family: Sarabun, Tahoma, sans-serif;
+font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   list-style-type: disc;
@@ -229,13 +221,48 @@ ul {
   padding-left: 2rem;
 }
 
+.text-s {
+  color: #1c437f;
+font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
+  font-size: 1rem;
+  line-height: .85;
+  font-weight: 300;
+  list-style-type: disc;
+  margin-bottom: 0.625rem;
+  margin-top: 10;
+    	padding-top: 15px;
+  	padding-bottom: 15px;
+}
 
+.text {
+  color: #1c437f;
+font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 300;
+  list-style-type: disc
+  margin-bottom: 0.625rem;
+  margin-top: 10;
+    	padding-top: 15px;
+  	padding-bottom: 15px;
+}
 
-
+.text-l {
+  color: #1c437f;
+font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  list-style-type: disc
+  margin-bottom: 0.625rem;
+  margin-top: 10;
+      	padding-top: 15px;
+  	padding-bottom: 15px;
+}
 
 label {
   display: block;
-  font-family: , Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -322,7 +349,7 @@ label {
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1em;
@@ -357,29 +384,84 @@ label {
 
 
 
+
+
+
+.button.is_borderless.text-multicolor-h:hover {
+    background-image: linear-gradient(to bottom,var(--text--color-blue),var(--text--color-blue)),linear-gradient(90deg,#1c447f,#697399 19%,#5b8aa0 33%,#788c93 60%,#c64949 70%,#df7730 85%,#ff8f0d 95%,#fad644 99%)
+}
+
+
+
+
+.button.is_outline:active {
+    border-color: #1c437f;
+    filter: none;
+    color: #1c437f;
+}
+
+.button.is_outline.yellow {
+    border-color: #fad644;
+    background-color: rgba(255,255,255,0);
+    color: #fad644;
+}
+
+.button.is_outline.white {
+    border-color: #FFFFFF;
+    color:  #FFFFFF;
+}
+
+
 .is_borderless {
-  background-color: rgba(255, 255, 255, 0);
-  border-color:white;
-  border-style: none;
-  border-width: 0px;
-  color:  #1c437f;
+    border-style: none;
+    border-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
+    border-width: 0px;
+    color: #1c437f;
+    border-width: 0px;
+    transform: none;
 }
 
 .is_borderless:hover {
-  border-style: none;
-  border-color:  rgba(255, 255, 255, 0);
-  background-color:  rgba(255, 255, 255, 0);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0  rgba(255, 255, 255, 0);
-  transform: none
-    /* translate(0px, 0px) */
-  ;
-  color: var(--text--color-green);
+    border-style: none;
+    border-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
+        border-width: 0px;
+    color: #5b8aa0;
+    transform: none;
 }
 
 .is_borderless:active {
-  transform: translate(0px, 0px);
-  color: #5B8AA0;
+    color: #5b8aa0;
+    transform: translate(0);
 }
+
+
+
+.button.is_borderless {<br>
+    color: #1c437f;
+    padding-left: 0;
+    box-shadow: none;
+        transform: none;
+            border-width: 0px;
+}
+
+.button.is_borderless:hover {<br>
+    color: #5b8aa0;
+    padding-left: 0;
+    box-shadow: none;
+        transform: none;
+            border-width: 0px;
+}
+
+.button.is_borderless:active {<br>
+    color: #5b8aa0;
+    padding-left: 0;
+        box-shadow: none;
+            border-width: 0px;
+    transform: none;
+}
+
 
   .error {
     background-color: #ef5353;
@@ -396,7 +478,7 @@ label {
 
   .form_field-label {
     color: #1c437f;
-    font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -1276,7 +1358,7 @@ label {
     background-clip: text;
     background-color: #1c437f;
     border-bottom: 2px solid #1c437f;
-    border: 1px solid #fff;
+    border: 0px solid #FFFFFF;
     color: rgba(0, 0, 0, 0);
     font-family: Sarabun, Tahoma, sans-serif;
     font-size: 1rem;
@@ -1361,7 +1443,9 @@ label {
   }
 
   .line {
-    border-bottom: 1px solid #1c447f;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+    border-bottom: 10px solid #1c447f;
   }
 
   .form {
@@ -1822,7 +1906,7 @@ label {
 
   .powered-by {
     color: #1c437f;
-    font-family: Khand, Impact, sans-serif;
+  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     line-height: 0.9;
