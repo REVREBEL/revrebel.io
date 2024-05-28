@@ -12,7 +12,7 @@
 
 body {
     font-size: 1rem !important; 
-    font-family: Inter, sans-serif !important;
+    font-family: 'Inter', Arial, Helvetica, sans-serif !important;
     color: #1C447F;
     background: #FAFAFA !important;
     -webkit-font-smoothing: antialiased;
@@ -28,7 +28,7 @@ body {
 .cs-portal-spf-wrapper .bur-icon span {
     font-size: 16px !important;
     color: #fafafa !important;
-    font-family: Khand, sans-serif !important; 
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
     background-color: #1c437f !important;
     padding: 1.1rem 1.75rem 1.0rem !important;
     text-align: center !important;
@@ -44,7 +44,7 @@ body {
 .cs-portal-spf-wrapper .pop-form-submit input[type="submit"] {
     font-size: 16px !important;
     color: #000000 !important;
-    font-family: Khand, sans-serif !important;
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
     background-color: #1c437f !important;
     border: 3px solid #1c437f !important;
     border-radius: 5px !important;
@@ -64,7 +64,7 @@ body {
 .cs-portal-spf-wrapper .left-menu ul li span {
     font-size: 16px !important;
     color: #1C447F !important;
-    font-family: Khand, Impact, sans-serif !important;
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
     font-size: 1.5rem !important;
     font-weight: 700 !important;
     line-height: 90% !important;
@@ -85,7 +85,7 @@ body {
 .cs-portal-spf-header .profile-name {
     font-size: 18px !important;
     color: #1C447F !important;
-    font-family: Khand, Impact, sans-serif !important;
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
     line-height: 90% !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
@@ -94,7 +94,7 @@ body {
 .cs-portal-spf-header .profile-wrap ul li a {
     font-size: 22px !important;
     color: #1C447F !important; 
-    font-family: Khand, Impact, sans-serif !important;
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
     line-height: 90% !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
