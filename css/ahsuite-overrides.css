@@ -71,7 +71,7 @@ referrerpolicy="no-referrer"
 }
 
 
-.left-menu ul li a span.task-icon {
+.left-menu ul li a span.work-journal-icon {
     -webkit-mask: none !important; /* Remove the mask */
     mask: none !important;
     background: none !important; /* Remove any existing background */
@@ -89,7 +89,7 @@ referrerpolicy="no-referrer"
     line-height: 1.5rem !important;
 }
 
-.left-menu ul li a span.task-icon::before {
+.left-menu ul li a span.work-journal-icon::before {
     content: '';
     background-color: #1c437f !important;
     width: 2rem !important;
