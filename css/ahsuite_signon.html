@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title><br>
+    <br>
+    <br><br>
+    
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+    /><br>
+    
+    <style>
+  /* Customize the sign-in form background and text color */
+.cs-portal-spf-wrapper .agent-login-panel .form {
+    background: #FFFFFF !important; /* Form background color */
+    color: #1c437f !important; /* Button text color */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    line-height: 100% !important;
+    padding: 20px !important; /* Form padding */
+    border-radius: 8px !important; /* Rounded corners for the form */
+}
+
+/* Customize the input fields (username and password) */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="text"],
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="password"] {
+    background: #1c437f !important; /* Input background color */
+    color: #FFFFF !important; /* Input text color */
+    font-size: 16px !important; /* Input font size */
+    border: 1px solid #1c437f !important; /* Input border color */
+    border-radius: 3px !important; /* Rounded corners for inputs */
+	padding: 8px 26px; !important; /* Input padding */
+    margin-bottom: 15px !important; /* Space between input fields */
+    height: 45px!important;
+}
+
+/* Customize the placeholder text color */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="text"]::placeholder,
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="password"]::placeholder {
+    color: #FFFFFF !important; /* Placeholder text color */<br>
+    font-family: 'Inter', Arial, Helvetica, sans-serif !important;<br>
+    font-weight: 300 !important;
+    font-size: 16px !important; /* Placeholder text font size */
+}
+
+/* Customize the sign-in button */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="submit"] {
+    background: #FFFFFF !important; /* Button background color */
+    color: #1c437f !important; /* Button text color */
+        font-family: Khand, Impact, Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    line-height: 120% !important;
+    font-size: 18px !important; /* Button font size */
+    border: 3px solid #1c437f !important;
+    border-radius: 4px !important; /* Rounded corners for button */
+	padding: 19px 26px 16px !important; /* Input padding */
+    cursor: pointer !important; /* Pointer cursor on hover */
+  
+
+/* Change the "Please Sign In" header text */
+.cs-portal-spf-wrapper .agent-login-panel .form h2 {
+    font-size: 24px !important; /* Header font size */
+    margin-bottom: 20px !important; /* Space below the header */
+}
+
+
+
+
+
+
+/* ****************************************************/
+/* LOGIN SCREEN ***************************************/
+/* ****************************************************/
+
+/* Change the "Please Sign In" header text */
+.cs-portal-spf-wrapper .agent-login-panel .form h2 {
+    color: #fff !important; /* Header text color */
+    font-size: 24px !important; /* Header font size */
+    margin-bottom: 20px !important; /* Space below the header */
+    font-size: 2rem !important;
+    color: #1c437f !important;
+    font-family: Khand, Impact, Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 120% !important;
+    padding: .85rem 1rem .75rem !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    transition: all .2s !important;
+}
+
+  /* Customize the sign-in form background and text color */
+  .cs-portal-spf-wrapper .agent-login-panel .form {
+    background: #FFFFFF !important; /* Form background color */
+    color: #1c437f !important; /* Button text color */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    line-height: 100% !important;
+    padding: 20px !important; /* Form padding */
+    border-radius: 8px !important; /* Rounded corners for the form */
+}
+
+/* Customize the sign-in form background and text color */
+.cs-portal-spf-wrapper .agent-login-panel .form {
+    background-color: #1c437f !important; /* Form background color */
+    color: #FFFFFF  !important; /* Form text color */
+    padding: 20px !important; /* Form padding */
+    border-radius: 8px !important; /* Rounded corners for the form */
+}
+
+/* Customize the input fields (username and password) */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="text"],
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="password"] {
+    color: #FFFFFF  !important;
+    background-color: #1c437f !important;
+    font-size: 16px !important; /* Input font size */
+    border: 1px solid #1c437f  !important; /* Input border color */
+    font-family: 'Inter', Arial, Helvetica, sans-serif !important;
+    font-weight: 300 !important;
+    line-height: 120% !important;
+    border: 1px solid #1c437f !important; /* Input border color */
+    border-radius: 4px !important; /* Rounded corners for inputs */
+    padding: 10px !important; /* Input padding */
+    margin-bottom: 15px !important; /* Space between input fields */
+}
+
+/* Customize the sign-in button */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="submit"] {
+    font-size: 18px !important;
+    color: #1c437f  !important; 
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    background-color: #FFFFFF !important;
+    text-transform: uppercase !important;
+    border: 3px solid #1c437f !important;
+    border-radius: 5px !important;
+
+    cursor: pointer !important;
+    display: inline-flex !important;
+    font-weight: 700 !important;
+    line-height: 100% !important;
+    padding: .85rem 1rem .85rem !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: all .2s !important;
+}
+
+/* Customize the input fields (username and password) */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="text"],
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="password"] {
+    background: #1c437f !important; /* Input background color */
+    color: #FFFFF !important; /* Input text color */
+    font-size: 16px !important; /* Input font size */
+    border: 1px solid #1c437f !important; /* Input border color */
+    border-radius: 3px !important; /* Rounded corners for inputs */
+	padding: 8px 26px; !important; /* Input padding */
+    margin-bottom: 15px !important; /* Space between input fields */
+    height: 45px!important;
+}
+
+/* Customize the placeholder text color */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="text"]::placeholder,
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="password"]::placeholder {
+    color: #FFFFFF !important; /* Placeholder text color */<br>
+    font-family: 'Inter', Arial, Helvetica, sans-serif !important;<br>
+    font-weight: 300 !important;
+    font-size: 16px !important; /* Placeholder text font size */
+}
+
+/* Customize the sign-in button */
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="submit"] {
+    background: #FFFFFF !important; /* Button background color */
+    color: #1c437f !important; /* Button text color */
+        font-family: Khand, Impact, Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    line-height: 120% !important;
+    font-size: 18px !important; /* Button font size */
+    border: 3px solid #1c437f !important;
+    border-radius: 4px !important; /* Rounded corners for button */
+	padding: 19px 26px 16px !important; /* Input padding */
+    cursor: pointer !important; /* Pointer cursor on hover */
+  
+
+/* Change the "Please Sign In" header text */
+.cs-portal-spf-wrapper .agent-login-panel .form h2 {
+    font-size: 24px !important; /* Header font size */
+    color: #1c437f  !important; 
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    background-color: #FFFFFF !important;
+    text-transform: uppercase !important;
+    margin-bottom: 20px !important; /* Space below the header */
+}
+
+
+.email-error,
+label.customErrorClass, span.customErrorClass,
+span.customErrorClass, label.customErrorClass {
+color: #5B8AA0 !important; /* Link font color */
+}
+
+</style>    
+</head>
+
+
+<body class="cs-portal-spf-wrapper">
+
+    <div class="agent-login-panel">
+        <form class="form">
+            <h2>Please Sign In</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <input type="submit" value="Sign In">
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<style>
+
+/* Sidebar background color and width */
+.cs-portal-spf-left-sidebar {
+    background: #FFFFFF !important; /* Sidebar background color */
+    width: 650px !important; /* Sidebar width */
+}
+
+/* Profile name color and text size */
+.cs-portal-spf-left-sidebar .nclient-client-account h2.theme-font-main {
+    color: #1C447F !important; /* Profile name color */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    line-height: 90% !important;
+    text-align: left !important;
+    text-transform: uppercase !important;
+}
+
+/* Account Executive, mobile, email text color and size */
+.cs-portal-spf-left-sidebar .nclient-client-account * {
+    font-size: 1rem !important; /* Text size */
+    color: #1C447F !important; /* Text color */
+    font-family: 'Inter', Arial, Helvetica, sans-serif !important;
+    font-weight: 300 !important;
+    line-height: 50% !important;
+    text-align: left !important;
+}
+
+
+
+
+/* Menu font color and size */
+.cs-portal-spf-wrapper .left-menu ul li a, 
+.cs-portal-spf-wrapper .left-menu ul li span {
+    color: #1C447F !important; /* Menu font color */
+    font-size: 15px !important; /* Menu font size */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 90% !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+}
+
+/* Menu icon color */
+.cs-portal-spf-wrapper .left-menu ul li a span,
+.cs-portal-spf-wrapper .left-menu ul li.active span.list-ul-icon,
+.cs-portal-spf-wrapper .linkactive,
+.cs-portal-spf-wrapper .dinamic-link-wraps:before {
+    color: #1C447F !important; /* Menu font color */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 90% !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+
+}
+
+/* Schedule a call link styling */
+.cs-portal-spf-left-sidebar .client-schedule-call a {
+    font-size: 16px !important;
+    color: #1C447F !important;
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    background-color: #FFFFFF !important;
+    border: 3px solid #1C447F !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    font-weight: 700 !important;
+    line-height: 100% !important;
+    padding: 1.1rem 1.75rem 1.0rem !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    transition: all .2s !important;
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+
+}
+
+/* Sidebar table font size and color */
+.cs-portal-spf-wrapper .nclient-task-list .table-col-name {
+    font-size: 14px !important; /* Sidebar table font size */
+    color: #1C447F !important; /* Sidebar table font color */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 90% !important;
+    text-align: left !important;
+    text-transform: uppercase !important;
+}
+
+/* Need review header font color and size */
+.need-review,
+.left-mini-heading {
+    color: #1C447F !important; /* Need review font color */
+    font-size: 14px !important; /* Need review font size */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 90% !important;
+    text-align: left !important;
+    text-transform: uppercase !important;
+}
+
+/* Need review links font size and color */
+.cs-portal-spf-need-review a span {
+    color: #1C447F !important; /* Need review font color */
+    font-size: 14px !important; /* Need review font size */
+    font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 90% !important;
+    text-align: left !important;
+    text-transform: uppercase !important;
+}
+
+/* Link font color and size */
+.cs-portal-spf-wrapper .show-all-side-list span {
+    color: #5B8AA0 !important; 
+    text-decoration: none !important;
+    font-size: 15px !important; /* Link font size */
+    
+}
+
+/* Button background color and text color */
+.cs-portal-spf-wrapper .save_button,
+.cs-portal-spf-wrapper .slide-profile-login a,
+.cs-portal-spf-wrapper a.rounded_link,
+.cs-portal-spf-wrapper .bur-icon span {
+    background: #FFFFFF !important; /* Button background color */
+    color: #1C447F !important; /* Button text color */
+}
+
+/* Button background color and text color for forms */
+.cs-portal-spf-wrapper .profile-btn > div > a,
+.cs-portal-spf-wrapper .agent-login-panel .form input[type="submit"],
+.cs-portal-spf-wrapper .pop-form-submit input[type="submit"] {
+    background: #FFFFFF !important; /* Button background color */
+    color: #1C447F !important; /* Button text color */
+}
+
+/* Custom icon for the password input field */
+.cs-portal-spf-wrapper .password-field::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('https://res.cloudinary.com/revrebel/image/upload/v1717009875/RevRebel/ui/outline/_png/lock-key-open-bold_wsdk8p.png');
+    background-size: cover;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Custom icon for the messages menu item */
+.cs-portal-spf-wrapper .left-menu ul li.messages a span {
+    background-image: url('https://res.cloudinary.com/revrebel/image/upload/v1717009814/RevRebel/ui/outline/_png/messenger-logo-bold_zgwz9k.png') !important;
+    background-size: cover !important;
+    width: 24px !important;
+    height: 24px !important;
+    display: inline-block;
+}
+
+/* Custom icon for the Tasks menu item */
+.cs-portal-spf-wrapper .left-menu ul li.tasks a span {
+    background-image: url('https://res.cloudinary.com/revrebel/image/upload/v1717009811/RevRebel/ui/outline/_png/check-square-bold_uwsvi0.png') !important;
+    background-size: cover !important;
+    width: 24px !important;
+    height: 24px !important;
+    display: inline-block;
+}
+
+/* Custom icon for the Reports menu item */
+.cs-portal-spf-wrapper .left-menu ul li.reports a span {
+    background-image: url('https://res.cloudinary.com/revrebel/image/upload/v1717009812/RevRebel/ui/outline/_png/file-bold_vrrowa.png') !important;
+    background-size: cover !important;
+    width: 24px !important;
+    height: 24px !important;
+    display: inline-block;
+}
+
+.left-menu ul li a span.conversation-icon,
+.cs-portal-spf-wrapper .left-menu ul li a span.conversation-icon,
+.cs-portal-spf-wrapper .left-menu ul li.messages a span {
+    -webkit-mask: none !important; /* Remove the mask */
+    mask: none !important;
+    content: "" !important; 
+    display: inline-block !important; 
+    width: 24px !important; 
+    height: 24px !important; 
+    background-image: url(https://res.cloudinary.com/revrebel/image/upload/v1717009875/RevRebel/ui/outline/_png/lock-key-open-bold_wsdk8p.png) !important; 
+    background-size: cover !important; 
+    margin-right: 10px !important; 
+    vertical-align: middle !important; 
+}
+
+  
+
+
+.left-menu ul li a span.password-icon {
+    -webkit-mask: none !important; /* Remove the mask */
+    mask: none !important;
+    background: none !important; /* Remove any existing background */
+    position: relative;
+    display: inline-block;
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+}
+
+
+.password-icon,
+.left-menu ul li a span.password-icon::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OCIgaGVpZ2h0PSI2OCIgZmlsbD0iIzFjNDQ3ZiIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxwYXRoIGQ9Ik00OCw1NlYyMDBhMTIsMTIsMCwwLDEtMjQsMFY1NmExMiwxMiwwLDAsMSwyNCwwWm04Ni43Myw1MC43TDEyMCwxMTEuNDhWOTZhMTIsMTIsMCwwLDAtMjQsMHYxNS40OEw4MS4yNywxMDYuN2ExMiwxMiwwLDEsMC03LjQxLDIyLjgybDE0LjcyLDQuNzktOS4xLDEyLjUyQTEyLDEyLDAsMSwwLDk4LjksMTYwLjk0bDkuMS0xMi41Miw5LjEsMTIuNTJhMTIsMTIsMCwxLDAsMTkuNDItMTQuMTFsLTkuMS0xMi41MiwxNC43Mi00Ljc5YTEyLDEyLDAsMSwwLTcuNDEtMjIuODJabTExNS4xMiw3LjdhMTIsMTIsMCwwLDAtMTUuMTItNy43TDIyMCwxMTEuNDhWOTZhMTIsMTIsMCwwLDAtMjQsMHYxNS40OGwtMTQuNzMtNC43OGExMiwxMiwwLDEsMC03LjQxLDIyLjgybDE0LjcyLDQuNzktOS4xLDEyLjUyQTEyLDEyLDAsMSwwLDE5LjQyLDE0LjExbDkuMS0xMi41Miw5LjEsMTIuNTJhMTIsMTIsMCwxLDAsMTkuNDItMTQuMTFsLTkuMS0xMi41MiwxNC43Mi00Ljc5QTEyLDEyLDAsMCwwLDI0OS44NSwxMTQuNFoiPjwvcGF0aD48L3N2Zz4='); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #1c437f;
+    font-size: 18px;}
+
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Panel</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body class="cs-portal-spf-wrapper">
+
+    <div class="cs-portal-spf-left-sidebar">
+        <div class="nclient-client-account">
+            <h2 class="theme-font-main">Profile Name</h2>
+            <p>Account Executive: John Doe</p>
+            <p>Mobile: (123) 456-7890</p>
+            <p>Email: johndoe@example.com</p>
+        </div>
+        
+        
+<div class="left-menu-wrap">       
+<ul class="list-unstyled active-tool-ul js-client-tool-tabs cs-portal-spf-tabs"><li>
+
+<span class="client-portal-icon">
+</span>[RESOURCES]</li>
+<li><span class="work-journal-icon">
+</span>[CHECKLIST]</li>  
+<li><span class="conversation-icon">
+</span>[MESSAGES]</li>
+<li><span class="file-icon">
+</span>[DOCS]
+
+
+
+<li><a href="https://playlist.revrebel.io/account/tool/account-access/portal-link?client-name=Cartoon-Network" class="docs-creator">
+                                  <span class="ph-bold ph-password"></span>[PASSWORDS]
+                                </a></li>
+                                
+
+
+<li><a href="https://playlist.revrebel.io/account/tool/messages/portal-link?client-name=Palace-Entertainment" class="docs-creator"><span class="conversation-icon"></span>[MESSAGES]
+                                </a></li>
+     </div>        
+     <div class="client-schedule-call">
+            <a href="#">Schedule a Call</a>
+        </div>
+        <div class="nclient-task-list">
+            <div class="table-col-name">Task Name</div>
+        </div>
+        <div class="need-review">
+            <h3 class="left-mini-heading">Need Review</h3>
+            <a href="#">
+                <span>Review Document</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+

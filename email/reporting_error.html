@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><!-->
+	<link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&amp;display=swap" rel="stylesheet"
+		type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700" rel="stylesheet"
+		type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+		rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900"
+		rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900"
+		rel="stylesheet" type="text/css"><!--<![endif]-->
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
+
+		.image_block img+div {
+			display: none;
+		}
+
+		@media (max-width:550px) {
+			.mobile_hide {
+				display: none;
+			}
+
+			.row-content {
+				width: 100% !important;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+
+			.reverse {
+				display: table;
+				width: 100%;
+			}
+
+			.reverse .column.first {
+				display: table-footer-group !important;
+			}
+
+			.reverse .column.last {
+				display: table-header-group !important;
+			}
+
+			.row-3 td.column.first .border {
+				padding: 35px 0 5px;
+				border-top: 0;
+				border-right: 0px;
+				border-bottom: 0;
+				border-left: 0;
+			}
+
+			.row-3 td.column.last .border {
+				padding: 5px 0;
+				border-top: 0;
+				border-right: 0px;
+				border-bottom: 0;
+				border-left: 0;
+			}
+
+			.row-1 .column-1 .block-2.spacer_block {
+				height: 15px !important;
+			}
+
+			.row-1 .column-1 .block-3.paragraph_block td.pad {
+				padding: 10px 10px 10px 20px !important;
+			}
+
+			.row-2 .column-1 .block-1.paragraph_block td.pad {
+				padding: 0 10px 10px 20px !important;
+			}
+
+			.row-1 .column-1 .block-4.heading_block td.pad {
+				padding: 0 10px 0 20px !important;
+			}
+
+			.row-3 .column-1 .block-1.heading_block td.pad {
+				padding: 10px 10px 10px 25px !important;
+			}
+
+			.row-3 .column-1 .block-1.heading_block h1 {
+				font-size: 50px !important;
+			}
+
+			.row-3 .column-2 .block-1.image_block td.pad {
+				padding: 20px 0 0 30px !important;
+			}
+
+			.row-3 .column-2 .block-1.image_block .alignment div,
+			.row-5 .column-1 .block-1.image_block .alignment div {
+				margin: 0 auto 0 0 !important;
+			}
+
+			.row-4 .column-1 .block-1.heading_block td.pad {
+				padding: 0 0 0 20px !important;
+			}
+
+			.row-4 .column-1 .block-1.heading_block h1 {
+				font-size: 16px !important;
+			}
+
+			.row-4 .column-1 .block-2.divider_block td.pad {
+				padding: 20px 15px !important;
+			}
+
+			.row-4 .column-1 .block-2.divider_block .alignment table {
+				display: inline-table;
+			}
+
+			.row-4 .column-1 .block-3.heading_block td.pad {
+				padding: 35px 20px 10px !important;
+			}
+
+			.row-4 .column-1 .block-4.heading_block td.pad {
+				padding: 15px 25px !important;
+			}
+
+			.row-4 .column-1 .block-5.heading_block td.pad {
+				padding: 20px 25px 0 20px !important;
+			}
+
+			.row-5 .column-1 .block-1.image_block td.pad {
+				padding: 40px 0 0 20px !important;
+			}
+
+			.row-6 .column-1 .block-1.spacer_block {
+				height: 35px !important;
+			}
+
+			.row-6 .column-1 .block-4.spacer_block {
+				height: 60px !important;
+			}
+
+			.row-3 .column-1 .border {
+				padding: 0 0 5px !important;
+			}
+		}
+	</style>
+</head>
+
+<body class="body"
+	style="background-color: #fafafa; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+	<div class="preheader"
+		style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+		We've detected an error in the report that was uploaded</div>
+	<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation"
+		style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fafafa;">
+		<tbody>
+			<tr>
+				<td>
+					<table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+						role="presentation"
+						style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #1c447f;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0"
+										cellspacing="0" role="presentation"
+										style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 530.00px; margin: 0 auto;"
+										width="530.00">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="html_block block-1" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad">
+																<div style="font-family:'Khand', sans-serif;text-align:center;"
+																	align="center">
+																	<style>
+																		@import url('https://fonts.googleapis.com/css2?familyKhand:wght@400;500;600;700&display=swap') @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap') @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap') @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600&display=swap') @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap') @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&display=swap') @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;700&display=swap')
+																	</style>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<div class="spacer_block block-2"
+														style="height:30px;line-height:30px;font-size:1px;">&#8202;
+													</div>
+
+													<table class="paragraph_block block-3" width="100%" border="0"
+														cellpadding="10" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad">
+																<div
+																	style="color:#fff;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:12px;">
+																	<p style="margin: 0;">An Important Note from <span
+																			style="font-family: 'Barlow', sans-serif; font-weight: 900;">
+																			REVREBEL.</span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-4" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad"
+																style="padding-left:10px;padding-right:10px;text-align:center;width:100%;">
+																<h1
+																	style="margin: 0; color: #fff; direction: ltr; font-family: 'Khand', Roboto, sans-serif; font-size: 18px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 21.599999999999998px;">
+																	<a href="[weblink]" target="_blank"
+																		style="text-decoration: none; color: #fff;"
+																		rel="noopener">[PLEASE HELP]</a>
+																</h1>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+						role="presentation"
+						style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #1c447f;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0"
+										cellspacing="0" role="presentation"
+										style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 530.00px; margin: 0 auto;"
+										width="530.00">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 15px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="paragraph_block block-1" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+														<tr>
+															<td class="pad"
+																style="padding-bottom:10px;padding-left:10px;padding-right:10px;">
+																<div
+																	style="color:#1c447f;direction:ltr;font-family:'Sarabun', Open Sans, sans-serif;font-size:11px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:13.2px;">
+																	<p style="margin: 0;"><span
+																			style="color: #ffffff;">We're the team
+																			helping guide the hotel's revenue strategy
+																			and need your help.</span></p>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<div class="spacer_block block-2"
+														style="height:10px;line-height:10px;font-size:1px;">&#8202;
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+						role="presentation"
+						style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0"
+										cellspacing="0" role="presentation"
+										style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 530.00px; margin: 0 auto;"
+										width="530.00">
+										<tbody>
+											<tr class="reverse">
+												<td class="column column-1 first" width="66.66666666666667%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 35px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="border">
+														<table class="heading_block block-1" width="100%" border="0"
+															cellpadding="0" cellspacing="0" role="presentation"
+															style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+															<tr>
+																<td class="pad"
+																	style="padding-top:15px;text-align:center;width:100%;">
+																	<h1
+																		style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', Roboto, sans-serif; font-size: 48px; font-weight: 700; letter-spacing: -2px; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 57.599999999999994px;">
+																		<span class="tinyMce-placeholder">HOUSTON WE
+																			HAVE A PROBLEM<br></span></h1>
+																</td>
+															</tr>
+														</table>
+													</div>
+												</td>
+												<td class="column column-2 last" width="33.333333333333336%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="border">
+														<table class="image_block block-1" width="100%" border="0"
+															cellpadding="0" cellspacing="0" role="presentation"
+															style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+															<tr>
+																<td class="pad"
+																	style="width:100%;padding-right:0px;padding-left:0px;">
+																	<div class="alignment" align="right"
+																		style="line-height:10px">
+																		<div style="max-width: 141.333px;"><a
+																				href="https://res.cloudinary.com/revrebel/image/upload/v1650759995/RevRebel/icon/outline/icon-outline-multicolor-lightnavy_ryuhlp.png?utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																				target="_blank" style="outline:none"
+																				tabindex="-1"><img
+																					src="https://res.cloudinary.com/revrebel/image/upload/v1650759995/RevRebel/icon/outline/icon-outline-multicolor-lightnavy_ryuhlp.png"
+																					style="display: block; height: auto; border: 0; width: 100%;"
+																					width="141.333" alt="REVREBEL Icon"
+																					title="REVREBEL Icon"
+																					height="auto"></a></div>
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-4" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+						role="presentation"
+						style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0"
+										cellspacing="0" role="presentation"
+										style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 530.00px; margin: 0 auto;"
+										width="530.00">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="heading_block block-1" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad" style="text-align:center;width:100%;">
+																<h1
+																	style="margin: 0; color: #5b8aa0; direction: ltr; font-family: 'Khand', sans-serif; font-size: 23px; font-weight: 700; letter-spacing: 6px; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 27.599999999999998px;">
+																	<span class="tinyMce-placeholder">CHECK THE
+																		REPORTING PARAMETERS</span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="divider_block block-2" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad"
+																style="padding-bottom:20px;padding-top:20px;">
+																<div class="alignment" align="center">
+																	<table border="0" cellpadding="0" cellspacing="0"
+																		role="presentation" width="100%"
+																		style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+																		<tr>
+																			<td class="divider_inner"
+																				style="font-size: 1px; line-height: 1px; border-top: 5px solid #1c447f;">
+																				<span>&#8202;</span></td>
+																		</tr>
+																	</table>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-3" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad"
+																style="padding-bottom:10px;padding-top:35px;text-align:center;width:100%;">
+																<h1
+																	style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', Roboto, sans-serif; font-size: 20px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 24px;">
+																	<strong>HEY PARTNER!</strong></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-4" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad"
+																style="padding-bottom:15px;padding-top:10px;text-align:center;width:100%;">
+																<h1
+																	style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 400; letter-spacing: normal; line-height: 150%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 18px;">
+																	<span class="tinyMce-placeholder">Thank you for your
+																		continued help in providing the data critical to
+																		powering our hotel's insights and strategy at
+																		<strong>{{hotelName}}</strong>. Upon reviewing
+																		the recent report uploaded on
+																		<strong>{{reportDate}}</strong>. named
+																		<strong>{{reportName}}</strong>., we noticed a
+																		discrepancy in format that differs from our
+																		required standard for this data import. Please
+																		review the report and re-upload it using the
+																		settings specified in the doc provided
+																		below.<br></span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="heading_block block-5" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad"
+																style="padding-right:10px;padding-top:10px;text-align:center;width:100%;">
+																<h1
+																	style="margin: 0; color: #1c447f; direction: ltr; font-family: 'Khand', Roboto, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 3px; line-height: 150%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 19.5px;">
+																	<span class="tinyMce-placeholder"><a
+																			href="https://drive.google.com/open?id=1R0sM0TY0pnyppmD5bRnUfQ4vF8EZRtgA&usp=drive_fs&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																			target="_blank"
+																			title="Resort Suite Reporting Instructions"
+																			style="text-decoration: underline; color: #6398af;"
+																			rel="noopener">[RESORT SUITE REPORTING
+																			INSTRUCTIONS]</a></span></h1>
+															</td>
+														</tr>
+													</table>
+													<table class="html_block block-6 mobile_hide" width="100%"
+														border="0" cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad">
+																<div style="font-family:'Khand', sans-serif;text-align:center;"
+																	align="center">
+																	<div
+																		style="padding-left:0px ; text-align:left; width:100%; padding-top:20px;">
+																		<span
+																			style="color:#1c447f; font-family: 'Barlow', sans-serif; font-weight: 900;">THE
+																			REBELS</span>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="html_block block-7 desktop_hide" width="100%"
+														border="0" cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="font-family:'Khand', sans-serif;text-align:center;"
+																	align="center"><!--[if false]><!-->
+																	<div
+																		style="padding-left:20px ; text-align:left; width:100%; padding-top:20px;">
+																		<span
+																			style="color:#1c447f; font-family: 'Barlow', sans-serif; font-weight: 900;">THE
+																			REBELS</span>
+																	</div><!--<![endif]-->
+																</div>
+															</td>
+														</tr>
+													</table>
+													<div class="spacer_block block-8"
+														style="height:35px;line-height:35px;font-size:1px;">&#8202;
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+						role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0"
+										cellspacing="0" role="presentation"
+										style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 530.00px; margin: 0 auto;"
+										width="530.00">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="50%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="image_block block-1" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad"
+																style="padding-bottom:15px;padding-top:45px;width:100%;padding-right:0px;padding-left:0px;">
+																<div class="alignment" align="left"
+																	style="line-height:10px">
+																	<div style="max-width: 185.5px;"><a
+																			href="https://revrebel.io?utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																			target="_blank" style="outline:none"
+																			tabindex="-1"><img
+																				src="https://res.cloudinary.com/revrebel/image/upload/v1650741837/RevRebel/Logos/revrebel-regular/logo-regular-multicolor.png"
+																				style="display: block; height: auto; border: 0; width: 100%;"
+																				width="185.5" alt="REVREBEL Logo"
+																				title="REVREBEL Logo" height="auto"></a>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="column column-2" width="50%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<table class="html_block block-1" width="100%" border="0"
+														cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad">
+																<div style="font-family:'Khand', sans-serif;text-align:center;"
+																	align="center">
+																	<table align="center" width="100%" border="0"
+																		cellpadding="0" cellspacing="0"
+																		style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+																		<tbody>
+																			<tr>
+																				<td
+																					style="vertical-align: middle; color: transparent; font-family: inherit; font-size: 16px; font-weight: 400; padding-right: 25px; padding-top: 60px; text-align: right;">
+																					<table cellpadding="0"
+																						cellspacing="0"
+																						style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-table;">
+																						<tr>
+																							<td
+																								style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 3px;">
+																								<a href="https://www.instagram.com/hello_revrebel?utm_medium=email&amp;utm_source=new-agreement&amp;utm_content=signature-request&amp;utm_campaign=signature-request&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																									target="_blank"
+																									style="text-decoration: none;"><img
+																										class="icon"
+																										src="https://res.cloudinary.com/revrebel/image/upload/v1704849879/RevRebel/social-icons/png-filled-color/instagram-filled-color_deyfiu.png"
+																										alt="Instagram"
+																										height="auto"
+																										width="16"
+																										align="center"
+																										style="display: block; height: auto; margin: 0 auto; border: 0;" /></a>
+																							</td>
+																							<td
+																								style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 3px;">
+																								<a href="https://www.facebook.com/hello.revrebel?utm_medium=email&amp;utm_source=new-agreement&amp;utm_content=signature-request&amp;utm_campaign=signature-request&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																									target="_blank"
+																									style="text-decoration: none;"><img
+																										class="icon"
+																										src="https://res.cloudinary.com/revrebel/image/upload/v1650932929/RevRebel/social-icons/png-filled-color/facebook-filled-color_lc0iig.png"
+																										alt="Facebook"
+																										height="auto"
+																										width="16"
+																										align="center"
+																										style="display: block; height: auto; margin: 0 auto; border: 0;" /></a>
+																							</td>
+																							<td
+																								style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 3px;">
+																								<a href="https://linkedin.com/company/revrebel?utm_medium=email&amp;utm_source=new-agreement&amp;utm_content=signature-request&amp;utm_campaign=signature-request&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																									target="_blank"
+																									style="text-decoration: none;"><img
+																										class="icon"
+																										src="https://res.cloudinary.com/revrebel/image/upload/v1704849877/RevRebel/social-icons/png-filled-color/linkedin-filled-color_o7egst.png"
+																										alt="LinkedIn"
+																										height="auto"
+																										width="16"
+																										align="center"
+																										style="display: block; height: auto; margin: 0 auto; border: 0;" /></a>
+																							</td>
+																							<td
+																								style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 3px;">
+																								<a href="https://www.twitter.com/hello_revrebel?utm_medium=email&amp;utm_source=new-agreement&amp;utm_content=signature-request&amp;utm_campaign=signature-request&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																									target="_blank"
+																									style="text-decoration: none;"><img
+																										class="icon"
+																										src="https://res.cloudinary.com/revrebel/image/upload/v1704849870/RevRebel/social-icons/png-filled-color/twitter-x-filled-color_eyb4dl.png"
+																										alt="Twitter X"
+																										height="auto"
+																										width="18"
+																										align="center"
+																										style="display: block; height: auto; margin: 0 auto; border: 0;" /></a>
+																							</td>
+																							<td
+																								style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 3px;">
+																								<a href="https://github.com/RevRebel?utm_medium=email&amp;utm_source=new-agreement&amp;utm_content=signature-request&amp;utm_campaign=signature-request&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																									target="_blank"
+																									style="text-decoration: none;"><img
+																										class="icon"
+																										src="https://res.cloudinary.com/revrebel/image/upload/v1704849881/RevRebel/social-icons/png-filled-color/github-filled-color_rqivlt.png"
+																										alt="Github"
+																										height="auto"
+																										width="16"
+																										align="center"
+																										style="display: block; height: auto; margin: 0 auto; border: 0;" /></a>
+																							</td>
+																							<td
+																								style="vertical-align: middle; text-align: center; padding-top: 0px; padding-bottom: 0px; padding-left: 3px; padding-right: 0px;">
+																								<a href="https://www.revrebel.io/blogs/rss.xml?utm_medium=email&amp;utm_source=new-agreement&amp;utm_content=signature-request&amp;utm_campaign=signature-request&utm_medium=email&utm_source=reporting&utm_campaign=reporting_error"
+																									target="_blank"
+																									style="text-decoration: none;"><img
+																										class="icon"
+																										src="https://res.cloudinary.com/revrebel/image/upload/c_scale,h_32,w_32/RevRebel/social-icons/png-filled-color/rss-filled-color_jxydf1.png"
+																										alt="Blog RSS"
+																										height="auto"
+																										width="16"
+																										align="center"
+																										style="display: block; height: auto; margin: 0 auto; border: 0;" /></a>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-6" align="center" width="100%" border="0" cellpadding="0" cellspacing="0"
+						role="presentation"
+						style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0"
+										cellspacing="0" role="presentation"
+										style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; width: 530.00px; margin: 0 auto;"
+										width="530.00">
+										<tbody>
+											<tr>
+												<td class="column column-1" width="100%"
+													style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;">
+													<div class="spacer_block block-1"
+														style="height:85px;line-height:85px;font-size:1px;">&#8202;
+													</div>
+													<table class="html_block block-2 mobile_hide" width="100%"
+														border="0" cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+														<tr>
+															<td class="pad">
+																<div style="font-family:'Khand', sans-serif;text-align:center;"
+																	align="center">
+																	<div
+																		style="margin: 0; color: #1c447f; font-size: 14px; letter-spacing: normal; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 16.8px;">
+																		<span
+																			style="font-family: 'Barlow', sans-serif; font-weight: 900;">
+																			SENT</span>
+																		<span
+																			style="font-family: 'Noto Emoji', sans-serif; ">♥️</span>
+																		<span
+																			style="font-family: 'Barlow', sans-serif; font-weight: 900;">REVREBEL</span>
+																		<span
+																			style="color:#1c447f;direction:ltr; font-family:'Khand', sans-serif; font-size:12px;font-weight:700; text-transform:uppercase; letter-spacing:0px; line-height:120%; text-align:left; mso-line-height-alt:13.2px;">
+																			<strong>
+																				<a href="{{{unsubscribe_preferences}}}"
+																					target="_blank"
+																					title="Unsubscribe--unsubscribePreferences"
+																					style="text-decoration: none; color: #5b8aa0;"
+																					class="docs-creator">[Update Your
+																					Preferences]</a>
+																			</strong>
+																		</span>
+																		<span
+																			style="color:#1c447f;direction:ltr; font-family:'Khand', sans-serif; font-size:12px;font-weight:700; text-transform:uppercase; letter-spacing:0px; line-height:120%; text-align:left; mso-line-height-alt:13.2px;">
+																			<a href="{{{unsubscribe}}}" target="_blank"
+																				title="Unsubscribe--unsubscribeLink"
+																				style="text-decoration: none; color: #5b8aa0;"
+																				class="docs-creator">[Unsubscribe]</a>
+																		</span>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</table>
+													<table class="html_block block-3 desktop_hide" width="100%"
+														border="0" cellpadding="0" cellspacing="0" role="presentation"
+														style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td class="pad">
+																<div style="font-family:'Khand', sans-serif;text-align:center;"
+																	align="center"><!--[if false]><!-->
+
+																	<div
+																		style="padding-left: 20px; margin: 0; color: #1c447f; font-size: 14px; letter-spacing: normal; line-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 16.8px;">
+																		<span
+																			style="font-family: 'Barlow', sans-serif; font-weight: 900;">
+																			SENT</span>
+																		<span
+																			style="font-family: 'Noto Emoji', sans-serif; ">♥️</span>
+																		<span
+																			style="font-family: 'Barlow', sans-serif; font-weight: 900;">REVREBEL</span>
+																		<p>
+																			<strong>
+																				<span
+																					style="color:#1c447f;direction:ltr; font-family:'Khand', sans-serif; font-size:12px;font-weight:700; text-transform:uppercase; letter-spacing:0px; line-height:120%; text-align:left; mso-line-height-alt:13.2px;">
+																					<a href="{{{unsubscribe_preferences}}}"
+																						target="_blank"
+																						title="Unsubscribe--unsubscribePreferences"
+																						style="text-decoration: none; color: #5b8aa0;"
+																						class="docs-creator">[Update
+																						Your
+																						Preferences]
+																					</a>
+
+																				</span>
+																				<span
+																					style="color:#1c447f;direction:ltr; font-family:'Khand', sans-serif; font-size:12px;font-weight:700; text-transform:uppercase; letter-spacing:0px; line-height:120%; text-align:left; mso-line-height-alt:13.2px;">
+																					<a href="{{{unsubscribe}}}"
+																						target="_blank"
+																						title="Unsubscribe--unsubscribeLink"
+																						style="text-decoration: none; color: #5b8aa0;"
+																						class="docs-creator">[Unsubscribe]</a>
+																				</span>
+																			</strong>
+																		</p>
+																	</div><!--<![endif]-->
+																</div>
+															</td>
+														</tr>
+													</table>
+													<div class="spacer_block block-4"
+														style="height:85px;line-height:85px;font-size:1px;">&#8202;
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table><!-- End -->
+</body>
+
+</html>

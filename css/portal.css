@@ -178,35 +178,14 @@ body {
     background-color: #109CF1;
 }
 
-.left-menu ul li a span.client-portal-icon {
-    -webkit-mask: url(../images/icons/menu-icon/pages.svg) no-repeat center;
-    mask: url(../images/icons/menu-icon/pages.svg) no-repeat center;
-}
+
 
 .left-menu ul li a span.task-icon {
     -webkit-mask: url(../images/icons/menu-icon/tasks.svg) no-repeat center;
     mask: url(../images/icons/menu-icon/tasks.svg) no-repeat center;
 }
 
-.left-menu ul li a span.work-journal-icon {
-    -webkit-mask: url(../images/icons/menu-icon/work-journals.svg) no-repeat center;
-    mask: url(../images/icons/menu-icon/work-journals.svg) no-repeat center;
-}
 
-.left-menu ul li a span.conversation-icon {
-    -webkit-mask: url(../images/icons/menu-icon/conversations.svg) no-repeat center;
-    mask: url(../images/icons/menu-icon/conversations.svg) no-repeat center;
-}
-
-.left-menu ul li a span.file-icon {
-    -webkit-mask: url(../images/icons/menu-icon/files.svg) no-repeat center;
-    mask: url(../images/icons/menu-icon/files.svg) no-repeat center;
-}
-
-.left-menu ul li a span.password-icon {
-    -webkit-mask: url(../images/icons/menu-icon/passwords.svg) no-repeat center;
-    mask: url(../images/icons/menu-icon/passwords.svg) no-repeat center;
-}
 
 .left-menu ul li a span.team-icon {
     -webkit-mask: url(../images/icons/menu-icon/users.svg) no-repeat center;
@@ -216,20 +195,14 @@ body {
     
 }
 
-.left-menu ul li a span.client-detail-icon {
-    -webkit-mask: url(../images/icons/menu-icon/portal-settings.svg) no-repeat center;
-    mask: url(../images/icons/menu-icon/portal-settings.svg) no-repeat center;
-}
+
 
 .left-menu ul li a span.slide-home {
     -webkit-mask: url(../images/icons/new-icon/home.svg) no-repeat center;
     mask: url(../images/icons/new-icon/home.svg) no-repeat center;
 }
 
-.left-menu ul li a span.client-view {
-    -webkit-mask: url(../images/icons/new-icon/client-view.svg) no-repeat center;
-    mask: url(../images/icons/new-icon/client-view.svg) no-repeat center;
-}
+
 
 .left-menu ul li span.list-ul-icon {
     -webkit-mask: url(../images/icons/new-icon/list-ul-active.svg) no-repeat center;
@@ -237,3 +210,4 @@ body {
     background-image: none;
     background-color: #334D6E;
 }
+
