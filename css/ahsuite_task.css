@@ -55,7 +55,7 @@
 .v3-pop-body ul { list-style: none; padding: 0; margin: 0; }
 .v3-pop-body .v3-pop-btn { min-width: 167px; max-width: 167px; justify-content: center; display: flex; background: transparent; align-items: flex-start; }
 .v3-pop-btn { padding: 70px 15px; box-sizing: border-box; }
-.v3-pop-content h2, .v3-pop-content h3 { margin: 0 0 15px 0 !important; font-size: 27px; font-weight: normal; color: #4d4d4d; display: flex; align-items: center; }
+.v3-pop-content h2, .v3-pop-content h3 { margin: 0 0 15px !important; font-size: 27px; font-weight: normal; color: #4d4d4d; display: flex; align-items: center; }
 .v3-pop-content h2 img, .v3-pop-content h3 img { margin-right: 7px; }
 .v3-pop-content h3 { font-size: 16px; margin-top: 30px; font-weight: 600; }
 .v3-pop-text { padding-left: 35px; }/*-12-07-2021-*/
@@ -89,7 +89,7 @@
 .existing-label-details button img { width: 10px; }
 .existing-labels-input { border: 1px solid #bdbdbd; height: auto; line-height: normal; border-radius: 3px; padding: 7px 10px; margin: 4px 0; width: 100%; }
 .existing-form-group label { font-size: 14px; color: #4d4d4d; line-height: 20px; margin: 0; font-weight: 400; display: block; }
-.js_label_color_boxes { display: flex; flex-wrap: wrap; margin: 0 -2.5px 5px -2.5px; box-sizing: border-box; }
+.js_label_color_boxes { display: flex; flex-wrap: wrap; margin: 0 -2.5px 5px; box-sizing: border-box; }
 .existing-form-btn { margin-top: 10px; }
 div .existing-form-btn input,
 div .existing-form-btn input[type="button"] { border: none; height: auto; line-height: normal; margin-bottom: 5px; cursor: pointer; width: 100%; color: #fff; padding: 8px; background: #109CF1; box-shadow: 0px 4px 10px rgb(16 156 241 / 24%); border-radius: 7px; font-family: 'Poppins', sans-serif !important; font-weight: 500; }
@@ -210,7 +210,7 @@ div .existing-form-btn input[type="button"] { border: none; height: auto; line-h
 .checklist_form span{ padding:5px; width:auto; display:inline-block; cursor:pointer; }
 .task_completed_item .js_checklist_text{text-decoration:line-through }
 
-#add_checklist_container .button-add-an-item{ width:100%; padding:10px 0 0 0; height:auto; justify-content:left; }
+#add_checklist_container .button-add-an-item{ width:100%; padding:10px 0 0; height:auto; justify-content:left; }
 .button-add-an-item input[type="button"]{ background-color:rgba(9,30,66,.04); color:#172b4d; box-shadow:none; border:none; line-height:normal; padding:10px; display:block; width:auto; height:auto; cursor:pointer; }
 .button-add-an-item input[type="button"]:hover{ background-color:rgba(9,30,66,.08); }
 
@@ -263,7 +263,7 @@ div .existing-form-btn input[type="button"] { border: none; height: auto; line-h
 .v3flex-table-row .v3flex-head-name { display: block; }	
 .v3flex-table-row .v3flex-table-id .v3flex-id-number, .v3flex-table-row > div.v3flex-table-task-name p { font-size: 20px; }
 .v3flex-table-row.v3flex-table-head { display: none; }
-.v3flex-table-row .v3flex-head-name { font-size: 20px; color: #fff; background: #464646; height: 100%; display: flex; justify-content: center; align-items: center; padding: 0 10px;  min-width: 200px; box-sizing: border-box; max-width: 200px; margin-right: 15px; display: none; } 
+.v3flex-table-row .v3flex-head-name { font-size: 20px; color: #fff; background: #464646; height: 100%; justify-content: center; align-items: center; padding: 0 10px;  min-width: 200px; box-sizing: border-box; max-width: 200px; margin-right: 15px; display: none; } 
 .v3flex-table-row .v3flex-table-id .v3flex-head-name { margin-right: 0; } 
 .v3flex-table-option .v3flex-table-ul { width: auto; }
 .v3flex-table-row.v3flex-table-body { margin-bottom: 30px; }
@@ -320,7 +320,7 @@ div .existing-form-btn input[type="button"] { border: none; height: auto; line-h
 .v3flex-table-row > div.v3flex-table-task-name { min-width: 130px; }
 }
 /*--v3-pop end--*/
- #calendar .v3flex-table-id{ padding:0 5px 4px; display:block; margin:0; display:block; }
+ #calendar .v3flex-table-id{ padding:0 5px 4px; margin:0; display:block; }
  .data-table #calendar tr td{ padding:1px 15px; vertical-align:top; }
  .color-box-wrap{ line-height:1;  }
 
@@ -348,7 +348,7 @@ a.fc-day-grid-event,
 .tasks-wrap .name-wrap .name{ font-weight:500; margin:0 5px 0 0; font-size:14px; }
 .tasks-wrap .name-wrap .date{ font-size:12px; }
 .tasks-wrap .js_comment_content{ display:block; width:100%; }
-.tasks-wrap .js_comment_content > span{ display:inline-block; background-color:#fff; border-radius:3px; box-shadow:0 1px 2px -1px rgb(9 30 66 / 25%), 0 0 0 1px rgb(9 30 66 / 8%); box-sizing:border-box; clear:both; display:inline-block; padding:8px; overflow:hidden; text-overflow:ellipsis; max-width:100%; }
+.tasks-wrap .js_comment_content > span{ background-color:#fff; border-radius:3px; box-shadow:0 1px 2px -1px rgb(9 30 66 / 25%), 0 0 0 1px rgb(9 30 66 / 8%); box-sizing:border-box; clear:both; display:inline-block; padding:8px; overflow:hidden; text-overflow:ellipsis; max-width:100%; }
 .v3checkbox-list.tasks-wrap .delete-btn{ top:4px; right:2px; }
 .v3checkbox-list.tasks-wrap .checklist_form{ margin:0 0 10px; }
 .v3checkbox-list.tasks-wrap .checklist_form textarea{ background:#fff; }
@@ -427,7 +427,7 @@ form#tasks_comment_add_form textarea:focus + input.button{ display:block; }*/
 	.v3-pop-dropdown { position: absolute; right: 10px; top: 0; padding-top: 60px; }
 	.v3-pop-dropdown:before { content: ''; position: absolute; top: auto; right: 4px; background: url(../images/v3/triangle.png) no-repeat center / 25px 25px; width: 25px; height: 25px; margin-top: -20px; }
 	.v3-pop-text p, .cke_textarea_inline p { font-size: 16px; line-height: 1.5; color: #4d4d4d; font-weight: normal; word-break: break-all; }
-	.v3flex-table-description h3 { font-weight: normal; text-transform: none; font-size: 16px; letter-spacing: 0.8px; font-weight: 600; }
+	.v3flex-table-description h3 { text-transform: none; font-size: 16px; letter-spacing: 0.8px; font-weight: 600; }
 	.v3-pop-body .attachment_display_box { width: 80px; background-color: #ececec; border-radius: 3px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; text-transform: uppercase; padding: 0 10px; box-sizing: border-box; height: 80px; }
 	.v3-pop-body .attachment_display_box img { width: 100%; height: 60px; display: block; object-fit: contain; }
 	.comment-flex-btn { display: flex; justify-content: flex-end; }
@@ -435,11 +435,11 @@ form#tasks_comment_add_form textarea:focus + input.button{ display:block; }*/
 /*--03-05-2021--*/
 
 /*--11-05-2021--*/
-	.load-more-btn { background-color: #109CF1; box-shadow: none; border: none; color: #fff; padding: 10px 13px; line-height: normal; border-radius: 5px; margin: 10px 0 0 0; cursor: pointer; display: inline-block; font-size: 15px; }
+	.load-more-btn { background-color: #109CF1; box-shadow: none; border: none; color: #fff; padding: 10px 13px; line-height: normal; border-radius: 5px; margin: 10px 0 0; cursor: pointer; display: inline-block; font-size: 15px; }
 	.js_task_content input, .tasks-new-box li .js-task-field-edit-text + select { background: #fff !important; border: 1px solid #e9e9e9; border-radius: 4px; font-size: 15px; font-weight: 500; font-family: 'Poppins', sans-serif; }
 	.js-task-field-edit-parent input.js_task_edit_date { font-size: 15px; border: none; font-weight: 500; font-family: 'Poppins', sans-serif; max-width: 200px; }
 	.js-task-description-area .cke_textarea_inline, .cs-task-desc-in-mobile { color: #4d4d4d;border: 1px solid #e9e9e9;border-radius: 4px;padding: 10px;background: #fff; min-height: 84px; }
-	.v3-pop-header .js-task-field-edit-input { font-weight: 400; color: #4b4b4b; font-size: 40px; font-family: 'Open Sans', sans-serif !important; background: #fff; border: none; height: auto; border: 1px solid #e9e9e9; border-radius: 4px; padding: 0 5px; } 
+	.v3-pop-header .js-task-field-edit-input { font-weight: 400; color: #4b4b4b; font-size: 40px; font-family: 'Open Sans', sans-serif !important; background: #fff; height: auto; border: 1px solid #e9e9e9; border-radius: 4px; padding: 0 5px; } 
 	.js-task-field-edit-parent .js-task-field-edit-text { border: 1px solid transparent; border-radius: 4px; padding: 0 10px; background: transparent; }
 	.tasks-new-box li .js-task-field-edit-text { min-width: 100px; background: transparent; border-radius: 5px; padding: 0 7px; border: 1px solid transparent; font-size: 15px; max-height: 22px; font-weight: 500; }
 	.js-task-field-edit-parent .js-task-field-edit-text:hover,
@@ -484,17 +484,17 @@ form#tasks_comment_add_form textarea:focus + input.button{ display:block; }*/
 .common_visible_action_box .existing-form-btn input[type="button"] { background: #109CF1; color: #fff; }
 .new-filter-backdrop { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 99; display:none; }
 .new-filter-backdropactive { display:block; }
-.new-filter-move .new-filter-header h4 { font-size: 18px; font-weight: 400; color: #000; margin: 0 0 0 0; padding: 0 0 12px 15px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.new-filter-move .new-filter-header h4 { font-size: 18px; font-weight: 400; color: #000; margin: 0; padding: 0 0 12px 15px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 .new-filter-move .new-filter-header h4 .sub-label-heading { font-weight: 400; font-size: 12px; color: rgba(0, 0, 0, 0.5); display: block; margin-bottom: 0; width: 100%; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 350px; }
 .new-filter-move .new-filter-header h4:before { display:none; }
 .new-filter-move .common-scroll-div-300px { padding-top: 12px; max-height: 220px; }
-.new-filter-move .common-scroll-div-300px p { font-weight: 400; font-size: 18px; line-height: 21px; color: rgba(0, 0, 0, 0.6); margin: 0 0 12px 0; padding: 0 15px 12px 15px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.new-filter-move .common-scroll-div-300px p { font-weight: 400; font-size: 18px; line-height: 21px; color: rgba(0, 0, 0, 0.6); margin: 0 0 12px; padding: 0 15px 12px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 .new-filter-move .common-scroll-div-300px p:last-child { margin-bottom: 0; }
 @media(max-width: 767px){
     .common_visible_action_box .new-filter-color { padding:20px; }
     .common_visible_action_box .new-filter-drop { right: 50px; width: auto; }
     #js-history-log-container span { word-wrap: break-word; }
-    .tasks-new-box > ul { margin: 0 0 15px 0; }
+    .tasks-new-box > ul { margin: 0 0 15px; }
     .tasks-new-box > ul > li { padding: 0 5px; }
 }
 @media(max-width: 480px){
@@ -522,7 +522,7 @@ form#tasks_comment_add_form textarea:focus + input.button{ display:block; }*/
 .tre-textarea .checklist_form { transition: all 0.2s ease-in-out; border-radius: 3px; box-shadow: 0 1px 2px -1px #091e4240, 0 0 0 1px #091e4214; background: #fff; padding: 8px 12px; overflow: hidden; position: relative; padding-bottom: 46px; width: 100%; box-sizing: border-box; }
 .tre-textarea .checklist_form { padding-bottom: 8px; margin-bottom: 0 !important; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
 .js-small-comment-textarea .tre-textarea-content { padding-bottom: 0; }
-.tre-textarea-content textarea { border-radius: 0; border: 0; background: #fff; resize: none; margin: 0 0 8px 0; line-height: normal; min-height: 50px; }
+.tre-textarea-content textarea { border-radius: 0; border: 0; background: #fff; resize: none; margin: 0 0 8px; line-height: normal; min-height: 50px; }
 .js-small-comment-textarea textarea { min-height: 1px; }
 .js-small-comment-textarea .tre-textarea-content textarea { height: 23px !important; margin-bottom: 0; }
 .tre-textarea-content .comment-flex-btn { transition: all 0.2s ease-in-out; justify-content: flex-start; position: absolute; bottom: 8px; opacity: 1; visibility: visible; }
@@ -590,7 +590,7 @@ form#tasks_comment_add_form textarea:focus + input.button{ display:block; }*/
 	.task-selected ul { list-style: none; display: flex; align-items: center; }
 	.task-selected ul li { margin-left: 40px; }
 	.task-selected ul li:first-child { margin-left: 0; }
-	.task-selected ul li a { display: flex; align-items: center; align-items: center; color: #334d6e; text-decoration: none; }
+	.task-selected ul li a { display: flex; align-items: center; color: #334d6e; text-decoration: none; }
 	.task-selected ul li a svg { margin-right: 10px; }
 	.task-selected-form { position: sticky; top: 50px; z-index: 1; }
 	.custom-dark-theme .table-circleimg-content span { color: #fff; }
