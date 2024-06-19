@@ -219,7 +219,10 @@ a[x-apple-data-detectors] {
   p,
   div,
   pad {
-    font-family: 'Khand', 'Sarabun', 'Fira Code', 'Barlow', 'Pacifico', 'Noto Emoji', Roboto, Open Sans, sans-serif !important;
+    font-family: 'Khand', 'Noto Emoji', Roboto, sans-serif !important;
+    font-family: 'Sarabun', 'Open Sans', sans-serif !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-family: 'Pacifico', sans-serif !important;
   }
 }
 
@@ -231,7 +234,10 @@ a[x-apple-data-detectors] {
   p,
   div,
   pad {
-    font-family: 'Khand', 'Sarabun', 'Fira Code', 'Barlow', 'Pacifico', 'Noto Emoji', Roboto, Open Sans, sans-serif !important;
+    font-family: 'Khand', 'Noto Emoji', Roboto, sans-serif !important;
+    font-family: 'Sarabun', 'Open Sans', sans-serif !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-family: 'Pacifico', sans-serif !important;
   }
 }
 
