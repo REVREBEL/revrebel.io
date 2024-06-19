@@ -55,7 +55,6 @@
     font-style: normal;
     font-weight: 400;
     src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot');
-    /* IE9 Compat Modes */
     src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot?#iefix') format('embedded-opentype'),
       url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff2') format('woff2'),
       url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff') format('woff'),
@@ -75,7 +74,6 @@
     font-style: normal;
     font-weight: 300;
     src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot');
-    /* IE9 Compat Modes */
     src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot?#iefix') format('embedded-opentype'),
       url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff2') format('woff2'),
       url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff') format('woff'),
@@ -225,36 +223,6 @@ a[x-apple-data-detectors] {
 
 .footer-image_block img+div {
   display: none;
-}
-
-@media screen and (max-width: 600px) {
-
-  table,
-  td,
-  span,
-  p,
-  div,
-  pad {
-    font-family: 'Khand', 'Noto Emoji', Roboto, sans-serif !important;
-    font-family: 'Sarabun', 'Open Sans', sans-serif !important;
-    font-family: 'Barlow', sans-serif !important;
-    font-family: 'Pacifico', sans-serif !important;
-  }
-}
-
-@media screen and (min-width: 600px) {
-
-  table,
-  td,
-  span,
-  p,
-  div,
-  pad {
-    font-family: 'Khand', 'Noto Emoji', Roboto, sans-serif !important;
-    font-family: 'Sarabun', 'Open Sans', sans-serif !important;
-    font-family: 'Barlow', sans-serif !important;
-    font-family: 'Pacifico', sans-serif !important;
-  }
 }
 
 body {
