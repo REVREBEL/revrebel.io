@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
-
-<head>
-	<title></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><!-->
-	<link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&amp;display=swap" rel="stylesheet"
-		type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700" rel="stylesheet"
-		type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&amp;display=swap"
-		rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900"
-		rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900"
-		rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900"
-		rel="stylesheet" type="text/css">	
-	<!--<![endif]-->
-	<style>
+/*
+<link rel="stylesheet" href="https://revrebel.github.io/revrebel.io/css/reporting_error.css">
+*/
 	
-	    @import url('https://fonts.googleapis.com/css2?familyKhand:wght@400;500;600;700&display=swap')
+	@import url('https://fonts.googleapis.com/css2?familyKhand:wght@400;500;600;700&display=swap')
         @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap') 
         @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap') 
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600&display=swap') 
@@ -198,4 +179,4 @@
 				padding: 0 0 5px !important;
 			}
 		}
-	</style>
+
