@@ -12,10 +12,22 @@
 */
 
 <head>
-<link rel="preconnect"href="https://fonts.googleapis.com">
-<link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Khand:wght@500;600;700&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Sarabun:wght@300;400;500&display=swap"rel="stylesheet">
-</head>
+
+<link 
+  rel="preconnect
+  href="https://fonts.googleapis.com">
+
+<link 
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+  
+  <link 
+  href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Khand:wght@500;600;700&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Sarabun:wght@300;400;500&display=swap"
+  type="text/css"
+  rel="stylesheet">
+  
+<style type="text/css">
 
 @import url('https://fonts.googleapis.com/css2?familyKhand:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap');
@@ -34,160 +46,164 @@
 /* ************************** */
 
 
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Noto Emoji';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot');
-  /* IE9 Compat Modes */
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.svg#Noto-Emoji') format('svg');
-}
+@media screen {
 
-/* ************************** */
-/* Sarabun */
-/* ************************** */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Emoji';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot');
+    /* IE9 Compat Modes */
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.svg#Noto-Emoji') format('svg');
+  }
 
-/* sarabun-300 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sarabun';
-  font-style: normal;
-  font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot');
-  /* IE9 Compat Modes */
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.svg#Sarabun') format('svg');
-}
+  /* ************************** */
+  /* Sarabun */
+  /* ************************** */
 
-/* sarabun-regular - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sarabun';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.svg#Sarabun') format('svg');
-}
+  /* sarabun-300 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot');
+    /* IE9 Compat Modes */
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.svg#Sarabun') format('svg');
+  }
 
-/* ************************** */
-/* Khand */
-/* ************************** */
+  /* sarabun-regular - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.svg#Sarabun') format('svg');
+  }
 
-/* khand-700 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Khand';
-  font-style: normal;
-  font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.svg#Khand') format('svg');
-}
+  /* ************************** */
+  /* Khand */
+  /* ************************** */
 
-/* khand-500 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Khand';
-  font-style: normal;
-  font-weight: 500;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.svg#Khand') format('svg');
-}
+  /* khand-700 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.svg#Khand') format('svg');
+  }
 
-/* ************************** */
-/* Fira Code */
-/* ************************** */
+  /* khand-500 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.svg#Khand') format('svg');
+  }
 
-/* fira-code-300 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Fira Code';
-  font-style: normal;
-  font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.svg#FiraCode') format('svg');
-}
+  /* ************************** */
+  /* Fira Code */
+  /* ************************** */
 
-/* fira-code-400 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Fira Code';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.svg#FiraCode') format('svg');
-}
+  /* fira-code-300 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.svg#FiraCode') format('svg');
+  }
 
-/* ************************** */
-/* Barlow */
-/* ************************** */
+  /* fira-code-400 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.svg#FiraCode') format('svg');
+  }
 
-/* barlow-regular - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Barlow';
-  font-style: normal;
-  font-weight: 900;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.svg#FiraCode') format('svg');
-}
+  /* ************************** */
+  /* Barlow */
+  /* ************************** */
 
-/* ************************** */
-/* Pacifico */
-/* ************************** */
+  /* barlow-regular - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.svg#FiraCode') format('svg');
+  }
 
-/* pacifico-regular - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot');
-  src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.ttf') format('truetype'),
-    url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.svg#FiraCode') format('svg');
+
+  /* ************************** */
+  /* Pacifico */
+  /* ************************** */
+
+  /* pacifico-regular - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.svg#FiraCode') format('svg');
+  }
 }
 
 * {
