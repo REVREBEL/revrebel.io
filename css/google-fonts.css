@@ -237,6 +237,20 @@ p {
              url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.svg#FiraCode') format('svg');
     }
 
+    /* fira-code-400 - latin */
+    @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    	font-family: 'Fira Code';
+        font-style: normal;
+        font-weight: 400;
+        src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot'); /* IE9 Compat Modes */
+        src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot?#iefix') format('embedded-opentype'),
+             url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff2') format('woff2'),
+             url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff') format('woff'),
+             url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.ttf') format('truetype'),
+             url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.svg#FiraCode') format('svg');
+    }
+
 
     /* ************************** */
     /* Barlow */
