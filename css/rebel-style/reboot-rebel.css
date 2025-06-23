@@ -190,52 +190,44 @@ li {
 
 ul {
   color: #1c437f;
-font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
+  font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 150%;
   list-style-type: disc;
-  margin-bottom: 0.625rem;
-  margin-top: 0;
   padding-left: 2rem;
 }
 
 .text-s {
   color: #1c437f;
-font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
-  font-size: 1rem;
-  line-height: .85;
+  font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
+  font-size: .75rem;
+  line-height: 1.25;
   font-weight: 300;
   list-style-type: disc;
-  margin-bottom: 0.625rem;
-  margin-top: 10;
-    	padding-top: 15px;
-  	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .text {
   color: #1c437f;
-font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
+  font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.25;
   font-weight: 300;
   list-style-type: disc;
-  margin-bottom: 0.625rem;
-  margin-top: 10;
-    	padding-top: 15px;
-  	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .text-l {
   color: #1c437f;
   font-family: 'Sarabun', 'Andale Mono', 'Tahoma', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.5rem;
+  line-height: 1.25;
   font-weight: 300;
   list-style-type: disc;
-  margin-bottom: 0.625rem;
-  margin-top: 10;
-      	padding-top: 15px;
-  	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .label {
