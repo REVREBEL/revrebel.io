@@ -64,8 +64,7 @@ body {
 
 
 p {
-  line-height: 1.5;
-  margin-bottom: 0;
+
 }
 
 a {
@@ -80,10 +79,6 @@ a {
   font-weight: 700;
   letter-spacing: -0.95px;
   line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
   text-align: left;
   text-transform: uppercase;
 }
@@ -94,11 +89,7 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: -0.95px;
-  line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  line-height: .9;
   text-align: left;
   text-transform: uppercase;
 }
@@ -109,11 +100,7 @@ h2 {
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: -0.95px;
-  line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  line-height: .9;
   text-align: left;
   text-transform: uppercase;
 }
@@ -124,11 +111,7 @@ h3 {
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 0.9;
-   letter-spacing: 1px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  letter-spacing: -0.95px;
   text-align: left;
   text-transform: uppercase;
 }
@@ -138,43 +121,19 @@ h4 {
   font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: -0.95px;
   line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
   text-align: left;
   text-transform: uppercase;
 }
-
 
 h5 {
   color: #1c437f;
   font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 10px;
+  letter-spacing: -0.95px;
   line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-h6 {
-  color: #1c437f;
-  font-family: 'Khand', 'Oswald', 'Impact', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-    letter-spacing: 1px;
-  line-height: 0.9;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
   text-align: left;
   text-transform: uppercase;
 }
@@ -1790,16 +1749,11 @@ ul {
     font-weight: 600;
   }
 
-
-
-
   .FormCheckboxWrapper:local-styles {
     justify-self: start;
   }
 
-
   .flex {
-
     justify-self: start;
 
   }
@@ -1820,14 +1774,11 @@ ul {
     padding-top: 0.625rem;
   }
 
-
   .dropdown {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
-
-
 
   .dropdown-box {
     align-items: center;
@@ -1863,7 +1814,6 @@ ul {
     top: 35px;
   }
 
-
   .logo {
     font-family: Barlow, Impact, sans-serif;
     font-weight: 900;
@@ -1892,17 +1842,50 @@ ul {
     text-transform: uppercase;
   }
 
-  .logo-text {
-    font-size: 2rem;
-    display: flex;
-  }
-
-  .logo-letter {
+  .logo {
     font-family: Barlow, Impact, sans-serif;
     font-weight: 900;
-    font-style: normal;
-    font-size: inherit;
-    letter-spacing: -0.95px;
+    letter-spacing: -0.1em;
+  }
+
+  .text-blue,
+  .character.character1 {
+    color: #1c447f;
+  }
+
+  .text-purple,
+  .character.character2 {
+    color: #5e688d;
+  }
+
+  .text-green,
+  .character.character3 {
+    color: #5b8aa0;
+  }
+
+  .text-lightblue,
+  .character.character4 {
+    color: #b2d3de;
+  }
+
+  .text-red,
+  .character.character5 {
+    color: #ef5353;
+  }
+  
+  .text-darkorange,
+  .character.character6 {
+    color: #E4782E;
+  }
+
+  .text-orange,
+  .character.character7 {
+    color: #f08d19;
+  }
+
+  .text-yellow,
+  .character.character8 {
+    color: #fad644;
   }
 
   </style>
