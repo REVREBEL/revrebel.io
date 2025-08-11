@@ -397,14 +397,12 @@ ul {
 .btn.is-borderless:hover {
   color: #5b8aa0;
   transform: unset;
-  transform: scale3d(1, 1)
 }
 
 .button.is-borderless:active,
 .btn.is-borderless:active {
   color: #5b8aa0;
   border-width: 0px;
-  transform: scale3d(1, 1)
 }
 
 .button.is-small,
