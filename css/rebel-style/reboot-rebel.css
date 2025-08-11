@@ -323,6 +323,7 @@ ul {
   color: #5B8AA0;
   background-color: white;
   border-color: #5B8AA0;
+  padding: 1.45rem 1.5rem 1.3rem;
 }
 
 .button.is-secondary:hover,
@@ -343,9 +344,10 @@ ul {
 .btn.is-outline {
   background-color: white;
   border: 0.125rem solid #1c437f;
-  color: #1c437f;
   border-width: 0.2rem;
+  color: #1c437f;
   font-weight: 700;
+  padding: 1.45rem 1.5rem 1.3rem;
 }
 
 .button.is-outline:hover,
