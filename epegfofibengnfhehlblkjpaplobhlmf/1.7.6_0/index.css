@@ -1,0 +1,794 @@
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+typescript */
+code[class*=language-],pre[class*=language-]{color:#fff;background:0 0;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;text-shadow:0 -.1em .2em #000;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}:not(pre)>code[class*=language-],pre[class*=language-]{background:#141414}pre[class*=language-]{border-radius:.5em;border:.3em solid #545454;box-shadow:1px 1px .5em #000 inset;margin:.5em 0;overflow:auto;padding:1em}pre[class*=language-]::-moz-selection{background:#27292a}pre[class*=language-]::selection{background:#27292a}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:hsla(0,0%,93%,.15)}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:hsla(0,0%,93%,.15)}:not(pre)>code[class*=language-]{border-radius:.3em;border:.13em solid #545454;box-shadow:1px 1px .3em -.1em #000 inset;padding:.15em .2em .05em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#777}.token.punctuation{opacity:.7}.token.namespace{opacity:.7}.token.boolean,.token.deleted,.token.number,.token.tag{color:#ce6849}.token.builtin,.token.constant,.token.keyword,.token.property,.token.selector,.token.symbol{color:#f9ed99}.language-css .token.string,.style .token.string,.token.attr-name,.token.attr-value,.token.char,.token.entity,.token.inserted,.token.operator,.token.string,.token.url,.token.variable{color:#909e6a}.token.atrule{color:#7385a5}.token.important,.token.regex{color:#e8c062}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.language-markup .token.attr-name,.language-markup .token.punctuation,.language-markup .token.tag{color:#ac885c}.token{position:relative;z-index:1}.line-highlight.line-highlight{background:hsla(0,0%,33%,.25);background:linear-gradient(to right,hsla(0,0%,33%,.1) 70%,hsla(0,0%,33%,0));border-bottom:1px dashed #545454;border-top:1px dashed #545454;margin-top:.75em;z-index:0}.line-highlight.line-highlight:before,.line-highlight.line-highlight[data-end]:after{background-color:#8693a6;color:#f4f1ef}
+
+.button .vi .active{
+    background: #383838;
+}
+
+.vi-button{
+    font-size: 18px;
+    width:100%;
+    display: block;
+    text-align: center;
+    margin-top: 1.5px;
+}
+
+.vi-list-container{
+    position:absolute;
+    height:100%;
+    width: 0px;
+    padding-top:35px;
+    top:0px;
+    left:35px;
+    background: rgb(30, 30, 30);
+    z-index: 20;
+    overflow:hidden;
+}
+
+.parent-container{
+    height:100%;
+    position: relative;
+}
+
+.bem-container{
+    position:absolute;
+    width:100%;
+    z-index: 101;
+}
+
+.close-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+    color: rgb(171, 171, 171);
+    padding-right:4px;
+    padding-left:4px;
+    padding-bottom:2px;
+    padding-top:4px;
+    font-size:26px;
+    height:24px;
+    margin-left: auto;
+    margin-right: 1px;
+}
+
+.close-btn:hover{
+    cursor:default;
+    height:24px;
+    color: white;
+    background: rgb(255,255,255,0.1);
+    border-radius: 2px;
+}
+
+.panel-heading{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    padding: 3px 0;
+    font-size: 12.5px;
+    line-height: 24px;
+    cursor: default;
+}
+
+.comp-container{
+    height:100%;
+    position:absolute;
+    padding-top:40px;
+    z-index:100;
+    width:100%;
+}
+
+.comp-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 9px;
+    padding-bottom: 10px;
+    padding-right:10px;
+}
+
+.round-div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0 0%);
+    border-radius: 5px;
+    padding-right:0px;
+    padding-left:0px;
+    overflow:auto;
+}
+
+.round-div::-webkit-scrollbar {
+  display: none;
+}
+
+.heading-container{
+    width:100%;
+    margin-bottom: 8px;
+}
+
+.heading-wrapper{
+    width:100%;
+    padding-top: 0px;
+}
+
+.open-button{
+    font-size: 10.5px;
+    background: rgb(17,17,17);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-top: 7px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.round-heading{
+    font-size: 14px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.round-para{
+    font-size: 11.5px;
+    width:100%;
+    margin-top:5px !important;
+    margin-bottom:8px !important;
+    cursor: default;
+}
+
+.comp-div{
+    position: relative;
+    width:100%;
+    border-radius: 5px;
+    background: rgb(17,17,17);
+    border: none;
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+.comp-img{
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    height: 90px;
+    width:100%;
+    object-fit: contain !important;
+    background-color: rgb(35,35,35);
+}
+
+.comp-heading{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.copy-button{
+    font-size: 10.5px;
+    background: rgb(46,46,46);
+    border: none;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    border:1px solid rgb(54, 54, 54);
+    width: 100%;
+    text-align: center;
+}
+
+.addElement-container{
+    display: none;
+    position:relative;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.addElement-heading{
+    cursor: default;
+    margin-top:7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.addElem-heading{
+    font-size:11.5px;
+    margin-bottom:5px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.comp-input{
+    width:100%;
+    border-radius:5px;
+    border: none !important;
+    background: rgb(17,17,17) !important;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 12px;
+}
+
+.comp-input:focus{
+    outline: none !important;
+}
+
+.addElem-button{
+    margin-top: 10px;
+    font-size: 10.5px;
+    background: rgb(17,17,17);
+    border: none;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border:1px solid rgb(255,255,255,0.1);
+}
+
+.delete-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 16px;
+    width: 16px;
+    background: #4d4d4d;
+    padding:2px !important;
+    border: none;
+    border-radius: 2px;
+}
+
+.close-add-button{
+    display:flex;
+    position: absolute;
+    top: 7px;
+    right:0px;
+    height: 20px;
+    width: 20px;
+    padding:2px !important;
+    background: rgb(17,17,17) !important;
+    border: 1px solid rgb(255,255,255, 0.1);
+    border-radius: 2px;
+}
+
+.comp-data{
+display: none;
+}
+
+#fileInput[type="file"] {
+  display: none;
+}
+
+.newButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.input1Wrapper{
+    display: block;
+    position: relative;
+}
+
+.searchBar{
+    width:100%;
+    font-size: 10.5px;
+    background: rgb(17,17,17);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    border:1px solid rgb(26,26,26);
+    margin-bottom:8px;
+}
+
+.searchBar:focus-visible{
+outline: transparent;
+}
+
+.clear-button{
+    display: none;
+    position: absolute;
+    z-index: 11;
+    top: 6px;
+    right: 5px;
+    padding: 1px !important;
+    border-radius: 50%;
+    background: #2e2e2e !important;
+    width: 16px;
+    height: 16px;
+    margin-top: 1.2px;
+    padding-left: 2px !important;
+    border: none;
+}
+
+.grad-div{
+    display: none;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(10, 10, 10, 0.5), rgb(10, 10, 10));
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+.edit-comp-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 28px;
+    height: 16px;
+    width: 16px;
+    background: #4d4d4d;
+    padding-left: 3px !important;
+    padding-right: 1px !important;
+    padding-top: 3px !important;
+    padding-bottom: 1px !important;
+    border: none;
+    border-radius: 2px;
+}
+
+.editing-button-container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.share-elem-button{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    height: 16px;
+    width: 16px;
+    background: #4d4d4d;
+    padding:2px !important;
+    border: none;
+    border-radius: 2px;
+    padding-bottom: 3px !important;
+}
+
+.comp-div:hover .share-elem-button {
+  display: flex;
+}
+
+.comp-div-wrapper{
+    margin-top: 10px;
+}
+
+.switch-wrapper{
+    background: rgb(17,17,17);
+    border-radius: 4px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.componentButton{
+    width:50%;
+    font-size: 10.5px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+}
+
+.snippetButton{
+    width:50%;
+    font-size: 10.5px;
+    background: rgb(17,17,17);
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+}
+
+.snippetsWrapper{
+    display: none;
+}
+
+.addSnippet-container{
+    display: none;
+    position:relative;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.snip-input{
+    width:100%;
+    border-radius:5px;
+    border: none !important;
+    background: rgb(17,17,17) !important;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 12px;
+    resize:none;
+    vertical-align: top;
+}
+
+#snip-input-1::-webkit-scrollbar{
+    width: 8px;
+}
+
+#snip-input-1::-webkit-scrollbar-track {
+    background-color: #363636;
+    border-left: 1px solid #2b2b2b;
+    border-right: 1px solid #2b2b2b;
+}
+
+#snip-input-1::-webkit-scrollbar-thumb {
+    background: #5e5e5e;
+    border: 1px solid #2b2b2b;
+    border-radius: 0;
+  }
+
+.snip-input:focus-visible{
+    outline: transparent;
+}
+
+.addSnipButton{
+    margin-top: 10px;
+    font-size: 10.5px;
+    background: rgb(17,17,17);
+    border: none;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(255,255,255,0.1);
+}
+
+.snip-div{
+    position: relative;
+    width:100%;
+    border-radius: 5px;
+    background: rgb(17,17,17);
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+.delete-snip-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 16px;
+    width: 16px;
+    background: #4d4d4d;
+    padding:2px !important;
+    border: none;
+    border-radius: 2px;
+}
+
+.snip-heading{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.snip-data{
+display: none;
+}
+
+.snip-copy-button{
+    font-size: 10.5px;
+    background: rgb(46,46,46);
+    border: none;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    border:1px solid rgb(54, 54, 54);
+    width: 100%;
+    text-align: center;
+}
+
+.edit-snip-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 28px;
+    height: 16px;
+    width: 16px;
+    background: #4d4d4d;
+    padding-left: 3px !important;
+    padding-right: 1px !important;
+    padding-top: 3px !important;
+    padding-bottom: 1px !important;
+    border: none;
+    border-radius: 2px;
+}
+
+.snip-div-wrapper{
+    margin-top: 10px;
+}
+
+.update-sn-wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.update-snippet-button{
+    font-size: 10.5px;
+    background: rgb(17,17,17);
+    border: none;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(255,255,255,0.1);
+}
+
+pre[class*="language-"]{
+background: rgb(35, 35, 35) !important;
+}
+
+.vds-folder-heading-container{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px !important;
+    position: relative;
+}
+
+.vds-folder-add-button{
+    position: absolute;
+    right:0px;
+    height: 20px;
+    width: 20px;
+    padding: 1px !important;
+    background: rgb(17,17,17) !important;
+    border: 1px solid rgb(255,255,255, 0.1);
+    border-radius: 2px;
+}
+
+.vds-folder-input{
+    width:100%;
+    border-radius:5px;
+    border: none !important;
+    outline:none;
+    background: rgb(17, 17, 17) !important;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 12px;
+}
+
+.vds-add-folder-container{
+    display:none;
+    position:relative;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    margin-bottom:5px;
+    margin-top: 10px;
+}
+
+.vds-add-folder{
+    margin-top: 10px;
+    font-size: 10.5px;
+    background: rgb(17, 17, 17);
+    border: 1px solid rgb(255,255,255, 0.1);
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(255,255,255, 0.1);
+}
+
+.vds-folder-close-button{
+    display: flex;
+    position: absolute;
+    top:7px;
+    right:0px;
+    height: 20px;
+    width: 20px;
+    padding:2px !important;
+    background: rgb(17,17,17)!important;
+    border: 1px solid rgb(255,255,255, 0.1);
+    border-radius: 2px;
+}
+
+.vdsfoldercontainer{
+    margin-top:7px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.vds-folder-dropdown{
+    width: 100%;
+    background: rgb(17,17,17);
+    border: none;
+    padding-left: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 4px;
+    border-radius: 5px;
+    outline: none;
+    font-size:12px;
+}
+
+.vds-folder-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10.5px;
+    background: #383838;
+    border: 1px solid #1e1e1e;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+
+.vds-folder-div.selected{
+    background: rgb(17,17,17);
+    border: 1px solid rgb(255,255,255,0.1)
+}
+
+.vds-folder-div.selected .vds-folder-normal-icon{
+    display: none;
+}
+
+.vds-folder-div.selected .vds-folder-open-icon{
+    display: block;
+}
+
+
+.vdsSettings{
+    position:absolute;
+    top: -3px;
+    right: 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    color: rgb(171, 171, 171);
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom:5.5px;
+    padding-top:7px;
+    font-size:26px;
+    height:24px;
+}
+
+.backupDiv{
+    position: relative;
+    padding: 8px;
+    background: rgb(17,17,17);
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.backupDownloadButton{
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0px !important;
+    cursor: pointer;
+}
+
+.vdsDeletebkp{
+    position:absolute;
+    top: 5px;
+    right: 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    color: rgb(171, 171, 171);
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom:5px;
+    padding-top:8px;
+    font-size:26px;
+    height:24px;
+}
+
+.vdsfolderEdit{
+    position: absolute;
+    right: -4px;
+    top:-9px;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 50%;
+    background: rgb(64,64,64);
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    padding-left: 5px;
+    height: 18px;
+    z-index: 10;
+}
+
+.vdsfolderwrap{
+    position: relative;
+    z-index:1;
+}
+
+.vdsfolderwrap:hover .vdsfolderEdit {
+    display: flex !important;
+}
+
+.vdsFolderModifyWrap{
+    display:none;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 3px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.vds-folder-open-icon{
+display: none;
+padding: 1px;
+}

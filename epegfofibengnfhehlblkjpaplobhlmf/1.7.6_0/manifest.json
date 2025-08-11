@@ -1,0 +1,23 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "index.css" ],
+      "js": [ "script.js" ],
+      "matches": [ "https://webflow.com/design*", "https://*.design.webflow.com/*" ]
+   } ],
+   "description": "Create, share and upload Webflow components from the Webflow Designer",
+   "differential_fingerprint": "1.6cd24469731a4132d3a1e5f1075b39747e8facfc0eb2fc0afcdd06f27d93cbb6",
+   "icons": {
+      "128": "128x128.png",
+      "32": "32x32.png",
+      "48": "48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjpqvH5oXmazZVTSZtroqF8QMf8YdmyfEZg8VLiE21KLdxhPvLhWc3eUaE1d3+b6O81WbpVqh5hobIuvheAzieZX5z8TxULCAZ42IuU1/+4J2pXSg+x1cr5zSkpRHCZjKwZIQLv7U/NAgcUOjqxlqoNxghW71Q6EvkMnFc6u0+sBFmkd8QZoL6c7zZ+/z+bspaVopgZCnxmqsGk0LgKQgC14GUP97vlF8KSD9KWQA7yP1dHoDuhTlc2SdInCrn7PcGUb4l7qprchR6sDxaZnDOlSJdwz4LG4jKc5uAXWj9BDabgnjYDeV3L60yh5+yhopwTRwbw0dKlNTA+maMXnEdwIDAQAB",
+   "manifest_version": 3,
+   "name": "ViDesigns Extension for Webflow",
+   "permissions": [ "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.6"
+}

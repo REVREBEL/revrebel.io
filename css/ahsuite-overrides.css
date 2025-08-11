@@ -35,7 +35,6 @@ ul, p {
     font-weight: 300 !important;
 }
 
-.table-checkbox
 .log-comment-box textarea,
 .log-comment-box,
 .input,
@@ -44,6 +43,7 @@ ul, p {
     background: #FFFFFF !important; /* Body background color */
     color: #1c437f !important; /* Body Font color */
     font-family: 'Inter', Arial, Helvetica, sans-serif !important;
+    font-size: 1rem !important; /* Body Font size */
     font-weight: 300 !important;
 }
 
@@ -614,7 +614,7 @@ h1, h2, h3, h4, h5, h6, label {
 
 .label_color_box > div.label-black,
 .label-black {
-    background-color: rgb(47, 47, 47) !important;
+    background-color: rgb(228, 120, 46) !important;
     border-radius: 1px !important; /* Rounded corners for button */
     color: rgb(255, 255, 255) !important;
     font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
@@ -627,8 +627,9 @@ h1, h2, h3, h4, h5, h6, label {
 
 .label_color_box > div.label-null,
 .label-null {
-    background-color: rgba(179, 186, 197, 0.5) !important;
+    background-color: rgb(94, 104, 141) !important;
     border-radius: 1px !important; /* Rounded corners for button */
+    color: rgb(255, 255, 255) !important;
     font-family: 'Khand', Impact, Arial, Helvetica, sans-serif !important;
     font-size: 18px !important; 
     font-weight: 700 !important;
