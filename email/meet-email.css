@@ -74,11 +74,11 @@
 			}
 
 			.row-4 .column-2 .block-2.heading_block td.pad {
-				padding: 10px 20px 10px !important;
+				padding: 10px 20px !important;
 			}
 
 			.row-4 .column-1 .block-1.heading_block td.pad {
-				padding: 10px 20px 10px !important;
+				padding: 10px 20px !important;
 			}
 
 			.row-4 .column-1 .block-1.heading_block h1 {
@@ -121,11 +121,11 @@
 				line-height: 1.25 !important;
 			}     
 			.row-3 .column-2 .block-1.social_block td.pad {
-				padding: 0px 20px 0px !important;
+				padding: 0px 20px !important;
 			}
 
 			.row-3 .column-1 .block-1.image_block td.pad {
-				padding: 0px 20px 0px !important;
+				padding: 0px 20px !important;
 			}
 
 			.row-3 .column-1 .block-1.image_block .alignment,
@@ -140,7 +140,7 @@
 			}
 
 			.row-4 .column-2 .block-3.heading_block td.pad {
-				padding: 10px 20px 10px !important;
+				padding: 10px 20px !important;
 			}
       
 			.row-4 .column-2 .block-4.heading_block td.pad {
@@ -148,7 +148,7 @@
 			}
       
 			.row-4 .column-2 .block-1.heading_block td.pad {
-				padding: 10px 20px 10px !important;
+				padding: 10px 20px !important;
 			}
 
 			.row-5 .column-1 .block-1.spacer_block {
@@ -175,7 +175,7 @@
 
 			.row-7 .column-2 .block-2.button_block td.pad,
       		.row-7 .column-2 .block-3.button_block td.pad {
-				padding: 10px 30px 10px !important;
+				padding: 10px 30px !important;
 			}
       
 			.row-7 .column-2 .block-2.button_block a span,
@@ -209,7 +209,7 @@
 			
 			.row-7 .column-2 .block-3.paragraph_block td.pad,
 			.row-7 .column-1 .block-6.paragraph_block td.pad {
-				padding: 5px 20px 5px !important;
+				padding: 5px 20px !important;
 			}
 
 			.row-4 .column-1 {
