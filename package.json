@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@linthtml/linthtml": "^0.9.2",
-    "husky": "^8.0.1",
+    "husky": "^8.0.3",
     "lint-staged": "^12.4.1"
   },
   "scripts": {
